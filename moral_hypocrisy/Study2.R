@@ -269,28 +269,3 @@ p + geom_dotplot(binaxis = 'y', stackdir = 'center', dotsize = .4) +
 ########################
 
 write_csv(data, "data/study2_clean.csv")
-
-## Interaction Model -- interested in contrast 2 and contrast 3
-model2 <- lm(full_fairness ~ condition.f*study, data = full_data)
-summary(model2)
-
-## GET EFFECT SIZES -- full data will be included here ## 
-F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), ci = .90, alternative = "greater")
-
-## Set Up contrasts ## 
-contrast_data <- full_data %>% mutate(condition.f = as.factor(condition.f))
-levels(contrast_data$condition.f) <- list(self = "1", other = "2", ingroup = "3", outgroup = "4")
-levels(contrast_data$condition.f)
-#H1: self vs. all others. 
-contrast1 = c(3, -1, -1, -1)
-#H2: ingroup vs. outgroup
-contrast2 = c(0,0,1,-1)
-#H3: self & ingroup vs. other & outgroup
-contrast3 = c(1, -1, 1, -1)
-
-contrasts(contrast_data$condition.f) = cbind(contrast1, contrast2, contrast3)
-contrasts(contrast_data$condition.f)
-
-## Contrasts by Study, interaction term. 
-model3 <- aov(full_fairness ~ condition.f*study, data = contrast_data)
-summary.aov(model3, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
