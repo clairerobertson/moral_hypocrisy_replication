@@ -16,7 +16,7 @@ ipak <- function(pkg){
 packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car")
 ipak(packages)
 
-raw_data <- read_survey("data/oct_6_data.csv")
+raw_data <- read_survey("data/oct_25_data.csv")
 
 ############################
 #### STEP 2: CLEAN DATA ####
