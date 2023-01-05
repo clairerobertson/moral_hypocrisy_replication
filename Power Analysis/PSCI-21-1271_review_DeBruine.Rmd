@@ -1,0 +1,368 @@
+---
+title: "PSCI-21-1271 Review"
+author: "Lisa DeBruine"
+date: "23/11/2021"
+output: 
+  html_document:
+    code_download: true
+    df_print: paged
+    toc: true
+    toc_float: 
+      collapsed: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      optipng = knitr::hook_optipng)
+options(scipen = 8)
+
+library(tidyverse) # for data wrangling and viz
+library(truncnorm) # for truncated normal distributions
+library(afex)      # for SPSS-style ANOVAs
+library(emmeans)   # for planned contrasts
+library(faux)      # for simulating data
+```
+
+## Review
+
+Overall, I think this registered report has very good potential, but the analyses and decision rules interpreting possible patterns of results are underspecified. I've provided some examples below using R code, but this is of course not a requirement for RRs, it's just what I'm comfortable with. I would recommend including SPSS syntax or some other method of making sure the analysis is computationally reproducible. 
+
+While moral reasoning is not my own field of expertise, I have some general familiarity with the topic. The introduction motivates the study well, but I am not well-placed to comment on whether the background is thorough and accurate. I trust that the effect of interest has not received sufficient attempt at replication, but only because replication is fairly rare, not because I have a deep knowledge of the topic.
+
+My review is focussed on methods, analysis, and reproducibility. If I've missed anything or misinterpreted anything, I sincerely apologise and welcome a constructive revision process. Do contact me personally if you need clarification on any of my review. You can download all of the code as an Rmd with the button in the upper right.
+
+### Hypotheses
+
+The paper enumerates 4 hypotheses, which I'll copy here for reference (NB for editor: the line numbers in the PDF make it really difficult to copy-paste!):
+
+1. people's evaluations of their own fairness will be significantly higher compared to their evaluations of others’ fairness after committing the same moral transgression
+2. people will evaluate their in-group members as acting significantly more fairly than out-group members after committing the same moral transgressions
+3. this effect will be present when in-groups and out-groups are defined by both minimal groups and natural groups (political party identification)
+4. the strength of collective identification will moderate moral hypocrisy, such that people who are strongly identified with their group will rate their in-group member's actions as more fair and their out-group member's actions as less fair
+
+I really appreciate the clarity of the hypotheses. I just have some minor questions. For hypothesis 3, does "this effect" mean H1, H2, or both? 
+
+Does H4 require all of:
+
+* the correlation between the DV and the collective identification measure (CI) is positive and significant for the ingroup 
+* the correlation between DV and CI is negative and significant for the outgroup
+* the correlation between DV and CI is significantly larger for the ingroup than the outgroup (if the first 2 are true, this must be true, but it can also be true if one or both of the first two are false)
+    
+None of these hypotheses are specifically related to the direct replication analysis (the planned contrast); it seems to be a combination of H1 and H2. I'm not too concerned about whether or not this study replicates, as I think your study has merit outside of the direct replication, but the original study's authors are often quite concerned about that binary distinction, so set some clear criteria for how you will decide if Study 1 "replicates" or  "fails to replicate" the original study, or if it's inconclusive.
+
+### Power calculation
+
+The power calculation using G*Power doesn't really get at the targeted hypotheses, and the TOST procedure is never mentioned again as a planned analysis. The planned sample size is reported as having 95% power to detect an effect size of 0.4, and 97% power to reject effects greater than 0.2. 
+
+I demonstrate a power analysis by simulation below, which is the best method when you have complex decision rules. However, power analyses aren't the only (or even always the best) way to motivate the proposed sample size. See https://psyarxiv.com/9d3yf/ 
+
+### Procedure
+
+Exclusions are tricky to register clearly. Will the non-altruists in Condition 1 be removed before or after collecting the target number of participants? What is the potential effect of exclusion that is unequal for the political party affiliation in Study 2, e.g., if members of one party (not naming names ;) is more likely to behave altruistically than members of the other? What is your contingency if many subjects act altruistically? Similarly, when will exclusions for failing the attention checks happen?
+
+Consider adding a positive control (i.e., an effect unrelated to the effects of interest, but if it's not significant then we should doubt the effectiveness of the procedure). 
+
+How will you score the 3-item collective identification measure? How will you deal with missing responses? (here and more generally) How will you deal with the (probable) floor effects on this measure in Study 1? Or is there evidence that this minimal group manipulation leads a substantial proportion of people to identify strongly as over/under estimators? In VanBavel & Cunningham (2012) they asked 6 questions on 1-6 scale: 3 about the ingroup and 3 about the outgroups, then summed scores separately. (I skimmed Ashmore et al 2004 and found it impenetrable.)
+
+"The second data quality check will come after the mock survey and will be an attention check designed to look like a long question. At the end of the question, participants will be instructed to click on the NYU logo in the top of the screen, and not use the radio buttons." I'm pretty sure that I'd fail this attention check and start clicking buttons before finishing reading the long question. Do you have experience with this type of attention check on Prolific and what percent of subjects are excluded? Will excluded subjects be replaced to attain the planned N or will they decrease the achieved N?
+    
+### Analysis
+
+#### Omnibus ANOVA
+
+You state that both studies will "undergo a one-way omnibus ANOVA before planned contrasts". What will you use the results of these analyses to conclude? Which specific values will you inspect and what threshold will you use to determine if the data confirm, refute, or are inconclusive about your hypotheses? Hypothesis 1 seems to be about the difference between conditions 1 and 2, while hypothesis 2 is about the difference between conditions 3 and 4, but I don't see how an omnibus ANOVA can test either of those. 
+
+You could consider changing the coding to 2x2; ingroup/self vs outgroup/other as factor1 and self/other vs ingroup/outgroup as factor2. Then you'd predict a main effect of factor1 that interacts with factor 2 such that the size of the factor1 effect is bigger for ingroup/outgroup than self/other (but present in both). But the fact that I can't think of good names for those factors suggests that might be a convoluted change.
+
+#### Planned Contrasts
+
+Next, you state that you will conduct a planned contrast to exactly replicate the original analysis. The decision rule here appears to be to conclude "replicate" if the p-values are less than alpha (presumably 0.05?), but what criterion will you use to conclude a failure to replicate (e.g., an effect significantly smaller than the SESOI) or an inconclusive result?
+
+#### Regression
+
+Next, you plan to conduct an exploratory multiple regression analysis to test the effects of collective identification (CI) on fairness ratings for Conditions 3 and 4. I'm not sure why this is labelled exploratory, as it addresses a clear prediction from Hypothesis 4. Do you just mean that it isn't relevant to the replication status? You will "regress fairness ratings on collective identification (zero-centered), as a function of group status of the confederate". Does "zero-centered" mean centered on the overall mean for each study, the mean for each condition, or the middle point on the Likert scale? Will they also be scaled by SD or just centered?  As noted above, these values are likely to have really different distributions between Study 1 and Study 2, so consider how different decisions might affect the interpretation. 
+
+Will you treatment-code the categorical variable of condition, or use some other contrast scheme? This will affect the interpretation of the CI effect (the next bit of this paragraph might be obvious to you, but it helps me to write out the logic fully). Hypothesis 4 predicts that people with a higher CI will have a higher DV for ingroup and a lower DV for outgroup. In other words, the correlation between CI and the DV should be positive for the ingroup, and negative for the outgroup. If you sum-code condition, the main effect of CI is the overall relationship between CI and the DV, so the hypothesis-relevant effect is the interaction between condition and CI, where the relationship should be more positive for the outgroup than the ingroup. However, this pattern of results would also be found if CI correlated positively with the DV for both the ingroup *and* the outgroup, as long as the correlation was significantly more positive for the ingroup. If you treatment code condition with, say, the ingroup as the baseline condition, then the main effect of CI represents the relationship between CI and the DV for the ingroup, and the interaction between CI and condition is how much *different* this relationship is for the outgroup. In this case, will you be interpreting the main effect or just the interaction? Or will you be conducting post-hoc analyses to test if the relationship between CI and the DV is significantly positive for the ingroup and significantly negative for the outgroup?
+
+Here's a quick simulated example you can play with. See what happens when you change the correlations for the ingroup and outgroup with the different regression codings.
+
+```{r}
+# simulate data (the scale of the dv and ci don't matter here)
+ingroup_correlation  <-  0.5
+ourgroup_correlation <- -0.1
+
+exdat <- sim_design(
+  between = list(condition = c("ingroup", "outgroup")),
+  within = list(measure = c("dv", "ci")),
+  n = 576/4, 
+  r = list(ingroup = ingroup_correlation, 
+           outgroup = ourgroup_correlation),
+  plot = FALSE
+) %>%
+  add_contrast("condition", "sum", colnames = "cond.sum") %>% # Sum Coding, focus on interactoin
+  add_contrast("condition", "treatment", c("outgroup", "ingroup"), colnames = "cond.ig") %>% # treatment (dummy) coding, where outgroup is the baseline.
+  add_contrast("condition", "treatment", levels = c("ingroup", "outgroup"), colnames = "cond.og") #treatment (dummy) code where the ingroup is the baseline. 
+```
+
+```{r}
+# plot as a sense check
+ggplot(exdat, aes(x = ci, y = dv, color = condition)) +
+  geom_smooth(method = lm, formula = y~x)
+```
+
+
+
+```{r}
+# sum coding
+summary(lm(dv ~ ci * cond.sum, exdat))
+```
+
+
+```{r}
+# treatment coding - outgroup = 0, ingroup = 1
+summary(lm(dv ~ ci * cond.ig, exdat))
+```
+
+
+```{r}
+# treatment coding - oingroup = 0, outgroup = 1
+summary(lm(dv ~ ci * cond.og, exdat))
+```
+
+#### 2x4 ANOVA
+
+The exploratory analysis comparing the 2 studies with a 2x4 ANOVA should be clearer about what patterns of results would support the prediction that the moral hypocrisy effect will be stronger for Study 2 than Study 1. Many patterns of results inconsistent with this prediction can produce and interaction between study and condition, so you will need post-hoc tests to confirm your interpretation. Again, I'm not sure why this is labelled exploratory when there is a clear prediction.
+
+## Example
+
+I've tried to simulate data and conduct the analyses you outlined, but am probably missing or misunderstanding something. Ideally, a registration of analyses leaves no room for misunderstanding. Of course, the collected data may require an alteration of plan, but the plan should have as little ambiguity as possible to start.
+
+### Set up parameters
+
+Calculate means and SE from the plot in V&D2007.
+
+```{r}
+conds <- c("self", "other", "ingroup", "outgroup")
+
+# values calculated from pixel width of plot in VD2007
+orig_n <- c(17, 19, 19, 19) # 2 altruists excluded from cond1
+orig_means <- c(629, 459, 716, 396) / (869/4) + 1 # plot starts on 1
+orig_se <- c(56, 60, 88, 54) / (869/4)
+orig_sd <- orig_se * sqrt(orig_n)
+```
+
+```{r, echo = FALSE}
+# plot to check
+data.frame(
+  condition = factor(conds, rev(conds)),
+  y = orig_means,
+  ymin = orig_means - orig_sd/sqrt(orig_n),
+  ymax = orig_means + orig_sd/sqrt(orig_n)
+) %>%
+  ggplot(aes(x = condition, y = y)) +
+  geom_col(fill = "grey", color = "black") +
+  geom_errorbar(aes(ymin = ymin, ymax = ymax),
+                width = 0.3) +
+  coord_flip(ylim = c(1, 5)) +
+  labs(x = NULL, y = "Mean Fairness Rating",
+       title = "Estimated parameters") +
+  theme_classic()
+```
+
+### Simulate data
+
+Use these original parameters to simulate data that range from 1-7 on a Likert scale. Use truncnorm() to get truncated values from .5 to 7.5 with the specified means and SDs, then round to the nearest integer.
+
+```{r}
+makesimdat <- function(n = 576/4,
+                       sim_means = c(3, 3, 3, 3),
+                       sim_sd = c(1, 1, 1, 1),
+                       prop_excluded = 0) {
+  # simulate data from truncated normal distribution with 0-7 values
+  conds <- c("self", "other", "ingroup", "outgroup")
+  vals <- map2(sim_means, sim_sd, rtruncnorm, 
+                 n = n, a = 0.501, b = 7.499) %>%
+    map(round)
+  
+  # sample number of excluded
+  excluded_altruists <- rbinom(1, n, prop_excluded)
+  
+  data.frame(
+    id = 1:(n*4),
+    condition = rep(conds, each = n) %>% factor(conds),
+    dv = unlist(vals)
+  ) %>%
+    slice((1+excluded_altruists):nrow(.))
+}
+```
+
+Create a simulated dataset to compare to the original.
+
+```{r}
+simdat <- makesimdat(76/4, orig_means, orig_sd, 2/17)
+```
+
+
+```{r, echo = FALSE}
+# plot to check
+ggplot(simdat, aes(x = condition, y = dv)) +
+  stat_summary(fun = mean, geom = "col", fill = "grey", color = "black") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.3) +
+  coord_flip(ylim = c(1, 5)) +
+  labs(x = NULL, y = "Mean Fairness Rating",
+       title = "Simulated Parameters") +
+  scale_x_discrete(limits = rev) +
+  theme_classic()
+```
+
+
+```{r, echo = FALSE}
+ggplot(simdat, aes(fill = condition, x = dv)) +
+  geom_histogram(binwidth = 1, color = "black") +
+  facet_grid(condition~.) +
+  scale_x_continuous(breaks = 1:7) +
+  ggtitle("Simulated Data")
+```
+
+### Analyse
+
+#### Omnibus ANOVA
+
+```{r}
+# ANOVA
+a <- afex::aov_ez(id = "id",
+                  dv = "dv", 
+                  data = simdat,
+                  between = "condition")
+summary(a)
+```
+
+#### Planned Contrasts
+
+```{r}
+# Planned Contrast
+e <- emmeans(a, "condition")
+con <- contrast(e, list("condition" = c(1, -1, 1, -1))) %>%
+  summary()
+
+d <- effectsize::t_to_d(t = con$t.ratio,
+                   df_error = con$df)
+
+as.data.frame(c(con, d))
+```
+
+#### Regression
+
+Simulate the total of three 1-6 likert scale questions for the collective identity questionnaire. Give this a pretty low mean for S1.
+
+```{r}
+subdat <- simdat %>%
+  filter(condition %in% c("ingroup", "outgroup")) %>%
+  mutate(collective_id = rbinom(n = nrow(.), size = 5*3, prob = .2) + 1*3,
+         collective_id.c = collective_id - mean(collective_id))
+
+hist(subdat$collective_id)
+```
+
+```{r}
+# treatment-coding condition
+m <- lm(dv ~ condition * collective_id.c, data = subdat)
+summary(m)
+```
+
+#### 2x4 ANOVA
+
+Simulate a smaller hypocrisy effect for Study 1 than Study 2 and compare with ANOVA. 
+
+```{r}
+study1 <- makesimdat(576/4, 
+                     sim_means = c(3.6, 3.4, 3.6, 3.4),
+                     sim_sd = orig_sd,
+                     prop_excluded = 2/17) %>%
+  mutate(id = paste0("A", id),
+         study = "S1")
+
+study2 <- makesimdat(576/4, 
+                     sim_means = c(3.8, 3.2, 3.8, 3.2),
+                     sim_sd = orig_sd,
+                     prop_excluded = 2/17) %>%
+  mutate(id = paste0("B", id),
+         study = "S2")
+
+combo <- bind_rows(study1, study2) %>%
+  mutate(study = factor(study))
+
+afex::aov_ez(id = "id",
+             dv = "dv",
+             data = combo,
+             between = c("condition", "study")) %>% summary()
+```
+
+
+
+## Power Simulation
+
+### Function
+
+```{r}
+simfunc <- function(n = 576/4,
+                    sim_means = c(3, 3, 3, 3),
+                    sim_sd = c(1, 1, 1, 1),
+                    prop_excluded = 0) {
+  
+  data <- makesimdat(n, sim_means, sim_sd, prop_excluded)
+
+  # contrast analysis
+  suppressMessages({
+    con <- afex::aov_ez(id = "id",
+                      dv = "dv", 
+                      data = data,
+                      between = "condition") %>%
+      emmeans("condition") %>%
+      contrast(list("condition" = c(1, -1, 1, -1))) %>%
+      summary()
+  })
+  
+  d <- effectsize::t_to_d(t = con$t.ratio,
+                          df_error = con$df)
+
+  as.data.frame(c(con, d))
+}
+
+
+simfunc(n = 76/4, 
+        sim_means = orig_means, 
+        sim_sd = orig_sd,
+        prop_excluded = 2/17)
+```
+
+### Run with new params
+
+I'm only running 100 repeats while testing the code, but bump it up to 1000 for more stable values.
+
+```{r}
+# set differences from grand mean to 1/3 the size
+new_n <- 1600/4
+grand_mean <- mean(orig_means)
+effect_multiplier <- 1/6
+new_means <- (orig_means - grand_mean)* effect_multiplier + grand_mean
+sim <- map_df(1:100, ~simfunc(new_n, new_means, orig_sd, 2/17))
+```
+
+```{r, echo = FALSE}
+ggplot(sim, aes(d)) +
+  geom_density() +
+  ggtitle("Distribution of effect sizes")
+```
+
+### Power 
+
+Calculate proportion of p-values less than the alpha criterion.
+
+```{r}
+alpha <- 0.05
+power <- mean(sim$p.value < alpha)
+power
+```
+
