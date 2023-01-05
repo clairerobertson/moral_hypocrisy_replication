@@ -181,12 +181,12 @@ summary.aov(fairness.contrast_itt, split = list(condition.f = list("Self vs. Oth
 CI_data2 <- data %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, 0, 1)))
 
-model1 <- lm(fairness ~ dummy_code*CI_difference, data = CI_data2)
+model1 <- lm(full_fairness ~ dummy_code*CI_difference, data = CI_data2)
 summary(model1)
 
 # Levene's test
-leveneTest(fairness ~ condition.f, data_subset)
-plot(fairness.aov, 1)
+leveneTest(full_fairness ~ condition.f, data_subset)
+plot(fairness.contrast, 1)
 
 ##########################
 #### STEP 6: Plotting ####
