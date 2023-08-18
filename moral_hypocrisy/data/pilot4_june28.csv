@@ -1,0 +1,920 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,consent,prolific_id,Q145,match timer_First Click,match timer_Last Click,match timer_Page Submit,match timer_Click Count,Q29_First Click,Q29_Last Click,Q29_Page Submit,Q29_Click Count,Q28,get timer_First Click,get timer_Last Click,get timer_Page Submit,get timer_Click Count,Q60_First Click,Q60_Last Click,Q60_Page Submit,Q60_Click Count,Q83,Q87,Q90_1_x,Q90_1_y,Q90,Q91,attn_check,Q147_First Click,Q147_Last Click,Q147_Page Submit,Q147_Click Count,Q55_First Click,Q55_Last Click,Q55_Page Submit,Q55_Click Count,Q57_First Click,Q57_Last Click,Q57_Page Submit,Q57_Click Count,Q20,Q100_First Click,Q100_Last Click,Q100_Page Submit,Q100_Click Count,Q84,Q141,Q142,Q143_1,Q144,Q34_First Click,Q34_Last Click,Q34_Page Submit,Q34_Click Count,fairness(new),Q31,guesstimate(new)_1,feedback (new),Q167_First Click,Q167_Last Click,Q167_Page Submit,Q167_Click Count,Q76_First Click,Q76_Last Click,Q76_Page Submit,Q76_Click Count,Q172_First Click,Q172_Last Click,Q172_Page Submit,Q172_Click Count,Q177_First Click,Q177_Last Click,Q177_Page Submit,Q177_Click Count,Q94,Q95,Q129,Q96,Q128,desktop,desktop_4_TEXT,Q131,age,gender,gender_5_TEXT,ethnicity,pol_or,Q102,Q103,researcherID,studyID,Create New Field or Choose From Dropdown...,groupID,participantID,groupSize,numStages,roles,participantRole,timeOutLog,maxWaitTime,id,botMatch,matchAlert,participantStatus,sendData,sendStage,getStage,getData,saveData,getWaitText,freezeTime,chatLog,chatDuration,chatName,chatWindowWidth,chatWindowHeight,chatInstructions
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,consent,Please input your Prolific ID.,"Please check here to signify that you understand that you should not refresh your browser, and that there will be periods of waiting in this survey.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Are you an Overestimator, or Underestimator? 
+
+
+
+Approximately how many dots were in the previous image?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Mental Rotation Task 
+
+ 
+
+Looking at the shape below, select the photo that depicts the same shape, rotated in space.","Logic Problem
+
+
+
+Please read the following carefully, then select the answer you believe to be most correct. 
+
+ 
+
+Laird: Pure research provides us with new technologies that contribute to saving lives. Even more worthwhile than this, however, is its role in expanding our knowledge and providing new, unexplored ideas.
+
+Kim: Your priorities are mistaken. Saving lives is what counts most of all. Without pure research, medicine would not be as advanced as it is.
+
+Laird and Kim disagree on whether pure research...","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - 1 - X","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - 1 - Y","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - Regions","Survey Question
+
+ 
+
+Please answer the following question honestly. We are interested in how people score on a variety of personality measures. 
+
+ 
+
+ 
+
+I am the life of the party.","There are lots of different types of questions that we may ask participants. Some types of questions look at personality, whereas others may test certain sets of skills. Others may test to ensure that participants read the entire question. Please select ""Somewhat Disagree"" from the selection below.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,How would you like to assign tasks?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Which task would you like to assign to YOURSELF? 
+(Remember, whichever task you do not choose will be assigned to another participant.)",Do you think the assignment procedure for tasks is blind (e.g. the researchers are not assigning tasks)?,How fairly did you act when assigning the tasks?,How likely do you think people are to assign themselves the green task? - Green Task,"Do you have any other feedback on the new ""experimenter-blind"" task assignment procedure?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Do you think the assignment procedure for tasks is blind (e.g. the researchers are not assigning tasks)?,How fairly did the other participant act when assigning the tasks?,How likely do you think people are to assign themselves the green task? - Green Task,"Do you have any other feedback on the new ""experimenter-blind"" task assignment procedure?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,What did you think was the purpose of this experiment?,Did you believe that you were talking to real people in the chat phase?,Why Not?,Did you believe that the other participants were actually assigning tasks?,Why Not?,How did you complete this survey? This will not affect your payment. - Selected Choice,How did you complete this survey? This will not affect your payment. - Other - Text,Is there anything else you'd like us to know?,What is your age?,How do you currently describe your gender identity? - Selected Choice,How do you currently describe your gender identity? - Something not listed here - Text,What categories describe you? Please select all that apply.,"Overall, on the following scale of political orientation [from Very Liberal to Very Conservative], where would you place yourself?",Q102,"I feel that I have been adequately debriefed about the nature of the study. The investigator has explained the purposes of the research to me, and I feel that any questions I have asked were satisfactorily answered.",researcherID,studyID,Create New Field or Choose From Dropdown...,groupID,participantID,groupSize,numStages,roles,participantRole,timeOutLog,maxWaitTime,id,botMatch,matchAlert,participantStatus,sendData,sendStage,getStage,getData,saveData,getWaitText,freezeTime,chatLog,chatDuration,chatName,chatWindowWidth,chatWindowHeight,chatInstructions
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID14""}","{""ImportId"":""QID154_TEXT""}","{""ImportId"":""QID153""}","{""ImportId"":""QID9_FIRST_CLICK""}","{""ImportId"":""QID9_LAST_CLICK""}","{""ImportId"":""QID9_PAGE_SUBMIT""}","{""ImportId"":""QID9_CLICK_COUNT""}","{""ImportId"":""QID37_FIRST_CLICK""}","{""ImportId"":""QID37_LAST_CLICK""}","{""ImportId"":""QID37_PAGE_SUBMIT""}","{""ImportId"":""QID37_CLICK_COUNT""}","{""ImportId"":""QID36_TEXT""}","{""ImportId"":""QID120_FIRST_CLICK""}","{""ImportId"":""QID120_LAST_CLICK""}","{""ImportId"":""QID120_PAGE_SUBMIT""}","{""ImportId"":""QID120_CLICK_COUNT""}","{""ImportId"":""QID68_FIRST_CLICK""}","{""ImportId"":""QID68_LAST_CLICK""}","{""ImportId"":""QID68_PAGE_SUBMIT""}","{""ImportId"":""QID68_CLICK_COUNT""}","{""ImportId"":""QID91""}","{""ImportId"":""QID95""}","{""ImportId"":""QID98"",""point"":1,""coord"":""x""}","{""ImportId"":""QID98"",""point"":1,""coord"":""y""}","{""ImportId"":""QID98_REGIONS""}","{""ImportId"":""QID99""}","{""ImportId"":""QID145""}","{""ImportId"":""QID155_FIRST_CLICK""}","{""ImportId"":""QID155_LAST_CLICK""}","{""ImportId"":""QID155_PAGE_SUBMIT""}","{""ImportId"":""QID155_CLICK_COUNT""}","{""ImportId"":""QID63_FIRST_CLICK""}","{""ImportId"":""QID63_LAST_CLICK""}","{""ImportId"":""QID63_PAGE_SUBMIT""}","{""ImportId"":""QID63_CLICK_COUNT""}","{""ImportId"":""QID65_FIRST_CLICK""}","{""ImportId"":""QID65_LAST_CLICK""}","{""ImportId"":""QID65_PAGE_SUBMIT""}","{""ImportId"":""QID65_CLICK_COUNT""}","{""ImportId"":""QID32""}","{""ImportId"":""QID108_FIRST_CLICK""}","{""ImportId"":""QID108_LAST_CLICK""}","{""ImportId"":""QID108_PAGE_SUBMIT""}","{""ImportId"":""QID108_CLICK_COUNT""}","{""ImportId"":""QID92""}","{""ImportId"":""QID141""}","{""ImportId"":""QID142""}","{""ImportId"":""QID143_1""}","{""ImportId"":""QID144_TEXT""}","{""ImportId"":""QID42_FIRST_CLICK""}","{""ImportId"":""QID42_LAST_CLICK""}","{""ImportId"":""QID42_PAGE_SUBMIT""}","{""ImportId"":""QID42_CLICK_COUNT""}","{""ImportId"":""QID25""}","{""ImportId"":""QID28""}","{""ImportId"":""QID26_1""}","{""ImportId"":""QID27_TEXT""}","{""ImportId"":""QID167_FIRST_CLICK""}","{""ImportId"":""QID167_LAST_CLICK""}","{""ImportId"":""QID167_PAGE_SUBMIT""}","{""ImportId"":""QID167_CLICK_COUNT""}","{""ImportId"":""QID84_FIRST_CLICK""}","{""ImportId"":""QID84_LAST_CLICK""}","{""ImportId"":""QID84_PAGE_SUBMIT""}","{""ImportId"":""QID84_CLICK_COUNT""}","{""ImportId"":""QID172_FIRST_CLICK""}","{""ImportId"":""QID172_LAST_CLICK""}","{""ImportId"":""QID172_PAGE_SUBMIT""}","{""ImportId"":""QID172_CLICK_COUNT""}","{""ImportId"":""QID177_FIRST_CLICK""}","{""ImportId"":""QID177_LAST_CLICK""}","{""ImportId"":""QID177_PAGE_SUBMIT""}","{""ImportId"":""QID177_CLICK_COUNT""}","{""ImportId"":""QID102_TEXT""}","{""ImportId"":""QID103""}","{""ImportId"":""QID137_TEXT""}","{""ImportId"":""QID104""}","{""ImportId"":""QID136_TEXT""}","{""ImportId"":""QID161""}","{""ImportId"":""QID161_4_TEXT""}","{""ImportId"":""QID139_TEXT""}","{""ImportId"":""QID150""}","{""ImportId"":""QID151""}","{""ImportId"":""QID151_5_TEXT""}","{""ImportId"":""QID152""}","{""ImportId"":""QID149""}","{""ImportId"":""QID110""}","{""ImportId"":""QID111""}","{""ImportId"":""researcherID""}","{""ImportId"":""studyID""}","{""ImportId"":""Create New Field or Choose From Dropdown...""}","{""ImportId"":""groupID""}","{""ImportId"":""participantID""}","{""ImportId"":""groupSize""}","{""ImportId"":""numStages""}","{""ImportId"":""roles""}","{""ImportId"":""participantRole""}","{""ImportId"":""timeOutLog""}","{""ImportId"":""maxWaitTime""}","{""ImportId"":""id""}","{""ImportId"":""botMatch""}","{""ImportId"":""matchAlert""}","{""ImportId"":""participantStatus""}","{""ImportId"":""sendData""}","{""ImportId"":""sendStage""}","{""ImportId"":""getStage""}","{""ImportId"":""getData""}","{""ImportId"":""saveData""}","{""ImportId"":""getWaitText""}","{""ImportId"":""freezeTime""}","{""ImportId"":""chatLog""}","{""ImportId"":""chatDuration""}","{""ImportId"":""chatName""}","{""ImportId"":""chatWindowWidth""}","{""ImportId"":""chatWindowHeight""}","{""ImportId"":""chatInstructions""}"
+2023-06-15 15:31:39,2023-06-15 15:40:01,IP Address,47.230.202.136,100,502,True,2023-06-15 15:40:02,R_10vJwxMk0zuVwkQ,,,,,40.7279,-73.9966,anonymous,EN,I consent to the study.,mad_dem_1,"Yes, I understand.",0,0,54.109,0,0,0,3.114,0,33,0,0,4.655,0,0,0,22.04,0,IM_3KUo7iTc8Zjnk46,derives its significance in part from its providing new technologies.,300,267,Region #1,Neutral,"Somewhat 
+Disagree
+3
+",0,0,23.933,0,0,0,25.268,0,0,0,25.107,0,,,,,,,,,,,0,0,15.008,0,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,1,R_10vJwxMk0zuVwkQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:31:57,2023-06-15 15:40:18,IP Address,47.230.202.136,100,500,True,2023-06-15 15:40:18,R_RQPWMEIrPN5PSjT,,,,,40.7279,-73.9966,anonymous,EN,I consent to the study.,mad_dem_2,"Yes, I understand.",0,0,36.644,0,0,0,3.008,0,33,0,0,1.617,0,0,0,27.361,0,IM_3KUo7iTc8Zjnk46,expands the boundaries of our knowledge of medicine.,,,,Neutral,"Somewhat 
+Disagree
+3
+",0,0,12.352,0,0,0,10.864,0,0,0,25.006,0,Randomization,2.577,33.708,34.381,2,,Yes,Neither Fairly or Unfairly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,1,R_RQPWMEIrPN5PSjT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:28:21,2023-06-15 15:40:26,IP Address,47.230.202.136,100,724,True,2023-06-15 15:40:26,R_1NEcm3K97YPFRgp,,,,,40.7279,-73.9966,anonymous,EN,I consent to the study.,mad_repub_1,"Yes, I understand.",0,0,247.727,0,0,0,3.114,0,33,0,0,0.435,0,0,0,53.44,0,IM_3KUo7iTc8Zjnk46,,656,267,Region #2,Neutral,"Somewhat 
+Disagree
+3
+",0,0,9.45,0,0,0,12.518,0,0,0,25.108,0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,45.109,0,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,1,R_1NEcm3K97YPFRgp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:32:24,2023-06-15 15:40:37,IP Address,47.230.202.136,100,493,True,2023-06-15 15:40:38,R_1QA4PFqgH9xeQvt,,,,,40.7279,-73.9966,anonymous,EN,I consent to the study.,mad_repub_2,"Yes, I understand.",0,0,9.661,0,0,0,3.112,0,33,0,0,0.589,0,0,0,53.354,0,IM_3KUo7iTc8Zjnk46,derives its significance in part from its providing new technologies.,598,221,Region #2,Neutral,"Somewhat 
+Disagree
+3
+",0,0,9.933,0,0,0,14.3,0,0,0,25.109,0,,,,,,,,,,,,,,,,,,,,,,,0,0,45.009,0,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,1,R_1QA4PFqgH9xeQvt,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 11:42:59,2023-06-21 11:49:17,IP Address,97.97.50.179,100,377,True,2023-06-21 11:49:18,R_1juKRkegzWQb1zQ,,,,,28.2475,-82.4943,anonymous,EN,I consent to the study.,5de5496937e1d50ca63e0fa5,"Yes, I understand.",0,0,340.828,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,3,R_1juKRkegzWQb1zQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 11:56:12,2023-06-21 12:02:47,IP Address,64.191.56.48,100,395,True,2023-06-21 12:02:48,R_ueuvWXBt1vkq18Z,,,,,33.5637,-83.1702,anonymous,EN,I consent to the study.,614e3f7def73ee04e730819e,"Yes, I understand.",0,0,332.493,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,2,R_ueuvWXBt1vkq18Z,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 11:48:09,2023-06-21 12:02:51,IP Address,150.135.165.27,100,882,True,2023-06-21 12:02:52,R_1H8NxamSDpyg6Z5,,,,,32.2503,-110.945,anonymous,EN,I consent to the study.,64038d5b9885a68aefca0f62,"Yes, I understand.",5.883,323.484,367.623,11,0,0,3.023,0,50,45.595,46.217,66.908,2,0,0,23.35,0,IM_3KUo7iTc8Zjnk46,has any value apart from its role in providing new technologies to save lives.,618,159,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",9.197,9.197,10.251,1,0,0,13.421,0,0,0,26.512,0,Randomization,3.256,3.256,39.745,1,,Yes,Neither Fairly or Unfairly,8,,,,,,,,,,,,,,,,,,,,,,,,,,Do people take the easier option even if its not fair?,No,It was obvious the timers were fake. Lots of studies do this.,No,It is all pre-programmed time limits.,On a desktop or laptop computer,,,23,Man,,"Hispanic, Latino or Spanish Origin",Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,4,R_1H8NxamSDpyg6Z5,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,vailable participant -- Survey terminated *** BOT in role Player1-Democrat responded: terminated (stage 1). *** BOT in role Player2-Republican responded: terminated (stage 1). *** BOT in role Player3-Democrat responded: terminated (stage 1).,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: It just looked like 50 to me
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 11:58:09,2023-06-21 12:04:28,IP Address,73.205.14.103,100,379,True,2023-06-21 12:04:29,R_21ziR9QPYHo4uay,,,,,27.2621,-80.3835,anonymous,EN,I consent to the study.,6025b3681ff1521a3369dffe,"Yes, I understand.",0,0,351.836,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,5,R_21ziR9QPYHo4uay,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:03:49,2023-06-21 12:09:56,IP Address,68.194.82.131,100,367,True,2023-06-21 12:09:57,R_2sX66aZqYYQof3J,,,,,40.6739,-73.9358,anonymous,EN,I consent to the study.,632890876b6124c7a15d06f6,"Yes, I understand.",0,0,333.014,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,6,R_2sX66aZqYYQof3J,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:05:00,2023-06-21 12:09:57,IP Address,128.151.71.24,100,297,True,2023-06-21 12:09:57,R_2EHkrghDYH2kiBj,,,,,43.1661,-77.5555,anonymous,EN,I consent to the study.,63d13b586b230d231577a44b@email.prolific.co,"Yes, I understand.",0,0,256.633,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,6,R_2EHkrghDYH2kiBj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:05:24,2023-06-21 12:11:36,IP Address,68.98.71.69,100,371,True,2023-06-21 12:11:37,R_3m7rMo582OrZ1yB,,,,,33.5112,-111.9078,anonymous,EN,I consent to the study.,64664088b810d4242bf8a2ca,"Yes, I understand.",0,0,321.499,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,7,R_3m7rMo582OrZ1yB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:13:12,2023-06-21 12:18:02,IP Address,100.35.129.114,100,289,True,2023-06-21 12:18:03,R_XAoIqqYODtXT1CN,,,,,40.2459,-74.2813,anonymous,EN,I consent to the study.,6102c1985bc0272a6ac32793,"Yes, I understand.",0,0,251.719,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,8,R_XAoIqqYODtXT1CN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:10:38,2023-06-21 12:18:04,IP Address,165.225.39.103,100,446,True,2023-06-21 12:18:05,R_1oFlgrpuwExmRgv,,,,,40.7123,-74.0068,anonymous,EN,I consent to the study.,6111ef051e899f4e467f4bf1,"Yes, I understand.",0,0,344.773,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,8,R_1oFlgrpuwExmRgv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:17:37,2023-06-21 12:23:57,IP Address,98.198.202.191,100,379,True,2023-06-21 12:23:58,R_24eiLpgLUKleH1S,,,,,29.7912,-95.4182,anonymous,EN,I consent to the study.,5c086d3d3be61100011a694d,"Yes, I understand.",342.553,342.553,344.251,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_24eiLpgLUKleH1S,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:22:24,2023-06-21 12:24:12,IP Address,73.234.2.117,100,107,True,2023-06-21 12:24:12,R_231vKjYPWV9in4N,,,,,41.4939,-73.0517,anonymous,EN,I consent to the study.,62e027478bb6dca099c2e207,"Yes, I understand.",0,0,85.896,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_231vKjYPWV9in4N,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:20:50,2023-06-21 12:24:16,IP Address,99.76.225.192,100,206,True,2023-06-21 12:24:17,R_Q9AsnhAioeQgghz,,,,,32.7616,-117.2058,anonymous,EN,I consent to the study.,608e2cb9067eb028500433d5,"Yes, I understand.",0,0,106.681,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_Q9AsnhAioeQgghz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:26:09,2023-06-21 12:32:12,IP Address,45.43.108.210,100,362,True,2023-06-21 12:32:12,R_31yZJ7WFxQgzMKD,,,,,35.2527,-85.163,anonymous,EN,I consent to the study.,5c06b3f64a2b7b0001c3c185,"Yes, I understand.",11.799,326.521,327.853,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,11,R_31yZJ7WFxQgzMKD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:26:22,2023-06-21 12:32:21,IP Address,66.68.10.75,100,359,True,2023-06-21 12:32:22,R_2E4WBdnHdCUGRYY,,,,,30.5045,-97.8209,anonymous,EN,I consent to the study.,5df2f2ed4c81b2201c6c782e,"Yes, I understand.",0,0,285.437,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,11,R_2E4WBdnHdCUGRYY,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:28:10,2023-06-21 12:35:29,IP Address,47.26.189.200,100,439,True,2023-06-21 12:35:29,R_1gjNbxnpz5kILVW,,,,,45.2644,-85.2245,anonymous,EN,I consent to the study.,5b98d9362cca9c0001de161f,"Yes, I understand.",0,0,385.136,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,12,R_1gjNbxnpz5kILVW,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:31:58,2023-06-21 12:35:35,IP Address,208.127.226.48,100,217,True,2023-06-21 12:35:35,R_2UgcFZ2n3ZupjLf,,,,,40.7279,-73.9966,anonymous,EN,I consent to the study.,61005133f83578f7fdcb2a59,"Yes, I understand.",166.271,168.543,183.933,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,12,R_2UgcFZ2n3ZupjLf,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:30:52,2023-06-21 12:37:18,IP Address,24.194.164.143,100,386,True,2023-06-21 12:37:18,R_21tgUhIYJGZaEAO,,,,,42.6842,-73.6434,anonymous,EN,I consent to the study.,62cec3cb41e7c7bf53ff6191,"Yes, I understand.",0,0,349.147,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,10,R_21tgUhIYJGZaEAO,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:35:32,2023-06-21 12:37:18,IP Address,108.35.99.15,100,106,True,2023-06-21 12:37:19,R_AdIu3PxXE23pWgh,,,,,40.6129,-74.416,anonymous,EN,I consent to the study.,63ac69ac461e034cde56751a,"Yes, I understand.",0,0,48.705,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,10,R_AdIu3PxXE23pWgh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:33:58,2023-06-21 12:42:51,IP Address,100.17.20.13,100,533,True,2023-06-21 12:42:52,R_1Q4MdbT9qqxSzir,,,,,42.4881,-71.2758,anonymous,EN,I consent to the study.,5dd4070a57a7e13efe25534a,"Yes, I understand.",0,0,337.322,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,15,R_1Q4MdbT9qqxSzir,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:39:45,2023-06-21 12:42:56,IP Address,98.118.167.217,100,190,True,2023-06-21 12:42:56,R_1mlMshA1YKXuibR,,,,,42.9685,-78.7492,anonymous,EN,I consent to the study.,63d13f416b2c25038c13007f,"Yes, I understand.",0,0,132.164,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,15,R_1mlMshA1YKXuibR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:42:37,2023-06-21 12:43:34,IP Address,68.46.116.147,100,56,True,2023-06-21 12:43:34,R_eOMlBmvngsheRoZ,,,,,45.1181,-93.3078,anonymous,EN,I consent to the study.,5e6482c9142c3c204d56baa0,"Yes, I understand.",26.214,27.354,28.555,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,16,R_eOMlBmvngsheRoZ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:37:21,2023-06-21 12:43:40,IP Address,152.208.54.165,100,379,True,2023-06-21 12:43:41,R_2UYjn4daYqaMGUz,,,,,40.2927,-76.817,anonymous,EN,I consent to the study.,558955ebfdf99b6bd06016c9,"Yes, I understand.",0,0,357.345,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,16,R_2UYjn4daYqaMGUz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:38:18,2023-06-21 12:45:02,IP Address,70.190.237.129,100,403,True,2023-06-21 12:45:02,R_3O7ERQIMs61oWNf,,,,,33.4475,-112.0866,anonymous,EN,I consent to the study.,63d1401242635aaffe867c4c,"Yes, I understand.",0,0,345.374,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,17,R_3O7ERQIMs61oWNf,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:43:20,2023-06-21 12:45:04,IP Address,135.26.211.98,100,103,True,2023-06-21 12:45:04,R_24voeM7uj0bw62m,,,,,39.4796,-88.3755,anonymous,EN,I consent to the study.,5fee99daeae54318b087e9b5,"Yes, I understand.",74.082,74.082,74.482,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,17,R_24voeM7uj0bw62m,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:41:02,2023-06-21 12:47:11,IP Address,75.182.255.242,100,369,True,2023-06-21 12:47:12,R_1LnEVvHsWzXxW0w,,,,,36.1219,-79.7777,anonymous,EN,I consent to the study.,5ee3fbb98976fc0f59fe2939,"Yes, I understand.",334.585,334.585,334.825,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,18,R_1LnEVvHsWzXxW0w,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:44:59,2023-06-21 12:47:18,IP Address,73.213.49.181,100,139,True,2023-06-21 12:47:19,R_1mXIynEP9RXGNdj,,,,,39.1723,-77.183,anonymous,EN,I consent to the study.,63d2f3294efc674f84b302d2,"Yes, I understand.",0,0,81.774,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,18,R_1mXIynEP9RXGNdj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:37:41,2023-06-21 12:47:36,IP Address,104.62.54.67,100,594,True,2023-06-21 12:47:36,R_3fdDgCR8zaBffOV,,,,,26.3796,-80.1029,anonymous,EN,I consent to the study.,6400dd2b5b4a2803b2fce1dc,"Yes, I understand.",0,0,39.9,0,0,0,3.007,0,60,0,0,29.066,0,0,0,22.333,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,414,48,Region #1,Disagree,"Somewhat 
+Disagree
+3
+",0,0,7.021,0,0,0,12.077,0,0,0,25.118,0,,,,,,,,,,,,,,,Yes,Neither Fairly or Unfairly,9,,,,,,0,0,45.006,0,,,,,,,,,Don't know,Yes,,Yes,,On a desktop or laptop computer,,,23,Man,,"Hispanic, Latino or Spanish Origin",Very Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,13,R_3fdDgCR8zaBffOV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:38:30,2023-06-21 12:48:47,IP Address,73.193.197.140,100,617,True,2023-06-21 12:48:48,R_12hBQwupmLQV13n,,,,,40.0305,-74.9528,anonymous,EN,I consent to the study.,63b18d94775ad4aad221103c,"Yes, I understand.",0,0,8.382,0,2.54,2.54,3.015,1,60,0,0,0.304,0,7.129,7.129,24.678,1,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,873,49,Region #2,Agree,"Somewhat 
+Disagree
+3
+",0,0,7.041,0,12.786,12.786,13.23,1,0,0,25.022,0,,,,,,,,,,,,,,,Yes,Fairly,10,no,,,,,,,,,0,0,45.074,0,,,,,To find out how people make their decisions,Yes,,Yes,,On a desktop or laptop computer,,no,56,Prefer not to say,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,13,R_12hBQwupmLQV13n,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: yes
+<br>",,chatLog,,,
+2023-06-21 12:43:05,2023-06-21 12:49:11,IP Address,152.1.20.202,100,366,True,2023-06-21 12:49:11,R_1hKfR4ZlUCJzKAG,,,,,35.9825,-78.5376,anonymous,EN,I consent to the study.,610414b7a275aba12c4bf8b0610414b,"Yes, I understand.",334.408,334.408,334.735,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1hKfR4ZlUCJzKAG,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:35:15,2023-06-21 12:49:14,IP Address,47.42.116.6,100,839,True,2023-06-21 12:49:14,R_2CwzejNTLiXA9wy,,,,,32.7254,-97.3208,anonymous,EN,I consent to the study.,60aee0858e96f753f593b729,"Yes, I understand.",0,0,167.301,0,0,0,3.11,0,78,0,0,32.51,0,2.293,14.63,35.71,2,IM_3KUo7iTc8Zjnk46,expands the boundaries of our knowledge of medicine.,103,345,Region #1,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,9.788,0,20.197,20.197,24.822,1,0,0,25.115,0,,,,,,,,,,,0,0,15.106,0,Yes,Somewhat Unfairly,10,none,,,,,,,,,,,,,,,,,To see how we would judge if we were to be given a choice or had no choice in someone making a decision,Yes,,Yes,,On a desktop or laptop computer,,None,26,Woman,,"Hispanic, Latino or Spanish Origin",Very Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,13,R_2CwzejNTLiXA9wy,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:45:55,2023-06-21 12:49:14,IP Address,76.149.162.30,100,199,True,2023-06-21 12:49:15,R_1I4uBvhHmkRUbjb,,,,,40.6124,-111.8832,anonymous,EN,I consent to the study.,5e373f33a42bce6daa55ea65,"Yes, I understand.",0,0,155.071,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1I4uBvhHmkRUbjb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:30,2023-06-21 12:49:32,IP Address,68.200.21.162,100,121,True,2023-06-21 12:49:32,R_1mLD2UQWwjhejCN,,,,,28.87,-82.3468,anonymous,EN,I consent to the study.,60e36e6ecb9f00e7b4dab92e,"Yes, I understand.",0,0,61.941,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1mLD2UQWwjhejCN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:38:05,2023-06-21 12:51:05,IP Address,128.84.125.50,100,780,True,2023-06-21 12:51:06,R_0MJZCgOsXaqnp73,,,,,42.4444,-76.4926,anonymous,EN,I consent to the study.,5fc98fe1b105424d4b03381b,"Yes, I understand.",0,0,27.469,0,0,0,3.02,0,200,0,0,44.796,0,0,0,21.335,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,535,327,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,8.689,0,0,0,13.571,0,0,0,25.117,0,,,,,,,,,,,,,,,Maybe,Neither Fairly or Unfairly,9,nope,,,,,0,0,45.019,0,,,,,,,,,It has something to do with how I think Republicans behave,No,"Because I've seen researchers do this sort of thing before, and they really overuse the whole deception thing. It's kind of annoying",No,Because I didn't believe I was working with other participants.,On a desktop or laptop computer,,"I think the names of participants (i.e. ""Democrat/Republican"") were not random and had something to do with the purpose of the experiment.",41,Woman,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,13,R_0MJZCgOsXaqnp73,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:47:58,2023-06-21 12:52:19,IP Address,172.56.53.149,100,261,True,2023-06-21 12:52:20,R_25N2YU3FpFSavvy,,,,,29.7738,-95.406,anonymous,EN,I consent to the study.,5c8fa5789eb5720017f03079,"Yes, I understand.",0,0,70.245,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_25N2YU3FpFSavvy,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:03,2023-06-21 12:52:20,IP Address,52.124.40.73,100,376,True,2023-06-21 12:52:20,R_SB0JG4TkCawzMzv,,,,,38.9965,-76.934,anonymous,EN,I consent to the study.,610761fce69907203f8b2488,"Yes, I understand.",0,0,337.881,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_SB0JG4TkCawzMzv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:19,2023-06-21 12:52:21,IP Address,173.75.211.195,100,361,True,2023-06-21 12:52:21,R_2qfmFJRXbWIuxNi,,,,,39.9025,-75.2618,anonymous,EN,I consent to the study.,63584536ee0bf772659d84d4,"Yes, I understand.",229.498,232.4,325.747,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_2qfmFJRXbWIuxNi,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:15,2023-06-21 12:52:27,IP Address,108.225.41.224,100,251,True,2023-06-21 12:52:28,R_3oC5cmpwQudxacr,,,,,34.6224,-98.3913,anonymous,EN,I consent to the study.,568e7e33e3ef9e000da202a7,"Yes, I understand.",0,0,63.383,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_3oC5cmpwQudxacr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:20,2023-06-21 12:52:28,IP Address,50.214.153.202,100,368,True,2023-06-21 12:52:29,R_2B35TfsADXDwrhj,,,,,41.7137,-70.1578,anonymous,EN,I consent to the study.,6308dca0fefa374b1d697aba,"Yes, I understand.",98.441,339.666,344.868,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_2B35TfsADXDwrhj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:59,2023-06-21 12:52:29,IP Address,71.201.145.238,100,389,True,2023-06-21 12:52:29,R_3oZ6BQyKW379qpH,,,,,41.7448,-87.9819,anonymous,EN,I consent to the study.,63b7303cf7d82d5e9b3a3f09,"Yes, I understand.",0,0,337.077,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_3oZ6BQyKW379qpH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:00,2023-06-21 12:52:33,IP Address,50.59.223.114,100,333,True,2023-06-21 12:52:33,R_1AgqLfo9fLmNAUF,,,,,32.3195,-86.309,anonymous,EN,I consent to the study.,63d1b93d9abc8c4b40e2d92f,"Yes, I understand.",0,0,300.508,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_1AgqLfo9fLmNAUF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:50:50,2023-06-21 12:52:38,IP Address,97.95.197.39,100,107,True,2023-06-21 12:52:38,R_3JCS69NDoqRctbL,,,,,34.8308,-82.3507,anonymous,EN,I consent to the study.,6405236519858c28490dfeee,"Yes, I understand.",0,0,64.994,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_3JCS69NDoqRctbL,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:13,2023-06-21 12:52:48,IP Address,173.67.246.183,100,334,True,2023-06-21 12:52:48,R_2Sf83B1IR6cKdQr,,,,,37.5537,-77.4602,anonymous,EN,I consent to the study.,60fe43d9f9d89a9237395a83,"Yes, I understand.",0,0,309.581,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_2Sf83B1IR6cKdQr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:14,2023-06-21 12:52:49,IP Address,96.245.15.233,100,335,True,2023-06-21 12:52:50,R_3maxI0CF9AvNcdR,,,,,39.9526,-75.2937,anonymous,EN,I consent to the study.,5f73f37ed13ce303cc14ae35,"Yes, I understand.",0,0,307.431,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,25,R_3maxI0CF9AvNcdR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:30,2023-06-21 12:52:50,IP Address,67.245.33.131,100,380,True,2023-06-21 12:52:51,R_2X7DPqlueeh4ZPc,,,,,40.7579,-73.9332,anonymous,EN,I consent to the study.,628f9cfbee6de7cc7322fecf,"Yes, I understand.",0,0,336.262,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,25,R_2X7DPqlueeh4ZPc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:52,2023-06-21 12:53:22,IP Address,69.112.187.30,100,390,True,2023-06-21 12:53:23,R_yCKE7Hu3UXjDs89,,,,,41.0991,-74.008,anonymous,EN,I consent to the study.,5c9c3ae2d40ce20014233de6,"Yes, I understand.",330.162,330.398,330.691,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,27,R_yCKE7Hu3UXjDs89,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:08,2023-06-21 12:53:42,IP Address,98.179.238.126,100,393,True,2023-06-21 12:53:42,R_1kLlBQYnQnz2UOB,,,,,35.9928,-95.8152,anonymous,EN,I consent to the study.,611145d764f3f83ee48ae655,"Yes, I understand.",0,0,367.7,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,26,R_1kLlBQYnQnz2UOB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:34,2023-06-21 12:53:47,IP Address,174.242.144.139,100,372,True,2023-06-21 12:53:47,R_3isbHCbTDwOVFLG,,,,,41.874,-71.3844,anonymous,EN,I consent to the study.,5faeb8eb6562cd0163f216ec,"Yes, I understand.",348.578,348.578,348.967,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,28,R_3isbHCbTDwOVFLG,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:16,2023-06-21 12:53:47,IP Address,173.185.41.191,100,391,True,2023-06-21 12:53:47,R_3PFup2awZCh5EWD,,,,,33.4085,-94.1819,anonymous,EN,I consent to the study.,60d50ceb7c563c73f91d9ec5,"Yes, I understand.",0,0,352.395,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,26,R_3PFup2awZCh5EWD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:19,2023-06-21 12:53:48,IP Address,172.59.32.37,100,389,True,2023-06-21 12:53:49,R_1OHKIeVLEeT6dmU,,,,,39.9391,-83.0474,anonymous,EN,I consent to the study.,6111a351d738d1eaa44eecd7,"Yes, I understand.",321.387,321.387,355.66,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,28,R_1OHKIeVLEeT6dmU,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:32,2023-06-21 12:53:52,IP Address,104.39.182.250,100,379,True,2023-06-21 12:53:53,R_1C2ALevArp7U7QD,,,,,40.8103,-77.888,anonymous,EN,I consent to the study.,5dc0cc1f317aa4076275ddf9,"Yes, I understand.",0,0,356.532,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,27,R_1C2ALevArp7U7QD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:40,2023-06-21 12:53:56,IP Address,70.180.144.226,100,375,True,2023-06-21 12:53:56,R_2cBF9DnOhCvEul2,,,,,36.175,-115.1372,anonymous,EN,I consent to the study.,572d55e1109ab600105176ba,"Yes, I understand.",0,0,330.527,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,30,R_2cBF9DnOhCvEul2,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:41,2023-06-21 12:53:56,IP Address,98.223.205.238,100,375,True,2023-06-21 12:53:57,R_1gTQjHWxffwdRJm,,,,,41.9014,-88.7515,anonymous,EN,I consent to the study.,5b666901f7798c000182c01c,"Yes, I understand.",0,0,345.78,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,30,R_1gTQjHWxffwdRJm,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:17,2023-06-21 12:54:02,IP Address,66.58.201.11,100,405,True,2023-06-21 12:54:02,R_3KJkM0bsRRPE9Ug,,,,,61.2115,-149.8736,anonymous,EN,I consent to the study.,5c054e8a553fb800011917d7,"Yes, I understand.",0,0,365.008,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,29,R_3KJkM0bsRRPE9Ug,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:41,2023-06-21 12:54:20,IP Address,98.28.193.127,100,398,True,2023-06-21 12:54:20,R_3LaMVTVMqnWkV9L,,,,,39.1256,-84.5127,anonymous,EN,I consent to the study.,60c382725a7a55abef2e8e99,"Yes, I understand.",30.678,311.732,358.357,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,31,R_3LaMVTVMqnWkV9L,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:19,2023-06-21 12:54:20,IP Address,71.205.139.122,100,360,True,2023-06-21 12:54:21,R_VPxLW5tbmzlMDPr,,,,,40.4102,-104.7584,anonymous,EN,I consent to the study.,5deb3c192235ad24f4a21826,"Yes, I understand.",0,0,340.467,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,31,R_VPxLW5tbmzlMDPr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:15,2023-06-21 12:54:20,IP Address,98.246.138.80,100,365,True,2023-06-21 12:54:21,R_2cqh9MjWpoMWlhw,,,,,44.0683,-123.0763,anonymous,EN,I consent to the study.,631f735e13bff4dc1ec03257,"Yes, I understand.",0,0,340.07,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,32,R_2cqh9MjWpoMWlhw,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:00,2023-06-21 12:54:29,IP Address,73.154.156.75,100,388,True,2023-06-21 12:54:30,R_2ZPrUSvGGQsMDo3,,,,,40.2257,-78.831,anonymous,EN,I consent to the study.,6112c4384c4afd6a025fc350,"Yes, I understand.",331.657,331.657,334.166,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,35,R_2ZPrUSvGGQsMDo3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:17,2023-06-21 12:54:33,IP Address,136.34.39.58,100,375,True,2023-06-21 12:54:33,R_Abp182BwmOm92Wl,,,,,39.1027,-94.5925,anonymous,EN,I consent to the study.,6143c28b6d84339f28982fb5,"Yes, I understand.",0,0,331.139,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,33,R_Abp182BwmOm92Wl,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:17,2023-06-21 12:54:35,IP Address,67.233.93.22,100,378,True,2023-06-21 12:54:36,R_2D8l8TNjgDIu95v,,,,,29.1995,-82.0858,anonymous,EN,I consent to the study.,633e327052bcc8b44d6e0d2c,"Yes, I understand.",314.613,320.766,322.82,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,35,R_2D8l8TNjgDIu95v,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:20,2023-06-21 12:54:36,IP Address,71.167.239.194,100,376,True,2023-06-21 12:54:37,R_VQ3UbZDNiFxmfx7,,,,,40.7428,-73.9712,anonymous,EN,I consent to the study.,612bbf7f2777e375241f0f45,"Yes, I understand.",0,0,351.859,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,32,R_VQ3UbZDNiFxmfx7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:38,2023-06-21 12:54:40,IP Address,70.178.49.168,100,421,True,2023-06-21 12:54:40,R_bNtaqWNaLm369qh,,,,,36.1805,-94.5304,anonymous,EN,I consent to the study.,58635484a73baa00010db537,"Yes, I understand.",1.958,308.154,355.188,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,33,R_bNtaqWNaLm369qh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:36,2023-06-21 12:54:55,IP Address,97.104.54.227,100,499,True,2023-06-21 12:54:56,R_1Pe2ZH9sN2g3Zcc,,,,,29.0422,-81.2863,anonymous,EN,I consent to the study.,5c3393d9f53f7a000119160f,"Yes, I understand.",0,0,348.602,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,29,R_1Pe2ZH9sN2g3Zcc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:15,2023-06-21 12:55:02,IP Address,24.188.226.213,100,347,True,2023-06-21 12:55:03,R_216TEJGGAEJM92P,,,,,40.6877,-73.9267,anonymous,EN,I consent to the study.,5b21259ce5cd900001125a0b,"Yes, I understand.",305.389,306.632,307.655,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,38,R_216TEJGGAEJM92P,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:32,2023-06-21 12:55:07,IP Address,98.214.22.104,100,394,True,2023-06-21 12:55:08,R_UbgUzNV0eywVyiB,,,,,42.2937,-89.6354,anonymous,EN,I consent to the study.,63126caf43d014aa6db9a1d4,"Yes, I understand.",351.718,351.718,355.15,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,36,R_UbgUzNV0eywVyiB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:09,2023-06-21 12:55:10,IP Address,192.24.179.10,100,360,True,2023-06-21 12:55:10,R_11aUM7b5gqlkXeJ,,,,,39.0705,-84.516,anonymous,EN,I consent to the study.,5fa1636a77c875235bd8e1f6,"Yes, I understand.",251.352,255.944,285.561,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,40,R_11aUM7b5gqlkXeJ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:14,2023-06-21 12:55:11,IP Address,73.202.51.32,100,597,True,2023-06-21 12:55:12,R_Um9Lo4Ks60NX6b7,,,,,37.7201,-122.4414,anonymous,EN,I consent to the study.,5dd72efa82569a6d38e06854,"Yes, I understand.",0,0,354.411,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,37,R_Um9Lo4Ks60NX6b7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:41,2023-06-21 12:55:12,IP Address,69.131.206.38,100,390,True,2023-06-21 12:55:13,R_0uFSnnyKfDulxkd,,,,,42.9917,-90.6516,anonymous,EN,I consent to the study.,63d00622fd37f382d3ce2ec1,"Yes, I understand.",0,0,333.501,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,37,R_0uFSnnyKfDulxkd,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:06,2023-06-21 12:55:15,IP Address,69.216.102.103,100,368,True,2023-06-21 12:55:16,R_215F9etpjgM57dj,,,,,37.6736,-122.0944,anonymous,EN,I consent to the study.,56a68bb49ce1c0000df89344,"Yes, I understand.",304.489,304.489,346.215,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,39,R_215F9etpjgM57dj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:36:10,2023-06-21 12:55:17,IP Address,71.77.157.207,100,1146,True,2023-06-21 12:55:17,R_3qmq1IwuKz5rLgw,,,,,35.1873,-79.473,anonymous,EN,I consent to the study.,55b6d0a4fdf99b437183f9b5,"Yes, I understand.",356.038,356.038,357.669,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,38,R_3qmq1IwuKz5rLgw,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:09,2023-06-21 12:55:22,IP Address,68.187.140.140,100,373,True,2023-06-21 12:55:23,R_3erUh5KW9ilPoFc,,,,,42.7735,-89.2851,anonymous,EN,I consent to the study.,6318c6b8dd3d07c0fb9f0d18,"Yes, I understand.",297.806,297.806,301.325,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,39,R_3erUh5KW9ilPoFc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:31,2023-06-21 12:56:36,IP Address,73.229.78.166,100,484,True,2023-06-21 12:56:36,R_3qmwaJ9TOhvan7W,,,,,40.4102,-104.7584,anonymous,EN,I consent to the study.,5fac997db63d252ba6a82a8f,"Yes, I understand.",0,0,348.222,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,41,R_3qmwaJ9TOhvan7W,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:52:23,2023-06-21 12:56:39,IP Address,68.228.153.94,100,255,True,2023-06-21 12:56:40,R_12RO11E90tvl5rr,,,,,41.7041,-72.679,anonymous,EN,I consent to the study.,5671927473f58b000d664293,"Yes, I understand.",0,0,219.427,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,41,R_12RO11E90tvl5rr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:10,2023-06-21 12:57:13,IP Address,136.37.19.43,100,483,True,2023-06-21 12:57:13,R_3Di4QC1i6Qo0dlv,,,,,39.0537,-94.5906,anonymous,EN,I consent to the study.,57a08ec3dcff7d0001c7ce99,"Yes, I understand.",0,0,414.315,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,40,R_3Di4QC1i6Qo0dlv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:38,2023-06-21 12:58:01,IP Address,139.55.112.96,100,742,True,2023-06-21 12:58:01,R_2dmwEA1S63U2RGD,,,,,37.1027,-84.5432,anonymous,EN,I consent to the study.,5de32329b5bed7350391666c,"Yes, I understand.",0,0,211.558,0,0,0,3.108,0,76,0,0,0.507,0,0,0,22.539,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,157,156,Region #1,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,6.733,0,0,0,12.262,0,0,0,25.189,0,Randomization,2.594,6.137,15.901,2,,Yes,Extremely Fairly,10,none,,,,,,,,,,,,,,,,,,,,,,,,,I'm honestly not sure,Yes,,Yes,,On a desktop or laptop computer,,none,32,Man,,White,Very Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,20,R_2dmwEA1S63U2RGD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:49:10,2023-06-21 12:58:26,IP Address,169.239.205.126,100,556,True,2023-06-21 12:58:26,R_ZvCt5SSJlCpGqfT,,,,,37.751,-97.822,anonymous,EN,I consent to the study.,605fe9680cac2ea943d411ec,"Yes, I understand.",0,0,441.714,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,44,R_ZvCt5SSJlCpGqfT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:29,2023-06-21 12:58:40,IP Address,73.41.149.250,100,670,True,2023-06-21 12:58:40,R_2uOPijMM9ln93g3,,,,,39.2079,-120.999,anonymous,EN,I consent to the study.,6318be45a49442eee3a88cb3,"Yes, I understand.",0,0,7.279,0,0,0,3.018,0,67,0,0,49.034,0,0,0,21.654,0,IM_3KUo7iTc8Zjnk46,expands the boundaries of our knowledge of medicine.,687,84,Region #2,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,11.209,0,0,0,13.44,0,0,0,25.01,0,,,,,,,,,,,,,,,Yes,Neither Fairly or Unfairly,10,No other feedback,,,,,,,,,,,,,0,0,45.007,0,No idea,Yes,,Yes,,On a desktop or laptop computer,,,68,Woman,,White,Moderate,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,20,R_2uOPijMM9ln93g3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:42,2023-06-21 12:58:53,IP Address,96.232.202.55,100,850,True,2023-06-21 12:58:53,R_1H6SZuHYV3Q4l3B,,,,,40.726,-73.848,anonymous,EN,I consent to the study.,6012e262527c380ccb2a6c74,"Yes, I understand.",0,0,6.929,0,0,0,3.011,0,40,26.532,26.532,41.009,1,0,0,26.745,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,845,238,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,8.806,0,0,0,11.3,0,0,0,26.612,0,,,,,,,,,,,,,,,No,Unfairly,10,It don't seem fair.,0,0,45.011,0,,,,,,,,,,,,,Politic side and who they assigned it to.,Yes,,Yes,,On a desktop or laptop computer,,Tried my best.,28,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,21,R_1H6SZuHYV3Q4l3B,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:48:14,2023-06-21 13:01:45,IP Address,67.140.3.223,100,810,True,2023-06-21 13:01:45,R_AbLS3tM3FJwkdZ7,,,,,37.1531,-84.0986,anonymous,EN,I consent to the study.,6390a0e1aa5654301da0c865,"Yes, I understand.",0,0,134.411,0,0,0,3.112,0,200,0,0,0.473,0,0,0,29.568,0,IM_5toOL1bqX2AWd8i,has any value apart from its role in providing new technologies to save lives.,870,52,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,16.099,0,0,0,77.508,0,0,0,25.016,0,,,,,,,,,,,0,0,15.01,0,Yes,Fairly,10,,,,,,,,,,,,,,,,,,making decisions,Yes,,Yes,,On a desktop or laptop computer,,I enjoyed this study !,55,Woman,,White,Very Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,21,R_AbLS3tM3FJwkdZ7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:46:27,2023-06-21 13:02:55,IP Address,67.190.222.39,100,987,True,2023-06-21 13:02:55,R_1Lvv4z9eKvir7zV,,,,,29.6669,-81.6579,anonymous,EN,I consent to the study.,63666870f348d4acea8964a9,"Yes, I understand.",138.959,209.815,249.049,2,0,0,3.008,0,65,7.21,7.21,24.762,1,12.066,12.066,24.431,1,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,,,,Slightly Agree,"Agree
+6
+",5.466,5.466,7.067,1,10.051,15.083,15.385,2,0,0,25.011,0,Randomization,4.019,4.019,23.994,1,,Maybe,Fairly,8,,,,,,,,,,,,,,,,,,,,,,,,,,Investigating how people make some life choices,Yes,,Yes,,On a desktop or laptop computer,,"I may have failed an attention check but the truth is I saw it and there is this problem I have with my touch pad that sometimes shift a little when you click on something and it happened in this case when I clicked on the S disagree, it happened really fast and by the time I realized I had already clicked on the next button",63,Man,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,21,R_1Lvv4z9eKvir7zV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:54:12,2023-06-21 13:03:30,IP Address,207.172.99.66,100,558,True,2023-06-21 13:03:31,R_20UqBPB4iKtjAly,,,,,40.6568,-75.3912,anonymous,EN,I consent to the study.,5c6d7db58f6257000148f61d,"Yes, I understand.",0,0,48.74,0,0,0,3.125,0,185,0,0,11.206,0,0,0,23.131,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,862,228,Region #2,Agree,"Somewhat 
+Disagree
+3
+",0,0,9.964,0,0,0,15.542,0,0,0,25.017,0,,,,,,,,,,,,,,,Yes,Extremely Unfairly,0,no,,,,,,,,,,,,,0,0,45.112,0,"When someone gets to assign tasks they will choose the easier one for themselves ",Yes,,Yes,,On a desktop or laptop computer,,no thank you,31,Man,,White,Very Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,34,R_20UqBPB4iKtjAly,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:48:25,2023-06-21 13:03:44,IP Address,162.206.218.181,100,919,True,2023-06-21 13:03:45,R_1jdLs6AQJe5rGEl,,,,,38.4044,-85.7878,anonymous,EN,I consent to the study.,60ba2ffd080107de026041d3,"Yes, I understand.",391.133,401.024,402.743,2,0,0,3.006,0,160,7.577,7.577,16.455,1,0,0,24.253,0,IM_40ED2VBvFPVw7JQ,has any value apart from its role in providing new technologies to save lives.,721,259,Region #2,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,18.821,0,0,0,14.768,0,0,0,25.107,0,,,,,,,,,,,,,,,Yes,Unfairly,7,No,,,,,0,0,45.032,0,,,,,,,,,No clue,No,They just seemed robotic.,No,Just based on the people in the chat not seeming real.,On a desktop or laptop computer,,Nope,32,Man,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,34,R_1jdLs6AQJe5rGEl,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:57:08,2023-06-21 13:03:59,IP Address,104.238.254.220,100,411,True,2023-06-21 13:04:00,R_saMcx6xeNVtdiYF,,,,,33.5112,-111.9078,anonymous,EN,I consent to the study.,5e2926d80beb030ede110e67,"Yes, I understand.",0,0,8.714,0,1.205,1.205,3.008,1,50,0,0,27.585,0,4.064,11.113,22.174,3,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,773,295,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",3.616,3.616,6.875,1,0.969,10.632,11.288,5,0,0,25.009,0,I will choose,1.079,14.098,15.902,5,The Green Task,Maybe,Somewhat Fairly,9,"I feel like the study looped. I took the first part twice. ",,,,,,,,,,,,,,,,,,,,,,,,,"To test my patience to see if I'd do it twice and to see if I'd choose the easier task for myself. ",Yes,,Not Applicable (I was selected to choose tasks),,On a desktop or laptop computer,,,50,Woman,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,42,R_saMcx6xeNVtdiYF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:03:32,2023-06-21 13:04:45,IP Address,75.23.204.30,100,72,True,2023-06-21 13:04:45,R_2Tu5SPqv3fkUwDn,,,,,39.9587,-82.9987,anonymous,EN,I consent to the study.,606e3ddf19540080228e3a0c,"Yes, I understand.",0,0,37.506,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,46,R_2Tu5SPqv3fkUwDn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:58:13,2023-06-21 13:04:45,IP Address,64.33.116.198,100,392,True,2023-06-21 13:04:46,R_2e89YuhYCyJwhDi,,,,,46.8298,-100.9111,anonymous,EN,I consent to the study.,607f7f18d84d010ea2cd8664,"Yes, I understand.",0,0,355.217,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,46,R_2e89YuhYCyJwhDi,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:54:25,2023-06-21 13:04:47,IP Address,172.59.120.65,100,621,True,2023-06-21 13:04:47,R_3nVF4HWiWXFcOaa,,,,,35.3928,-97.5548,anonymous,EN,I consent to the study.,60a5717cc2ad303816870f66,"Yes, I understand.",0,0,8.633,0,0,0,3.016,0,42,0,0,14.802,0,7.54,7.54,23.9,1,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,792,353,Region #2,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,9.349,0,4.37,4.37,14.845,1,0,0,25.108,0,,,,,,,,,,,0,0,15.007,0,Maybe,Neither Fairly or Unfairly,9,Nope,,,,,,,,,,,,,,,,,No idea honestly,Yes,,No,You just wanted to see if I thought everyone would choose green tasks for themselves because they were less than half as long in time as the red tasks.,On a desktop or laptop computer,,"Nope, just thanks for the study!",53,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,34,R_3nVF4HWiWXFcOaa,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:55:59,2023-06-21 13:04:54,IP Address,174.203.41.145,100,534,True,2023-06-21 13:04:54,R_3IPRbKdZiz9TdHK,,,,,30.4509,-91.1563,anonymous,EN,I consent to the study.,56e130548b1c33000a388671,"Yes, I understand.",0,0,66.318,0,0,0,3.124,0,45,0,0,26.871,0,0,0,22.292,0,IM_3KUo7iTc8Zjnk46,should have the saving of human lives as an important goal.,599,212,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,8.131,0,0,0,11.127,0,0,0,25.12,0,,,,,,,,,,,,,,,Yes,Somewhat Unfairly,8,,,,,,,,,,0,0,45.119,0,,,,,I'd guess just a test of biases,Yes,,Yes,,On a desktop or laptop computer,,,29,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,42,R_3IPRbKdZiz9TdHK,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:12,2023-06-21 13:05:33,IP Address,208.123.55.23,100,1281,True,2023-06-21 13:05:34,R_1MVU8bml12l8yqp,,,,,47.0914,-94.5917,anonymous,EN,I consent to the study.,5b6142d1f5bc590001184814,"Yes, I understand.",0,0,6.8,0,0,0,3.121,0,400,214.492,618.78,629.163,2,0,0,20.902,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,695,72,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,7.032,0,0,0,11.737,0,0,0,25.119,0,,,,,,,,,,,,,,,No,Unfairly,10,"No I am hopng to just get through this study at this point. ",,,,,,,,,,,,,0,0,45.108,0,"Well, I found it odd that it said Player4-Republican would be making the choice when I am that player. So that made no sense. And the ""Democrat"" player dropped out and I waited a long time to say I could contact the researcher to get partial payment. But yet I was allowed to advance. ",Yes,,No,"Because it said ""player4-republican"" was making the choice but that wasn't true because I was that player. Then it got to the next screen and said ""player2-republican"" made their choice. So it is clear neither of us made a choice. If it had been labeled correctly at the beginning I might have believed it. ",On a desktop or laptop computer,,You can disregard the message I sent through Prolific. No additional comments :),48,Woman,,White,Conservative,,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,14,R_1MVU8bml12l8yqp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican," *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.",300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: Not sure what to do here. Waited forever to get on.
+<br>Player2-Republican: Hi there- I got a notification that the study was terminated?  Wondering why this advanced
+<br>Player4-Republican: Agreed
+<br>Player2-Republican: do we try to continue?
+<br>Player4-Republican: I waited quite awhile and contacted the researcher. No response.
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:42:09,2023-06-21 13:06:08,IP Address,70.23.58.234,100,1438,True,2023-06-21 13:06:09,R_cMZDF8RaWYUEqk1,,,,,40.8549,-73.2157,anonymous,EN,I consent to the study.,639df1ccd6819819ebb85722,"Yes, I understand.",0,0,272.75,0,0,0,3.014,0,200,0,0,19.836,0,72.693,72.693,75.866,1,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,773,289,Region #2,Agree,"Somewhat 
+Disagree
+3
+",0,0,9.223,0,0,0,62.869,0,0,0,25.116,0,I will choose,108.608,108.608,109.574,1,The Green Task,Yes,Fairly,8,,,,,,,,,,,,,,,,,,,,,,,,,,predictions,Yes,,Yes,,On a desktop or laptop computer,,,53,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,21,R_cMZDF8RaWYUEqk1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:46:55,2023-06-21 13:06:13,IP Address,172.119.83.5,100,1158,True,2023-06-21 13:06:14,R_1lAleO3wKa54ESn,,,,,34.0264,-117.936,anonymous,EN,I consent to the study.,5ad06e7bd9f7470001db09af,"Yes, I understand.",62.868,341.921,389.193,6,0,0,3.018,0,65,0,0,1.131,0,4.665,11.865,28.883,2,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,,,,Slightly Agree,"Somewhat 
+Disagree
+3
+",13.852,13.852,14.076,1,49.185,49.945,52.533,3,0,0,25.107,0,,,,,,,,,,,0,0,15.108,0,Maybe,Somewhat Fairly,8,the task is different,,,,,,,,,,,,,,,,,good,Yes,,Yes,,On a desktop or laptop computer,,good,35,Man,,"Hispanic, Latino or Spanish Origin,White",Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,34,R_1lAleO3wKa54ESn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:59:47,2023-06-21 13:06:47,IP Address,73.219.59.19,100,420,True,2023-06-21 13:06:48,R_3IYVzfpmavi40jH,,,,,41.6181,-70.4854,anonymous,EN,I consent to the study.,63d5daa80d80a745de740c13,"Yes, I understand.",0,0,366.543,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,47,R_3IYVzfpmavi40jH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:01:21,2023-06-21 13:06:57,IP Address,70.188.43.9,100,335,True,2023-06-21 13:06:57,R_1QL4PB38iFKdRrL,,,,,37.2647,-79.9249,anonymous,EN,I consent to the study.,6272923eedb5716b8b254954,"Yes, I understand.",88.405,88.405,289.8,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,47,R_1QL4PB38iFKdRrL,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:36,2023-06-21 13:07:36,IP Address,96.225.54.180,100,1139,True,2023-06-21 13:07:37,R_3qPvZgbJ7Mbdm0O,,,,,40.2459,-74.2813,anonymous,EN,I consent to the study.,63d3f987619fb984bbfd9693,"Yes, I understand.",0,0,417.647,0,0,0,3.023,0,120,0,0,0.902,0,24.73,32.014,32.927,3,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,873,57,Region #2,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,11.248,0,11.675,26.144,35.101,4,21.788,24.937,25.114,4,,,,,,,,,,,,,,,,,,,8.968,21.251,45.011,7,,,,,,,,,,,,,brain twister,Yes,,Yes,,On a desktop or laptop computer,,,24,Man,,Black or African American,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,42,R_3qPvZgbJ7Mbdm0O,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:00:58,2023-06-21 13:08:24,IP Address,76.114.238.102,100,445,True,2023-06-21 13:08:24,R_30v2kOAHaLWOkLn,,,,,39.6249,-75.8351,anonymous,EN,I consent to the study.,5f25c13cc7c8ea1ac7a0f863,"Yes, I understand.",10.628,10.628,11.345,1,0,0,3.111,0,150,0,0,0.576,0,6.503,6.503,27.58,1,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,,,,Agree,"Somewhat 
+Disagree
+3
+",0,0,10.141,0,0,0,11.229,0,0,0,25.111,0,,,,,,,,,,,0,0,15.007,0,Yes,Fairly,7,,,,,,,,,,,,,,,,,,"I think the study is about the cognitive tasks  ",Yes,,Yes,,On a desktop or laptop computer,,,30,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,45,R_30v2kOAHaLWOkLn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:07:31,2023-06-21 13:08:59,IP Address,67.165.58.165,100,87,True,2023-06-21 13:08:59,R_QgCntS4xVzOdWXT,,,,,39.494,-80.2221,anonymous,EN,I consent to the study.,610309d6b51e8a9a5da8a6f4,"Yes, I understand.",0,0,62.297,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,48,R_QgCntS4xVzOdWXT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:59:12,2023-06-21 13:09:01,IP Address,172.15.53.88,100,588,True,2023-06-21 13:09:01,R_vYPx1wygK11LbGN,,,,,33.9388,-117.416,anonymous,EN,I consent to the study.,63d516bacccbc5240fbd18c4,"Yes, I understand.",0,0,388.028,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,48,R_vYPx1wygK11LbGN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:58:23,2023-06-21 13:09:35,IP Address,184.59.184.90,100,671,True,2023-06-21 13:09:35,R_elmhJJe2nDMDpXH,,,,,40.0752,-80.7747,anonymous,EN,I consent to the study.,5758a78d768081000631a322,,0,0,157.424,0,0,0,3.011,0,100,0,0,39.659,0,0,0,22,0,IM_5toOL1bqX2AWd8i,should have the saving of human lives as an important goal.,619,157,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,7.046,0,0,0,13.862,0,0,0,25.114,0,,,,,,,,,,,,,,,Maybe,Fairly,9,no,0,0,45.112,0,,,,,,,,,,,,,To see how we assign taks?,Yes,,Yes,,On a desktop or laptop computer,,no,55,Woman,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,45,R_elmhJJe2nDMDpXH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:54:59,2023-06-21 13:10:23,IP Address,24.167.64.230,100,924,True,2023-06-21 13:10:24,R_cO9DuVqUaLhwMJH,,,,,26.2148,-98.231,anonymous,EN,I consent to the study.,63062501b80b139870ea2af4,"Yes, I understand.",7.485,7.485,216.468,1,0,0,3.182,0,54,0,0,64.65,0,0,0,22.249,0,IM_3KUo7iTc8Zjnk46,expands the boundaries of our knowledge of medicine.,607,207,Region #2,Neutral,"Somewhat 
+Disagree
+3
+",0,0,7.169,0,0,0,12.755,0,0,0,25.038,0,,,,,,,,,,,,,,,Maybe,Neither Fairly or Unfairly,5,"no comment ",0,0,45.12,0,,,,,,,,,,,,,"no idea ",No,"they seemed to be making generic responses ",Yes,,On a desktop or laptop computer,,"no comment ",24,Man,,"Hispanic, Latino or Spanish Origin",Moderate,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,45,R_cO9DuVqUaLhwMJH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br>",,chatLog,,,
+2023-06-21 12:56:43,2023-06-21 13:11:45,IP Address,50.21.204.185,100,901,True,2023-06-21 13:11:46,R_R9K0FwhHAXxfLcB,,,,,40.3658,-105.5142,anonymous,EN,I consent to the study.,60eb1a7c95641da67ae7d611,"Yes, I understand.",0,0,183.2,0,0,0,3.008,0,75,0,0,75.8,0,0,0,22.575,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,712,260,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,9.15,0,0,0,20.944,0,0,0,25.009,0,I will choose,18.121,18.121,19.584,1,The Green Task,Yes,Extremely Fairly,9,no,,,,,,,,,,,,,,,,,,,,,,,,,"to mislead participants into believing they have a choice ",No,Too brief. No real contact,No,"Again, too brief",On a desktop or laptop computer,,no,63,Woman,,White,Very Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,45,R_R9K0FwhHAXxfLcB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:56:40,2023-06-21 13:14:17,IP Address,71.145.255.12,100,1056,True,2023-06-21 13:14:18,R_XH42BdVIlhiQkPT,,,,,37.6257,-97.3142,anonymous,EN,I consent to the study.,6143af8721d1445864c4f6c8,"Yes, I understand.",0,0,89.387,0,0,0,3.007,0,300,0,0,326.649,0,0,0,21.06,0,IM_bO9xxI7k0acNQKW,has its most valuable achievements in medical applications.,110,356,Region #1,Neutral,"Somewhat 
+Disagree
+3
+",0,0,12.041,0,0,0,16.554,0,0,0,25.006,0,Randomization,6.742,6.742,23.2,1,,Maybe,Neither Fairly or Unfairly,8,no,,,,,,,,,,,,,,,,,,,,,,,,,Testing what people assume ....,No,Could have easily been part of the program no matter what was said. Or part of the experiment crew.,Not Applicable (I was selected to choose tasks),,On a desktop or laptop computer,,To have a good day.,51,Man,,"American Indian or Alaskan Native,White",Somewhat Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,43,R_XH42BdVIlhiQkPT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican," *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.",300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: it's too bad the dem dropped out
+<br>Player4-Republican: I guess....
+<br>Player2-Republican: it was not too difficult to estimate the spots even though i was under
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:52:34,2023-06-21 13:15:29,IP Address,98.230.0.250,100,1375,True,2023-06-21 13:15:30,R_3puqw4LrmDs29pV,,,,,30.4908,-84.3158,anonymous,EN,I consent to the study.,5bfff7c02213be0001c2c7cf,"Yes, I understand.",279.925,279.925,280.22,1,0,0,3.112,0,100,0,0,0.455,0,0,0,39.392,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,597,207,Region #2,Agree,"Somewhat 
+Disagree
+3
+",191.236,191.236,191.693,1,0,0,11.233,0,0,0,25.121,0,,,,,,,,,,,,,,,No,Neither Fairly or Unfairly,8,,,,,,,,,,,,,,0,0,45.106,0,not sure.,Yes,,No,"because chat was inconsistent. I was told I was with underestimaters even though we may have seen different photos. ",On a desktop or laptop computer,,,33,Woman,,"Hispanic, Latino or Spanish Origin",Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,42,R_3puqw4LrmDs29pV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:38,2023-06-21 13:21:23,IP Address,184.19.214.210,100,2204,True,2023-06-21 13:21:23,R_2dF7STVmIuBUGdh,,,,,39.652,-79.9444,anonymous,EN,I consent to the study.,601fc50f4b7f33504a02cd52,"Yes, I understand.",0,0,301.807,0,0,0,3.012,0,150,0,0,0.001,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,43,R_2dF7STVmIuBUGdh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,null *** Warning: This player has timed out in stage 1. Survey terminated.,300,,no,yes,terminated,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1,,,,,,
+2023-06-21 13:14:39,2023-06-21 13:24:07,IP Address,23.124.90.188,100,567,True,2023-06-21 13:24:07,R_dhDO50Bmx1cwj5v,,,,,28.9547,-95.3574,anonymous,EN,I consent to the study.,5f0a7dec44c42c19a6c9f6d9,"Yes, I understand.",325.708,325.708,333.796,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_dhDO50Bmx1cwj5v,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:17:38,2023-06-21 13:24:07,IP Address,68.102.17.164,100,388,True,2023-06-21 13:24:07,R_3KHIV6Ga7seYWxC,,,,,37.6624,-97.3156,anonymous,EN,I consent to the study.,62d38f10654f3fc8a393b551,"Yes, I understand.",0,0,357.056,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_3KHIV6Ga7seYWxC,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:08:59,2023-06-21 13:24:07,IP Address,75.37.67.119,100,908,True,2023-06-21 13:24:08,R_2CfjRgkaMh0l7pQ,,,,,38.1025,-122.2132,anonymous,EN,I consent to the study.,63ad82b1461f02fdca26b7ed,"Yes, I understand.",63.449,346.736,369.866,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_2CfjRgkaMh0l7pQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:32:49,2023-06-21 13:34:53,IP Address,162.199.219.237,100,123,True,2023-06-21 13:34:54,R_ylvQdKraXh8AeOJ,,,,,25.7689,-80.1946,anonymous,EN,I consent to the study.,611b1d3794ac948af7e57e7a,"Yes, I understand.",0,0,69.504,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,50,R_ylvQdKraXh8AeOJ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:28:00,2023-06-21 13:39:40,IP Address,139.102.75.133,100,700,True,2023-06-21 13:39:41,R_2PnGdj2WKZBYbQn,,,,,39.4057,-87.4026,anonymous,EN,I consent to the study.,63e51bca9f87294437c3cbb8,"Yes, I understand.",2.666,340.147,342.699,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,50,R_2PnGdj2WKZBYbQn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:35:01,2023-06-21 13:41:25,IP Address,173.44.36.173,100,383,True,2023-06-21 13:41:25,R_3dVWngjC2hu87zp,,,,,25.7806,-80.1826,anonymous,EN,I consent to the study.,6476c9f4663c454f80fc60c8,"Yes, I understand.",0,0,354.657,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,51,R_3dVWngjC2hu87zp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:46:29,2023-06-21 13:55:18,IP Address,173.21.25.103,100,529,True,2023-06-21 13:55:19,R_2rOBVKAUgXODSb0,,,,,31.5647,-84.1578,anonymous,EN,I consent to the study.,5dee72917309b950e5262f3a,"Yes, I understand.",1.397,344.389,345.999,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,52,R_2rOBVKAUgXODSb0,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:54:45,2023-06-15 14:56:02,IP Address,47.230.202.136,4,76,False,2023-06-22 14:56:09,R_sGQPa2q1LMGCn1T,,,,,,,anonymous,EN,I consent to the study.,madison_1,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_sGQPa2q1LMGCn1T,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",null,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:56:06,2023-06-15 14:58:13,Spam,47.230.202.136,4,126,False,2023-06-22 14:58:17,R_1eETi87sWW24fOn,,,,,,,anonymous,EN,I consent to the study.,madison_1,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_1eETi87sWW24fOn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",null,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:58:36,2023-06-15 15:00:24,IP Address,47.230.202.136,4,108,False,2023-06-22 15:00:27,R_3PmSQQLxPIkKBm9,,,,,,,anonymous,EN,I consent to the study.,madison_rep_1,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_3PmSQQLxPIkKBm9,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2_Republican,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:58:17,2023-06-15 15:00:23,IP Address,47.230.202.136,4,126,False,2023-06-22 15:00:27,R_12xvoZupL5bw16g,,,,,,,anonymous,EN,I consent to the study.,madison_dem_1,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_12xvoZupL5bw16g,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3_Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:58:26,2023-06-15 15:00:25,IP Address,47.230.202.136,4,118,False,2023-06-22 15:00:27,R_21iW40OqwGfqpJX,,,,,,,anonymous,EN,I consent to the study.,madison_dem_2,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_21iW40OqwGfqpJX,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1_Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 14:58:38,2023-06-15 15:00:26,IP Address,47.230.202.136,4,107,False,2023-06-22 15:00:31,R_3PzSihrp0yoig0K,,,,,,,anonymous,EN,I consent to the study.,madison_rep_2,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_3PzSihrp0yoig0K,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2_Republican,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 15:26:22,2023-06-15 15:26:49,IP Address,47.230.202.136,4,26,False,2023-06-22 15:26:52,R_2ayT8j1LMrYkXAK,,,,,,,anonymous,EN,I consent to the study.,dem_1_mad,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_2ayT8j1LMrYkXAK,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3_Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 15:28:50,2023-06-15 15:29:22,IP Address,47.230.202.136,4,31,False,2023-06-22 15:29:23,R_2Xmtw8P4OytVzdg,,,,,,,anonymous,EN,I consent to the study.,mad_repub_2,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_2Xmtw8P4OytVzdg,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",null,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 15:30:36,2023-06-15 15:31:25,IP Address,47.230.202.136,4,48,False,2023-06-22 15:31:28,R_2dpf37AWlLF6vb3,,,,,,,anonymous,EN,I consent to the study.,mad_dem_1,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_2dpf37AWlLF6vb3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3_Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-15 15:29:38,2023-06-15 15:32:23,Spam,47.230.202.136,4,164,False,2023-06-22 15:32:27,R_UyB98cQwaFthzCp,,,,,,,anonymous,EN,I consent to the study.,mad_repub_2,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,2,R_UyB98cQwaFthzCp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 11:49:32,2023-06-21 12:04:17,IP Address,68.129.163.86,4,884,False,2023-06-28 12:04:25,R_3ktVwqGyQcqs3kU,,,,,,,anonymous,EN,I consent to the study.,5f8f05773fdd230f04057241,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_3ktVwqGyQcqs3kU,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:07:43,2023-06-28 12:09:07,IP Address,208.82.107.130,100,83,True,2023-06-28 12:09:07,R_1fkJ1Eb3mlKNvCq,,,,,38.2435,-104.6194,anonymous,EN,I consent to the study.,63d97656f4c5e18d8889afcc,"Yes, I understand.",0,0,61.834,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,55,R_1fkJ1Eb3mlKNvCq,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:01:26,2023-06-28 12:09:33,IP Address,74.74.131.154,100,487,True,2023-06-28 12:09:34,R_1lsK1qLVlyC5TdX,,,,,43.0747,-77.5181,anonymous,EN,I consent to the study.,5d54b73f1c1de70015d50959,"Yes, I understand.",0,0,347.014,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,56,R_1lsK1qLVlyC5TdX,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:01:29,2023-06-28 12:09:47,IP Address,50.241.97.42,100,498,True,2023-06-28 12:09:48,R_1KoRt7ekuyQH027,,,,,43.0286,-71.1922,anonymous,EN,I consent to the study.,64818f16de47fcab313ce263,"Yes, I understand.",0,0,382.121,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,56,R_1KoRt7ekuyQH027,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:03:24,2023-06-28 12:10:13,IP Address,75.128.82.78,100,408,True,2023-06-28 12:10:14,R_2R85DXavMAMIEkE,,,,,42.1445,-83.3652,anonymous,EN,I consent to the study.,5ba259603bf2350001a54284,"Yes, I understand.",313.241,317.959,349.75,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,57,R_2R85DXavMAMIEkE,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 11:59:28,2023-06-28 12:10:17,IP Address,67.141.111.124,100,648,True,2023-06-28 12:10:17,R_3MRovLEZMBAsR56,,,,,41.8014,-80.9424,anonymous,EN,I consent to the study.,57f2da5c6c19420001438d19,"Yes, I understand.",0,0,113.278,0,0,0,3.115,0,1163,0,0,17.651,0,0,0,23.881,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,769,284,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,10.509,0,0,0,22.802,0,0,0,25.112,0,,,,,,,,,,,0,0,15.007,0,Yes,Fairly,8,,,,,,,,,,,,,,,,,,To see what we think other people might do,Yes,,Yes,,On a desktop or laptop computer,,,47,Woman,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,53,R_3MRovLEZMBAsR56,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I was an over estimator lol
+<br>Player3-Democrat: Hi
+<br>Player4-Republican: I was an under estimator
+<br>Player2-Republican: How many did you guess? I guessed 88
+<br>Player4-Republican: hello
+<br>Player3-Democrat: I think its better to over estistmate then under
+<br>Player1-Democrat: I was told I was an under estimator
+<br>Player3-Democrat: I guessed 162
+<br>Player4-Republican: I guess 135
+<br>Player2-Republican: Nothing wrong with either
+<br>Player2-Republican: It was difficult for sure
+<br>Player3-Democrat: It hard to count that fast
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 11:58:01,2023-06-28 12:10:37,IP Address,24.185.111.97,100,756,True,2023-06-28 12:10:38,R_21Hw4T9ZzPkChir,,,,,40.1712,-74.0717,anonymous,EN,I consent to the study.,5f4813c94e8b081877fb26a6,"Yes, I understand.",148.81,148.81,197.891,1,0,0,3.007,0,88,0,0,18.802,0,0,0,22.099,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,794,357,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,16.628,0,0,0,16.775,0,0,0,25.007,0,I will choose,12.853,18.365,19.121,2,The Green Task,Yes,Somewhat Unfairly,9,I think 9 out of 10 people will choose the green task for themselves and not worry about the other participant that gets stuck with the red task.,,,,,,,,,,,,,,,,,,,,,,,,,"Possibly to see if people will usually choose the easier option for themselves, even if it means someone else gets the more difficult and longer task.",Yes,,Not Applicable (I was selected to choose tasks),,On a desktop or laptop computer,,"No, thank you!",33,Man,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,53,R_21Hw4T9ZzPkChir,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I was an over estimator lol
+<br>Player3-Democrat: Hi
+<br>Player4-Republican: I was an under estimator
+<br>Player2-Republican: How many did you guess? I guessed 88
+<br>Player4-Republican: hello
+<br>Player3-Democrat: I think its better to over estistmate then under
+<br>Player1-Democrat: I was told I was an under estimator
+<br>Player3-Democrat: I guessed 162
+<br>Player4-Republican: I guess 135
+<br>Player2-Republican: Nothing wrong with either
+<br>Player2-Republican: It was difficult for sure
+<br>Player3-Democrat: It hard to count that fast
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 12:02:42,2023-06-28 12:10:49,IP Address,71.196.88.172,100,487,True,2023-06-28 12:10:50,R_2s5AbzAZgIKGPcR,,,,,26.007,-80.1219,anonymous,EN,I consent to the study.,645179915e31c1aeb3dc8129,"Yes, I understand.",306.704,306.704,418.648,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,55,R_2s5AbzAZgIKGPcR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 11:58:08,2023-06-28 12:10:51,IP Address,107.11.236.27,100,763,True,2023-06-28 12:10:52,R_2DXLOYqw0F2H0lm,,,,,39.749,-84.1573,anonymous,EN,I consent to the study.,6152be1021c9ab590015a3e3,"Yes, I understand.",0,0,180.915,0,0,0,3.013,0,135,0,0,23.536,0,7.384,13.984,23.329,4,IM_3KUo7iTc8Zjnk46,has any value apart from its role in providing new technologies to save lives.,770,288,Region #2,Neutral,"Somewhat 
+Disagree
+3
+",6.667,6.667,7.163,1,6.908,13.219,17.991,5,0,0,25.108,0,,,,,,,,,,,,,,,Maybe,Fairly,10,,,,,,,,,,,,,,5.749,5.749,45.011,1,To see if our political orientation has anything to do with the choices we make.,Yes,,Yes,,On a desktop or laptop computer,,,33,Woman,,White,Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,53,R_2DXLOYqw0F2H0lm,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I was an over estimator lol
+<br>Player3-Democrat: Hi
+<br>Player4-Republican: I was an under estimator
+<br>Player2-Republican: How many did you guess? I guessed 88
+<br>Player4-Republican: hello
+<br>Player3-Democrat: I think its better to over estistmate then under
+<br>Player1-Democrat: I was told I was an under estimator
+<br>Player3-Democrat: I guessed 162
+<br>Player4-Republican: I guess 135
+<br>Player2-Republican: Nothing wrong with either
+<br>Player2-Republican: It was difficult for sure
+<br>Player3-Democrat: It hard to count that fast
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:05:02,2023-06-21 12:11:15,IP Address,174.49.16.151,4,372,False,2023-06-28 12:11:16,R_2Yb8bv75MOlP4kh,,,,,,,anonymous,EN,I consent to the study.,6093e64876aa69cd4467d94e,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,7,R_2Yb8bv75MOlP4kh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:02:02,2023-06-28 12:11:17,IP Address,71.185.246.14,100,554,True,2023-06-28 12:11:17,R_1Ij8tIVsVIdHUlG,,,,,40.0146,-75.7136,anonymous,EN,I consent to the study.,607134f478e13587bd89e13a,"Yes, I understand.",134.756,134.756,135.294,1,0,0,3.112,0,45,0,0,15.49,0,0,0,22.349,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,619,156,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,7.634,0,0,0,11.308,0,0,0,25.11,0,,,,,,,,,,,0,0,15.12,0,Maybe,Neither Fairly or Unfairly,10,,,,,,,,,,,,,,,,,,How we view others and how we assume what their decisions are,Yes,,No,"I have no clue. ",On a desktop or laptop computer,,,29,Woman,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,54,R_1Ij8tIVsVIdHUlG,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: How many dots did you count?
+<br>Player3-Democrat: I estimated 45
+<br>Player1-Democrat: i guessed 45 too lol
+<br>Player2-Republican: Wow... my image was HUGE.  
+<br>Player1-Democrat: i underestimated
+<br>Player3-Democrat: me too
+<br>Player4-Republican: I estimated 123. There were lots of dots in mine.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 11:58:45,2023-06-28 12:13:33,IP Address,71.72.134.216,100,887,True,2023-06-28 12:13:34,R_3snacpDnJjaCBPD,,,,,40.0992,-84.6298,anonymous,EN,I consent to the study.,5d67476c0ca617001699fe7a,"Yes, I understand.",0,0,284.028,0,0,0,3.02,0,123,0,0,0.901,0,0,0,21.79,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,855,217,Region #2,Disagree,"Somewhat 
+Disagree
+3
+",0,0,10.173,0,0,0,16.059,0,13.182,14.641,25.016,2,I will choose,18.676,29.462,30.289,3,The Green Task,Yes,Somewhat Unfairly,8,"This is an interesting way to assign tasks. It seems a little unfair to the participants, though.",,,,,,,,,,,,,,,,,,,,,,,,,I think the purpose of this experiment was to understand how people interact with each other.,Yes,,Not Applicable (I was selected to choose tasks),,On a desktop or laptop computer,,I understood everything being asked of me. Thank you!,32,Woman,,White,Somewhat Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,54,R_3snacpDnJjaCBPD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: How many dots did you count?
+<br>Player3-Democrat: I estimated 45
+<br>Player1-Democrat: i guessed 45 too lol
+<br>Player2-Republican: Wow... my image was HUGE.  
+<br>Player1-Democrat: i underestimated
+<br>Player3-Democrat: me too
+<br>Player4-Republican: I estimated 123. There were lots of dots in mine.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 12:00:43,2023-06-28 12:14:16,IP Address,71.182.196.132,100,813,True,2023-06-28 12:14:17,R_2b2fxVUHa1JqJXM,,,,,40.4339,-79.9996,anonymous,EN,I consent to the study.,62a0f7db18a72f2654996af3,"Yes, I understand.",0,0,7.539,0,0,0,3.019,0,1120,0,0,0.45,0,0,0,22.835,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,778,281,Region #2,Neutral,"Somewhat 
+Disagree
+3
+",0,0,17.7,0,0,0,25.709,0,0,0,25.013,0,,,,,,,,,,,,,,,Yes,Neither Fairly or Unfairly,6,None.,,,,,0,0,45.011,0,,,,,,,,,which personalities will choose which tasks??,Yes,,Yes,,On a desktop or laptop computer,,"Best wishes to you in your research! All worked well on my end. ",41,Woman,,White,Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,53,R_2b2fxVUHa1JqJXM,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I was an over estimator lol
+<br>Player3-Democrat: Hi
+<br>Player4-Republican: I was an under estimator
+<br>Player2-Republican: How many did you guess? I guessed 88
+<br>Player4-Republican: hello
+<br>Player3-Democrat: I think its better to over estistmate then under
+<br>Player1-Democrat: I was told I was an under estimator
+<br>Player3-Democrat: I guessed 162
+<br>Player4-Republican: I guess 135
+<br>Player2-Republican: Nothing wrong with either
+<br>Player2-Republican: It was difficult for sure
+<br>Player3-Democrat: It hard to count that fast
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player1-Democrat: how did everyone go about estimating?
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 11:58:46,2023-06-28 12:15:04,IP Address,68.201.228.110,100,978,True,2023-06-28 12:15:05,R_4HESYHbmeAJZpC1,,,,,29.4032,-98.508,anonymous,EN,I consent to the study.,61fa92365719bc09cb8349bf,"Yes, I understand.",0,0,252.91,0,0,0,3.123,0,250,0,0,23.23,0,0,0,22.439,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,695,77,Region #2,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,10.866,0,0,0,19.066,0,0,0,25.015,0,,,,,,,,,,,,,,,Maybe,Unfairly,7,"People should always be considerate of others. ",,,,,0,0,45.109,0,,,,,,,,,"The purpose of this experiment is was to evaluate the decisions people make when assigning tasks to others. ",Yes,,Yes,,On a desktop or laptop computer,,"Thank you! ",49,Man,,White,Somewhat Conservative,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,54,R_4HESYHbmeAJZpC1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: How many dots did you count?
+<br>Player3-Democrat: I estimated 45
+<br>Player1-Democrat: i guessed 45 too lol
+<br>Player2-Republican: Wow... my image was HUGE.  
+<br>Player1-Democrat: i underestimated
+<br>Player3-Democrat: me too
+<br>Player4-Republican: I estimated 123. There were lots of dots in mine.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 12:03:57,2023-06-28 12:20:35,IP Address,67.0.73.94,100,997,True,2023-06-28 12:20:35,R_UsY8hH61hcFdZWp,,,,,35.0506,-106.7249,anonymous,EN,I consent to the study.,6019bbb66e5c2815ba3728b6,"Yes, I understand.",0,0,10.952,0,0,0,3.117,0,45,0,0,0.552,0,0,0,37.661,0,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,136,211,Region #1,Disagree,"Somewhat 
+Disagree
+3
+",0,0,33.473,0,0,0,28.824,0,0,0,25.113,0,,,,,,,,,,,,,,,Yes,Neither Fairly or Unfairly,8,no,,,,,,,,,0,0,45.111,0,,,,,I do not know,No,there was no small talk or uncertainty,No,this did not feel like something where all four participants went through it at the same pace and assignments could be handed out that quickly,On a desktop or laptop computer,,no,39,Woman,,"Asian,White",Very Liberal,I DO give my consent for you to use my data.,I agree with this statement,6392NwKkvp,Study2_MoHiPilot1,,54,R_UsY8hH61hcFdZWp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: How many dots did you count?
+<br>Player3-Democrat: I estimated 45
+<br>Player1-Democrat: i guessed 45 too lol
+<br>Player2-Republican: Wow... my image was HUGE.  
+<br>Player1-Democrat: i underestimated
+<br>Player3-Democrat: me too
+<br>Player4-Republican: I estimated 123. There were lots of dots in mine.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 11:58:22,2023-06-28 12:21:47,IP Address,69.133.21.32,100,1405,True,2023-06-28 12:21:48,R_1OpBKqG8rUKOCjD,,,,,37.737,-85.2108,anonymous,EN,I consent to the study.,63bf40687b33e43442effb9b,"Yes, I understand.",0,0,421.5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,58,R_1OpBKqG8rUKOCjD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:11:48,2023-06-28 12:21:59,IP Address,174.28.45.255,100,611,True,2023-06-28 12:22:00,R_9NTR87ujDkTyktb,,,,,35.1518,-106.5789,anonymous,EN,I consent to the study.,5ded9996838b4f45b83bb3f9,"Yes, I understand.",0,0,351.343,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,58,R_9NTR87ujDkTyktb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:24:20,2023-06-21 12:30:35,IP Address,71.162.2.89,4,374,False,2023-06-28 12:30:36,R_12hEYdJfwWyK8cX,,,,,,,anonymous,EN,I consent to the study.,601b28841ca7bb2f8edaa293,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,10,R_12hEYdJfwWyK8cX,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:29:05,2023-06-28 12:35:30,IP Address,67.172.14.192,100,385,True,2023-06-28 12:35:31,R_1FwFHTnAt3IfjN6,,,,,34.8108,-92.2249,anonymous,EN,I consent to the study.,56228c48ed6e5a0005c7fdd6,"Yes, I understand.",0,0,348.922,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,60,R_1FwFHTnAt3IfjN6,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:31:17,2023-06-28 12:35:34,IP Address,104.176.145.107,100,257,True,2023-06-28 12:35:35,R_6lg7dZLtgf4nfcR,,,,,33.5716,-101.8545,anonymous,EN,I consent to the study.,632b9d9bc38454f47019295c,"Yes, I understand.",0,0,198.484,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,60,R_6lg7dZLtgf4nfcR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:31:03,2023-06-28 12:37:55,IP Address,24.62.163.174,100,412,True,2023-06-28 12:37:56,R_R37oRnYmAm8OsIV,,,,,42.9621,-71.449,anonymous,EN,I consent to the study.,63403b7f3fd164408c5ad4b0,"Yes, I understand.",5.847,113.429,380.177,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,59,R_R37oRnYmAm8OsIV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:32:38,2023-06-28 12:38:00,IP Address,74.111.115.95,100,321,True,2023-06-28 12:38:00,R_23dg4n0OhEncOUb,,,,,40.4409,-79.9857,anonymous,EN,I consent to the study.,644150e6b846265e5d1c1d00,"Yes, I understand.",0,0,292.103,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,59,R_23dg4n0OhEncOUb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:34:22,2023-06-28 12:42:00,IP Address,71.200.172.171,100,457,True,2023-06-28 12:42:00,R_3L4NkqJQjFRe2u0,,,,,38.9187,-75.4291,anonymous,EN,I consent to the study.,595fdaa1d82b180001c6e460,"Yes, I understand.",0,0,394.204,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,62,R_3L4NkqJQjFRe2u0,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:40:33,2023-06-28 12:43:33,IP Address,173.185.198.127,100,180,True,2023-06-28 12:43:34,R_1lrSoZbaEjBUrB8,,,,,33.431,-93.8765,anonymous,EN,I consent to the study.,6034badeb512f97ce3682dc7,"Yes, I understand.",0,0,134.559,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,61,R_1lrSoZbaEjBUrB8,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:36:42,2023-06-28 12:43:41,IP Address,104.229.196.8,100,418,True,2023-06-28 12:43:41,R_1MSZ6YDiHYiGGvm,,,,,43.1702,-77.6923,anonymous,EN,I consent to the study.,615567110b3d6e418c6add32,"Yes, I understand.",0,0,359.906,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,61,R_1MSZ6YDiHYiGGvm,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:27:26,2023-06-28 12:44:03,IP Address,172.75.54.251,100,997,True,2023-06-28 12:44:03,R_1jpGxFH1WKZmxGU,,,,,33.0273,-80.1768,anonymous,EN,I consent to the study.,63bb51fc88e4ccb9c2d4f4d5,"Yes, I understand.",528.973,528.973,534.766,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,61,R_1jpGxFH1WKZmxGU,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:43:52,2023-06-21 12:46:02,IP Address,24.153.52.219,1,129,False,2023-06-28 12:46:03,R_2v9bygOhIY1Gp8D,,,,,,,anonymous,EN,I consent to the study.,64010a38650fe3a1a2de05a9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_2v9bygOhIY1Gp8D,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:44:31,2023-06-28 12:48:36,IP Address,162.212.60.209,100,245,True,2023-06-28 12:48:36,R_2xF6N6UAHBqjdCa,,,,,38.6664,-88.491,anonymous,EN,I consent to the study.,63e55887d67a5c7e32a678fa,"Yes, I understand.",0,0,193.493,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,63,R_2xF6N6UAHBqjdCa,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:42:18,2023-06-28 12:49:15,IP Address,107.145.168.111,100,417,True,2023-06-28 12:49:16,R_2VOUhQnusIDKuw3,,,,,29.2866,-81.0869,anonymous,EN,I consent to the study.,610c54c190d4d2399972b294,"Yes, I understand.",0,0,349.834,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,63,R_2VOUhQnusIDKuw3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:24,2023-06-21 12:53:09,IP Address,71.41.4.41,36,404,False,2023-06-28 12:53:15,R_27qkoVaT0wzYXeQ,,,,,,,anonymous,EN,I consent to the study.,6110c755a1c8745e0fc3056f,"Yes, I understand.",0,0,159.183,0,0,0,3.006,0,120,0,0,49.196,0,0,0,21.36,0,IM_bO9xxI7k0acNQKW,should have the saving of human lives as an important goal.,314,276,Region #1,Slightly Agree,"Somewhat 
+Disagree
+3
+",0,0,6.972,0,0,0,11.509,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,20,R_27qkoVaT0wzYXeQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,null,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 12:48:44,2023-06-28 12:55:14,IP Address,76.18.94.108,100,390,True,2023-06-28 12:55:14,R_21FLmHiT7zcT9FA,,,,,35.0781,-106.6583,anonymous,EN,I consent to the study.,5fefefa4c9707d3516361c9c,"Yes, I understand.",9.028,342.324,358.393,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,64,R_21FLmHiT7zcT9FA,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:48:53,2023-06-28 12:55:48,IP Address,70.179.89.144,100,415,True,2023-06-28 12:55:49,R_3lAcAH29HJF98As,,,,,37.6596,-97.5828,anonymous,EN,I consent to the study.,5ef9df1812148a78af8e76dc,"Yes, I understand.",319.788,350.464,352.889,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,65,R_3lAcAH29HJF98As,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:50:48,2023-06-28 12:56:03,IP Address,72.174.160.36,100,314,True,2023-06-28 12:56:03,R_3MMd1fOrNxlUVg1,,,,,46.1303,-112.9752,anonymous,EN,I consent to the study.,60dfd857e293a99dd577f4c8,"Yes, I understand.",231.266,231.266,232.129,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,65,R_3MMd1fOrNxlUVg1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:45:25,2023-06-28 12:56:22,IP Address,71.206.197.61,100,657,True,2023-06-28 12:56:23,R_3gTaqRdIRb3VFn4,,,,,40.3052,-79.5418,anonymous,EN,I consent to the study.,5b9845dfae52a00001482c02,"Yes, I understand.",2.761,2.761,395.046,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,64,R_3gTaqRdIRb3VFn4,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:27,2023-06-21 12:57:04,IP Address,104.238.254.220,85,517,False,2023-06-28 12:57:05,R_11dA7oYbAnpKw7V,,,,,,,anonymous,EN,I consent to the study.,5e2926d80beb030ede110e67,"Yes, I understand.",4.828,4.828,6.957,1,0,0,3.01,0,75,0,0,55.051,0,3.237,20.607,21.704,6,IM_3KUo7iTc8Zjnk46,has its most valuable achievements in medical applications.,774,292,Region #2,Slightly Disagree,"Somewhat 
+Disagree
+3
+",0,0,15.1,0,2.305,22.345,24.503,11,0,0,25.011,0,,,,,,,,,,,0,0,15.01,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,20,R_11dA7oYbAnpKw7V,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,null,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:40:34,2023-06-21 12:57:14,IP Address,64.39.90.127,18,1000,False,2023-06-28 12:57:16,R_xyZL1Ic5Pw7ZXZ7,,,,,,,anonymous,EN,I consent to the study.,615327ab3d238b032366a545,"Yes, I understand.",0,0,115.446,0,0,0,3.016,0,175,305.438,305.438,421.209,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,14,R_xyZL1Ic5Pw7ZXZ7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,null *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: Not sure what to do here. Waited forever to get on.
+<br>Player2-Republican: Hi there- I got a notification that the study was terminated?  Wondering why this advanced
+<br>Player4-Republican: Agreed
+<br>Player2-Republican: do we try to continue?
+<br>Player4-Republican: I waited quite awhile and contacted the researcher. No response.
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-28 12:55:12,2023-06-28 12:58:15,IP Address,24.96.119.84,100,183,True,2023-06-28 12:58:16,R_2eWMDlpUx3K8lwn,,,,,32.4691,-86.4784,anonymous,EN,I consent to the study.,628fb69f72e574bb9a8c1a47,"Yes, I understand.",0,0,24.861,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,66,R_2eWMDlpUx3K8lwn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:49:05,2023-06-28 12:58:46,IP Address,148.170.121.149,100,581,True,2023-06-28 12:58:47,R_vB7X5OhSzTfYqOd,,,,,36.1732,-85.4536,anonymous,EN,I consent to the study.,63c1d184883ce15537788b40,"Yes, I understand.",0,0,387.866,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,66,R_vB7X5OhSzTfYqOd,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:12,2023-06-21 13:00:58,IP Address,76.114.238.102,4,706,False,2023-06-28 13:01:02,R_bkGSjNP56nhUMdH,,,,,,,anonymous,EN,I consent to the study.,5f25c13cc7c8ea1ac7a0f863,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,36,R_bkGSjNP56nhUMdH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:35,2023-06-21 13:03:13,IP Address,174.198.131.99,14,877,False,2023-06-28 13:04:03,R_41s2Jy9chjX3BuN,,,,,,,anonymous,EN,I consent to the study.,63d8518247f4eb60f36dd960,"Yes, I understand.",366.977,395.292,507.021,4,0,0,3.042,0,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,43,R_41s2Jy9chjX3BuN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,null,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1,,,,,,
+2023-06-28 12:57:50,2023-06-28 13:04:09,IP Address,73.137.144.189,100,379,True,2023-06-28 13:04:09,R_3R3fPt8R9ak7V9h,,,,,33.2541,-84.2735,anonymous,EN,I consent to the study.,55ea70c37480920010aa9982,"Yes, I understand.",257.183,299.695,341.002,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,67,R_3R3fPt8R9ak7V9h,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 12:58:28,2023-06-28 13:04:20,IP Address,70.188.180.150,100,351,True,2023-06-28 13:04:21,R_1lyEfZAnNmo0Q9c,,,,,41.874,-71.3844,anonymous,EN,I consent to the study.,62fb84322433c8d7e890a145,"Yes, I understand.",0,0,253.442,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,67,R_1lyEfZAnNmo0Q9c,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:56:20,2023-06-21 13:04:44,IP Address,174.238.172.102,4,503,False,2023-06-28 13:04:46,R_2UgvMEcIiyG3Eik,,,,,,,anonymous,EN,I consent to the study.,600c167e28de48080e812884,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,46,R_2UgvMEcIiyG3Eik,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:07,2023-06-21 13:07:21,IP Address,67.165.58.165,1,1213,False,2023-06-28 13:07:23,R_x6eMk1rZdZEESGt,,,,,,,anonymous,EN,I consent to the study.,610309d6b51e8a9a5da8a6f4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,,R_x6eMk1rZdZEESGt,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:03:25,2023-06-28 13:07:58,IP Address,66.25.40.80,100,272,True,2023-06-28 13:07:58,R_3dMpUJQeehLqPwa,,,,,32.9887,-95.94,anonymous,EN,I consent to the study.,62fbdda6e4b5a034b71296f8,"Yes, I understand.",222.538,222.538,225.045,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,68,R_3dMpUJQeehLqPwa,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:01:24,2023-06-28 13:07:58,IP Address,72.71.252.251,100,394,True,2023-06-28 13:07:59,R_cT8rYkDMMLK8hXP,,,,,42.7574,-72.1464,anonymous,EN,I consent to the study.,5dcefcd0307b8d05031d7264,"Yes, I understand.",325.61,325.61,349.996,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,68,R_cT8rYkDMMLK8hXP,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:58:01,2023-06-21 13:07:55,IP Address,66.38.103.191,18,593,False,2023-06-28 13:08:00,R_tSUUhkEuWmCerXr,,,,,,,anonymous,EN,I consent to the study.,60e4c09a4b30f16f5a1053e7,"Yes, I understand.",0,0,41.649,0,0,0,3.02,0,75,0,0,340.068,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,43,R_tSUUhkEuWmCerXr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,null *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: it's too bad the dem dropped out
+<br>Player4-Republican: I guess....
+<br>Player2-Republican: it was not too difficult to estimate the spots even though i was under
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:54:59,2023-06-21 13:13:05,IP Address,104.223.103.115,4,1086,False,2023-06-28 13:13:07,R_1g2uucsu8Ogewl3,,,,,,,anonymous,EN,I consent to the study.,6476c9f4663c454f80fc60c8,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,48,R_1g2uucsu8Ogewl3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:39:40,2023-06-21 13:17:11,IP Address,207.38.152.29,14,2250,False,2023-06-28 13:17:12,R_1M4ZR2SIq4lPXKp,,,,,,,anonymous,EN,I consent to the study.,6019e00ed94edf15326f30f3,"Yes, I understand.",0,0,257.684,0,0,0,3.006,0,300,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,14,R_1M4ZR2SIq4lPXKp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,null,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1,,,,,,
+2023-06-21 12:49:13,2023-06-21 13:26:06,IP Address,75.138.114.180,4,2213,False,2023-06-28 13:26:09,R_PNlQJwAQTuQaG3L,,,,,,,anonymous,EN,I consent to the study.,601373dbd735b324b32818bd,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,41,R_PNlQJwAQTuQaG3L,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:31:25,2023-06-28 13:34:15,IP Address,73.133.225.81,100,170,True,2023-06-28 13:34:16,R_3dRL1U0NgSCVwxU,,,,,38.7332,-75.1833,anonymous,EN,I consent to the study.,61575f1257634f8182c29c16,"Yes, I understand.",0,0,142.157,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,69,R_3dRL1U0NgSCVwxU,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:27:48,2023-06-28 13:34:16,IP Address,23.243.192.241,100,387,True,2023-06-28 13:34:16,R_TpiV5GeEPpkeaAN,,,,,33.7499,-117.9071,anonymous,EN,I consent to the study.,5abc3250a3ba7a0001b44c37,"Yes, I understand.",0,0,366.273,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,69,R_TpiV5GeEPpkeaAN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:27:56,2023-06-28 13:34:23,IP Address,73.16.115.47,100,386,True,2023-06-28 13:34:23,R_2PBaEBWGtxvbrXZ,,,,,42.5181,-70.899,anonymous,EN,I consent to the study.,63f77918727a980f950a4e86,"Yes, I understand.",306.698,342.338,356.377,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,69,R_2PBaEBWGtxvbrXZ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:44:37,2023-06-28 13:51:15,IP Address,173.59.56.251,100,398,True,2023-06-28 13:51:16,R_aXb1bPKnma1qvoR,,,,,40.1435,-75.3779,anonymous,EN,I consent to the study.,5f4a0168c53d365702393870,"Yes, I understand.",336.013,336.013,363.354,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,70,R_aXb1bPKnma1qvoR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:24:06,2023-06-21 13:57:43,IP Address,199.66.169.163,4,5616,False,2023-06-28 13:57:48,R_3EYGz1RFiDBql59,,,,,,,anonymous,EN,I consent to the study.,5eb983034987d1074b5232ce,"Yes, I understand.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,14,R_3EYGz1RFiDBql59,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,null,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:53:14,2023-06-28 14:00:54,IP Address,97.102.8.130,100,460,True,2023-06-28 14:00:54,R_BPXB4vQw7lOcpGh,,,,,28.1822,-80.6117,anonymous,EN,I consent to the study.,6277f959ae36650e8c621776,"Yes, I understand.",310.595,343.815,410.497,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,71,R_BPXB4vQw7lOcpGh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 13:54:08,2023-06-28 14:00:54,IP Address,75.30.94.17,100,406,True,2023-06-28 14:00:54,R_1QnF5Ub2AljsMYe,,,,,39.7536,-86.1935,anonymous,EN,I consent to the study.,5dd1dc9110420023be388e5d,"Yes, I understand.",0,0,360.028,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,71,R_1QnF5Ub2AljsMYe,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-28 15:24:09,2023-06-28 15:31:50,IP Address,67.1.235.104,100,461,True,2023-06-28 15:31:50,R_25uyPqdzgq7a4o8,,,,,32.1943,-110.9767,anonymous,EN,I consent to the study.,63d3fec908b40217bbd48993,"Yes, I understand.",0,0,443.818,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,74,R_25uyPqdzgq7a4o8,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,

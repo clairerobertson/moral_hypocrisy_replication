@@ -13,7 +13,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "TOSTER", "reghelper")
+packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "TOSTER", "reghelper", "stats", "multcomp")
 ipak(packages)
 
 ## Code written using Pilot 2 Data 
@@ -35,12 +35,12 @@ data <- data %>%
 
 ## For Proposed Analyses -- Simulate Collective Identification scores
 data <- data %>% 
-  mutate(collective1 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective2 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective3 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective4 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective5 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective6 = sample(1:7, 200, replace = T))
+  mutate(collective1 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective2 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective3 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective4 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective5 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective6 = sample(1:7, 149, replace = T))
 
 #Create average difference score for collective identification. 
 data <- data %>% 
@@ -115,22 +115,44 @@ data_subset <- data %>%
 data_subset %>% group_by(condition) %>% 
   summarise(mean = mean(full_fairness))
 
-## Set Up contrasts ## 
-levels(data_subset$condition.f)
-#H1: self vs. all others. 
-contrast1 = c(3, -1, -1, -1)
-#H2: ingroup vs. outgroup
-contrast2 = c(0,0,1,-1)
-#H3: self & ingroup vs. other & outgroup
-contrast3 = c(1, -1, 1, -1)
+contrast_matrix <- matrix(c(3, -1, -1, -1, 0, 0, 1, -1, 1, -1, 1, -1), ncol = 4, byrow = TRUE)
+colnames(contrast_matrix) <- c("self", "other", "ingroup", "outgroup")
+rownames(contrast_matrix) <- c("self_vs_all", "ingroup_vs_outgroup", "selfingroup_vs_otheroutgroup")
 
-contrasts(data_subset$condition.f) = cbind(contrast1, contrast2, contrast3)
-contrasts(data_subset$condition.f)
+# Create dummy variables for categorical variable "Group"
+data_subset <- data_subset %>%
+  mutate(self = as.numeric(condition.f == "self"),
+         other = as.numeric(condition.f == "other"),
+         ingroup = as.numeric(condition.f == "ingroup"),
+         outgroup = as.numeric(condition.f == "outgroup"))
+
+# Fit the linear regression model with the contrast variables
+model <- lm(full_fairness ~ other + ingroup + outgroup, data = data_subset)
+summary(model)
+
+model2 <- lm(full_fairness ~ condition.f, data = data_subset)
+summary(model2)
+
+for_contrast <- emmeans(model2, ~ condition.f)
+
+Contrasts = list(self_vs_all = c(3, -1, -1, -1),
+                 ingroup_vs_outgroup = c(0, 0, 1, -1),
+                 selfingroup_vs_otheroutgroup = c(1, -1, 1, -1))
+
+contrast(for_contrast, Contrasts)
+
+
+contrasts_results <- glht(model, linfct = contrast_matrix, alternative = "two.sided")
+summary(contrasts_results)
+
 
 
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(full_fairness ~ condition.f, data = data_subset)
 summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+
+model_1 <- lm(full_fairness ~ condition.f, data = data_subset)
+summary(model_1)
 
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), ci = .90, alternative = "greater")
@@ -139,7 +161,7 @@ F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), 
 tsum_TOST(m=0, mu=0, sd=0, n=0,low_eqbound_d=-0.2, high_eqbound_d=0.2, alpha=0.05)
 
 ## H6: Collective Identification ## 
-## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
+## does effect of ingroup or outgroup status on fairness depends on collective identification? 
 
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, 0, 1)))

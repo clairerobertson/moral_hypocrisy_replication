@@ -1,0 +1,548 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,consent,prolific_id,Q145,match timer_First Click,match timer_Last Click,match timer_Page Submit,match timer_Click Count,Q29_First Click,Q29_Last Click,Q29_Page Submit,Q29_Click Count,Q28,get timer_First Click,get timer_Last Click,get timer_Page Submit,get timer_Click Count,Q60_First Click,Q60_Last Click,Q60_Page Submit,Q60_Click Count,Q83,Q87,Q90_1_x,Q90_1_y,Q90,Q91,attn_check,Q147_First Click,Q147_Last Click,Q147_Page Submit,Q147_Click Count,Q55_First Click,Q55_Last Click,Q55_Page Submit,Q55_Click Count,Q57_First Click,Q57_Last Click,Q57_Page Submit,Q57_Click Count,Q20,Q100_First Click,Q100_Last Click,Q100_Page Submit,Q100_Click Count,Q84,Q141,Q142,Q143_1,Q144,Q34_First Click,Q34_Last Click,Q34_Page Submit,Q34_Click Count,fairness(new),Q31,guesstimate(new)_1,feedback (new),Q167_First Click,Q167_Last Click,Q167_Page Submit,Q167_Click Count,Q76_First Click,Q76_Last Click,Q76_Page Submit,Q76_Click Count,Q172_First Click,Q172_Last Click,Q172_Page Submit,Q172_Click Count,Q177_First Click,Q177_Last Click,Q177_Page Submit,Q177_Click Count,Q94,Q95,Q129,Q96,Q128,desktop,desktop_4_TEXT,Q131,age,gender,gender_5_TEXT,ethnicity,pol_or,Q102,Q103,researcherID,studyID,Create New Field or Choose From Dropdown...,groupID,participantID,groupSize,numStages,roles,participantRole,timeOutLog,maxWaitTime,id,botMatch,matchAlert,participantStatus,sendData,sendStage,getStage,getData,saveData,getWaitText,freezeTime,chatLog,chatDuration,chatName,chatWindowWidth,chatWindowHeight,chatInstructions
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,consent,Please input your Prolific ID.,"Please check here to signify that you understand that you should not refresh your browser, and that there will be periods of waiting in this survey.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Are you an Overestimator, or Underestimator? 
+
+
+
+Approximately how many dots were in the previous image?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Mental Rotation Task 
+
+ 
+
+Looking at the shape below, select the photo that depicts the same shape, rotated in space.","Logic Problem
+
+
+
+Please read the following carefully, then select the answer you believe to be most correct. 
+
+ 
+
+Laird: Pure research provides us with new technologies that contribute to saving lives. Even more worthwhile than this, however, is its role in expanding our knowledge and providing new, unexplored ideas.
+
+Kim: Your priorities are mistaken. Saving lives is what counts most of all. Without pure research, medicine would not be as advanced as it is.
+
+Laird and Kim disagree on whether pure research...","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - 1 - X","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - 1 - Y","Spot the Difference 
+
+ 
+
+Some things are different in the images below. Please click on the image where one of the differences is. - Regions","Survey Question
+
+ 
+
+Please answer the following question honestly. We are interested in how people score on a variety of personality measures. 
+
+ 
+
+ 
+
+I am the life of the party.","There are lots of different types of questions that we may ask participants. Some types of questions look at personality, whereas others may test certain sets of skills. Others may test to ensure that participants read the entire question. Please select ""Somewhat Disagree"" from the selection below.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,How would you like to assign tasks?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Which task would you like to assign to YOURSELF? 
+(Remember, whichever task you do not choose will be assigned to another participant.)",Do you think the assignment procedure for tasks is blind (e.g. the researchers are not assigning tasks)?,How fairly did you act when assigning the tasks?,How likely do you think people are to assign themselves the green task? - Green Task,"Do you have any other feedback on the new ""experimenter-blind"" task assignment procedure?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Do you think the assignment procedure for tasks is blind (e.g. the researchers are not assigning tasks)?,How fairly did the other participant act when assigning the tasks?,How likely do you think people are to assign themselves the green task? - Green Task,"Do you have any other feedback on the new ""experimenter-blind"" task assignment procedure?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,What did you think was the purpose of this experiment?,Did you believe that you were talking to real people in the chat phase?,Why Not?,Did you believe that the other participants were actually assigning tasks?,Why Not?,How did you complete this survey? This will not affect your payment. - Selected Choice,How did you complete this survey? This will not affect your payment. - Other - Text,Is there anything else you'd like us to know?,What is your age?,How do you currently describe your gender identity? - Selected Choice,How do you currently describe your gender identity? - Something not listed here - Text,What categories describe you? Please select all that apply.,"Overall, on the following scale of political orientation [from Very Liberal to Very Conservative], where would you place yourself?",Q102,"I feel that I have been adequately debriefed about the nature of the study. The investigator has explained the purposes of the research to me, and I feel that any questions I have asked were satisfactorily answered.",researcherID,studyID,Create New Field or Choose From Dropdown...,groupID,participantID,groupSize,numStages,roles,participantRole,timeOutLog,maxWaitTime,id,botMatch,matchAlert,participantStatus,sendData,sendStage,getStage,getData,saveData,getWaitText,freezeTime,chatLog,chatDuration,chatName,chatWindowWidth,chatWindowHeight,chatInstructions
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID14""}","{""ImportId"":""QID154_TEXT""}","{""ImportId"":""QID153""}","{""ImportId"":""QID9_FIRST_CLICK""}","{""ImportId"":""QID9_LAST_CLICK""}","{""ImportId"":""QID9_PAGE_SUBMIT""}","{""ImportId"":""QID9_CLICK_COUNT""}","{""ImportId"":""QID37_FIRST_CLICK""}","{""ImportId"":""QID37_LAST_CLICK""}","{""ImportId"":""QID37_PAGE_SUBMIT""}","{""ImportId"":""QID37_CLICK_COUNT""}","{""ImportId"":""QID36_TEXT""}","{""ImportId"":""QID120_FIRST_CLICK""}","{""ImportId"":""QID120_LAST_CLICK""}","{""ImportId"":""QID120_PAGE_SUBMIT""}","{""ImportId"":""QID120_CLICK_COUNT""}","{""ImportId"":""QID68_FIRST_CLICK""}","{""ImportId"":""QID68_LAST_CLICK""}","{""ImportId"":""QID68_PAGE_SUBMIT""}","{""ImportId"":""QID68_CLICK_COUNT""}","{""ImportId"":""QID91""}","{""ImportId"":""QID95""}","{""ImportId"":""QID98"",""point"":1,""coord"":""x""}","{""ImportId"":""QID98"",""point"":1,""coord"":""y""}","{""ImportId"":""QID98_REGIONS""}","{""ImportId"":""QID99""}","{""ImportId"":""QID145""}","{""ImportId"":""QID155_FIRST_CLICK""}","{""ImportId"":""QID155_LAST_CLICK""}","{""ImportId"":""QID155_PAGE_SUBMIT""}","{""ImportId"":""QID155_CLICK_COUNT""}","{""ImportId"":""QID63_FIRST_CLICK""}","{""ImportId"":""QID63_LAST_CLICK""}","{""ImportId"":""QID63_PAGE_SUBMIT""}","{""ImportId"":""QID63_CLICK_COUNT""}","{""ImportId"":""QID65_FIRST_CLICK""}","{""ImportId"":""QID65_LAST_CLICK""}","{""ImportId"":""QID65_PAGE_SUBMIT""}","{""ImportId"":""QID65_CLICK_COUNT""}","{""ImportId"":""QID32""}","{""ImportId"":""QID108_FIRST_CLICK""}","{""ImportId"":""QID108_LAST_CLICK""}","{""ImportId"":""QID108_PAGE_SUBMIT""}","{""ImportId"":""QID108_CLICK_COUNT""}","{""ImportId"":""QID92""}","{""ImportId"":""QID141""}","{""ImportId"":""QID142""}","{""ImportId"":""QID143_1""}","{""ImportId"":""QID144_TEXT""}","{""ImportId"":""QID42_FIRST_CLICK""}","{""ImportId"":""QID42_LAST_CLICK""}","{""ImportId"":""QID42_PAGE_SUBMIT""}","{""ImportId"":""QID42_CLICK_COUNT""}","{""ImportId"":""QID25""}","{""ImportId"":""QID28""}","{""ImportId"":""QID26_1""}","{""ImportId"":""QID27_TEXT""}","{""ImportId"":""QID167_FIRST_CLICK""}","{""ImportId"":""QID167_LAST_CLICK""}","{""ImportId"":""QID167_PAGE_SUBMIT""}","{""ImportId"":""QID167_CLICK_COUNT""}","{""ImportId"":""QID84_FIRST_CLICK""}","{""ImportId"":""QID84_LAST_CLICK""}","{""ImportId"":""QID84_PAGE_SUBMIT""}","{""ImportId"":""QID84_CLICK_COUNT""}","{""ImportId"":""QID172_FIRST_CLICK""}","{""ImportId"":""QID172_LAST_CLICK""}","{""ImportId"":""QID172_PAGE_SUBMIT""}","{""ImportId"":""QID172_CLICK_COUNT""}","{""ImportId"":""QID177_FIRST_CLICK""}","{""ImportId"":""QID177_LAST_CLICK""}","{""ImportId"":""QID177_PAGE_SUBMIT""}","{""ImportId"":""QID177_CLICK_COUNT""}","{""ImportId"":""QID102_TEXT""}","{""ImportId"":""QID103""}","{""ImportId"":""QID137_TEXT""}","{""ImportId"":""QID104""}","{""ImportId"":""QID136_TEXT""}","{""ImportId"":""QID161""}","{""ImportId"":""QID161_4_TEXT""}","{""ImportId"":""QID139_TEXT""}","{""ImportId"":""QID150""}","{""ImportId"":""QID151""}","{""ImportId"":""QID151_5_TEXT""}","{""ImportId"":""QID152""}","{""ImportId"":""QID149""}","{""ImportId"":""QID110""}","{""ImportId"":""QID111""}","{""ImportId"":""researcherID""}","{""ImportId"":""studyID""}","{""ImportId"":""Create New Field or Choose From Dropdown...""}","{""ImportId"":""groupID""}","{""ImportId"":""participantID""}","{""ImportId"":""groupSize""}","{""ImportId"":""numStages""}","{""ImportId"":""roles""}","{""ImportId"":""participantRole""}","{""ImportId"":""timeOutLog""}","{""ImportId"":""maxWaitTime""}","{""ImportId"":""id""}","{""ImportId"":""botMatch""}","{""ImportId"":""matchAlert""}","{""ImportId"":""participantStatus""}","{""ImportId"":""sendData""}","{""ImportId"":""sendStage""}","{""ImportId"":""getStage""}","{""ImportId"":""getData""}","{""ImportId"":""saveData""}","{""ImportId"":""getWaitText""}","{""ImportId"":""freezeTime""}","{""ImportId"":""chatLog""}","{""ImportId"":""chatDuration""}","{""ImportId"":""chatName""}","{""ImportId"":""chatWindowWidth""}","{""ImportId"":""chatWindowHeight""}","{""ImportId"":""chatInstructions""}"
+2023-06-15 15:31:39,2023-06-15 15:40:01,0,47.230.202.136,100,502,1,2023-06-15 15:40:02,R_10vJwxMk0zuVwkQ,,,,,40.7279,-73.9966,anonymous,EN,1,mad_dem_1,1,0,0,54.109,0,0,0,3.114,0,33,0,0,4.655,0,0,0,22.04,0,1,1,300,267,Region #1,16,3,0,0,23.933,0,0,0,25.268,0,0,0,25.107,0,,,,,,,,,,,0,0,15.008,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,6392NwKkvp,Study2_MoHiPilot1,,1,R_10vJwxMk0zuVwkQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:31:57,2023-06-15 15:40:18,0,47.230.202.136,100,500,1,2023-06-15 15:40:18,R_RQPWMEIrPN5PSjT,,,,,40.7279,-73.9966,anonymous,EN,1,mad_dem_2,1,0,0,36.644,0,0,0,3.008,0,33,0,0,1.617,0,0,0,27.361,0,1,2,,,,16,3,0,0,12.352,0,0,0,10.864,0,0,0,25.006,0,2,2.577,33.708,34.381,2,,1,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,6392NwKkvp,Study2_MoHiPilot1,,1,R_RQPWMEIrPN5PSjT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:28:21,2023-06-15 15:40:26,0,47.230.202.136,100,724,1,2023-06-15 15:40:26,R_1NEcm3K97YPFRgp,,,,,40.7279,-73.9966,anonymous,EN,1,mad_repub_1,1,0,0,247.727,0,0,0,3.114,0,33,0,0,0.435,0,0,0,53.44,0,1,,656,267,Region #2,16,3,0,0,9.45,0,0,0,12.518,0,0,0,25.108,0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,45.109,0,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,1,R_1NEcm3K97YPFRgp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-15 15:32:24,2023-06-15 15:40:37,0,47.230.202.136,100,493,1,2023-06-15 15:40:38,R_1QA4PFqgH9xeQvt,,,,,40.7279,-73.9966,anonymous,EN,1,mad_repub_2,1,0,0,9.661,0,0,0,3.112,0,33,0,0,0.589,0,0,0,53.354,0,1,1,598,221,Region #2,16,3,0,0,9.933,0,0,0,14.3,0,0,0,25.109,0,,,,,,,,,,,,,,,,,,,,,,,0,0,45.009,0,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,1,R_1QA4PFqgH9xeQvt,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: hey
+<br>Player3-Democrat: hey
+<br>Player4-Republican: what's up
+<br>Player2-Republican: heyooo
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 11:42:59,2023-06-21 11:49:17,0,97.97.50.179,100,377,1,2023-06-21 11:49:18,R_1juKRkegzWQb1zQ,,,,,28.2475,-82.4943,anonymous,EN,1,5de5496937e1d50ca63e0fa5,1,0,0,340.828,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,3,R_1juKRkegzWQb1zQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 11:56:12,2023-06-21 12:02:47,0,64.191.56.48,100,395,1,2023-06-21 12:02:48,R_ueuvWXBt1vkq18Z,,,,,33.5637,-83.1702,anonymous,EN,1,614e3f7def73ee04e730819e,1,0,0,332.493,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,2,R_ueuvWXBt1vkq18Z,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 11:48:09,2023-06-21 12:02:51,0,150.135.165.27,100,882,1,2023-06-21 12:02:52,R_1H8NxamSDpyg6Z5,,,,,32.2503,-110.945,anonymous,EN,1,64038d5b9885a68aefca0f62,1,5.883,323.484,367.623,11,0,0,3.023,0,50,45.595,46.217,66.908,2,0,0,23.35,0,1,5,618,159,Region #2,14,3,9.197,9.197,10.251,1,0,0,13.421,0,0,0,26.512,0,2,3.256,3.256,39.745,1,,1,4,8,,,,,,,,,,,,,,,,,,,,,,,,,,Do people take the easier option even if its not fair?,2,It was obvious the timers were fake. Lots of studies do this.,2,It is all pre-programmed time limits.,1,,,15,1,,4,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,4,R_1H8NxamSDpyg6Z5,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,vailable participant -- Survey terminated *** BOT in role Player1-Democrat responded: terminated (stage 1). *** BOT in role Player2-Republican responded: terminated (stage 1). *** BOT in role Player3-Democrat responded: terminated (stage 1).,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: It just looked like 50 to me
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 11:58:09,2023-06-21 12:04:28,0,73.205.14.103,100,379,1,2023-06-21 12:04:29,R_21ziR9QPYHo4uay,,,,,27.2621,-80.3835,anonymous,EN,1,6025b3681ff1521a3369dffe,1,0,0,351.836,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,5,R_21ziR9QPYHo4uay,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:03:49,2023-06-21 12:09:56,0,68.194.82.131,100,367,1,2023-06-21 12:09:57,R_2sX66aZqYYQof3J,,,,,40.6739,-73.9358,anonymous,EN,1,632890876b6124c7a15d06f6,1,0,0,333.014,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,6,R_2sX66aZqYYQof3J,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:05:00,2023-06-21 12:09:57,0,128.151.71.24,100,297,1,2023-06-21 12:09:57,R_2EHkrghDYH2kiBj,,,,,43.1661,-77.5555,anonymous,EN,1,63d13b586b230d231577a44b@email.prolific.co,1,0,0,256.633,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,6,R_2EHkrghDYH2kiBj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:05:24,2023-06-21 12:11:36,0,68.98.71.69,100,371,1,2023-06-21 12:11:37,R_3m7rMo582OrZ1yB,,,,,33.5112,-111.9078,anonymous,EN,1,64664088b810d4242bf8a2ca,1,0,0,321.499,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,7,R_3m7rMo582OrZ1yB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:13:12,2023-06-21 12:18:02,0,100.35.129.114,100,289,1,2023-06-21 12:18:03,R_XAoIqqYODtXT1CN,,,,,40.2459,-74.2813,anonymous,EN,1,6102c1985bc0272a6ac32793,1,0,0,251.719,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,8,R_XAoIqqYODtXT1CN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:10:38,2023-06-21 12:18:04,0,165.225.39.103,100,446,1,2023-06-21 12:18:05,R_1oFlgrpuwExmRgv,,,,,40.7123,-74.0068,anonymous,EN,1,6111ef051e899f4e467f4bf1,1,0,0,344.773,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,8,R_1oFlgrpuwExmRgv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:17:37,2023-06-21 12:23:57,0,98.198.202.191,100,379,1,2023-06-21 12:23:58,R_24eiLpgLUKleH1S,,,,,29.7912,-95.4182,anonymous,EN,1,5c086d3d3be61100011a694d,1,342.553,342.553,344.251,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_24eiLpgLUKleH1S,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:22:24,2023-06-21 12:24:12,0,73.234.2.117,100,107,1,2023-06-21 12:24:12,R_231vKjYPWV9in4N,,,,,41.4939,-73.0517,anonymous,EN,1,62e027478bb6dca099c2e207,1,0,0,85.896,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_231vKjYPWV9in4N,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:20:50,2023-06-21 12:24:16,0,99.76.225.192,100,206,1,2023-06-21 12:24:17,R_Q9AsnhAioeQgghz,,,,,32.7616,-117.2058,anonymous,EN,1,608e2cb9067eb028500433d5,1,0,0,106.681,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,9,R_Q9AsnhAioeQgghz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:26:09,2023-06-21 12:32:12,0,45.43.108.210,100,362,1,2023-06-21 12:32:12,R_31yZJ7WFxQgzMKD,,,,,35.2527,-85.163,anonymous,EN,1,5c06b3f64a2b7b0001c3c185,1,11.799,326.521,327.853,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,11,R_31yZJ7WFxQgzMKD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:26:22,2023-06-21 12:32:21,0,66.68.10.75,100,359,1,2023-06-21 12:32:22,R_2E4WBdnHdCUGRYY,,,,,30.5045,-97.8209,anonymous,EN,1,5df2f2ed4c81b2201c6c782e,1,0,0,285.437,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,11,R_2E4WBdnHdCUGRYY,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:28:10,2023-06-21 12:35:29,0,47.26.189.200,100,439,1,2023-06-21 12:35:29,R_1gjNbxnpz5kILVW,,,,,45.2644,-85.2245,anonymous,EN,1,5b98d9362cca9c0001de161f,1,0,0,385.136,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,12,R_1gjNbxnpz5kILVW,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:31:58,2023-06-21 12:35:35,0,208.127.226.48,100,217,1,2023-06-21 12:35:35,R_2UgcFZ2n3ZupjLf,,,,,40.7279,-73.9966,anonymous,EN,1,61005133f83578f7fdcb2a59,1,166.271,168.543,183.933,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,12,R_2UgcFZ2n3ZupjLf,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:30:52,2023-06-21 12:37:18,0,24.194.164.143,100,386,1,2023-06-21 12:37:18,R_21tgUhIYJGZaEAO,,,,,42.6842,-73.6434,anonymous,EN,1,62cec3cb41e7c7bf53ff6191,1,0,0,349.147,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,10,R_21tgUhIYJGZaEAO,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:35:32,2023-06-21 12:37:18,0,108.35.99.15,100,106,1,2023-06-21 12:37:19,R_AdIu3PxXE23pWgh,,,,,40.6129,-74.416,anonymous,EN,1,63ac69ac461e034cde56751a,1,0,0,48.705,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,10,R_AdIu3PxXE23pWgh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:33:58,2023-06-21 12:42:51,0,100.17.20.13,100,533,1,2023-06-21 12:42:52,R_1Q4MdbT9qqxSzir,,,,,42.4881,-71.2758,anonymous,EN,1,5dd4070a57a7e13efe25534a,1,0,0,337.322,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,15,R_1Q4MdbT9qqxSzir,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:39:45,2023-06-21 12:42:56,0,98.118.167.217,100,190,1,2023-06-21 12:42:56,R_1mlMshA1YKXuibR,,,,,42.9685,-78.7492,anonymous,EN,1,63d13f416b2c25038c13007f,1,0,0,132.164,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,15,R_1mlMshA1YKXuibR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:42:37,2023-06-21 12:43:34,0,68.46.116.147,100,56,1,2023-06-21 12:43:34,R_eOMlBmvngsheRoZ,,,,,45.1181,-93.3078,anonymous,EN,1,5e6482c9142c3c204d56baa0,1,26.214,27.354,28.555,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,16,R_eOMlBmvngsheRoZ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:37:21,2023-06-21 12:43:40,0,152.208.54.165,100,379,1,2023-06-21 12:43:41,R_2UYjn4daYqaMGUz,,,,,40.2927,-76.817,anonymous,EN,1,558955ebfdf99b6bd06016c9,1,0,0,357.345,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,16,R_2UYjn4daYqaMGUz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:38:18,2023-06-21 12:45:02,0,70.190.237.129,100,403,1,2023-06-21 12:45:02,R_3O7ERQIMs61oWNf,,,,,33.4475,-112.0866,anonymous,EN,1,63d1401242635aaffe867c4c,1,0,0,345.374,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,17,R_3O7ERQIMs61oWNf,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:43:20,2023-06-21 12:45:04,0,135.26.211.98,100,103,1,2023-06-21 12:45:04,R_24voeM7uj0bw62m,,,,,39.4796,-88.3755,anonymous,EN,1,5fee99daeae54318b087e9b5,1,74.082,74.082,74.482,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,17,R_24voeM7uj0bw62m,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:41:02,2023-06-21 12:47:11,0,75.182.255.242,100,369,1,2023-06-21 12:47:12,R_1LnEVvHsWzXxW0w,,,,,36.1219,-79.7777,anonymous,EN,1,5ee3fbb98976fc0f59fe2939,1,334.585,334.585,334.825,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,18,R_1LnEVvHsWzXxW0w,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:44:59,2023-06-21 12:47:18,0,73.213.49.181,100,139,1,2023-06-21 12:47:19,R_1mXIynEP9RXGNdj,,,,,39.1723,-77.183,anonymous,EN,1,63d2f3294efc674f84b302d2,1,0,0,81.774,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,18,R_1mXIynEP9RXGNdj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:37:41,2023-06-21 12:47:36,0,104.62.54.67,100,594,1,2023-06-21 12:47:36,R_3fdDgCR8zaBffOV,,,,,26.3796,-80.1029,anonymous,EN,1,6400dd2b5b4a2803b2fce1dc,1,0,0,39.9,0,0,0,3.007,0,60,0,0,29.066,0,0,0,22.333,0,1,4,414,48,Region #1,14,3,0,0,7.021,0,0,0,12.077,0,0,0,25.118,0,,,,,,,,,,,,,,,1,4,9,,,,,,0,0,45.006,0,,,,,,,,,Don't know,1,,1,,1,,,15,1,,4,7,1,1,6392NwKkvp,Study2_MoHiPilot1,,13,R_3fdDgCR8zaBffOV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:38:30,2023-06-21 12:48:47,0,73.193.197.140,100,617,1,2023-06-21 12:48:48,R_12hBQwupmLQV13n,,,,,40.0305,-74.9528,anonymous,EN,1,63b18d94775ad4aad221103c,1,0,0,8.382,0,2.54,2.54,3.015,1,60,0,0,0.304,0,7.129,7.129,24.678,1,1,4,873,49,Region #2,18,3,0,0,7.041,0,12.786,12.786,13.23,1,0,0,25.022,0,,,,,,,,,,,,,,,1,6,10,no,,,,,,,,,0,0,45.074,0,,,,,To find out how people make their decisions,1,,1,,1,,no,48,4,,7,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,13,R_12hBQwupmLQV13n,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: yes
+<br>",,chatLog,,,
+2023-06-21 12:43:05,2023-06-21 12:49:11,0,152.1.20.202,100,366,1,2023-06-21 12:49:11,R_1hKfR4ZlUCJzKAG,,,,,35.9825,-78.5376,anonymous,EN,1,610414b7a275aba12c4bf8b0610414b,1,334.408,334.408,334.735,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1hKfR4ZlUCJzKAG,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:35:15,2023-06-21 12:49:14,0,47.42.116.6,100,839,1,2023-06-21 12:49:14,R_2CwzejNTLiXA9wy,,,,,32.7254,-97.3208,anonymous,EN,1,60aee0858e96f753f593b729,1,0,0,167.301,0,0,0,3.11,0,78,0,0,32.51,0,2.293,14.63,35.71,2,1,2,103,345,Region #1,15,3,0,0,9.788,0,20.197,20.197,24.822,1,0,0,25.115,0,,,,,,,,,,,0,0,15.106,0,1,3,10,none,,,,,,,,,,,,,,,,,To see how we would judge if we were to be given a choice or had no choice in someone making a decision,1,,1,,1,,None,18,2,,4,1,1,1,6392NwKkvp,Study2_MoHiPilot1,,13,R_2CwzejNTLiXA9wy,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:45:55,2023-06-21 12:49:14,0,76.149.162.30,100,199,1,2023-06-21 12:49:15,R_1I4uBvhHmkRUbjb,,,,,40.6124,-111.8832,anonymous,EN,1,5e373f33a42bce6daa55ea65,1,0,0,155.071,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1I4uBvhHmkRUbjb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:30,2023-06-21 12:49:32,0,68.200.21.162,100,121,1,2023-06-21 12:49:32,R_1mLD2UQWwjhejCN,,,,,28.87,-82.3468,anonymous,EN,1,60e36e6ecb9f00e7b4dab92e,1,0,0,61.941,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,19,R_1mLD2UQWwjhejCN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:38:05,2023-06-21 12:51:05,0,128.84.125.50,100,780,1,2023-06-21 12:51:06,R_0MJZCgOsXaqnp73,,,,,42.4444,-76.4926,anonymous,EN,1,5fc98fe1b105424d4b03381b,1,0,0,27.469,0,0,0,3.02,0,200,0,0,44.796,0,0,0,21.335,0,1,4,535,327,Region #2,15,3,0,0,8.689,0,0,0,13.571,0,0,0,25.117,0,,,,,,,,,,,,,,,2,4,9,nope,,,,,0,0,45.019,0,,,,,,,,,It has something to do with how I think Republicans behave,2,"Because I've seen researchers do this sort of thing before, and they really overuse the whole deception thing. It's kind of annoying",2,Because I didn't believe I was working with other participants.,1,,"I think the names of participants (i.e. ""Democrat/Republican"") were not random and had something to do with the purpose of the experiment.",33,2,,7,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,13,R_0MJZCgOsXaqnp73,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player2-Republican: hello
+<br>Player3-Democrat: Hello!
+<br>Player1-Democrat: hello
+<br>Player1-Democrat: that was sort of an annoying task
+<br>Player3-Democrat: I wish we had more time to count
+<br>Player2-Republican: eh i didn't mind it 
+<br>Player4-Republican: Not really, I see it to be very interesting
+<br>Player1-Democrat: yeah we only had like a few seconds
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:47:58,2023-06-21 12:52:19,0,172.56.53.149,100,261,1,2023-06-21 12:52:20,R_25N2YU3FpFSavvy,,,,,29.7738,-95.406,anonymous,EN,1,5c8fa5789eb5720017f03079,1,0,0,70.245,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_25N2YU3FpFSavvy,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:03,2023-06-21 12:52:20,0,52.124.40.73,100,376,1,2023-06-21 12:52:20,R_SB0JG4TkCawzMzv,,,,,38.9965,-76.934,anonymous,EN,1,610761fce69907203f8b2488,1,0,0,337.881,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_SB0JG4TkCawzMzv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:19,2023-06-21 12:52:21,0,173.75.211.195,100,361,1,2023-06-21 12:52:21,R_2qfmFJRXbWIuxNi,,,,,39.9025,-75.2618,anonymous,EN,1,63584536ee0bf772659d84d4,1,229.498,232.4,325.747,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,22,R_2qfmFJRXbWIuxNi,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:15,2023-06-21 12:52:27,0,108.225.41.224,100,251,1,2023-06-21 12:52:28,R_3oC5cmpwQudxacr,,,,,34.6224,-98.3913,anonymous,EN,1,568e7e33e3ef9e000da202a7,1,0,0,63.383,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_3oC5cmpwQudxacr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:20,2023-06-21 12:52:28,0,50.214.153.202,100,368,1,2023-06-21 12:52:29,R_2B35TfsADXDwrhj,,,,,41.7137,-70.1578,anonymous,EN,1,6308dca0fefa374b1d697aba,1,98.441,339.666,344.868,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_2B35TfsADXDwrhj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:59,2023-06-21 12:52:29,0,71.201.145.238,100,389,1,2023-06-21 12:52:29,R_3oZ6BQyKW379qpH,,,,,41.7448,-87.9819,anonymous,EN,1,63b7303cf7d82d5e9b3a3f09,1,0,0,337.077,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_3oZ6BQyKW379qpH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:00,2023-06-21 12:52:33,0,50.59.223.114,100,333,1,2023-06-21 12:52:33,R_1AgqLfo9fLmNAUF,,,,,32.3195,-86.309,anonymous,EN,1,63d1b93d9abc8c4b40e2d92f,1,0,0,300.508,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,23,R_1AgqLfo9fLmNAUF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:50:50,2023-06-21 12:52:38,0,97.95.197.39,100,107,1,2023-06-21 12:52:38,R_3JCS69NDoqRctbL,,,,,34.8308,-82.3507,anonymous,EN,1,6405236519858c28490dfeee,1,0,0,64.994,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_3JCS69NDoqRctbL,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:13,2023-06-21 12:52:48,0,173.67.246.183,100,334,1,2023-06-21 12:52:48,R_2Sf83B1IR6cKdQr,,,,,37.5537,-77.4602,anonymous,EN,1,60fe43d9f9d89a9237395a83,1,0,0,309.581,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,24,R_2Sf83B1IR6cKdQr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:14,2023-06-21 12:52:49,0,96.245.15.233,100,335,1,2023-06-21 12:52:50,R_3maxI0CF9AvNcdR,,,,,39.9526,-75.2937,anonymous,EN,1,5f73f37ed13ce303cc14ae35,1,0,0,307.431,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,25,R_3maxI0CF9AvNcdR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:30,2023-06-21 12:52:50,0,67.245.33.131,100,380,1,2023-06-21 12:52:51,R_2X7DPqlueeh4ZPc,,,,,40.7579,-73.9332,anonymous,EN,1,628f9cfbee6de7cc7322fecf,1,0,0,336.262,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,25,R_2X7DPqlueeh4ZPc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:52,2023-06-21 12:53:22,0,69.112.187.30,100,390,1,2023-06-21 12:53:23,R_yCKE7Hu3UXjDs89,,,,,41.0991,-74.008,anonymous,EN,1,5c9c3ae2d40ce20014233de6,1,330.162,330.398,330.691,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,27,R_yCKE7Hu3UXjDs89,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:08,2023-06-21 12:53:42,0,98.179.238.126,100,393,1,2023-06-21 12:53:42,R_1kLlBQYnQnz2UOB,,,,,35.9928,-95.8152,anonymous,EN,1,611145d764f3f83ee48ae655,1,0,0,367.7,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,26,R_1kLlBQYnQnz2UOB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:34,2023-06-21 12:53:47,0,174.242.144.139,100,372,1,2023-06-21 12:53:47,R_3isbHCbTDwOVFLG,,,,,41.874,-71.3844,anonymous,EN,1,5faeb8eb6562cd0163f216ec,1,348.578,348.578,348.967,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,28,R_3isbHCbTDwOVFLG,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:16,2023-06-21 12:53:47,0,173.185.41.191,100,391,1,2023-06-21 12:53:47,R_3PFup2awZCh5EWD,,,,,33.4085,-94.1819,anonymous,EN,1,60d50ceb7c563c73f91d9ec5,1,0,0,352.395,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,26,R_3PFup2awZCh5EWD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:19,2023-06-21 12:53:48,0,172.59.32.37,100,389,1,2023-06-21 12:53:49,R_1OHKIeVLEeT6dmU,,,,,39.9391,-83.0474,anonymous,EN,1,6111a351d738d1eaa44eecd7,1,321.387,321.387,355.66,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,28,R_1OHKIeVLEeT6dmU,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:32,2023-06-21 12:53:52,0,104.39.182.250,100,379,1,2023-06-21 12:53:53,R_1C2ALevArp7U7QD,,,,,40.8103,-77.888,anonymous,EN,1,5dc0cc1f317aa4076275ddf9,1,0,0,356.532,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,27,R_1C2ALevArp7U7QD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:40,2023-06-21 12:53:56,0,70.180.144.226,100,375,1,2023-06-21 12:53:56,R_2cBF9DnOhCvEul2,,,,,36.175,-115.1372,anonymous,EN,1,572d55e1109ab600105176ba,1,0,0,330.527,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,30,R_2cBF9DnOhCvEul2,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:41,2023-06-21 12:53:56,0,98.223.205.238,100,375,1,2023-06-21 12:53:57,R_1gTQjHWxffwdRJm,,,,,41.9014,-88.7515,anonymous,EN,1,5b666901f7798c000182c01c,1,0,0,345.78,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,30,R_1gTQjHWxffwdRJm,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:17,2023-06-21 12:54:02,0,66.58.201.11,100,405,1,2023-06-21 12:54:02,R_3KJkM0bsRRPE9Ug,,,,,61.2115,-149.8736,anonymous,EN,1,5c054e8a553fb800011917d7,1,0,0,365.008,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,29,R_3KJkM0bsRRPE9Ug,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:41,2023-06-21 12:54:20,0,98.28.193.127,100,398,1,2023-06-21 12:54:20,R_3LaMVTVMqnWkV9L,,,,,39.1256,-84.5127,anonymous,EN,1,60c382725a7a55abef2e8e99,1,30.678,311.732,358.357,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,31,R_3LaMVTVMqnWkV9L,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:19,2023-06-21 12:54:20,0,71.205.139.122,100,360,1,2023-06-21 12:54:21,R_VPxLW5tbmzlMDPr,,,,,40.4102,-104.7584,anonymous,EN,1,5deb3c192235ad24f4a21826,1,0,0,340.467,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,31,R_VPxLW5tbmzlMDPr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:15,2023-06-21 12:54:20,0,98.246.138.80,100,365,1,2023-06-21 12:54:21,R_2cqh9MjWpoMWlhw,,,,,44.0683,-123.0763,anonymous,EN,1,631f735e13bff4dc1ec03257,1,0,0,340.07,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,32,R_2cqh9MjWpoMWlhw,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:00,2023-06-21 12:54:29,0,73.154.156.75,100,388,1,2023-06-21 12:54:30,R_2ZPrUSvGGQsMDo3,,,,,40.2257,-78.831,anonymous,EN,1,6112c4384c4afd6a025fc350,1,331.657,331.657,334.166,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,35,R_2ZPrUSvGGQsMDo3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:17,2023-06-21 12:54:33,0,136.34.39.58,100,375,1,2023-06-21 12:54:33,R_Abp182BwmOm92Wl,,,,,39.1027,-94.5925,anonymous,EN,1,6143c28b6d84339f28982fb5,1,0,0,331.139,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,33,R_Abp182BwmOm92Wl,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:17,2023-06-21 12:54:35,0,67.233.93.22,100,378,1,2023-06-21 12:54:36,R_2D8l8TNjgDIu95v,,,,,29.1995,-82.0858,anonymous,EN,1,633e327052bcc8b44d6e0d2c,1,314.613,320.766,322.82,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,35,R_2D8l8TNjgDIu95v,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:20,2023-06-21 12:54:36,0,71.167.239.194,100,376,1,2023-06-21 12:54:37,R_VQ3UbZDNiFxmfx7,,,,,40.7428,-73.9712,anonymous,EN,1,612bbf7f2777e375241f0f45,1,0,0,351.859,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,32,R_VQ3UbZDNiFxmfx7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:38,2023-06-21 12:54:40,0,70.178.49.168,100,421,1,2023-06-21 12:54:40,R_bNtaqWNaLm369qh,,,,,36.1805,-94.5304,anonymous,EN,1,58635484a73baa00010db537,1,1.958,308.154,355.188,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,33,R_bNtaqWNaLm369qh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:46:36,2023-06-21 12:54:55,0,97.104.54.227,100,499,1,2023-06-21 12:54:56,R_1Pe2ZH9sN2g3Zcc,,,,,29.0422,-81.2863,anonymous,EN,1,5c3393d9f53f7a000119160f,1,0,0,348.602,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,29,R_1Pe2ZH9sN2g3Zcc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:15,2023-06-21 12:55:02,0,24.188.226.213,100,347,1,2023-06-21 12:55:03,R_216TEJGGAEJM92P,,,,,40.6877,-73.9267,anonymous,EN,1,5b21259ce5cd900001125a0b,1,305.389,306.632,307.655,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,38,R_216TEJGGAEJM92P,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:32,2023-06-21 12:55:07,0,98.214.22.104,100,394,1,2023-06-21 12:55:08,R_UbgUzNV0eywVyiB,,,,,42.2937,-89.6354,anonymous,EN,1,63126caf43d014aa6db9a1d4,1,351.718,351.718,355.15,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,36,R_UbgUzNV0eywVyiB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:09,2023-06-21 12:55:10,0,192.24.179.10,100,360,1,2023-06-21 12:55:10,R_11aUM7b5gqlkXeJ,,,,,39.0705,-84.516,anonymous,EN,1,5fa1636a77c875235bd8e1f6,1,251.352,255.944,285.561,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,40,R_11aUM7b5gqlkXeJ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:14,2023-06-21 12:55:11,0,73.202.51.32,100,597,1,2023-06-21 12:55:12,R_Um9Lo4Ks60NX6b7,,,,,37.7201,-122.4414,anonymous,EN,1,5dd72efa82569a6d38e06854,1,0,0,354.411,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,37,R_Um9Lo4Ks60NX6b7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:41,2023-06-21 12:55:12,0,69.131.206.38,100,390,1,2023-06-21 12:55:13,R_0uFSnnyKfDulxkd,,,,,42.9917,-90.6516,anonymous,EN,1,63d00622fd37f382d3ce2ec1,1,0,0,333.501,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,37,R_0uFSnnyKfDulxkd,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:06,2023-06-21 12:55:15,0,69.216.102.103,100,368,1,2023-06-21 12:55:16,R_215F9etpjgM57dj,,,,,37.6736,-122.0944,anonymous,EN,1,56a68bb49ce1c0000df89344,1,304.489,304.489,346.215,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,39,R_215F9etpjgM57dj,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:36:10,2023-06-21 12:55:17,0,71.77.157.207,100,1146,1,2023-06-21 12:55:17,R_3qmq1IwuKz5rLgw,,,,,35.1873,-79.473,anonymous,EN,1,55b6d0a4fdf99b437183f9b5,1,356.038,356.038,357.669,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,38,R_3qmq1IwuKz5rLgw,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:09,2023-06-21 12:55:22,0,68.187.140.140,100,373,1,2023-06-21 12:55:23,R_3erUh5KW9ilPoFc,,,,,42.7735,-89.2851,anonymous,EN,1,6318c6b8dd3d07c0fb9f0d18,1,297.806,297.806,301.325,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,39,R_3erUh5KW9ilPoFc,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:31,2023-06-21 12:56:36,0,73.229.78.166,100,484,1,2023-06-21 12:56:36,R_3qmwaJ9TOhvan7W,,,,,40.4102,-104.7584,anonymous,EN,1,5fac997db63d252ba6a82a8f,1,0,0,348.222,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,41,R_3qmwaJ9TOhvan7W,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:52:23,2023-06-21 12:56:39,0,68.228.153.94,100,255,1,2023-06-21 12:56:40,R_12RO11E90tvl5rr,,,,,41.7041,-72.679,anonymous,EN,1,5671927473f58b000d664293,1,0,0,219.427,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,41,R_12RO11E90tvl5rr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:49:10,2023-06-21 12:57:13,0,136.37.19.43,100,483,1,2023-06-21 12:57:13,R_3Di4QC1i6Qo0dlv,,,,,39.0537,-94.5906,anonymous,EN,1,57a08ec3dcff7d0001c7ce99,1,0,0,414.315,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,40,R_3Di4QC1i6Qo0dlv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:45:38,2023-06-21 12:58:01,0,139.55.112.96,100,742,1,2023-06-21 12:58:01,R_2dmwEA1S63U2RGD,,,,,37.1027,-84.5432,anonymous,EN,1,5de32329b5bed7350391666c,1,0,0,211.558,0,0,0,3.108,0,76,0,0,0.507,0,0,0,22.539,0,1,4,157,156,Region #1,15,3,0,0,6.733,0,0,0,12.262,0,0,0,25.189,0,2,2.594,6.137,15.901,2,,1,7,10,none,,,,,,,,,,,,,,,,,,,,,,,,,I'm honestly not sure,1,,1,,1,,none,24,1,,7,1,1,1,6392NwKkvp,Study2_MoHiPilot1,,20,R_2dmwEA1S63U2RGD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:49:10,2023-06-21 12:58:26,0,169.239.205.126,100,556,1,2023-06-21 12:58:26,R_ZvCt5SSJlCpGqfT,,,,,37.751,-97.822,anonymous,EN,1,605fe9680cac2ea943d411ec,1,0,0,441.714,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,44,R_ZvCt5SSJlCpGqfT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:47:29,2023-06-21 12:58:40,0,73.41.149.250,100,670,1,2023-06-21 12:58:40,R_2uOPijMM9ln93g3,,,,,39.2079,-120.999,anonymous,EN,1,6318be45a49442eee3a88cb3,1,0,0,7.279,0,0,0,3.018,0,67,0,0,49.034,0,0,0,21.654,0,1,2,687,84,Region #2,17,3,0,0,11.209,0,0,0,13.44,0,0,0,25.01,0,,,,,,,,,,,,,,,1,4,10,No other feedback,,,,,,,,,,,,,0,0,45.007,0,No idea,1,,1,,1,,,60,2,,7,4,1,1,6392NwKkvp,Study2_MoHiPilot1,,20,R_2uOPijMM9ln93g3,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player4-Republican: Hi
+<br>Player1-Democrat: sup
+<br>Player3-Democrat: how are you guys!
+<br>Player4-Republican: Okay I am an under how about you guys
+<br>Player2-Republican: Hey there!
+<br>Player4-Republican: I am doing well 
+<br>Player3-Democrat: I'm over
+<br>Player1-Democrat: under
+<br>Player2-Republican: Over
+<br>Player4-Republican: I guess I should have added 20 to my number
+<br>Player4-Republican: Hope you guys have a great day
+<br>Player2-Republican: You too
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:42,2023-06-21 12:58:53,0,96.232.202.55,100,850,1,2023-06-21 12:58:53,R_1H6SZuHYV3Q4l3B,,,,,40.726,-73.848,anonymous,EN,1,6012e262527c380ccb2a6c74,1,0,0,6.929,0,0,0,3.011,0,40,26.532,26.532,41.009,1,0,0,26.745,0,1,4,845,238,Region #2,14,3,0,0,8.806,0,0,0,11.3,0,0,0,26.612,0,,,,,,,,,,,,,,,3,2,10,It don't seem fair.,0,0,45.011,0,,,,,,,,,,,,,Politic side and who they assigned it to.,1,,1,,1,,Tried my best.,20,1,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,21,R_1H6SZuHYV3Q4l3B,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:48:14,2023-06-21 13:01:45,0,67.140.3.223,100,810,1,2023-06-21 13:01:45,R_AbLS3tM3FJwkdZ7,,,,,37.1531,-84.0986,anonymous,EN,1,6390a0e1aa5654301da0c865,1,0,0,134.411,0,0,0,3.112,0,200,0,0,0.473,0,0,0,29.568,0,4,5,870,52,Region #2,15,3,0,0,16.099,0,0,0,77.508,0,0,0,25.016,0,,,,,,,,,,,0,0,15.01,0,1,6,10,,,,,,,,,,,,,,,,,,making decisions,1,,1,,1,,I enjoyed this study !,47,2,,7,7,1,1,6392NwKkvp,Study2_MoHiPilot1,,21,R_AbLS3tM3FJwkdZ7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:46:27,2023-06-21 13:02:55,0,67.190.222.39,100,987,1,2023-06-21 13:02:55,R_1Lvv4z9eKvir7zV,,,,,29.6669,-81.6579,anonymous,EN,1,63666870f348d4acea8964a9,1,138.959,209.815,249.049,2,0,0,3.008,0,65,7.21,7.21,24.762,1,12.066,12.066,24.431,1,1,4,,,,17,6,5.466,5.466,7.067,1,10.051,15.083,15.385,2,0,0,25.011,0,2,4.019,4.019,23.994,1,,2,6,8,,,,,,,,,,,,,,,,,,,,,,,,,,Investigating how people make some life choices,1,,1,,1,,"I may have failed an attention check but the truth is I saw it and there is this problem I have with my touch pad that sometimes shift a little when you click on something and it happened in this case when I clicked on the S disagree, it happened really fast and by the time I realized I had already clicked on the next button",55,1,,7,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,21,R_1Lvv4z9eKvir7zV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:54:12,2023-06-21 13:03:30,0,207.172.99.66,100,558,1,2023-06-21 13:03:31,R_20UqBPB4iKtjAly,,,,,40.6568,-75.3912,anonymous,EN,1,5c6d7db58f6257000148f61d,1,0,0,48.74,0,0,0,3.125,0,185,0,0,11.206,0,0,0,23.131,0,1,4,862,228,Region #2,18,3,0,0,9.964,0,0,0,15.542,0,0,0,25.017,0,,,,,,,,,,,,,,,1,1,0,no,,,,,,,,,,,,,0,0,45.112,0,"When someone gets to assign tasks they will choose the easier one for themselves ",1,,1,,1,,no thank you,23,1,,7,7,1,1,6392NwKkvp,Study2_MoHiPilot1,,34,R_20UqBPB4iKtjAly,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:48:25,2023-06-21 13:03:44,0,162.206.218.181,100,919,1,2023-06-21 13:03:45,R_1jdLs6AQJe5rGEl,,,,,38.4044,-85.7878,anonymous,EN,1,60ba2ffd080107de026041d3,1,391.133,401.024,402.743,2,0,0,3.006,0,160,7.577,7.577,16.455,1,0,0,24.253,0,5,5,721,259,Region #2,17,3,0,0,18.821,0,0,0,14.768,0,0,0,25.107,0,,,,,,,,,,,,,,,1,2,7,No,,,,,0,0,45.032,0,,,,,,,,,No clue,2,They just seemed robotic.,2,Just based on the people in the chat not seeming real.,1,,Nope,24,1,,7,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,34,R_1jdLs6AQJe5rGEl,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:57:08,2023-06-21 13:03:59,0,104.238.254.220,100,411,1,2023-06-21 13:04:00,R_saMcx6xeNVtdiYF,,,,,33.5112,-111.9078,anonymous,EN,1,5e2926d80beb030ede110e67,1,0,0,8.714,0,1.205,1.205,3.008,1,50,0,0,27.585,0,4.064,11.113,22.174,3,1,4,773,295,Region #2,15,3,3.616,3.616,6.875,1,0.969,10.632,11.288,5,0,0,25.009,0,1,1.079,14.098,15.902,5,1,2,5,9,"I feel like the study looped. I took the first part twice. ",,,,,,,,,,,,,,,,,,,,,,,,,"To test my patience to see if I'd do it twice and to see if I'd choose the easier task for myself. ",1,,4,,1,,,42,2,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,42,R_saMcx6xeNVtdiYF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:03:32,2023-06-21 13:04:45,0,75.23.204.30,100,72,1,2023-06-21 13:04:45,R_2Tu5SPqv3fkUwDn,,,,,39.9587,-82.9987,anonymous,EN,1,606e3ddf19540080228e3a0c,1,0,0,37.506,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,46,R_2Tu5SPqv3fkUwDn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:58:13,2023-06-21 13:04:45,0,64.33.116.198,100,392,1,2023-06-21 13:04:46,R_2e89YuhYCyJwhDi,,,,,46.8298,-100.9111,anonymous,EN,1,607f7f18d84d010ea2cd8664,1,0,0,355.217,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,46,R_2e89YuhYCyJwhDi,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:54:25,2023-06-21 13:04:47,0,172.59.120.65,100,621,1,2023-06-21 13:04:47,R_3nVF4HWiWXFcOaa,,,,,35.3928,-97.5548,anonymous,EN,1,60a5717cc2ad303816870f66,1,0,0,8.633,0,0,0,3.016,0,42,0,0,14.802,0,7.54,7.54,23.9,1,1,4,792,353,Region #2,17,3,0,0,9.349,0,4.37,4.37,14.845,1,0,0,25.108,0,,,,,,,,,,,0,0,15.007,0,2,4,9,Nope,,,,,,,,,,,,,,,,,No idea honestly,1,,2,You just wanted to see if I thought everyone would choose green tasks for themselves because they were less than half as long in time as the red tasks.,1,,"Nope, just thanks for the study!",45,1,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,34,R_3nVF4HWiWXFcOaa,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:55:59,2023-06-21 13:04:54,0,174.203.41.145,100,534,1,2023-06-21 13:04:54,R_3IPRbKdZiz9TdHK,,,,,30.4509,-91.1563,anonymous,EN,1,56e130548b1c33000a388671,1,0,0,66.318,0,0,0,3.124,0,45,0,0,26.871,0,0,0,22.292,0,1,3,599,212,Region #2,14,3,0,0,8.131,0,0,0,11.127,0,0,0,25.12,0,,,,,,,,,,,,,,,1,3,8,,,,,,,,,,0,0,45.119,0,,,,,I'd guess just a test of biases,1,,1,,1,,,21,1,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,42,R_3IPRbKdZiz9TdHK,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:12,2023-06-21 13:05:33,0,208.123.55.23,100,1281,1,2023-06-21 13:05:34,R_1MVU8bml12l8yqp,,,,,47.0914,-94.5917,anonymous,EN,1,5b6142d1f5bc590001184814,1,0,0,6.8,0,0,0,3.121,0,400,214.492,618.78,629.163,2,0,0,20.902,0,1,4,695,72,Region #2,14,3,0,0,7.032,0,0,0,11.737,0,0,0,25.119,0,,,,,,,,,,,,,,,3,2,10,"No I am hopng to just get through this study at this point. ",,,,,,,,,,,,,0,0,45.108,0,"Well, I found it odd that it said Player4-Republican would be making the choice when I am that player. So that made no sense. And the ""Democrat"" player dropped out and I waited a long time to say I could contact the researcher to get partial payment. But yet I was allowed to advance. ",1,,2,"Because it said ""player4-republican"" was making the choice but that wasn't true because I was that player. Then it got to the next screen and said ""player2-republican"" made their choice. So it is clear neither of us made a choice. If it had been labeled correctly at the beginning I might have believed it. ",1,,You can disregard the message I sent through Prolific. No additional comments :),40,2,,7,6,,1,6392NwKkvp,Study2_MoHiPilot1,,14,R_1MVU8bml12l8yqp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican," *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.",300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: Not sure what to do here. Waited forever to get on.
+<br>Player2-Republican: Hi there- I got a notification that the study was terminated?  Wondering why this advanced
+<br>Player4-Republican: Agreed
+<br>Player2-Republican: do we try to continue?
+<br>Player4-Republican: I waited quite awhile and contacted the researcher. No response.
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:42:09,2023-06-21 13:06:08,0,70.23.58.234,100,1438,1,2023-06-21 13:06:09,R_cMZDF8RaWYUEqk1,,,,,40.8549,-73.2157,anonymous,EN,1,639df1ccd6819819ebb85722,1,0,0,272.75,0,0,0,3.014,0,200,0,0,19.836,0,72.693,72.693,75.866,1,1,4,773,289,Region #2,18,3,0,0,9.223,0,0,0,62.869,0,0,0,25.116,0,1,108.608,108.608,109.574,1,1,1,6,8,,,,,,,,,,,,,,,,,,,,,,,,,,predictions,1,,1,,1,,,45,1,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,21,R_cMZDF8RaWYUEqk1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: hard estimate I went under
+<br>Player4-Republican: That was a lot of dots
+<br>Player2-Republican: different sizes
+<br>Player3-Democrat: Overestimated mine
+<br>Player1-Democrat: The dots was in different sixes
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:46:55,2023-06-21 13:06:13,0,172.119.83.5,100,1158,1,2023-06-21 13:06:14,R_1lAleO3wKa54ESn,,,,,34.0264,-117.936,anonymous,EN,1,5ad06e7bd9f7470001db09af,1,62.868,341.921,389.193,6,0,0,3.018,0,65,0,0,1.131,0,4.665,11.865,28.883,2,1,4,,,,17,3,13.852,13.852,14.076,1,49.185,49.945,52.533,3,0,0,25.107,0,,,,,,,,,,,0,0,15.108,0,2,5,8,the task is different,,,,,,,,,,,,,,,,,good,1,,1,,1,,good,27,1,,"4,7",6,1,1,6392NwKkvp,Study2_MoHiPilot1,,34,R_1lAleO3wKa54ESn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player2-Republican: Hello, I am an Overestimator!!! I rule the world!! lol
+<br>Player1-Democrat: I felt like it was somewhat difficult to estimate, given the short amount of time.
+<br>Player4-Republican: My guess was 185 I guess I overestimated
+<br>Player1-Democrat: I guessed 160
+<br>Player2-Republican: I said 42 and it was over
+<br>Player4-Republican: Yes it was not easy to guess
+<br>Player1-Democrat: 42 was over? There's no way.
+<br>Player4-Republican: lol
+<br>Player2-Republican: you 2 are SUPER overestimators lol
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:59:47,2023-06-21 13:06:47,0,73.219.59.19,100,420,1,2023-06-21 13:06:48,R_3IYVzfpmavi40jH,,,,,41.6181,-70.4854,anonymous,EN,1,63d5daa80d80a745de740c13,1,0,0,366.543,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,47,R_3IYVzfpmavi40jH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:01:21,2023-06-21 13:06:57,0,70.188.43.9,100,335,1,2023-06-21 13:06:57,R_1QL4PB38iFKdRrL,,,,,37.2647,-79.9249,anonymous,EN,1,6272923eedb5716b8b254954,1,88.405,88.405,289.8,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,47,R_1QL4PB38iFKdRrL,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:48:36,2023-06-21 13:07:36,0,96.225.54.180,100,1139,1,2023-06-21 13:07:37,R_3qPvZgbJ7Mbdm0O,,,,,40.2459,-74.2813,anonymous,EN,1,63d3f987619fb984bbfd9693,1,0,0,417.647,0,0,0,3.023,0,120,0,0,0.902,0,24.73,32.014,32.927,3,1,4,873,57,Region #2,17,3,0,0,11.248,0,11.675,26.144,35.101,4,21.788,24.937,25.114,4,,,,,,,,,,,,,,,,,,,8.968,21.251,45.011,7,,,,,,,,,,,,,brain twister,1,,1,,1,,,16,1,,3,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,42,R_3qPvZgbJ7Mbdm0O,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:00:58,2023-06-21 13:08:24,0,76.114.238.102,100,445,1,2023-06-21 13:08:24,R_30v2kOAHaLWOkLn,,,,,39.6249,-75.8351,anonymous,EN,1,5f25c13cc7c8ea1ac7a0f863,1,10.628,10.628,11.345,1,0,0,3.111,0,150,0,0,0.576,0,6.503,6.503,27.58,1,1,4,,,,18,3,0,0,10.141,0,0,0,11.229,0,0,0,25.111,0,,,,,,,,,,,0,0,15.007,0,1,6,7,,,,,,,,,,,,,,,,,,"I think the study is about the cognitive tasks  ",1,,1,,1,,,22,1,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,45,R_30v2kOAHaLWOkLn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 13:07:31,2023-06-21 13:08:59,0,67.165.58.165,100,87,1,2023-06-21 13:08:59,R_QgCntS4xVzOdWXT,,,,,39.494,-80.2221,anonymous,EN,1,610309d6b51e8a9a5da8a6f4,1,0,0,62.297,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,48,R_QgCntS4xVzOdWXT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:59:12,2023-06-21 13:09:01,0,172.15.53.88,100,588,1,2023-06-21 13:09:01,R_vYPx1wygK11LbGN,,,,,33.9388,-117.416,anonymous,EN,1,63d516bacccbc5240fbd18c4,1,0,0,388.028,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,48,R_vYPx1wygK11LbGN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 12:58:23,2023-06-21 13:09:35,0,184.59.184.90,100,671,1,2023-06-21 13:09:35,R_elmhJJe2nDMDpXH,,,,,40.0752,-80.7747,anonymous,EN,1,5758a78d768081000631a322,,0,0,157.424,0,0,0,3.011,0,100,0,0,39.659,0,0,0,22,0,4,3,619,157,Region #2,14,3,0,0,7.046,0,0,0,13.862,0,0,0,25.114,0,,,,,,,,,,,,,,,2,6,9,no,0,0,45.112,0,,,,,,,,,,,,,To see how we assign taks?,1,,1,,1,,no,47,2,,7,6,1,1,6392NwKkvp,Study2_MoHiPilot1,,45,R_elmhJJe2nDMDpXH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:54:59,2023-06-21 13:10:23,0,24.167.64.230,100,924,1,2023-06-21 13:10:24,R_cO9DuVqUaLhwMJH,,,,,26.2148,-98.231,anonymous,EN,1,63062501b80b139870ea2af4,1,7.485,7.485,216.468,1,0,0,3.182,0,54,0,0,64.65,0,0,0,22.249,0,1,2,607,207,Region #2,16,3,0,0,7.169,0,0,0,12.755,0,0,0,25.038,0,,,,,,,,,,,,,,,2,4,5,"no comment ",0,0,45.12,0,,,,,,,,,,,,,"no idea ",2,"they seemed to be making generic responses ",1,,1,,"no comment ",16,1,,4,4,1,1,6392NwKkvp,Study2_MoHiPilot1,,45,R_cO9DuVqUaLhwMJH,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br>",,chatLog,,,
+2023-06-21 12:56:43,2023-06-21 13:11:45,0,50.21.204.185,100,901,1,2023-06-21 13:11:46,R_R9K0FwhHAXxfLcB,,,,,40.3658,-105.5142,anonymous,EN,1,60eb1a7c95641da67ae7d611,1,0,0,183.2,0,0,0,3.008,0,75,0,0,75.8,0,0,0,22.575,0,1,4,712,260,Region #2,15,3,0,0,9.15,0,0,0,20.944,0,0,0,25.009,0,1,18.121,18.121,19.584,1,1,1,7,9,no,,,,,,,,,,,,,,,,,,,,,,,,,"to mislead participants into believing they have a choice ",2,Too brief. No real contact,2,"Again, too brief",1,,no,55,2,,7,7,1,1,6392NwKkvp,Study2_MoHiPilot1,,45,R_R9K0FwhHAXxfLcB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player3-Democrat: HI
+<br>Player2-Republican: I am terrible at guessing how many dots
+<br>Player3-Democrat: hello everyone
+<br>Player4-Republican: It was a bit difficult to estimate the number of dots
+<br>Player2-Republican: Hi
+<br>Player4-Republican: Hello everyone 
+<br>Player1-Democrat: thinking back it did seem like there was more dots than expected
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:56:40,2023-06-21 13:14:17,0,71.145.255.12,100,1056,1,2023-06-21 13:14:18,R_XH42BdVIlhiQkPT,,,,,37.6257,-97.3142,anonymous,EN,1,6143af8721d1445864c4f6c8,1,0,0,89.387,0,0,0,3.007,0,300,0,0,326.649,0,0,0,21.06,0,2,4,110,356,Region #1,16,3,0,0,12.041,0,0,0,16.554,0,0,0,25.006,0,2,6.742,6.742,23.2,1,,2,4,8,no,,,,,,,,,,,,,,,,,,,,,,,,,Testing what people assume ....,2,Could have easily been part of the program no matter what was said. Or part of the experiment crew.,4,,1,,To have a good day.,43,1,,"1,7",5,1,1,6392NwKkvp,Study2_MoHiPilot1,,43,R_XH42BdVIlhiQkPT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican," *** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.",300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: it's too bad the dem dropped out
+<br>Player4-Republican: I guess....
+<br>Player2-Republican: it was not too difficult to estimate the spots even though i was under
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:52:34,2023-06-21 13:15:29,0,98.230.0.250,100,1375,1,2023-06-21 13:15:30,R_3puqw4LrmDs29pV,,,,,30.4908,-84.3158,anonymous,EN,1,5bfff7c02213be0001c2c7cf,1,279.925,279.925,280.22,1,0,0,3.112,0,100,0,0,0.455,0,0,0,39.392,0,1,4,597,207,Region #2,18,3,191.236,191.236,191.693,1,0,0,11.233,0,0,0,25.121,0,,,,,,,,,,,,,,,3,4,8,,,,,,,,,,,,,,0,0,45.106,0,not sure.,1,,2,"because chat was inconsistent. I was told I was with underestimaters even though we may have seen different photos. ",1,,,25,2,,4,2,1,1,6392NwKkvp,Study2_MoHiPilot1,,42,R_3puqw4LrmDs29pV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player2-Republican: I already did this. The survey is looping, I guess?
+<br>Player3-Democrat: hi, it was definitely hard to estimate the number of dots.
+<br>Player3-Democrat: they were different sizes.
+<br>Player4-Republican: Yeah, I guessed around 40
+<br>Player3-Democrat: I'm not sure. First time I do this.
+<br>Player3-Democrat: I guessed 100.
+<br>Player2-Republican: I guessed 75 the first time. 50 the second time. Both overestimations.
+<br>Player3-Democrat: Oh. I underestimated.
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",,chatLog,,,
+2023-06-21 12:44:38,2023-06-21 13:21:23,0,184.19.214.210,100,2204,1,2023-06-21 13:21:23,R_2dF7STVmIuBUGdh,,,,,39.652,-79.9444,anonymous,EN,1,601fc50f4b7f33504a02cd52,1,0,0,301.807,0,0,0,3.012,0,150,0,0,0.001,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,43,R_2dF7STVmIuBUGdh,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,null *** Warning: This player has timed out in stage 1. Survey terminated.,300,,no,yes,terminated,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1,,,,,,
+2023-06-21 13:14:39,2023-06-21 13:24:07,0,23.124.90.188,100,567,1,2023-06-21 13:24:07,R_dhDO50Bmx1cwj5v,,,,,28.9547,-95.3574,anonymous,EN,1,5f0a7dec44c42c19a6c9f6d9,1,325.708,325.708,333.796,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_dhDO50Bmx1cwj5v,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:17:38,2023-06-21 13:24:07,0,68.102.17.164,100,388,1,2023-06-21 13:24:07,R_3KHIV6Ga7seYWxC,,,,,37.6624,-97.3156,anonymous,EN,1,62d38f10654f3fc8a393b551,1,0,0,357.056,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_3KHIV6Ga7seYWxC,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:08:59,2023-06-21 13:24:07,0,75.37.67.119,100,908,1,2023-06-21 13:24:08,R_2CfjRgkaMh0l7pQ,,,,,38.1025,-122.2132,anonymous,EN,1,63ad82b1461f02fdca26b7ed,1,63.449,346.736,369.866,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,49,R_2CfjRgkaMh0l7pQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:32:49,2023-06-21 13:34:53,0,162.199.219.237,100,123,1,2023-06-21 13:34:54,R_ylvQdKraXh8AeOJ,,,,,25.7689,-80.1946,anonymous,EN,1,611b1d3794ac948af7e57e7a,1,0,0,69.504,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,50,R_ylvQdKraXh8AeOJ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:28:00,2023-06-21 13:39:40,0,139.102.75.133,100,700,1,2023-06-21 13:39:41,R_2PnGdj2WKZBYbQn,,,,,39.4057,-87.4026,anonymous,EN,1,63e51bca9f87294437c3cbb8,1,2.666,340.147,342.699,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,50,R_2PnGdj2WKZBYbQn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:35:01,2023-06-21 13:41:25,0,173.44.36.173,100,383,1,2023-06-21 13:41:25,R_3dVWngjC2hu87zp,,,,,25.7806,-80.1826,anonymous,EN,1,6476c9f4663c454f80fc60c8,1,0,0,354.657,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,51,R_3dVWngjC2hu87zp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,
+2023-06-21 13:46:29,2023-06-21 13:55:18,0,173.21.25.103,100,529,1,2023-06-21 13:55:19,R_2rOBVKAUgXODSb0,,,,,31.5647,-84.1578,anonymous,EN,1,5dee72917309b950e5262f3a,1,1.397,344.389,345.999,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6392NwKkvp,Study2_MoHiPilot1,,52,R_2rOBVKAUgXODSb0,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,No available participant -- Survey terminated,300,,no,yes,,,,,,,,,,,,,,

@@ -13,7 +13,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "TOSTER", "reghelper")
+packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "TOSTER", "reghelper", "stats", "multcomp", "ivreg", "ivmodel", "effects")
 ipak(packages)
 
 ## Code written using Pilot 2 Data 
@@ -35,12 +35,12 @@ data <- data %>%
 
 ## For Proposed Analyses -- Simulate Collective Identification scores
 data <- data %>% 
-  mutate(collective1 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective2 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective3 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective4 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective5 = sample(1:7, 200, replace = T)) %>% 
-  mutate(collective6 = sample(1:7, 200, replace = T))
+  mutate(collective1 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective2 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective3 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective4 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective5 = sample(1:7, 149, replace = T)) %>% 
+  mutate(collective6 = sample(1:7, 149, replace = T))
 
 #Create average difference score for collective identification. 
 data <- data %>% 
@@ -115,22 +115,106 @@ data_subset <- data %>%
 data_subset %>% group_by(condition) %>% 
   summarise(mean = mean(full_fairness))
 
-## Set Up contrasts ## 
-levels(data_subset$condition.f)
-#H1: self vs. all others. 
-contrast1 = c(3, -1, -1, -1)
-#H2: ingroup vs. outgroup
-contrast2 = c(0,0,1,-1)
-#H3: self & ingroup vs. other & outgroup
-contrast3 = c(1, -1, 1, -1)
+data %>% group_by(condition) %>% 
+  summarise(mean = mean(full_fairness))
 
-contrasts(data_subset$condition.f) = cbind(contrast1, contrast2, contrast3)
-contrasts(data_subset$condition.f)
+## Contrast Analysis
+model1 <- lm(full_fairness ~ condition.f, data = data)
+summary(model1)
 
+data <- data %>%
+  mutate(self = as.numeric(condition.f == "self"),
+         other = as.numeric(condition.f == "other"),
+         ingroup = as.numeric(condition.f == "ingroup"),
+         outgroup = as.numeric(condition.f == "outgroup"))
+
+## Create Contrasts
+for_contrast <- emmeans(model1, ~ condition.f)
+
+Contrasts = list(self_vs_all = c(3, -1, -1, -1),
+                 ingroup_vs_outgroup = c(0, 0, 1, -1),
+                 selfingroup_vs_otheroutgroup = c(1, -1, 1, -1))
+
+## Run Contrast Analysis 
+contrast(for_contrast, Contrasts)
+
+## CACE and ATT Analysis 
+
+##### MAKE CONTRAST COLUMNS AND INCLUDE THEM IN THIS IVREG ANALYSIS. 
+
+data <- data %>% 
+  mutate(self_vs_other = ifelse(condition.f=="self", 3, -1)) %>% 
+  mutate(ingroup_vs_outgroup = ifelse(condition.f=="ingroup", 1, 
+                                      ifelse(condition.f=="outgroup", -1, 0))) %>% 
+  mutate(selfingroup_vs_otheroutgroup = ifelse(condition.f == "self" | condition.f=="ingroup", 1, -1))
+
+###Monte Carlo???? randomly assign compliers and non-compliers? 
+data <- data %>% 
+  mutate(compliance = ifelse(data$Q20==2, 0, 1), 
+         compliance = replace_na(data$compliance, 0))
+
+
+
+model_cace2 <- ivreg(full_fairness ~  compliance | condition.f, data = data)
+summary(model_cace2)
+
+
+model_cace <- ivreg(full_fairness ~ 
+                      compliance + 
+                      self_vs_other + 
+                      ingroup_vs_outgroup + 
+                      selfingroup_vs_otheroutgroup | 
+                      self_vs_other + 
+                      ingroup_vs_outgroup + 
+                      selfingroup_vs_otheroutgroup + 
+                      condition.f, data = data)
+
+data <- data %>% 
+  mutate(fitted_values = fitted(model_cace2))
+
+xx <- lm(full_fairness ~ fitted_values, data = data)
+summary(xx)
+
+fitted_values <- fitted(model_cace2)
+
+
+model_x <- ivreg(full_fairness ~ compliance + ingroup_vs_outgroup | condition.f, data = data)
+summary(model_x)
+model_y <- ivreg(full_fairness ~ compliance + self_vs_other | self_vs_other, data = data)
+summary(model_y)
+
+model_cace2 <- ivreg(full_fairness ~ other + ingroup + outgroup | other + ingroup + outgroup + compliance, data = data)
+summary(model_cace2)
+
+coef1 <- coef(model_cace)["compliance"]
+
+emmeans(model_cace2, ~ compliemnce)
+
+contrast_matrix <- matrix(c(1, -1, 1, -1), ncol = 4, byrow = TRUE)
+
+sum(contrast_matrix*coef1)
+
+
+cace_contrast <- effects::contrast(model_cace, Contrasts)
+
+
+## This is trying to get emmeans to take on an ivreg model. 
+## Maybe just subtract the compliance estimate from the intercept and shove it in the emmeans table? 
+coef1 <- coef(model_cace)
+resid1 <- resid(model_cace)
+
+emmeans_model <- lm(coef1[1] + coef1[2] * data$compliance ~ 0 + resid1)
+summary(emmeans_model)
+
+cace_contrasts <- emmeans(emmeans_model, ~ resid1)
+contrast(cace_contrasts, Contrasts)
 
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(full_fairness ~ condition.f, data = data_subset)
 summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+
+model_1 <- lm(full_fairness ~ condition.f, data = data_subset)
+summary(model_1)
 
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), ci = .90, alternative = "greater")
@@ -139,7 +223,7 @@ F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), 
 tsum_TOST(m=0, mu=0, sd=0, n=0,low_eqbound_d=-0.2, high_eqbound_d=0.2, alpha=0.05)
 
 ## H6: Collective Identification ## 
-## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
+## does effect of ingroup or outgroup status on fairness depends on collective identification? 
 
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, 0, 1)))
