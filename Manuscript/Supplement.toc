@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {A}Study 1 Supplementary Results}{2}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Intent to Treat Model}{2}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Manipulation Check}{3}{subsection.A.2}%
+\contentsline {section}{\numberline {B}Study 2 Supplementary Results}{4}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Intent to Treat Model}{4}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Politically Mismatched Participants Excluded}{5}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Repeat Participants and Groups Excluded}{6}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}Manipulation Check}{7}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}Partisan Differences}{8}{subsection.B.5}%

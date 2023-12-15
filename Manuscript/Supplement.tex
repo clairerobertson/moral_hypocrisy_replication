@@ -1,0 +1,489 @@
+%
+% Simple template for generating drafts of papers and articles
+%
+\documentclass[12pt,]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage[authoryear]{natbib}
+%\bibliographystyle{naturemagnourl}
+%\setcitestyle{authoryear,open={((},close={))}}
+
+\usepackage{IEEEtrantools,stackengine}
+\stackMath
+
+\usepackage{authblk}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+	\usepackage{siunitx}
+\sisetup{
+	input-symbols         = (),
+	table-format          = 4.4,
+	%table-space-text-post = ***,
+	table-align-text-post = false,
+	input-ignore = {^},
+	group-digits          = true,
+	group-separator={,}
+	%detect-all,
+	%table-alignment=center,
+	%    round-integer-to-decimal = true,
+	%    group-digits             = true,
+	%    group-minimum-digits     = 1,
+	%    group-separator          = {\,},
+	%    input-ignore = {^},
+	%    table-align-text-pre     = false,
+	%    table-align-text-post    = false,
+	%    input-signs              = + -,
+	%    input-symbols            = {*} {**} {***},
+	%    input-open-uncertainty   = ,
+	%    input-close-uncertainty  = ,
+	%    retain-explicit-plus
+	%table-space-text-post = {***}
+	% table-space-text-pre = "    "
+}
+\usepackage{csquotes}
+
+\usepackage{xspace}
+\newcommand\ie{i.\,e.\xspace}
+\newcommand\eg{e.\,g.\xspace}
+\newcommand\Eg{E.\,g.\xspace}
+\newcommand\NB{N.\,B.\xspace}
+\newcommand\BSc{B.\,Sc.\xspace}
+\newcommand\MSc{M.\,Sc.\xspace}
+\newcommand\PhD{Ph.\,D.\xspace}
+\newcommand\etc{etc.\xspace}
+\newcommand\resp{resp.\xspace}
+\newcommand\cf{cf.\xspace}
+\newcommand\Cf{Cf.\xspace}
+\newcommand\cp{cp.\xspace}
+\newcommand\etal{et\,al.\xspace}
+\newcommand\page[1]{p.\,#1}
+\newcommand\pages[1]{pp.\,#1}
+\newcommand\pa{p.\,a.\xspace}
+\newcommand\ham{a.\,m.\xspace}
+\newcommand\hpm{p.\,m.\xspace}
+\newcommand\UK{U.\,K.\xspace}
+\newcommand\US{U.\,S.\xspace}
+\newcommand\wlogenerality{w.\,l.\,o.\,g.\xspace}
+
+%\newcommand{\logit}{\mathop{logit}}
+\DeclareMathOperator{\logit}{logit}
+
+\newcommand{\emovariable}[1]{$\mathit{#1}$}
+\newcommand{\emosingle}[1]{\emph{#1}}
+\newcommand{\emopair}[1]{\emph{#1}}
+
+\newcommand\abs[1]{| #1 |}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+%\usepackage[version=3]{mhchem}\sqrt{•}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{longtable}
+\usepackage{multirow}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+
+
+% Adding line numbers
+%\usepackage[left]{lineno}
+%\renewcommand\linenumberfont{\normalfont\small}
+
+
+% Define TODO function
+\usepackage[
+    colorinlistoftodos,
+%    disable,
+    textsize=footnotesize,
+        ]{todonotes}
+\newcommand{\TODO}[1]{{\color{red}#1}}
+\newcommand{\MOVE}[1]{{\color{orange}#1}}
+\newcommand{\INSERT}[1]{{\color{blue}#1}}
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\newcommand{\FIX}[1]{{\color{darkgreen}#1}}
+
+\usepackage{setspace}
+\doublespacing
+
+\usepackage[unicode=true]{hyperref}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            colorlinks=false,
+            pdfborder={0 0 0}}
+\urlstyle{same} % don't use a different (monospace) font for urls
+
+\usepackage[%
+  %capitalize,
+  sort&compress
+]{cleveref}
+
+\usepackage{times}
+
+\usepackage{float}
+
+\setcounter{secnumdepth}{5}
+
+% Figure and Tables related;
+\usepackage{graphicx}
+
+% Plots path
+\graphicspath{{./Plots/}}
+%\graphicspath{{../NaturePlots/}}
+
+\usepackage{subcaption}
+%\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{dcolumn}
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+\usepackage{array}
+
+% from: http://tex.stackexchange.com/questions/2441/how-to-add-a-forced-line-break-inside-a-table-cell
+\newcommand{\mcell}[2][c]{%
+  \begin{tabular}[c]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\mcellt}[2][c]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\lcellt}[2][l]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+
+\newcommand{\stackedcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+	
+	\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+% run: bibtex.exe "S"
+%\usepackage[resetlabels,labeled]{multibib}
+%\usepackage[resetlabels,labeled]{multibib}
+%\newcites{S}{References}
+%\crefname{Ssec}{References}{References}
+
+% Custom bars for click-through rate in RCT table
+%\def\click-through ratebar#1{%%
+%  #1\% & {\color{Gray}\rule{#1cm/4}{9pt}}}
+  
+\def\click-through ratebar#1{%%
+  {\color{Gray}\rule[-1.5pt]{#1cm/3}{10pt}} #1\%}
+%  
+%\def\click-through ratebar#1{%%
+%  #1\% & {\color{Gray}\fbox{\color{Blue}\rule{#1cm/4}{8pt}}}}
+  
+%\def\click-through ratebar#1{%%
+%  #1\% & {\setlength\fboxsep{0pt}{\colorbox{gray!20}{\framebox(3,3){World}}}}
+
+\makeatletter
+\renewcommand{\fps@figure}{H}         % default {tbp}
+\renewcommand{\fps@table}{H}         % default {tbp}
+\makeatother 
+
+\renewcommand{\arraystretch}{1.2}
+
+% Redefine \includegraphics so that, unless explicit options are
+% given, the image width will not exceed the width or the height of the page.
+% Images get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\ScaleWidthIfNeeded{%
+ \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>0.9\textheight
+    0.9\textheight
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
+
+\allowdisplaybreaks
+%\hyphenation{CascadeLSTM LSTM}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+
+\title{Negativity drives online news consumption}
+
+
+% Blinded author names
+\author{}
+
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%\maketitle
+
+\sloppy
+\raggedbottom
+
+%\pagestyle{empty} 
+%\setcounter{page}{43} % start supplement at page; = (number of pages in main) + 1
+
+%\renewcommand{\thefigure}{S\arabic{figure}}
+%\setcounter{table}{3} % number of tables in paper. starts at n+1 in the supplements
+%\setcounter{figure}{2} % number of figures in paper. starts at n+1 in the supplements
+%\linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+%\renewcommand\thesection{\Alph{section}}
+%\setcounter{section}{0}
+\begin{center}
+\LARGE\bfseries Supplementary Materials
+\end{center}
+
+\tableofcontents
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% STUDY 1 STUDY 1 STUDY 1 %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Study 1 Supplementary Results}
+\label{appendix:study1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Intent to Treat Model}
+\label{appendix:itt1}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 111.57 & 37.19 & 16.55 & 0.0000 \\ 
+  Contrast 1 - Self vs. Other & 1 & 91.25 & 91.25 & 40.61 & 0.0000 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 16.77 & 16.77 & 7.46 & 0.0065 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.56 & 3.56 & 1.58 & 0.2086 \\ 
+  Risiduals & 581 & 1305.57 & 2.25 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{{\color{red}{INCOMPLETE: Intent-to-treat model}} \emph{n} = XXX. } 
+\label{ITT1}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Manipulation Check}
+\label{appendix:manip1}
+
+Because our study involved deception, it was critical that participants believe that they were (a) talking to real people during the chat phase and (b) that they were seeing a real person's choice behavior. We pretested our paradigm in several pilot studies, and in our final sample for Study 1, we found that  XXXX\% of participants believed they were talking to a real person during the chat phase of the experiment, and XXX \% of participants in Conditions 2, 3, and 4 believed that another participant really was assigning tasks. As a robustness check, we found that our results were robust even when excluding those who failed both manipulation checks. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\ 
+  Contrast 1 - Self vs. Other & 1 & 0.23 & 0.23 & 0.11 & 0.7419 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 12.54 & 12.54 & 6.03 & 0.0146 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.06 & 3.06 & 1.47 & 0.2263 \\ 
+  Risiduals & 305 & 634.06 & 2.08 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{{\color{red}{INCOMPLETE}}Only those who passed the manipulation check, \emph{n} = XXX} 
+\label{manip1}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% STUDY 2 STUDY 2 STUDY 2 %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Study 2 Supplementary Results}
+\label{appendix:study2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Intent to Treat Model}
+\label{appendix:itt2}
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 111.57 & 37.19 & 16.55 & 0.0000 \\ 
+  Contrast 1 - Self vs. Other & 1 & 91.25 & 91.25 & 40.61 & 0.0000 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 16.77 & 16.77 & 7.46 & 0.0065 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.56 & 3.56 & 1.58 & 0.2086 \\ 
+  Risiduals & 581 & 1305.57 & 2.25 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Study 2: Intent-to-treat model, \emph{n} = 585. } 
+\label{ITT2}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Politically Mismatched Participants Excluded}
+\label{appendix:mismatch}
+
+Participants were assigned roles (either Democrats or Republicans) based on the ideology they reported on Prolific. We also asked participants to report their political orientation on a 7-point Likert scale (1 = Very Liberal, 7 = Very Conservative). We found that there were 5 participants who had reported that the were a Democrat on Prolific but responded that they were conservative in the survey, and 9 participants who reported that they were a Republican on Prolific, but responded that they were liberal in the survey. 
+
+We also asked participants how much they identified with their political ingroups or outgroups in the survey, and found that there were 11 Democrats who reported identifying more with Republicans than Democrats, and 25 Republicans who reported identifying more with Democrats than Republicans. Results do not significantly change when these participants (\emph{n} = 46) are excluded.  Results from the contrast models are listed in \Cref{mismatch}, and results from the linear model examining the interaction effect between condition (Ingroup vs. Outgroup) and Collective Identification was not significant $\beta$ = 0.086, \emph{t}(244) = 0.74, \emph{p} = 0.46. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 29.16 & 9.72 & 4.75 & 0.0028 \\ 
+  Contrast 1 - Self vs. Other & 1 & 2.38 & 2.38 & 1.16 & 0.2816 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 21.39 & 21.39 & 10.46 & 0.0013 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 5.39 & 5.39 & 2.64 & 0.1052 \\ 
+  Risiduals & 482 & 985.87 & 2.05 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Politically mismatched participants excluded, \emph{n} = 486.} 
+\label{mismatch}
+\end{table}
+
+\vspace{0.3cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Repeat Participants and Groups Excluded}
+\label{appendix:exclude}
+
+Due to an error on Prolific, there were \emph{n} = 13 participants who participated in our study more than once. We exclude their repeated participations from analyses, but because this study involves both deception and participant interaction, it was possible that the repeat subjects could have revealed the purpose of the study to other participants during the chat phase. After examining the chat logs, we found repeat participants did not reveal the purpose of the study during the chats. Nonetheless, we ran a robustness check excluding all participants who chatted with a repeat participant \emph{n} = 45. Overall, we found that our results were robust even when excluding these participants.  
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 23.66 & 7.89 & 3.82 & 0.0101 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.09 & 3.09 & 1.50 & 0.2219 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 18.32 & 18.32 & 8.87 & 0.0030 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 2.25 & 2.25 & 1.09 & 0.2973 \\ 
+  Risiduals & 499 & 1031.32 & 2.07 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Results excluding those who had chatted with a repeat participant, \emph{n} = 503} 
+\label{repeats}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Manipulation Check}
+\label{appendix:manip2}
+
+Because our study involved deception, it was critical that participants believe that they were (a) talking to real people during the chat phase and (b) that they were seeing a real person's choice behavior. We pretested our paradigm in several pilot studies, and in our final sample for Study 2, we found that  73.97\% of participants believed they were talking to a real person during the chat phase of the experiment, and 74.48 \% of participants in Conditions 2, 3, and 4 believed that another participant really was assigning tasks. As a robustness check, we found that our results were robust even when excluding those who failed both manipulation checks. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\ 
+  Contrast 1 - Self vs. Other & 1 & 0.23 & 0.23 & 0.11 & 0.7419 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 12.54 & 12.54 & 6.03 & 0.0146 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.06 & 3.06 & 1.47 & 0.2263 \\ 
+  Risiduals & 305 & 634.06 & 2.08 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Only those who passed the manipulation check, \emph{n} = 309.} 
+\label{manip2}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Partisan Differences}
+\label{appendix:p_dif2}
+
+We did not preregister any partisan differences, but we also wanted to include an exploratory analysis comparing Democrats and Republicans.  We find evidence of outgroup derogation, but not moral hypocrisy in Democrats, whereas we find evidence of both outgroup derogation and moral hypocrisy in Republicans. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 11.08 & 3.69 & 1.96 & 0.1198 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.14 & 3.14 & 1.67 & 0.1976 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 7.88 & 7.88 & 4.19 & 0.0417 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 0.07 & 0.07 & 0.04 & 0.8505 \\ 
+  Risiduals & 264 & 496.63 & 1.88 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Democrats only, \emph{n} = 268.} 
+\label{dems2}
+\end{table}
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 39.75 & 13.25 & 6.12 & 0.0005 \\ 
+  Contrast 1 - Self vs. Other & 1 & 20.35 & 20.35 & 9.41 & 0.0024 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 10.76 & 10.76 & 4.97 & 0.0266 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 8.64 & 8.64 & 3.99 & 0.0467 \\ 
+  Risiduals & 260 & 562.40 & 2.16 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Republicans only, \emph{n} = 264. } 
+\label{reps2}
+\end{table}
+
+
+
+\end{document}
