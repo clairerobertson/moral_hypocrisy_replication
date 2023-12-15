@@ -1,0 +1,993 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration..in.seconds.,Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,consent,prolific_id,Q145,match.timer_First.Click,match.timer_Last.Click,match.timer_Page.Submit,match.timer_Click.Count,Q29_First.Click,Q29_Last.Click,Q29_Page.Submit,Q29_Click.Count,Q28,get.timer_First.Click,get.timer_Last.Click,get.timer_Page.Submit,get.timer_Click.Count,dem_ingroup1,dem_ingroup2,dem_ingroup3,rep_outgroup1,rep_outgroup2,rep_outgroup3,rep_ingroup1,rep_ingroup2,rep_ingroup3,dem_outgroup1,dem_outgroup2,dem_outgroup3,Q60_First.Click,Q60_Last.Click,Q60_Page.Submit,Q60_Click.Count,Q83,Q87,Q90_1_x,Q90_1_y,Q90,Q91,attn_check,Q147_First.Click,Q147_Last.Click,Q147_Page.Submit,Q147_Click.Count,Q55_First.Click,Q55_Last.Click,Q55_Page.Submit,Q55_Click.Count,Q57_First.Click,Q57_Last.Click,Q57_Page.Submit,Q57_Click.Count,cond1_selection,Q100_First.Click,Q100_Last.Click,Q100_Page.Submit,Q100_Click.Count,Q84,Q141,Q142,Q143_1,Q144,cond2_timing_First.Click,cond2_timing_Last.Click,cond2_timing_Page.Submit,cond2_timing_Click.Count,fairness.new.,Q31,guesstimate.new._1,feedback..new.,dem3_timing_First.Click,dem3_timing_Last.Click,dem3_timing_Page.Submit,dem3_timing_Click.Count,rep4_timing_First.Click,rep4_timing_Last.Click,rep4_timing_Page.Submit,rep4_timing_Click.Count,dem1_timing_First.Click,dem1_timing_Last.Click,dem1_timing_Page.Submit,dem1_timing_Click.Count,rep2_timing_First.Click,rep2_timing_Last.Click,rep2_timing_Page.Submit,rep2_timing_Click.Count,Q94,Q95,Q129,Q96,Q128,desktop,desktop_4_TEXT,Q131,age,gender,gender_5_TEXT,ethnicity,pol_or,Q102,Q103,researcherID,studyID,Create.New.Field.or.Choose.From.Dropdown...,groupID,participantID,groupSize,numStages,roles,participantRole,timeOutLog,maxWaitTime,id,aid,botMatch,matchAlert,participantStatus,sendData,sendStage,getStage,getData,saveData,getWaitText,freezeTime,chatLog,chatDuration,chatName,chatWindowWidth,chatWindowHeight,chatInstructions,condition,condition.f
+2023-09-11T21:31:50Z,2023-09-11T21:45:27Z,0,47.230.202.138,100,816,1,2023-09-11T21:45:28Z,R_cO7JaiKOMWlbw9r,NA,NA,NA,NA,40.7157,-74,anonymous,EN,1,madison_test4,1,0,0,24.02,0,0,0,3.117,0,122,0,0,43.411,0,16,16,12,16,16,12,NA,NA,NA,NA,NA,NA,21.3,21.3,22.149,1,1,4,365,224,Region #1,16,3,6.702,6.702,7.124,1,0,0,10.916,0,0,0,25.107,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.007,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,6392NwKkvp,MoHi_Study2,NA,1,R_cO7JaiKOMWlbw9r,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: test
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: test
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: test
+<br>Player3-Democrat: test
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T15:59:13Z,2023-09-12T16:06:40Z,0,70.120.229.35,100,447,1,2023-09-12T16:06:41Z,R_3exI30dbeYVNDJF,NA,NA,NA,NA,31.7775,-106.4903,anonymous,EN,1,5cfec17adc24bc00016efa53,1,17.141,17.141,30.243,1,0,0,3.022,0,80,0,0,13.407,0,14,14,10,14,14,10,NA,NA,NA,NA,NA,NA,0,0,22.048,0,4,4,597,211,Region #2,14,3,0,0,8.113,0,0,0,11.53,0,0,0,25.117,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.012,0,political bias,1,NA,2,just a guess,1,NA,NA,29,1,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,3,R_3exI30dbeYVNDJF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello!
+<br>Player1-Democrat: hello
+<br>Player2-Republican: How's it going
+<br>Player3-Democrat: hey
+<br>Player4-Republican: there were so many dots lol
+<br>Player1-Democrat: good, you?
+<br>Player2-Republican: I guess I am a total underestimator lol. Good thanks!
+<br>Player4-Republican: i overestimated
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:59:07Z,2023-09-12T16:06:44Z,0,66.41.93.126,100,456,1,2023-09-12T16:06:45Z,R_3QLwAsaKhFgxMxz,NA,NA,NA,NA,45.0702,-93.4556,anonymous,EN,1,570b7b5fb9b52b00102d96f9,1,0,0,27.967,0,0,0,3.028,0,64,0,0,36.441,0,16,16,11,14,13,9,NA,NA,NA,NA,NA,NA,0,0,21.234,0,1,4,172,74,Region #1,14,3,0,0,28.152,0,0,0,11.034,0,23.988,23.988,25.024,1,1,4.19,4.19,17.099,1,1,1,3,9,No other feedback,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Seeing how people assign tasks between people and if they choose to be fair or not.,1,NA,4,NA,1,NA,No other comments,28,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,2,R_3QLwAsaKhFgxMxz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Hello all
+<br>Player1-Democrat: afternoon
+<br>Player4-Republican: hi
+<br>Player3-Democrat: I found it hard to estimate the number of dots personally but I always overestimate everything so I'm not surprised
+<br>Player2-Republican: I thought it was hard because of the limited amount of time
+<br>Player1-Democrat: the lack of definable pattern on mine made it difficult
+<br>Player1-Democrat: tiem was also an issue for me
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: i usually underestimate because i am horrible at counting things quickly
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T15:59:07Z,2023-09-12T16:07:43Z,0,75.137.188.174,100,515,1,2023-09-12T16:07:44Z,R_2QKbCIre1EFUQOT,NA,NA,NA,NA,33.3708,-84.8154,anonymous,EN,1,5d57f9cdedef630016280505,1,0,0,6.895,0,0,0,3.021,0,90,25.596,25.596,25.953,1,NA,NA,NA,NA,NA,NA,17,17,12,13,13,9,0,0,22.561,0,1,1,138,213,Region #1,16,3,0,0,8.518,0,0,0,18.595,0,0,0,25.012,0,1,1.557,1.557,15.918,1,1,2,7,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I'm not sure,2,Researchers lie a lot,2,Because I was the one that was selected to do the assigning,1,NA,No,41,1,NA,7,5,1,1,6392NwKkvp,MoHi_Study2,NA,2,R_2QKbCIre1EFUQOT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Hello all
+<br>Player1-Democrat: afternoon
+<br>Player4-Republican: hi
+<br>Player3-Democrat: I found it hard to estimate the number of dots personally but I always overestimate everything so I'm not surprised
+<br>Player2-Republican: I thought it was hard because of the limited amount of time
+<br>Player1-Democrat: the lack of definable pattern on mine made it difficult
+<br>Player1-Democrat: tiem was also an issue for me
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: i usually underestimate because i am horrible at counting things quickly
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:00:48Z,2023-09-12T16:07:55Z,0,184.58.80.18,100,426,1,2023-09-12T16:07:56Z,R_1er92hGVkcXsB0h,NA,NA,NA,NA,37.1511,-83.7793,anonymous,EN,1,649d809191fa2e4b6e84c69e,1,0,0,8.204,0,0,0,3.007,0,103,0,0,22.709,0,18,17,13,14,13,9,NA,NA,NA,NA,NA,NA,0,0,21.28,0,1,4,792,353,Region #2,14,3,0,0,7.737,0,9.547,11.758,12.049,2,0,0,25.117,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,10,None,NA,NA,NA,NA,0,0,45.006,0,NA,NA,NA,NA,NA,NA,NA,NA,I do not know,1,NA,1,NA,1,NA,No,19,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,6,R_1er92hGVkcXsB0h,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hello
+<br>Player2-Republican: Hello everyone
+<br>Player3-Democrat: Hi Everyone 
+<br>Player4-Republican: Well I found out I'm an overestimator.
+<br>Player2-Republican: I was labeled over esimater
+<br>Player1-Democrat: Same I am as well
+<br>Player3-Democrat: The task was simple and straight to the point, I felt it was hard to because of how quickly it flashed 
+<br>Player2-Republican: I always hought of myself as an under estimater
+<br>Player1-Democrat: I agree
+<br>Player4-Republican: There was a lot to take in.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:59:26Z,2023-09-12T16:08:54Z,0,67.175.148.179,100,567,1,2023-09-12T16:08:55Z,R_2xzrNfP41DnCSu4,NA,NA,NA,NA,41.6227,-86.2452,anonymous,EN,1,5dd329e3270f4433de53299a,1,0,0,7.206,0,0,0,3.008,0,75,0,0,7.81,0,19,19,15,13,13,9,NA,NA,NA,NA,NA,NA,0,0,21.579,0,1,4,142,355,Region #1,17,3,0,0,15.739,0,0,0,17.491,0,0,0,25.008,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,7,no,0,0,45.108,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I don't know,1,NA,1,NA,1,NA,NA,27,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,3,R_2xzrNfP41DnCSu4,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello!
+<br>Player1-Democrat: hello
+<br>Player2-Republican: How's it going
+<br>Player3-Democrat: hey
+<br>Player4-Republican: there were so many dots lol
+<br>Player1-Democrat: good, you?
+<br>Player2-Republican: I guess I am a total underestimator lol. Good thanks!
+<br>Player4-Republican: i overestimated
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:02:20Z,2023-09-12T16:09:24Z,0,72.22.186.206,100,423,1,2023-09-12T16:09:25Z,R_2vkVRmzEak3CxKo,NA,NA,NA,NA,40.7434,-73.0761,anonymous,EN,1,5a4ffbc076d1c60001aa9438,1,0,0,33.43,0,0,0,3.118,0,45,0,0,36.647,0,19,19,15,13,13,9,NA,NA,NA,NA,NA,NA,0,0,21.075,0,1,4,549,331,Region #2,15,3,0,0,6.812,0,0,0,11.187,0,0,0,25.014,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.109,0,1,5,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I am not sure.,1,NA,1,NA,1,NA,NA,28,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,12,R_2vkVRmzEak3CxKo,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player3-Democrat: Hi everyone 
+<br>Player4-Republican: Hello! 
+<br>Player1-Democrat: Hi
+<br>Player2-Republican: It was tricky.
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Yea it was difficult
+<br>Player2-Republican: There were large and small dots.
+<br>Player1-Democrat: i guessed too low
+<br>Player4-Republican: It was, I was an underestimater... 
+<br>Player2-Republican: I guessed too high
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:59:10Z,2023-09-12T16:09:36Z,0,174.197.33.74,100,626,1,2023-09-12T16:09:37Z,R_27DtpP1aeGIw8de,NA,NA,NA,NA,29.4436,-98.4815,anonymous,EN,1,64013d507ab5a4cdc0c1a29a,1,0,0,7.952,0,0,0,3.111,0,150,0,0,10.321,0,NA,NA,NA,NA,NA,NA,19,19,15,13,13,9,9.803,15.699,21.846,2,1,1,869,49,Region #2,16,3,0,0,10.75,0,7.582,14.905,16.449,3,0,0,25.115,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.114,0,2,4,10,No i think it sounds like a fair thing to do.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I think it was about different views as far is political party and if one would be treated unfairly based on their preference.,1,NA,1,NA,1,NA,Fun survey,31,1,NA,4,5,1,1,6392NwKkvp,MoHi_Study2,NA,3,R_27DtpP1aeGIw8de,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello!
+<br>Player1-Democrat: hello
+<br>Player2-Republican: How's it going
+<br>Player3-Democrat: hey
+<br>Player4-Republican: there were so many dots lol
+<br>Player1-Democrat: good, you?
+<br>Player2-Republican: I guess I am a total underestimator lol. Good thanks!
+<br>Player4-Republican: i overestimated
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:59:41Z,2023-09-12T16:09:42Z,0,185.74.168.174,100,601,1,2023-09-12T16:09:43Z,R_10Uil6yjSfFr6uo,NA,NA,NA,NA,45.6574,-68.7102,anonymous,EN,1,5bf368846edd7200017136c7,1,0,0,62.308,0,0,0,3.116,0,80,0,0,24.021,0,NA,NA,NA,NA,NA,NA,19,19,15,13,13,9,0,0,21.487,0,1,4,564,337,Region #2,14,3,0,0,8.084,0,0,0,10.941,0,0,0,25.111,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,10,no,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.108,0,NA,NA,NA,NA,perceptions of Republicans vs Democrats,2,I did until I was told they were Democrats and Republicans.,1,NA,1,NA,no,32,2,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,7,R_10Uil6yjSfFr6uo,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: I would have liked to see the dots a bit longer.
+<br>Player1-Democrat: I didn't think it was hard to estimate, but apparently I did. 
+<br>Player2-Republican: The experience was frivolous.
+<br>Player3-Democrat: Not sure how I feel about being an overestimator. It was a bit tricky trying to complete the task accurately.
+<br>Player1-Democrat: I agree player 2
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:58:38Z,2023-09-12T16:10:07Z,0,174.81.212.61,100,689,1,2023-09-12T16:10:08Z,R_6JTLRiWm9SbU6sN,NA,NA,NA,NA,43.2701,-83.557,anonymous,EN,1,5cc5e72ce3c44e0015fdf990,1,0,0,9.165,0,0,0,3.118,0,150,0,0,0.435,0,15,15,10,13,13,9,NA,NA,NA,NA,NA,NA,0,0,22.216,0,1,4,690,89,Region #2,14,3,0,0,14.029,0,0,0,27.002,0,0,0,25.114,0,1,22.565,22.565,23.74,1,1,3,5,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,to see how people favor themselves when it comes to difficult and time consuming activities over others,2,the matching happened too quickly and there wasn't any delay where participants joined and quit,4,NA,1,NA,NA,21,3,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,2,R_6JTLRiWm9SbU6sN,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Hello all
+<br>Player1-Democrat: afternoon
+<br>Player4-Republican: hi
+<br>Player3-Democrat: I found it hard to estimate the number of dots personally but I always overestimate everything so I'm not surprised
+<br>Player2-Republican: I thought it was hard because of the limited amount of time
+<br>Player1-Democrat: the lack of definable pattern on mine made it difficult
+<br>Player1-Democrat: tiem was also an issue for me
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: i usually underestimate because i am horrible at counting things quickly
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T15:59:11Z,2023-09-12T16:10:15Z,0,70.171.250.198,100,663,1,2023-09-12T16:10:16Z,R_3ff7L4SNiILjxsn,NA,NA,NA,NA,33.4475,-112.0866,anonymous,EN,1,6406300d0af7758269c8dc0b,1,0,0,22.619,0,0,0,3.11,0,85,0,0,28.659,0,NA,NA,NA,NA,NA,NA,18,18,14,14,14,10,9.769,11.931,91.557,2,1,4,408,49,Region #1,14,3,0,0,7.811,0,11.044,12.552,12.771,2,0,0,26.351,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,2,10,I don't see how it is blind when they obviously picked the easier study to take.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,46.332,0,I am not sure.,1,NA,1,NA,1,NA,"Nothing else to add, thank you.",16,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,2,R_3ff7L4SNiILjxsn,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Hello all
+<br>Player1-Democrat: afternoon
+<br>Player4-Republican: hi
+<br>Player3-Democrat: I found it hard to estimate the number of dots personally but I always overestimate everything so I'm not surprised
+<br>Player2-Republican: I thought it was hard because of the limited amount of time
+<br>Player1-Democrat: the lack of definable pattern on mine made it difficult
+<br>Player1-Democrat: tiem was also an issue for me
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: i usually underestimate because i am horrible at counting things quickly
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T15:59:07Z,2023-09-12T16:10:36Z,0,24.159.4.16,100,688,1,2023-09-12T16:10:37Z,R_2Pd13yxFo3JbdO9,NA,NA,NA,NA,36.224,-83.3179,anonymous,EN,1,55e5d5fdc70c7a000b2a5bac,1,16.782,16.782,46.009,1,0,0,3.106,0,75,0,0,76.525,0,NA,NA,NA,NA,NA,NA,18,17,14,13,13,9,16.29,20.121,21.517,3,1,4,226,84,Region #1,14,3,0,0,9.511,0,9.592,13.854,14.835,2,0,0,25.007,0,1,3.28,3.28,19.015,1,1,2,6,8,n/a,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Perceptions of groups and fairness.,1,NA,2,"I think the researchers had a hypothesis and designed the experiment around this, using somewhat misleading information on how tasks would be assigned.",1,NA,NA,35,2,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,5,R_2Pd13yxFo3JbdO9,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: Hey
+<br>Player4-Republican: I was expecting to have more time to count
+<br>Player2-Republican: Hello estimators....
+<br>Player4-Republican: it was rather quick
+<br>Player3-Democrat: ewwwwwwww Republicans! 😩
+<br>Player3-Democrat: 88 for me 
+<br>Player4-Republican: i said 60
+<br>Player2-Republican: I guessed 75
+<br>Player1-Democrat: I said 45
+<br>Player4-Republican: hey repubplican :)
+<br>Player3-Democrat: i won
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: lol
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:00:01Z,2023-09-12T16:10:46Z,0,132.170.212.13,100,644,1,2023-09-12T16:10:47Z,R_1f2a3kFuD7XP2kp,NA,NA,NA,NA,28.5588,-81.3495,anonymous,EN,1,6413f77e3147572471197fe7,1,0,0,108.11,0,0,0,3.118,0,65,0,0,60.097,0,NA,NA,NA,NA,NA,NA,18,17,12,16,14,11,9.725,9.725,22.497,1,1,1,599,217,Region #2,15,3,4.439,4.439,7.224,1,2.607,6.61,10.589,2,0,0,25.113,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,10,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20.945,20.945,45.106,1,how people will disperse workload knowing one is more intense than the other,1,NA,1,NA,1,NA,NA,13,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,9,R_1f2a3kFuD7XP2kp,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: whats uo
+<br>Player4-Republican: whats uo
+<br>Player2-Republican: hi
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: my picture had so many dots
+<br>Player4-Republican: my picture had so many dots
+<br>Player1-Democrat: Mine did too
+<br>Player4-Republican: couldnt count them lol
+<br>Player4-Republican: couldnt count them lol
+<br>Player1-Democrat: Honestly I just made my best guess and then moved on
+<br>Player4-Republican: fr
+<br>Player4-Republican: fr
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T15:59:16Z,2023-09-12T16:10:49Z,0,73.117.188.59,100,692,1,2023-09-12T16:10:50Z,R_1DO2HXHfk37lvzA,NA,NA,NA,NA,40.6151,-79.7827,anonymous,EN,1,60fc6011bfe18980db6aec78,1,0,0,18.116,0,0,0,3.128,0,100,0,0,34.5,0,18,18,14,14,14,10,NA,NA,NA,NA,NA,NA,27.378,27.378,28.908,1,1,4,559,327,Region #2,15,3,0,0,9.803,0,14.845,14.845,16.004,1,0,0,25.019,0,2,13.899,15.156,16.48,2,NA,1,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,people's bias towards others,1,NA,4,NA,1,NA,NA,42,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,4,R_1DO2HXHfk37lvzA,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: Hi
+<br>Player3-Democrat: Hi
+<br>Player1-Democrat: Hello!
+<br>Player3-Democrat: It went really fast so it was hard to guess how many there were
+<br>Player4-Republican: I dont know why they put political groups. I mean, HI!
+<br>Player3-Democrat: LOL
+<br>Player2-Republican: Yes , i agree that was challenging
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T15:59:04Z,2023-09-12T16:10:52Z,0,108.51.53.118,100,708,1,2023-09-12T16:10:53Z,R_3F25cDq9ubhgK0G,NA,NA,NA,NA,38.7592,-76.9858,anonymous,EN,1,5f19f2fc1af38d0bd7d29b13,1,0,0,30.412,0,0,0,3.009,0,63,0,0,25.283,0,17,15,11,13,13,9,NA,NA,NA,NA,NA,NA,0,0,25.709,0,1,4,790,350,Region #2,15,3,0,0,12.625,0,0,0,21.094,0,0,0,25.009,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.01,0,1,5,10,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see how likely people are to assign themselves the easier tasks based on political affiliation.,1,NA,1,NA,1,NA,no!,18,2,NA,3,3,1,1,6392NwKkvp,MoHi_Study2,NA,4,R_3F25cDq9ubhgK0G,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: Hi
+<br>Player3-Democrat: Hi
+<br>Player1-Democrat: Hello!
+<br>Player3-Democrat: It went really fast so it was hard to guess how many there were
+<br>Player4-Republican: I dont know why they put political groups. I mean, HI!
+<br>Player3-Democrat: LOL
+<br>Player2-Republican: Yes , i agree that was challenging
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:59:24Z,2023-09-12T16:11:05Z,0,67.149.145.170,100,700,1,2023-09-12T16:11:06Z,R_1Q5FlfRYXhWVkOu,NA,NA,NA,NA,42.558,-82.998,anonymous,EN,1,63d7d4e2ebf6c98c92c2a7f8,1,0,0,22.637,0,0,0,3.11,0,45,0,0,61.909,0,18,19,15,14,15,11,NA,NA,NA,NA,NA,NA,1.289,32.196,32.699,4,2,3,309,283,Region #1,15,3,0,0,8.398,0,2.471,2.471,11.805,1,0,0,25.108,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.107,0,1,3,3,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Its about chatting and sharing opinions and counting dots and politics.,1,NA,1,NA,1,NA,no,21,2,NA,7,3,1,1,6392NwKkvp,MoHi_Study2,NA,5,R_1Q5FlfRYXhWVkOu,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: Hey
+<br>Player4-Republican: I was expecting to have more time to count
+<br>Player2-Republican: Hello estimators....
+<br>Player4-Republican: it was rather quick
+<br>Player3-Democrat: ewwwwwwww Republicans! 😩
+<br>Player3-Democrat: 88 for me 
+<br>Player4-Republican: i said 60
+<br>Player2-Republican: I guessed 75
+<br>Player1-Democrat: I said 45
+<br>Player4-Republican: hey repubplican :)
+<br>Player3-Democrat: i won
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: lol
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:59:03Z,2023-09-12T16:11:31Z,0,148.66.189.9,100,748,1,2023-09-12T16:11:32Z,R_1IfS7PDaKg1ryPS,NA,NA,NA,NA,36.7314,-88.6501,anonymous,EN,1,5c7b23486babcb000184f1f1,1,0,0,13.273,0,0,0,3.039,0,150,0,0,0.439,0,NA,NA,NA,NA,NA,NA,17,18,12,13,13,9,0,0,25.596,0,1,3,327,349,Region #1,14,3,0,0,14.687,0,0,0,16.802,0,0,0,25.028,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,1,no,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.023,0,NA,NA,NA,NA,to see how someone would react to being  chosen for the hard task?,1,NA,1,NA,1,NA,thanks for including me in your research,43,2,NA,7,5,1,1,6392NwKkvp,MoHi_Study2,NA,3,R_1IfS7PDaKg1ryPS,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player2-Republican: Hello!
+<br>Player1-Democrat: hello
+<br>Player2-Republican: How's it going
+<br>Player3-Democrat: hey
+<br>Player4-Republican: there were so many dots lol
+<br>Player1-Democrat: good, you?
+<br>Player2-Republican: I guess I am a total underestimator lol. Good thanks!
+<br>Player4-Republican: i overestimated
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:00:54Z,2023-09-12T16:11:39Z,0,47.225.154.152,100,645,1,2023-09-12T16:11:40Z,R_22LDTFNb1269AxK,NA,NA,NA,NA,42.5256,-85.8661,anonymous,EN,1,5c2fcd716ea6880001dc8e3d,1,0,0,49.514,0,0,0,3.116,0,52,0,0,64.975,0,18,19,14,14,13,10,NA,NA,NA,NA,NA,NA,9.789,19.599,21.458,3,1,4,99,338,Region #1,15,3,12.68,13.161,15.244,2,0,0,12.429,0,0,0,25.012,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,8,The green task seems easier to me,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.11,0,"Not sure, maybe if people want an easier task or not?",1,NA,1,NA,1,NA,Thanks,52,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,10,R_22LDTFNb1269AxK,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: lol
+<br>Player3-Democrat: hey
+<br>Player2-Republican: I just guessed
+<br>Player3-Democrat: me too
+<br>Player4-Republican: hiim an over i guessed 150 u guys?
+<br>Player2-Republican: I guessed 100
+<br>Player1-Democrat: Nice names
+<br> *** Player1-Democrat has left the chat ***
+<br>Player3-Democrat: I under estimated
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:59:16Z,2023-09-12T16:11:39Z,0,173.49.151.169,100,743,1,2023-09-12T16:11:40Z,R_2uPoHjMrGfYzxJi,NA,NA,NA,NA,39.9544,-75.1657,anonymous,EN,1,57dd766bbcd7150001ded5de,1,0,0,67.047,0,0,0,3.115,0,50,0,0,23.579,0,NA,NA,NA,NA,NA,NA,16,14,9,16,17,12,0,0,24.452,0,1,4,780,284,Region #2,16,3,0,0,10.246,0,0,0,22.97,0,0,0,25.016,0,1,13.7,13.7,22.301,1,1,2,3,10,I was surprised but rather happy I was able to choose the task selection for me.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Unsure,1,NA,4,NA,1,NA,The chat session was rather rushed so I felt trying to chat and then answer the questions about it was not properly done as I feel I could have done.,46,1,NA,7,4,1,1,6392NwKkvp,MoHi_Study2,NA,6,R_2uPoHjMrGfYzxJi,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hello
+<br>Player2-Republican: Hello everyone
+<br>Player3-Democrat: Hi Everyone 
+<br>Player4-Republican: Well I found out I'm an overestimator.
+<br>Player2-Republican: I was labeled over esimater
+<br>Player1-Democrat: Same I am as well
+<br>Player3-Democrat: The task was simple and straight to the point, I felt it was hard to because of how quickly it flashed 
+<br>Player2-Republican: I always hought of myself as an under estimater
+<br>Player1-Democrat: I agree
+<br>Player4-Republican: There was a lot to take in.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player2-Republican: I agree not much time to cout
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T15:59:23Z,2023-09-12T16:11:44Z,0,72.73.99.6,100,741,1,2023-09-12T16:11:45Z,R_ewzlGCJd4ON9xwR,NA,NA,NA,NA,45.1748,-69.3975,anonymous,EN,1,64d62014cc29ce3b13fa6899,1,0,0,10.022,0,0,0,3.011,0,85,0,0,44.006,0,NA,NA,NA,NA,NA,NA,14,14,9,17,17,12,0,0,22.69,0,1,4,870,51,Region #2,16,3,0,0,8.811,0,0,0,33.612,0,0,0,25.125,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,3,8,I would have randomized it.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.109,0,Personality traits and political identity.,1,NA,2,Because I wasn't assigned a task I believe they weren't either.,1,NA,be well,41,1,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,4,R_ewzlGCJd4ON9xwR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: Hi
+<br>Player3-Democrat: Hi
+<br>Player1-Democrat: Hello!
+<br>Player3-Democrat: It went really fast so it was hard to guess how many there were
+<br>Player4-Republican: I dont know why they put political groups. I mean, HI!
+<br>Player3-Democrat: LOL
+<br>Player2-Republican: Yes , i agree that was challenging
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:00:18Z,2023-09-12T16:12:05Z,0,73.94.250.135,100,706,1,2023-09-12T16:12:06Z,R_1mLcvxQ6LOGM5W0,NA,NA,NA,NA,44.8349,-93.2814,anonymous,EN,1,60f6ce6de6cf393bcde0c14d,1,0,0,17.909,0,0,0,3.015,0,47,0,0,19.997,0,18,18,12,13,13,9,NA,NA,NA,NA,NA,NA,12.618,12.618,21.34,1,1,4,618,160,Region #2,14,3,0,0,9.446,0,14.986,14.986,16.29,1,0,0,25.009,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,10,I don't believe that it's true.,NA,NA,NA,NA,0,0,45.008,0,NA,NA,NA,NA,NA,NA,NA,NA,"I'm not sure, the survey/experiment was all over the place.",2,It just seemed too random,2,I'm sure the experiment was chosen to have me do the red 20 minute task to gauge my reaction.,1,NA,none,51,2,NA,7,5,1,1,6392NwKkvp,MoHi_Study2,NA,7,R_1mLcvxQ6LOGM5W0,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: I would have liked to see the dots a bit longer.
+<br>Player1-Democrat: I didn't think it was hard to estimate, but apparently I did. 
+<br>Player2-Republican: The experience was frivolous.
+<br>Player3-Democrat: Not sure how I feel about being an overestimator. It was a bit tricky trying to complete the task accurately.
+<br>Player1-Democrat: I agree player 2
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:02:12Z,2023-09-12T16:12:15Z,0,172.56.208.104,100,602,1,2023-09-12T16:12:16Z,R_2wTQlymTMTZby9z,NA,NA,NA,NA,36.1685,-115.1164,anonymous,EN,1,5e14ffee6f6c63b33cf77eb3,1,0,0,32.463,0,0,0,3.115,0,59,0,0,15.263,0,18,17,13,13,13,9,NA,NA,NA,NA,NA,NA,0,0,23.507,0,1,4,608,212,Region #2,14,3,0,0,7.901,0,0,0,15.181,0,0,0,25.017,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.108,0,1,3,6,the randomizer would have been more fair,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,to see how the group members make decisions,1,NA,1,NA,1,NA,NA,36,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,12,R_2wTQlymTMTZby9z,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player3-Democrat: Hi everyone 
+<br>Player4-Republican: Hello! 
+<br>Player1-Democrat: Hi
+<br>Player2-Republican: It was tricky.
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Yea it was difficult
+<br>Player2-Republican: There were large and small dots.
+<br>Player1-Democrat: i guessed too low
+<br>Player4-Republican: It was, I was an underestimater... 
+<br>Player2-Republican: I guessed too high
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:00:44Z,2023-09-12T16:12:15Z,0,76.108.188.138,100,691,1,2023-09-12T16:12:16Z,R_1mr482AXsovdaE1,NA,NA,NA,NA,25.7641,-80.2702,anonymous,EN,1,60f96f9a4dd14494f27e1957,1,0,0,51.57,0,0,0,3.114,0,50,0,0,37.309,0,17,17,13,16,16,12,NA,NA,NA,NA,NA,NA,0,0,22.699,0,1,4,564,350,Region #2,15,3,0,0,12.169,0,0,0,16.278,0,0,0,25.117,0,1,20.276,20.276,26.253,1,1,2,3,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see if people act fairly or selfishly when presented with two pretty different tasks,1,NA,4,NA,1,NA,NA,28,2,NA,47,2,1,1,6392NwKkvp,MoHi_Study2,NA,8,R_1mr482AXsovdaE1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hi everybody
+<br>Player3-Democrat: hello
+<br>Player1-Democrat: I hyper fixated on the large dots... my bad.
+<br>Player2-Republican: Howdy, I am an overestimater I guess. 
+<br>Player4-Republican: hah-i just took a wid guess
+<br>Player3-Democrat: I kinda counted a corner in the time given and then just guessed more or less
+<br>Player4-Republican: wild
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:03:50Z,2023-09-12T16:12:17Z,0,96.3.13.189,100,506,1,2023-09-12T16:12:18Z,R_1IZyS1znqDW9eOt,NA,NA,NA,NA,46.8045,-100.7865,anonymous,EN,1,6361a6a7be16d8144319fd3a,1,21.633,21.633,22.002,1,0.929,0.929,3.01,1,260,0,0,5.839,0,18,18,14,13,13,9,NA,NA,NA,NA,NA,NA,3.561,13.298,23.913,10,1,3,NA,NA,NA,15,3,0,0,7.261,0,1.921,7.735,11.951,6,0,0,25.009,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,8,No,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.11,0,NA,NA,NA,NA,I really have no idea,1,NA,1,NA,1,NA,NA,31,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,14,R_1IZyS1znqDW9eOt,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: Well I underestimated again. 
+<br>Player3-Democrat: I guessed 265. My brain had no idea. 
+<br>Player1-Democrat: I did 102.
+<br>Player4-Republican: ha I was at 80
+<br>Player2-Republican: Welcome from an overestimater from North Carolina
+<br>Player1-Democrat: It was pretty difficult in my opinion.
+<br>Player3-Democrat: Wow you really underestimated lol. I though I’d be over 
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:01:34Z,2023-09-12T16:12:25Z,0,71.29.244.120,100,650,1,2023-09-12T16:12:26Z,R_2TAdSWwhKSNoXMM,NA,NA,NA,NA,32.4599,-83.7244,anonymous,EN,1,58742bf5d53c97000159df8c,1,0,0,125.273,0,0,0,3.009,0,80,0,0,45.073,0,NA,NA,NA,NA,NA,NA,18,18,14,13,13,9,8.082,8.082,20.823,1,1,4,867,51,Region #2,14,3,6.881,6.881,7.496,1,0,0,11.403,0,0,0,25.009,0,2,5.701,11.416,15.881,3,NA,1,7,10,No.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see if people would be fair even when it's regarding someone who leans a different way politically.,1,NA,4,NA,1,NA,No.,26,2,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,13,R_2TAdSWwhKSNoXMM,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player3-Democrat: Y'all over or underestimators? Lol
+<br>Player2-Republican: What do you think about being an underestimator?
+<br>Player4-Republican: It was hard to guess the amount! I overestimated!
+<br>Player1-Democrat: Hi, y'all. How is everyone? I'm an overestimator.
+<br>Player2-Republican: I am underministator.
+<br>Player3-Democrat: I was an under estimator.
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:01:07Z,2023-09-12T16:12:27Z,0,66.90.191.31,100,680,1,2023-09-12T16:12:28Z,R_SPrjZ2DL8qpas2l,NA,NA,NA,NA,29.8737,-97.9361,anonymous,EN,1,5c8be0dd542fbd0016924f5f,1,0,0,8.227,0,0,0,3.008,0,100,0,0,20.083,0,NA,NA,NA,NA,NA,NA,17,17,13,13,13,9,0,0,23.131,0,1,4,188,76,Region #1,15,3,0,0,16.346,0,0,0,32.425,0,0,0,25.006,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.107,0,1,2,10,If you allow someone to choose to do less work and get paid the same they are going to choose to do that.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see how people feel about an unfair situation.,1,NA,1,NA,1,NA,NA,24,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,8,R_SPrjZ2DL8qpas2l,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hi everybody
+<br>Player3-Democrat: hello
+<br>Player1-Democrat: I hyper fixated on the large dots... my bad.
+<br>Player2-Republican: Howdy, I am an overestimater I guess. 
+<br>Player4-Republican: hah-i just took a wid guess
+<br>Player3-Democrat: I kinda counted a corner in the time given and then just guessed more or less
+<br>Player4-Republican: wild
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:58:52Z,2023-09-12T16:12:33Z,0,174.70.107.47,100,820,1,2023-09-12T16:12:34Z,R_3HnmKdzfyQvRu0k,NA,NA,NA,NA,29.9317,-90.1026,anonymous,EN,1,5be8a1701664db0001d804f8,1,0,0,134.748,0,0,0,3.009,0,88,0,0,0.6,0,17,17,13,16,16,12,NA,NA,NA,NA,NA,NA,0,0,32.34,0,4,3,601,213,Region #2,16,3,0,0,18.949,0,0,0,18.238,0,0,0,26.508,0,1,4.108,4.108,16.535,1,1,2,6,9,"I will always take advantage of the system, meaning I want less work for more money.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"I have no idea, but maybe you want to test people's acts of fairness...",1,NA,4,NA,1,NA,No.,46,2,NA,4,2,1,1,6392NwKkvp,MoHi_Study2,NA,5,R_3HnmKdzfyQvRu0k,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: Hey
+<br>Player4-Republican: I was expecting to have more time to count
+<br>Player2-Republican: Hello estimators....
+<br>Player4-Republican: it was rather quick
+<br>Player3-Democrat: ewwwwwwww Republicans! 😩
+<br>Player3-Democrat: 88 for me 
+<br>Player4-Republican: i said 60
+<br>Player2-Republican: I guessed 75
+<br>Player1-Democrat: I said 45
+<br>Player4-Republican: hey repubplican :)
+<br>Player3-Democrat: i won
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: lol
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:00:14Z,2023-09-12T16:12:33Z,0,68.112.123.155,100,739,1,2023-09-12T16:12:34Z,R_3iUS8fejPRsohjo,NA,NA,NA,NA,43.7746,-88.4376,anonymous,EN,1,5c3c7913b4f22c0001a0809c,1,0,0,85.937,0,0,0,3.011,0,65,0,0,40.97,0,NA,NA,NA,NA,NA,NA,18,18,14,14,14,10,0,0,21,0,5,5,789,357,Region #2,14,3,0,0,11.422,0,0,0,17.383,0,0,0,25.111,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,6,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22.53,22.53,45.11,1,is a person selfish and take the easy route?,2,seemed to be canned responses,2,not too likely the leader would choose the hardest task,1,NA,no,62,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,8,R_3iUS8fejPRsohjo,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hi everybody
+<br>Player3-Democrat: hello
+<br>Player1-Democrat: I hyper fixated on the large dots... my bad.
+<br>Player2-Republican: Howdy, I am an overestimater I guess. 
+<br>Player4-Republican: hah-i just took a wid guess
+<br>Player3-Democrat: I kinda counted a corner in the time given and then just guessed more or less
+<br>Player4-Republican: wild
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:02:17Z,2023-09-12T16:12:36Z,0,172.59.137.208,100,618,1,2023-09-12T16:12:37Z,R_3nSp879pYrFrxVO,NA,NA,NA,NA,40.4339,-79.9996,anonymous,EN,1,63f7a3efa5b4d0027e3185f0,1,0,0,7.745,0,0,0,3.118,0,150,0,0,15.749,0,NA,NA,NA,NA,NA,NA,19,19,15,18,18,14,0,0,27.519,0,1,4,868,51,Region #2,14,3,0,0,9.909,0,0,0,12.383,0,0,0,25.025,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,10,N/A,NA,NA,NA,NA,0,0,45.022,0,NA,NA,NA,NA,NA,NA,NA,NA,I'm not sure.,1,NA,1,NA,1,NA,N/A,32,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,12,R_3nSp879pYrFrxVO,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player3-Democrat: Hi everyone 
+<br>Player4-Republican: Hello! 
+<br>Player1-Democrat: Hi
+<br>Player2-Republican: It was tricky.
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Yea it was difficult
+<br>Player2-Republican: There were large and small dots.
+<br>Player1-Democrat: i guessed too low
+<br>Player4-Republican: It was, I was an underestimater... 
+<br>Player2-Republican: I guessed too high
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:00:02Z,2023-09-12T16:12:36Z,0,172.56.69.202,100,754,1,2023-09-12T16:12:37Z,R_1duwuJZsJFgTsQu,NA,NA,NA,NA,33.7485,-84.3871,anonymous,EN,1,5de831cad4995d000c5fb540,1,0,0,22.193,0,0,0,3.007,0,170,0,0,0.448,0,NA,NA,NA,NA,NA,NA,19,18,13,13,13,9,0,0,22.452,0,5,4,870,51,Region #2,14,3,0,0,7.293,0,0,0,13.765,0,0,0,25.007,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,46.377,0,2,7,5,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"I have no idea, nor do I guess at such, because they literally can be about anything.",2,I have no reason to believe that I was.,2,"I don't know, just have no belief there were other participants.",1,NA,A financial crash is coming.,54,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,7,R_1duwuJZsJFgTsQu,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: I would have liked to see the dots a bit longer.
+<br>Player1-Democrat: I didn't think it was hard to estimate, but apparently I did. 
+<br>Player2-Republican: The experience was frivolous.
+<br>Player3-Democrat: Not sure how I feel about being an overestimator. It was a bit tricky trying to complete the task accurately.
+<br>Player1-Democrat: I agree player 2
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T15:58:50Z,2023-09-12T16:12:40Z,0,143.55.93.115,100,829,1,2023-09-12T16:12:40Z,R_2rOemUXssDtmBqb,NA,NA,NA,NA,39.9279,-120.9697,anonymous,EN,1,5dcc3ec7db13278d75c8622f,1,0,0,10.46,0,0,0,3.118,0,50,0,0,0.484,0,NA,NA,NA,NA,NA,NA,18,17,13,17,17,13,0,0,73.145,0,1,4,595,217,Region #2,15,3,0,0,7.149,0,0,0,32.724,0,0,0,25.114,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,6,8,none,NA,NA,NA,NA,0,0,45.012,0,NA,NA,NA,NA,NA,NA,NA,NA,no idea,1,NA,1,NA,1,NA,NA,30,2,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,4,R_2rOemUXssDtmBqb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player2-Republican: Hi
+<br>Player3-Democrat: Hi
+<br>Player1-Democrat: Hello!
+<br>Player3-Democrat: It went really fast so it was hard to guess how many there were
+<br>Player4-Republican: I dont know why they put political groups. I mean, HI!
+<br>Player3-Democrat: LOL
+<br>Player2-Republican: Yes , i agree that was challenging
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T15:59:18Z,2023-09-12T16:12:51Z,0,209.74.122.229,100,813,1,2023-09-12T16:12:52Z,R_1HnrjN2RqWfpJ9L,NA,NA,NA,NA,42.4941,-85.2452,anonymous,EN,1,62694f79608ed29b7af936b1,1,0,0,63.207,0,0,0,3.122,0,125,0,0,17.495,0,NA,NA,NA,NA,NA,NA,19,19,14,13,13,9,0,0,24.998,0,1,4,314,274,Region #1,15,3,0,0,13.112,0,0,0,18.967,0,0,0,25.679,0,1,7.716,7.716,21.477,1,1,1,1,7,Its definetly interesting i chose green because the red task i was horrible at not because i wanted shorter time,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see if how fair minded most people are,1,NA,1,NA,1,NA,Im grateful but its hard to understand why you would pay this amount of money for such a short task. I would love to know why if im allowed to know or if you even read this stuff i have found most researchers do not read what people write so i stopped wasting my time.,48,2,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,6,R_1HnrjN2RqWfpJ9L,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hello
+<br>Player2-Republican: Hello everyone
+<br>Player3-Democrat: Hi Everyone 
+<br>Player4-Republican: Well I found out I'm an overestimator.
+<br>Player2-Republican: I was labeled over esimater
+<br>Player1-Democrat: Same I am as well
+<br>Player3-Democrat: The task was simple and straight to the point, I felt it was hard to because of how quickly it flashed 
+<br>Player2-Republican: I always hought of myself as an under estimater
+<br>Player1-Democrat: I agree
+<br>Player4-Republican: There was a lot to take in.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player2-Republican: I agree not much time to cout
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T15:59:39Z,2023-09-12T16:12:54Z,0,24.148.38.21,100,795,1,2023-09-12T16:12:55Z,R_2qwtT0kmmOUNWXQ,NA,NA,NA,NA,41.8482,-87.6521,anonymous,EN,1,64e242f129d42482d05a122b,1,0,0,46.532,0,0,0,3.118,0,89,0,0,14.003,0,19,19,15,13,13,9,NA,NA,NA,NA,NA,NA,0,0,22.9,0,1,4,599,210,Region #2,14,3,0,0,7.582,0,0,0,36.168,0,0,0,25.013,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,5,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.11,0,Really wasn't sure,1,NA,1,NA,1,NA,No,45,2,NA,3,2,1,1,6392NwKkvp,MoHi_Study2,NA,7,R_2qwtT0kmmOUNWXQ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: I would have liked to see the dots a bit longer.
+<br>Player1-Democrat: I didn't think it was hard to estimate, but apparently I did. 
+<br>Player2-Republican: The experience was frivolous.
+<br>Player3-Democrat: Not sure how I feel about being an overestimator. It was a bit tricky trying to complete the task accurately.
+<br>Player1-Democrat: I agree player 2
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:59:11Z,2023-09-12T16:12:57Z,0,67.86.112.70,100,825,1,2023-09-12T16:12:58Z,R_6L3Lw4E8Nl4uaCR,NA,NA,NA,NA,40.6115,-74.0156,anonymous,EN,1,60ca4cfb5c287146cad0695a,1,115.892,115.892,117.339,1,2.301,2.301,3.109,1,60,0,0,7.735,0,NA,NA,NA,NA,NA,NA,19,19,15,13,13,9,8.381,20.777,21.742,2,4,5,873,57,Region #2,14,3,0,0,22.354,0,21.954,21.954,24.445,1,0,0,25.012,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,6,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.007,0,NA,NA,NA,NA,How one may change their actions depending on if they are a republican or democrat.,1,NA,1,NA,1,NA,Good luck with study,31,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,5,R_6L3Lw4E8Nl4uaCR,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: Hey
+<br>Player4-Republican: I was expecting to have more time to count
+<br>Player2-Republican: Hello estimators....
+<br>Player4-Republican: it was rather quick
+<br>Player3-Democrat: ewwwwwwww Republicans! 😩
+<br>Player3-Democrat: 88 for me 
+<br>Player4-Republican: i said 60
+<br>Player2-Republican: I guessed 75
+<br>Player1-Democrat: I said 45
+<br>Player4-Republican: hey repubplican :)
+<br>Player3-Democrat: i won
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: lol
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:01:13Z,2023-09-12T16:13:12Z,0,96.244.207.203,100,718,1,2023-09-12T16:13:13Z,R_2yk26Gy3j47MzMl,NA,NA,NA,NA,39.4126,-76.5789,anonymous,EN,1,6478d8ebc903ff941f361448,1,0,0,56.053,0,1.518,2.054,3.008,2,50,0,0,45.669,0,17,17,13,14,14,10,NA,NA,NA,NA,NA,NA,7.818,22.105,22.983,6,1,4,872,44,Region #2,17,3,0,0,7.219,0,9.074,9.074,11.468,1,0,0,25.11,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.109,0,1,6,4,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Something about partisan divides and trust?,2,The interaction did not feel real,2,It seems as if they never are in these studies.,1,NA,Nope,46,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,9,R_2yk26Gy3j47MzMl,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: whats uo
+<br>Player4-Republican: whats uo
+<br>Player2-Republican: hi
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: my picture had so many dots
+<br>Player4-Republican: my picture had so many dots
+<br>Player1-Democrat: Mine did too
+<br>Player4-Republican: couldnt count them lol
+<br>Player4-Republican: couldnt count them lol
+<br>Player1-Democrat: Honestly I just made my best guess and then moved on
+<br>Player4-Republican: fr
+<br>Player4-Republican: fr
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:00:22Z,2023-09-12T16:13:31Z,0,107.85.123.223,100,789,1,2023-09-12T16:13:32Z,R_p0PaUEcwYOdzuHD,NA,NA,NA,NA,37.7809,-122.4245,anonymous,EN,1,5f6e2f793c9b1032dbe72def,1,0,0,24.866,0,0,0,3.115,0,130,0,0,1.437,0,NA,NA,NA,NA,NA,NA,18,18,13,14,13,10,0,0,23.498,0,1,4,770,279,Region #2,18,3,0,0,12.97,0,12.03,12.03,12.365,1,0,0,25.112,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.006,0,2,5,7,n/a,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I don't know,1,NA,1,NA,1,NA,n/a,34,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,9,R_p0PaUEcwYOdzuHD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player4-Republican: whats uo
+<br>Player4-Republican: whats uo
+<br>Player2-Republican: hi
+<br>Player1-Democrat: Hi
+<br>Player4-Republican: my picture had so many dots
+<br>Player4-Republican: my picture had so many dots
+<br>Player1-Democrat: Mine did too
+<br>Player4-Republican: couldnt count them lol
+<br>Player4-Republican: couldnt count them lol
+<br>Player1-Democrat: Honestly I just made my best guess and then moved on
+<br>Player4-Republican: fr
+<br>Player4-Republican: fr
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:00:34Z,2023-09-12T16:13:34Z,0,108.73.72.233,100,779,1,2023-09-12T16:13:35Z,R_yP8Oj5zG5bLJNXb,NA,NA,NA,NA,26.125,-80.267,anonymous,EN,1,5dd40277e08a363e4e006384,1,0,0,106.344,0,0,0,3.018,0,65,0,0,0.441,0,NA,NA,NA,NA,NA,NA,18,18,13,14,13,9,0,0,21.591,0,1,4,874,54,Region #2,14,3,0,0,10.471,0,12.384,12.384,26.101,1,0,0,25.016,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.11,0,NA,NA,NA,NA,To see how different political affiliates react to each other.,1,NA,1,NA,1,NA,"NA",35,2,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,12,R_yP8Oj5zG5bLJNXb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player3-Democrat: Hi everyone 
+<br>Player4-Republican: Hello! 
+<br>Player1-Democrat: Hi
+<br>Player2-Republican: It was tricky.
+<br>Player2-Republican: Hello
+<br>Player3-Democrat: Yea it was difficult
+<br>Player2-Republican: There were large and small dots.
+<br>Player1-Democrat: i guessed too low
+<br>Player4-Republican: It was, I was an underestimater... 
+<br>Player2-Republican: I guessed too high
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:02:11Z,2023-09-12T16:13:40Z,0,98.97.36.55,100,688,1,2023-09-12T16:13:41Z,R_0x0KC6GVfBXLVYZ,NA,NA,NA,NA,47.6034,-122.3414,anonymous,EN,1,5bfd81fb2feab400014d9060,1,0,0,132.453,0,0,0,3.109,0,80,0,0,24.418,0,NA,NA,NA,NA,NA,NA,17,17,13,15,15,10,0,0,26.12,0,2,4,592,325,Region #2,15,3,0,0,9.888,0,0,0,11.828,0,0,0,25.006,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,9,no,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.117,0,NA,NA,NA,NA,How we see groups,1,NA,1,NA,1,NA,NA,41,1,NA,7,5,1,1,6392NwKkvp,MoHi_Study2,NA,14,R_0x0KC6GVfBXLVYZ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: Well I underestimated again. 
+<br>Player3-Democrat: I guessed 265. My brain had no idea. 
+<br>Player1-Democrat: I did 102.
+<br>Player4-Republican: ha I was at 80
+<br>Player2-Republican: Welcome from an overestimater from North Carolina
+<br>Player1-Democrat: It was pretty difficult in my opinion.
+<br>Player3-Democrat: Wow you really underestimated lol. I though I’d be over 
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T15:59:32Z,2023-09-12T16:13:41Z,0,24.163.40.70,100,848,1,2023-09-12T16:13:42Z,R_29m67qJBr1EnHIg,NA,NA,NA,NA,35.2369,-80.8957,anonymous,EN,1,60c93f189082587ea79ce324,1,0,0,79.9,0,0,0,3.011,0,100,0,0,0.416,0,19,18,14,13,13,9,NA,NA,NA,NA,NA,NA,20.235,20.235,21.59,1,4,1,NA,NA,NA,15,3,0,0,12.604,0,0,0,21.571,0,0,0,25.02,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.112,0,Gather how people feel about those in different political groups.,1,NA,1,NA,1,NA,NA,18,2,NA,37,1,1,1,6392NwKkvp,MoHi_Study2,NA,6,R_29m67qJBr1EnHIg,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br>Player1-Democrat: Hello
+<br>Player2-Republican: Hello everyone
+<br>Player3-Democrat: Hi Everyone 
+<br>Player4-Republican: Well I found out I'm an overestimator.
+<br>Player2-Republican: I was labeled over esimater
+<br>Player1-Democrat: Same I am as well
+<br>Player3-Democrat: The task was simple and straight to the point, I felt it was hard to because of how quickly it flashed 
+<br>Player2-Republican: I always hought of myself as an under estimater
+<br>Player1-Democrat: I agree
+<br>Player4-Republican: There was a lot to take in.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>Player2-Republican: I agree not much time to cout
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:03:04Z,2023-09-12T16:14:09Z,0,50.4.117.63,100,664,1,2023-09-12T16:14:10Z,R_3fVs3sAgm1469m1,NA,NA,NA,NA,42.5134,-83.0647,anonymous,EN,1,5c28e9dfda51990001e3204b,1,0,0,51.14,0,0,0,3.025,0,87,0,0,71.437,0,17,17,12,13,13,9,NA,NA,NA,NA,NA,NA,0,0,21.661,0,1,4,409,49,Region #1,16,3,0,0,7.544,0,0,0,11.434,0,0,0,25.069,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.009,0,NA,NA,NA,NA,perceptions,1,NA,1,NA,1,NA,NA,31,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,13,R_3fVs3sAgm1469m1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player3-Democrat: Y'all over or underestimators? Lol
+<br>Player2-Republican: What do you think about being an underestimator?
+<br>Player4-Republican: It was hard to guess the amount! I overestimated!
+<br>Player1-Democrat: Hi, y'all. How is everyone? I'm an overestimator.
+<br>Player2-Republican: I am underministator.
+<br>Player3-Democrat: I was an under estimator.
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:01:16Z,2023-09-12T16:14:34Z,0,98.36.191.192,100,798,1,2023-09-12T16:14:35Z,R_1qfSzrO5SgIAQb0,NA,NA,NA,NA,38.4272,-121.442,anonymous,EN,1,63615bb6922c170dc50b434a,1,0,0,45.97,0,0,0,3.11,0,125,0,0,0.477,0,19,19,15,13,13,9,NA,NA,NA,NA,NA,NA,0,0,33.502,0,2,3,780,281,Region #2,17,3,0,0,7.115,0,0,0,72.495,0,0,0,25.112,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.009,0,1,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"To see whether people selected more or less task, according to political affiliations.",NA,NA,1,NA,1,NA,no,29,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,8,R_1qfSzrO5SgIAQb0,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hi everybody
+<br>Player3-Democrat: hello
+<br>Player1-Democrat: I hyper fixated on the large dots... my bad.
+<br>Player2-Republican: Howdy, I am an overestimater I guess. 
+<br>Player4-Republican: hah-i just took a wid guess
+<br>Player3-Democrat: I kinda counted a corner in the time given and then just guessed more or less
+<br>Player4-Republican: wild
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:02:10Z,2023-09-12T16:14:37Z,0,45.17.163.247,100,746,1,2023-09-12T16:14:38Z,R_1mkE0W2mqKTClvI,NA,NA,NA,NA,33.8019,-84.3861,anonymous,EN,1,"This study has 3 phases.    In the Pre-test Phase, you will be matched with other participants. You'll then complete a short task and live chat about it with other study participants.     In the Study Assignment Phase, the study tasks will be assigned to participants.    In the Task Phase, you will complete your assigned tasks.     You may wait for several minutes during this study while we match you with other survey takers.  If we are unable to match you, you will still receive payment",1,0,0,18.776,0,0,0,3.015,0,55,0,0,70.643,0,15,15,10,13,13,9,NA,NA,NA,NA,NA,NA,2.621,25.532,25.793,3,4,3,872,229,Region #2,17,3,0,0,9.204,0,0,0,11.165,0,0,0,25.033,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,6,10,no,0,0,46.141,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No idea,2,The chat seemed very suspicious,1,NA,1,NA,no,29,1,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,10,R_1mkE0W2mqKTClvI,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: lol
+<br>Player3-Democrat: hey
+<br>Player2-Republican: I just guessed
+<br>Player3-Democrat: me too
+<br>Player4-Republican: hiim an over i guessed 150 u guys?
+<br>Player2-Republican: I guessed 100
+<br>Player1-Democrat: Nice names
+<br> *** Player1-Democrat has left the chat ***
+<br>Player3-Democrat: I under estimated
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:06:29Z,2023-09-12T16:15:04Z,0,68.173.133.111,100,514,1,2023-09-12T16:15:05Z,R_247ye6AIQIgsfEz,NA,NA,NA,NA,40.7472,-73.9485,anonymous,EN,1,603ecd847a63f50124aa5822,1,73.801,73.801,75.095,1,0.814,0.814,3.012,1,78,22.34,22.34,27.195,1,NA,NA,NA,NA,NA,NA,19,19,15,13,13,9,2.364,21.946,22.447,8,4,3,716,334,Region #2,18,3,5.924,7.482,7.519,3,0.511,11.555,11.832,5,13.633,22.892,25.009,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24.441,41.041,45.116,6,2,1,10,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I’m not quite sure,2,Because it felt like automated responses,2,Because I felt it was predetermined,1,NA,None,20,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,15,R_247ye6AIQIgsfEz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hello
+<br>Player2-Republican: Yo
+<br>Player3-Democrat: howdy!
+<br>Player1-Democrat: hi
+<br>Player4-Republican: so I guess I over estimate
+<br>Player4-Republican: but I think I was close
+<br>Player3-Democrat: And I apparently underestimate.
+<br>Player2-Republican: Me underestimate 
+<br>Player1-Democrat: i went over, tee hee
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:02:50Z,2023-09-12T16:15:30Z,0,96.228.46.133,100,760,1,2023-09-12T16:15:31Z,R_Cf5PQdR8BSF4pd7,NA,NA,NA,NA,37.5702,-77.4239,anonymous,EN,1,63b097fc106bd159ce5813e5,1,0,0,71.261,0,0,0,3.107,0,200,0,0,0.301,0,17,18,14,17,18,14,NA,NA,NA,NA,NA,NA,0,0,43.723,0,4,4,573,348,Region #2,17,3,0,0,9.047,0,0,0,14.293,0,0,0,25.106,0,2,15.126,15.126,17.616,1,NA,1,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see if assignments were affected by political affiliation.,2,More likely to be using AI bots.,4,NA,1,NA,NA,65,1,NA,37,2,1,1,6392NwKkvp,MoHi_Study2,NA,13,R_Cf5PQdR8BSF4pd7,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player3-Democrat: Y'all over or underestimators? Lol
+<br>Player2-Republican: What do you think about being an underestimator?
+<br>Player4-Republican: It was hard to guess the amount! I overestimated!
+<br>Player1-Democrat: Hi, y'all. How is everyone? I'm an overestimator.
+<br>Player2-Republican: I am underministator.
+<br>Player3-Democrat: I was an under estimator.
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:00:18Z,2023-09-12T16:16:06Z,0,108.81.235.92,100,948,1,2023-09-12T16:16:07Z,R_31bmgJzOG7etXsF,NA,NA,NA,NA,28.5344,-81.3783,anonymous,EN,1,64d50c4b3a44318d98f4f5b2,1,0,0,9.115,0,0,0,3.117,0,100,0,0,40.467,0,NA,NA,NA,NA,NA,NA,17,17,13,16,16,12,14.281,18.954,24.262,8,1,4,776,289,Region #2,17,3,0,0,23.358,0,9.6,22.202,24.759,2,0,0,25.016,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,10,no,NA,NA,NA,NA,0,0,45.005,0,NA,NA,NA,NA,NA,NA,NA,NA,I thought it was going to pit republicans against democrats.,2,I just feel it was too set up.,2,"Again, I feel it was too set up.",1,NA,no,42,2,NA,7,3,1,1,6392NwKkvp,MoHi_Study2,NA,10,R_31bmgJzOG7etXsF,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: lol
+<br>Player3-Democrat: hey
+<br>Player2-Republican: I just guessed
+<br>Player3-Democrat: me too
+<br>Player4-Republican: hiim an over i guessed 150 u guys?
+<br>Player2-Republican: I guessed 100
+<br>Player1-Democrat: Nice names
+<br> *** Player1-Democrat has left the chat ***
+<br>Player3-Democrat: I under estimated
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:03:15Z,2023-09-12T16:16:14Z,0,104.183.119.52,100,778,1,2023-09-12T16:16:14Z,R_3qImgAJQellGwaB,NA,NA,NA,NA,28.5344,-81.3783,anonymous,EN,1,5f74fd83ed11b81620baf105,1,28.875,28.875,30.276,1,0,0,3.109,0,102,0,0,0.442,0,18,18,13,14,13,9,NA,NA,NA,NA,NA,NA,1.977,42.232,56.514,4,1,4,616,74,Region #2,16,3,0,0,6.885,0,0,0,10.821,0,0,0,25.009,0,1,2.468,2.468,15.934,1,1,1,3,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Why we think and behave in the way that we do.,1,NA,4,NA,1,NA,NA,24,2,NA,2,3,1,1,6392NwKkvp,MoHi_Study2,NA,14,R_3qImgAJQellGwaB,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: Well I underestimated again. 
+<br>Player3-Democrat: I guessed 265. My brain had no idea. 
+<br>Player1-Democrat: I did 102.
+<br>Player4-Republican: ha I was at 80
+<br>Player2-Republican: Welcome from an overestimater from North Carolina
+<br>Player1-Democrat: It was pretty difficult in my opinion.
+<br>Player3-Democrat: Wow you really underestimated lol. I though I’d be over 
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:05:52Z,2023-09-12T16:16:25Z,0,98.180.255.41,100,632,1,2023-09-12T16:16:26Z,R_ZvIWpznSwvCeHYZ,NA,NA,NA,NA,29.7005,-82.308,anonymous,EN,1,5969496f06679c00014b818e,1,0,0,66.47,0,0,0,4.621,0,35,0,0,0.437,0,18,18,13,13,13,9,NA,NA,NA,NA,NA,NA,11.883,21.741,22.781,3,4,3,646,71,Region #2,16,3,7.853,7.853,9.12,1,7.876,15.274,17.194,3,0,0,25.018,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,7,NA,NA,NA,NA,NA,0,0,45.025,0,NA,NA,NA,NA,NA,NA,NA,NA,how i performed on tasks,1,NA,1,NA,1,NA,NA,35,1,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,15,R_ZvIWpznSwvCeHYZ,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hello
+<br>Player2-Republican: Yo
+<br>Player3-Democrat: howdy!
+<br>Player1-Democrat: hi
+<br>Player4-Republican: so I guess I over estimate
+<br>Player4-Republican: but I think I was close
+<br>Player3-Democrat: And I apparently underestimate.
+<br>Player2-Republican: Me underestimate 
+<br>Player1-Democrat: i went over, tee hee
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:06:23Z,2023-09-12T16:16:36Z,0,74.108.59.226,100,613,1,2023-09-12T16:16:37Z,R_1QKn4Rzb03feJmo,NA,NA,NA,NA,40.8646,-73.8981,anonymous,EN,1,63d569384ae2cf6d4dce7c32,1,0,0,7.557,0,0,0,3.114,0,100,0,0,19.239,0,18,17,13,13,13,9,NA,NA,NA,NA,NA,NA,16.088,16.088,22.011,1,4,3,870,48,Region #2,17,3,0,0,8.555,0,0,0,24.067,0,0,0,25.019,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.119,0,Academic research,1,NA,2,It just seemed like a set-up.,1,NA,NA,41,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,15,R_1QKn4Rzb03feJmo,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hello
+<br>Player2-Republican: Yo
+<br>Player3-Democrat: howdy!
+<br>Player1-Democrat: hi
+<br>Player4-Republican: so I guess I over estimate
+<br>Player4-Republican: but I think I was close
+<br>Player3-Democrat: And I apparently underestimate.
+<br>Player2-Republican: Me underestimate 
+<br>Player1-Democrat: i went over, tee hee
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:03:16Z,2023-09-12T16:16:55Z,0,69.243.228.116,100,818,1,2023-09-12T16:16:56Z,R_3Li3A82WlYP8RTb,NA,NA,NA,NA,30.4427,-84.2867,anonymous,EN,1,5694e7b5e0c800000b5a3841,1,0,0,294.175,0,0,0,3.015,0,65,0,0,19.044,0,NA,NA,NA,NA,NA,NA,18,18,12,13,13,9,0,0,22.995,0,1,4,690,88,Region #2,14,3,0,0,8.572,0,0,0,11.873,0,0,0,30.129,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.145,0,1,4,8,n/a,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I am honestly not sure at all but probablys something to do with peoples political preferences,1,NA,1,NA,1,NA,n/a,42,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,15,R_3Li3A82WlYP8RTb,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: hello
+<br>Player2-Republican: Yo
+<br>Player3-Democrat: howdy!
+<br>Player1-Democrat: hi
+<br>Player4-Republican: so I guess I over estimate
+<br>Player4-Republican: but I think I was close
+<br>Player3-Democrat: And I apparently underestimate.
+<br>Player2-Republican: Me underestimate 
+<br>Player1-Democrat: i went over, tee hee
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:01:20Z,2023-09-12T16:19:01Z,0,108.250.52.249,100,1061,1,2023-09-12T16:19:02Z,R_9ppWFXIEVTPLblD,NA,NA,NA,NA,35.8287,-78.3112,anonymous,EN,1,5c0150326a0c6e00013c6068,1,0,0,85.263,0,0,0,3.112,0,67,0,0,2.405,0,NA,NA,NA,NA,NA,NA,18,18,14,14,14,10,0,0,31.802,0,5,1,869,50,Region #2,14,3,0,0,20.648,0,0,0,28.276,0,0,0,25.12,0,1,24.539,24.539,25.767,1,1,2,4,8,none,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,To see if we would choose the easiest task.,2,I just suspected an AI responding because it is used so commonly in recent surveys.,4,NA,1,NA,nothing,64,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,14,R_9ppWFXIEVTPLblD,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player4-Republican: Well I underestimated again. 
+<br>Player3-Democrat: I guessed 265. My brain had no idea. 
+<br>Player1-Democrat: I did 102.
+<br>Player4-Republican: ha I was at 80
+<br>Player2-Republican: Welcome from an overestimater from North Carolina
+<br>Player1-Democrat: It was pretty difficult in my opinion.
+<br>Player3-Democrat: Wow you really underestimated lol. I though I’d be over 
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:01:34Z,2023-09-12T16:19:22Z,0,71.162.187.213,100,1067,1,2023-09-12T16:19:23Z,R_1jTgLAsPoEpj6Fo,NA,NA,NA,NA,40.2062,-75.53,anonymous,EN,1,5bec5b873ffbad0001e8b968,1,54.899,54.899,55.58,1,0,0,3.019,0,55,0,0,317.253,0,NA,NA,NA,NA,NA,NA,16,16,13,13,13,9,0,0,22.531,0,1,4,870,51,Region #2,16,3,0,0,7.037,0,0,0,11.407,0,0,0,25.044,0,1,14.6,14.6,16.881,1,1,2,4,10,"No.  whatever your hypothesis is, I am sure you are correct and I am just a typical. selfish person but no, I chose what I wanted to do, not for the other person",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"To see if I would try to be fair by assigning myself the more difficult, longer task",1,NA,4,NA,1,NA,I'm not sure if they were real because the language was very informal but i could have been connected due to the wait time,50,2,NA,7,5,1,1,6392NwKkvp,MoHi_Study2,NA,11,R_1jTgLAsPoEpj6Fo,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,*** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: I suck at estimating
+<br>Player1-Democrat: The screen went so fast.
+<br>Player2-Republican: Yes it was hard to determine number of dots, the big dots distracted me
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:04:00Z,2023-09-12T16:20:04Z,0,136.239.93.171,100,963,1,2023-09-12T16:20:05Z,R_27D049qktsxrq1y,NA,NA,NA,NA,30.2732,-87.7606,anonymous,EN,1,5dfd077e3690bd03bfa91d48,1,0,0,296.434,0,0,0,3.016,0,78,0,0,86.01,0,NA,NA,NA,NA,NA,NA,18,18,14,14,14,10,0,0,25.437,0,1,4,597,213,Region #2,14,3,0,0,10.513,0,0,0,11.217,0,0,0,25.115,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.007,0,1,4,7,none,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,choices,1,NA,1,NA,1,NA,none,48,1,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,17,R_27D049qktsxrq1y,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: How'd you guess your number?
+<br>Player4-Republican: It was hard   just did a guess
+<br>Player2-Republican: Hi everyone!  I found the dot guessing task to be a little harder than I would've thought!
+<br>Player1-Democrat: Right, but did you have any method behind? 
+<br>Player3-Democrat: Estimating the number of dots was very difficult.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:02:12Z,2023-09-12T16:20:28Z,0,76.38.86.157,100,1095,1,2023-09-12T16:20:28Z,R_yEgvatHtsxUWpFv,NA,NA,NA,NA,35.5597,-78.262200000000007,anonymous,EN,1,6298ec5a536b0a7876579a22,1,0,0,299.352,0,0,0,3.011,0,75,0,0,44.496,0,NA,NA,NA,NA,NA,NA,18,16,13,17,17,13,14.314,14.314,22.281,1,1,4,154,156,Region #1,17,3,0,0,7.719,0,0,0,13.229,0,0,0,25.108,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,8,"This is an interesting node, I suppose the more cynical observation would be that some would choose to give themselves the shortest/easiest task.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.006,0,Measuring political affiliation and some component similar to altruism.,2,The timing of selection and the brief duration of the chat.,2,Intuition more than a particular logical reason.,1,NA,NA,42,1,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,16,R_yEgvatHtsxUWpFv,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: Yoo
+<br>Player3-Democrat: Hey
+<br>Player2-Republican: I overestimated 
+<br>Player4-Republican: Interesting that Political Affiliations are mentioned - I'm assuming this study isn't measuring our ability to count dots :)
+<br>Player2-Republican: yeah
+<br>Player4-Republican: It feels like a Henry Taijfel - group theory experiment
+<br>Player3-Democrat: I underestimated 
+<br>Player1-Democrat: Are you real player4? :o
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:08:05Z,2023-09-12T16:21:07Z,0,172.56.33.92,100,782,1,2023-09-12T16:21:08Z,R_2zNiyx4Wz4xMEQY,NA,NA,NA,NA,39.2889,-76.623,anonymous,EN,1,5f35cd449bf003039842077f,1,0,0,8.339,0,0,0,3.017,0,300,0,0,26.484,0,17,18,12,13,13,9,NA,NA,NA,NA,NA,NA,0,0,28.691,0,1,3,133,210,Region #1,15,3,0,0,20.294,0,24.633,26.761,35.121,4,0,0,25.013,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.013,0,3,5,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,How people look out for themselves,2,Because the chat replies were long and to quickly sent.,2,The people running this wouldn't allow it sense I don't believe I'm currently dealing with real people.,1,NA,NA,26,2,NA,3,3,1,1,6392NwKkvp,MoHi_Study2,NA,16,R_2zNiyx4Wz4xMEQY,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: Yoo
+<br>Player3-Democrat: Hey
+<br>Player2-Republican: I overestimated 
+<br>Player4-Republican: Interesting that Political Affiliations are mentioned - I'm assuming this study isn't measuring our ability to count dots :)
+<br>Player2-Republican: yeah
+<br>Player4-Republican: It feels like a Henry Taijfel - group theory experiment
+<br>Player3-Democrat: I underestimated 
+<br>Player1-Democrat: Are you real player4? :o
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:00:22Z,2023-09-12T16:21:53Z,0,97.134.81.254,100,1290,1,2023-09-12T16:21:53Z,R_3OkUnWwWvzXv7Md,NA,NA,NA,NA,34.0544,-118.2441,anonymous,EN,1,5eeaff28cf5da71d691ef212,1,0,0,96.993,0,0,0,3.008,0,60,351.138,351.138,361.228,1,NA,NA,NA,NA,NA,NA,18,19,15,14,13,10,0,0,23.333,0,5,3,410,52,Region #1,15,3,0,0,11.024,0,0,0,24.376,0,0,0,25.006,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,10,n/a,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.106,0,NA,NA,NA,NA,If we believe someone of a different political affiliation is competent or not based on their actions,2,"in the section where I was asked to talk to my teammates, their responses seemed robotic and pre-typed",2,the person who was a democrat on chosen and that seemed fishy to me,1,NA,n/a,16,1,NA,2,6,1,1,6392NwKkvp,MoHi_Study2,NA,11,R_3OkUnWwWvzXv7Md,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,*** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: I suck at estimating
+<br>Player1-Democrat: The screen went so fast.
+<br>Player2-Republican: Yes it was hard to determine number of dots, the big dots distracted me
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: it wasn't so bad for me
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:08:16Z,2023-09-12T16:22:07Z,0,75.233.184.111,100,830,1,2023-09-12T16:22:08Z,R_1Kx7AbxEUFHefMm,NA,NA,NA,NA,33.4475,-112.0866,anonymous,EN,1,614e08e61f8e94b302758ab2,1,0,0,11.692,0,0,0,3.12,0,78,0,0,90.171,0,17,18,14,13,13,9,NA,NA,NA,NA,NA,NA,0,0,21.844,0,1,4,774,295,Region #2,14,3,0,0,11.164,0,0,0,15.289,0,0,0,25.016,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,9,NA,0,0,45.114,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Something to do with perception of fairness?,2,Their responses came off as prescripted. They did not respond to my questions in a meaningful manner.,2,"After the interactions in the chat, I did not believe I was actually participating with real people.",1,NA,NA,26,1,NA,47,1,1,1,6392NwKkvp,MoHi_Study2,NA,17,R_1Kx7AbxEUFHefMm,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: How'd you guess your number?
+<br>Player4-Republican: It was hard   just did a guess
+<br>Player2-Republican: Hi everyone!  I found the dot guessing task to be a little harder than I would've thought!
+<br>Player1-Democrat: Right, but did you have any method behind? 
+<br>Player3-Democrat: Estimating the number of dots was very difficult.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:06:56Z,2023-09-12T16:22:23Z,0,69.201.184.90,100,926,1,2023-09-12T16:22:24Z,R_299T8FbbgK9kvbz,NA,NA,NA,NA,40.694,-73.9901,anonymous,EN,1,6361a8a745dd1d5d6f192d36,1,0,0,39.733,0,0,0,3.111,0,65,0,0,1.065,0,NA,NA,NA,NA,NA,NA,18,17,15,15,16,13,0,0,40.78,0,1,4,872,52,Region #2,18,3,0,0,27.483,0,0,0,27.34,0,0,0,25.11,0,1,8.98,8.98,15.853,1,1,1,5,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Is about human decision,1,NA,1,NA,1,NA,NA,31,1,NA,3,7,1,1,6392NwKkvp,MoHi_Study2,NA,16,R_299T8FbbgK9kvbz,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: Yoo
+<br>Player3-Democrat: Hey
+<br>Player2-Republican: I overestimated 
+<br>Player4-Republican: Interesting that Political Affiliations are mentioned - I'm assuming this study isn't measuring our ability to count dots :)
+<br>Player2-Republican: yeah
+<br>Player4-Republican: It feels like a Henry Taijfel - group theory experiment
+<br>Player3-Democrat: I underestimated 
+<br>Player1-Democrat: Are you real player4? :o
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:00:53Z,2023-09-12T16:22:35Z,0,71.136.150.232,100,1302,1,2023-09-12T16:22:36Z,R_3DoPgCw25gh3Wo1,NA,NA,NA,NA,35.7598,-83.9699,anonymous,EN,1,63bcf141136313265f65eec9,1,0,0,59.138,0,0,0,3.116,0,35,0,0,46.685,0,NA,NA,NA,NA,NA,NA,19,19,14,13,13,9,0,0,24.143,0,1,4,311,281,Region #1,14,3,0,0,19.236,0,0,0,29.895,0,0,0,25.014,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,9,no,NA,NA,NA,NA,0,0,45.015,0,NA,NA,NA,NA,NA,NA,NA,NA,I think the purpose of this experiment was done to study how people from different political parties do on different cognitive tasks.,1,NA,1,NA,1,NA,no,64,2,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,13,R_3DoPgCw25gh3Wo1,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player3-Democrat: Y'all over or underestimators? Lol
+<br>Player2-Republican: What do you think about being an underestimator?
+<br>Player4-Republican: It was hard to guess the amount! I overestimated!
+<br>Player1-Democrat: Hi, y'all. How is everyone? I'm an overestimator.
+<br>Player2-Republican: I am underministator.
+<br>Player3-Democrat: I was an under estimator.
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T15:59:19Z,2023-09-12T16:23:48Z,0,69.136.248.6,100,1469,1,2023-09-12T16:23:49Z,R_1IF9KHHjuvyfyCP,NA,NA,NA,NA,39.3773,-74.6123,anonymous,EN,1,60079f45348bb62bdcd363ff,1,0,0,103.476,0,0,0,3.114,0,150,0,0,0.427,0,NA,NA,NA,NA,NA,NA,19,18,13,13,13,9,0,0,58.062,0,1,4,94,322,Region #1,16,3,0,0,26.962,0,0,0,117.054,0,0,0,25.121,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,2,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.008,0,NA,NA,NA,NA,Fairness with tasks,1,NA,1,NA,1,NA,no,30,2,NA,7,7,1,1,6392NwKkvp,MoHi_Study2,NA,10,R_1IF9KHHjuvyfyCP,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player4-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: lol
+<br>Player3-Democrat: hey
+<br>Player2-Republican: I just guessed
+<br>Player3-Democrat: me too
+<br>Player4-Republican: hiim an over i guessed 150 u guys?
+<br>Player2-Republican: I guessed 100
+<br>Player1-Democrat: Nice names
+<br> *** Player1-Democrat has left the chat ***
+<br>Player3-Democrat: I under estimated
+<br> *** Player2-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:00:11Z,2023-09-12T16:25:26Z,0,97.84.144.137,100,1514,1,2023-09-12T16:25:26Z,R_2BfXiMmtcvD0bnr,NA,NA,NA,NA,43.4052,-83.9223,anonymous,EN,1,63a92e2605e59f352e566b83,1,0,0,21.865,0,0,0,3.012,0,70,0,0,333.33,0,18,18,13,13,13,9,NA,NA,NA,NA,NA,NA,13.015,20.618,21.75,2,1,4,404,50,Region #1,18,3,0,0,15.237,0,20.317,20.317,22.404,1,0,0,25.025,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.015,0,1,6,10,I just want to say that that's my luck. I would get the hard task. If I say to turn left we were supposed to turn right it never fails.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I have no idea.,1,NA,1,NA,1,NA,No. Thanks. I do want to know what this was all about.,42,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,11,R_2BfXiMmtcvD0bnr,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,*** Warning: Participant Player3-Democrat timed out in stage 1. Survey terminated.,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player2-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br>Player1-Democrat: I suck at estimating
+<br>Player1-Democrat: The screen went so fast.
+<br>Player2-Republican: Yes it was hard to determine number of dots, the big dots distracted me
+<br> *** Player2-Republican has left the chat ***
+<br>Player4-Republican: it wasn't so bad for me
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,2,other
+2023-09-12T16:07:29Z,2023-09-12T16:25:42Z,0,174.172.166.218,100,1093,1,2023-09-12T16:25:43Z,R_Z3mCVgk4Tmwd2IV,NA,NA,NA,NA,39.211,-76.8362,anonymous,EN,1,5d863f244d401800016ece02,1,0,0,56.298,0,0,0,3.115,0,130,0,0,16.166,0,18,18,14,13,13,9,NA,NA,NA,NA,NA,NA,20.301,20.301,22.633,1,1,4,850,235,Region #2,14,3,0,0,10.506,0,0,0,96.926,0,0,0,25.014,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,8,"No other feedback, lets see what I get :o",0,0,45.008,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hmm, maybe it was to see if the opinion of person who got to assign changed based on their political leaning?",1,NA,1,NA,1,NA,"No, but I was anticipating the assignment lol. This works tho :)",20,1,NA,3,2,1,1,6392NwKkvp,MoHi_Study2,NA,16,R_Z3mCVgk4Tmwd2IV,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player4-Republican has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: Yoo
+<br>Player3-Democrat: Hey
+<br>Player2-Republican: I overestimated 
+<br>Player4-Republican: Interesting that Political Affiliations are mentioned - I'm assuming this study isn't measuring our ability to count dots :)
+<br>Player2-Republican: yeah
+<br>Player4-Republican: It feels like a Henry Taijfel - group theory experiment
+<br>Player3-Democrat: I underestimated 
+<br>Player1-Democrat: Are you real player4? :o
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
+2023-09-12T16:05:23Z,2023-09-12T16:29:16Z,0,99.125.118.63,100,1432,1,2023-09-12T16:29:17Z,R_bdUdhGOrrIquTxT,NA,NA,NA,NA,35.9492,-87.2963,anonymous,EN,1,622f7f35376a1f92763ddbe2,1,0,0,21.211,0,0,0,3.016,0,50,0,0,74.406,0,19,19,13,14,16,12,NA,NA,NA,NA,NA,NA,32.487,32.487,36.211,1,1,4,596,216,Region #2,16,3,0,0,22.7,0,31.571,31.571,33.91,1,0,0,25.115,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,9,I do not blame the Republican for choosing a Green Task; I probably would have made the same choice.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.018,0,I think it was about how members of one political party would feel about the choice made by a member of the other political party.,1,NA,1,NA,1,NA,I liked the tasks.,61,2,NA,7,1,1,1,6392NwKkvp,MoHi_Study2,NA,17,R_bdUdhGOrrIquTxT,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: How'd you guess your number?
+<br>Player4-Republican: It was hard   just did a guess
+<br>Player2-Republican: Hi everyone!  I found the dot guessing task to be a little harder than I would've thought!
+<br>Player1-Democrat: Right, but did you have any method behind? 
+<br>Player3-Democrat: Estimating the number of dots was very difficult.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:13:41Z,2023-09-12T16:29:39Z,0,208.59.40.47,100,957,1,2023-09-12T16:29:40Z,R_2Xh4lcxcvZIosXf,NA,NA,NA,NA,41.8482,-87.6521,anonymous,EN,1,60fd60e7587e4f2e860338b4,1,0,0,7.935,0,0,0,3.006,0,80,40.9,161.218,352.855,2,16,16,12,16,16,12,NA,NA,NA,NA,NA,NA,0,0,54.543,0,1,4,866,233,Region #2,17,3,0,0,20.875,0,0,0,16.292,0,0,0,25.109,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,7,NA,NA,NA,NA,NA,0,0,45.109,0,NA,NA,NA,NA,NA,NA,NA,NA,"How people view differences in choosing tasks, somehow related to political affiliation",1,NA,2,"Seemed too predictable for the assumed hypothesis that people would assign themselves the ""easier"" task (however easy is relative because some people may feel they perform better on the red task style questions",1,NA,No thank you,16,2,NA,7,3,1,1,6392NwKkvp,MoHi_Study2,NA,18,R_2Xh4lcxcvZIosXf,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player1-Democrat,*** Warning: Participant Player4-Republican timed out in stage 1. Survey terminated.,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player1-Democrat: It was hard to guess the number of dots
+<br>Player3-Democrat: it was somewhat hard to determine the number of dots
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player1-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,4,outgroup
+2023-09-12T16:06:19Z,2023-09-12T16:30:56Z,0,47.226.177.217,100,1476,1,2023-09-12T16:30:56Z,R_ANIgOe8oaRKwHJL,NA,NA,NA,NA,36.3031,-88.3126,anonymous,EN,1,63f3a28cfd1e4c72993c94f4,1,0,0,13.88,0,0,0,3.113,0,55,0,0,0.432,0,NA,NA,NA,NA,NA,NA,18,18,13,14,14,10,6.32,32.437,97.223,3,1,4,151,72,Region #1,17,3,76.891,116.012,116.863,2,6.399,35.029,38.382,2,0,0,25.014,0,1,9.728,31.573,32.568,3,1,2,6,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"I am really not sure what the purpose was but, I think it might possibly have something to do with how participants assign roles when they are interacting with an actual live chat with the other participants.",1,NA,1,NA,1,NA,"Yes, I really enjoyed participating in this study!",41,2,NA,7,6,1,1,6392NwKkvp,MoHi_Study2,NA,17,R_ANIgOe8oaRKwHJL,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player2-Republican,OK -- no issues,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player1-Democrat has joined the chat ***
+<br> *** Player4-Republican has joined the chat ***
+<br> *** Player3-Democrat has joined the chat ***
+<br> *** Player2-Republican has joined the chat ***
+<br>Player1-Democrat: How'd you guess your number?
+<br>Player4-Republican: It was hard   just did a guess
+<br>Player2-Republican: Hi everyone!  I found the dot guessing task to be a little harder than I would've thought!
+<br>Player1-Democrat: Right, but did you have any method behind? 
+<br>Player3-Democrat: Estimating the number of dots was very difficult.
+<br> *** Player1-Democrat has left the chat ***
+<br> *** Player4-Republican has left the chat ***
+<br> *** Player3-Democrat has left the chat ***
+<br> *** Player2-Republican has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,1,self
+2023-09-12T16:07:47Z,2023-09-12T16:33:06Z,0,70.187.57.217,100,1518,1,2023-09-12T16:33:07Z,R_3Gj4eHBtJJFFZNy,NA,NA,NA,NA,30.4236,-87.2261,anonymous,EN,1,5bd7971b0aac450001f951aa,1,0,0,286.992,0,0,0,3.112,0,60,0,0,294.704,0,18,18,14,13,13,9,NA,NA,NA,NA,NA,NA,15.329,15.329,22.3,1,1,4,866,54,Region #2,14,3,0,0,10.648,0,16.397,16.397,19.976,1,0,0,25.016,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,2,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,45.007,0,NA,NA,NA,NA,how likely people with the same views will assign others with the same views the easier task,2,"it took too long for the""person"" to begin talking",2,"No, I think the tasks were predetermined",1,NA,NA,50,2,NA,7,2,1,1,6392NwKkvp,MoHi_Study2,NA,18,R_3Gj4eHBtJJFFZNy,4,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican",Player3-Democrat,*** Warning: Participant Player4-Republican timed out in stage 1. Survey terminated.,300,NA,NA,no,yes,ready,participantStatus,1,1,"Player1-Democrat,Player2-Republican,Player3-Democrat,Player4-Republican","null,null,null,null",Please wait for the other participants. The chat will start soon. Do not refresh this page.,1," *** Player3-Democrat has joined the chat ***
+<br> *** Player1-Democrat has joined the chat ***
+<br>Player1-Democrat: It was hard to guess the number of dots
+<br>Player3-Democrat: it was somewhat hard to determine the number of dots
+<br> *** Player3-Democrat has left the chat ***
+<br>",NA,chatLog,NA,NA,NA,3,ingroup
