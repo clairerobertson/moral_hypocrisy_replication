@@ -13,7 +13,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr")
+packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr", "ggplot2")
 ipak(packages)
 
 ## Load in Raw Data
@@ -126,14 +126,17 @@ study2 <- data_subset %>%
 full_data <- rbind(study1, study2)
 
 ##ingroups and outgroups only ## 
-model4_data <- full_data %>% filter(condition == 3 | condition == 4)
+model4_data <- full_data %>% 
+  filter(condition == 3 | condition == 4)
+  
 
 ## Graphing the data
 model4_data %>% 
   group_by(study, condition.f) %>% 
   summarise(mean = mean(fairness)) %>% 
   ggplot(aes(y=mean,x=condition.f,colour=study,group=study))+
-  geom_point()+geom_line()
+  geom_point()+geom_line() + 
+  theme_bw()
 
 ## ANOVA w. ingroups and outgroups ## 
 model4 <- aov(fairness~condition.f*study, data = model4_data)
@@ -168,12 +171,8 @@ p <- ggplot(data_subset, aes(x = condition.f, y = fairness, fill = condition.f))
   geom_jitter(aes(colour = condition.f), position = position_jitter(width = 0.2, height = 0.4), alpha = 0.4) + 
   stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = 1, color = "black", alpha = 0.8) +
   stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "black", alpha = 0.8) + 
-  stat_compare_means(comparisons = my_comparisons)
- 
-p
- 
-## Colors  
-p <- p + scale_fill_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
+  stat_compare_means(comparisons = my_comparisons) + 
+  scale_fill_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
   scale_color_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
   theme_bw()
  

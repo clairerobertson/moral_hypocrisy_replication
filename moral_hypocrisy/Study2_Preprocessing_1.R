@@ -8,7 +8,8 @@ require(readr)
 ## Load in Raw Data
 raw_data <- read_survey("data/S2_Confirm_11172023.csv")
 
-options(digits = 6) 
+options(digits = 6)
+
 ############################
 ####### CLEAN DATA #########
 ############################
@@ -100,12 +101,11 @@ sd(x$age, na.rm = T)
 
 #Gender
 mean(x$gender == 2, na.rm = T) * 100
+xtabs(~x$gender)
 
+## Political assignment and political identification
 xtabs(~x$participantRole)
 xtabs(~x$pol_or)
-
-(149+144) / 577
-(140+144) / 577
 
 ## Select variables for analysis
 analysis_df <- data %>% 

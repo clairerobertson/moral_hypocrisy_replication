@@ -13,7 +13,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr")
+packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr", "ggplot2")
 ipak(packages)
 
 ## Load in Raw Data
@@ -81,7 +81,12 @@ contrasts(data_subset$condition.f)
 
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(fairness ~ condition.f, data = data_subset)
-summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+
+out_stepwise <- xtable(table, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "ITT", label = "ITT")
+
 
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(1.441, 9.043, 1.864), df = c(1,1,1), df_error = c(528, 528, 528), ci = .90, alternative = "greater")
@@ -119,32 +124,68 @@ simple_slopes(model1, levels = list(condition.f = c("ingroup", "outgroup")))
 #### Plotting ############
 ##########################
 
-compare_means(fairness ~ condition.f, data = data_subset)
-my_comparisons <- list(c("ingroup", "outgroup")) # c("self", "outgroup"), c("other", "outgroup"))
+set.seed(12012023)
+
+### ALTRUISTS EXCLUDED ####
 
 ## Overeall Mean Fairnes Graph
 p <- ggplot(data_subset, aes(x = condition.f, y = fairness, fill = condition.f)) + 
   geom_violin(alpha = .2) + 
   scale_x_discrete(limits = c("self", "other", "ingroup", "outgroup"), 
-                   labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
-  geom_jitter(aes(colour = condition.f), position = position_jitter(width = 0.2, height = 0.4), alpha = 0.4) + 
+                   labels = c("Self", "Other", "Ingroup", "Outgroup")) +
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) + 
+  geom_jitter(position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) + 
   stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = 1, color = "black", alpha = 0.8) +
   stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "black", alpha = 0.8) + 
-  stat_compare_means(comparisons = my_comparisons)
- 
-p
- 
-## Colors  
-p <- p + scale_fill_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
-  scale_color_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
+  geom_segment(x = .8, xend = 4.2, y = 7.3, yend = 7.3) + 
+  annotate("text", x = 2.5, y = 7.6, label = "n.s.") + 
+  scale_fill_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
   theme_bw()
  
 ## Graph Labeling
-p + labs(title = "Average Fairness Ratings",
-         subtitle = "Altruists Excluded",
+p <- p + labs(title = "Altruists Excluded",
          x = "Condition",
          y = "Fairness Ratings", 
          color = "Condition",
          fill = "Condition") + 
   theme(legend.position = "none") # Can remove if you want the legend back
+p
 
+#### ALTRUISTS INCLUDED ####
+
+data <- data %>% 
+  mutate(altruists = ifelse(redgreen_selection == 2 | cond1_selection == 2, "fair", NA)) %>% 
+  mutate(altruists = ifelse(is.na(altruists), "unfair", "fair"))
+
+## Overeall Mean Fairnes Graph
+p2 <- ggplot(data, aes(x = condition.f, y = fairness, fill = condition.f)) + 
+  geom_violin(alpha = .2) + 
+  scale_x_discrete(limits = c("self", "other", "ingroup", "outgroup"), 
+                   labels = c("Self", "Other", "Ingroup", "Outgroup")) +
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) + 
+  geom_jitter(aes(colour = altruists, fill = condition.f), position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) +
+  scale_color_manual(values = c("fair" = "red", "unfair" = "black")) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = 1, color = "black", alpha = 0.8) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "black", alpha = 0.8) + 
+  annotate("text", x = 1, y = 7.6, label = "***", size = 16/.pt) + 
+  scale_fill_brewer(palette = "Dark2", labels = c("Self", "Other", "Ingroup", "Outgroup")) + 
+  theme_bw()
+
+## Graph Labeling
+p2 <- p2 + labs(title = "Altruists Included (in Red)",
+         x = "Condition",
+         y = "Fairness Ratings", 
+         color = "Condition",
+         fill = "Condition") + 
+  theme(legend.position = "none") # Can remove if you want the legend back
+p2
+
+plot <- ggarrange(p, p2, 
+          labels = c("A.", "B.")) 
+
+plot <- annotate_figure(plot, top = text_grob("Fairness Ratings in Study 1, Minimal Groups", 
+                                      color = "Black", size = 14))
+
+plot
+
+ggsave("Plots/Study1_fairness.png", width = 3000, height = 1500, units = "px", scale = 1)

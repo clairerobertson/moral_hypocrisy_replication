@@ -19,7 +19,7 @@ packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "eff
 ipak(packages)
 
 ## Load in Raw Data
-data <- read.csv("data/study2_analysisDF.csv", stringsAsFactors = T)
+data <- read.csv("data/study1_analysisDF.csv", stringsAsFactors = T)
 
 
 ## Relevel data
@@ -44,7 +44,7 @@ mean(altruists$fairness)
 
 ## T test comparing fairness ratings of altruists and 
 x <- t.test(altruists$fairness, cond1$fairness)
-
+x
 
 #############################################################
 #### Intent to Treat (everyone included).  H1, H2 & H 3  ####
@@ -67,7 +67,7 @@ contrasts(data$condition.f)
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(fairness ~ condition.f, data = data)
 table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
-
+table
 
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
@@ -177,22 +177,18 @@ print(out_stepwise)
 
 
 ####################################################################
-#### politically mismatched participants eliminated: H1, H2, H3 ####
+####  mismatched participants eliminated: H1, H2, H3 ####
 ####################################################################
 
 ####  Mismatched partisans, political id vs. political orienation, and neg CI  ###
 mismatch <- data_subset %>% 
-  filter((pol_id == "Dem" & pol_or > 4) | (pol_id == "Rep" & pol_or < 4) | CI_difference < 0)
+  filter(!CI_difference < 0)
 
-## Create subset without politically mismatched participants
-data_partisans <- data_subset %>% 
-  filter(!X %in% mismatch$X) 
-
-data_partisans %>% group_by(condition) %>% 
+mismatch %>% group_by(condition) %>% 
   summarise(mean = mean(fairness))
 
 ## Set Up contrasts ## 
-levels(data_partisans$condition.f)
+levels(mismatch$condition.f)
 #H1: self vs. all others. 
 contrast1 = c(3, -1, -1, -1)
 #H2: ingroup vs. outgroup
@@ -200,11 +196,11 @@ contrast2 = c(0,0,1,-1)
 #H3: self & ingroup vs. other & outgroup
 contrast3 = c(1, -1, 1, -1)
 
-contrasts(data_partisans$condition.f) = cbind(contrast1, contrast2, contrast3)
-contrasts(data_partisans$condition.f)
+contrasts(mismatch$condition.f) = cbind(contrast1, contrast2, contrast3)
+contrasts(mismatch$condition.f)
 
 ## CONTRAST RESULTS ## 
-fairness.contrast <- aov(fairness ~ condition.f, data = data_partisans)
+fairness.contrast <- aov(fairness ~ condition.f, data = mismatch)
 table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
 
 ## Make table for Supplement
@@ -227,7 +223,7 @@ print(out_stepwise)
 ###########################################################
 
 ## Check whether greater collective identification predicts fairness.
-CI_data <- data_partisans %>% filter(condition == 3 | condition == 4) %>%
+CI_data <- mismatch %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, "ingroup", "outgroup"))) %>% ## Dummy code ingroup as 0, outgroup as 1
   filter(CI_difference > 0) ## Filter out people who identified more with their other group. 
 
@@ -245,7 +241,7 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colo
   theme_bw()
 
 ## Facet graph of above model with political party included 
-ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol_id)) +
+ggplot(CI_data, aes(x = CI_difference, y = fairness)) +
   geom_point() +
   facet_grid(. ~ dummy_code) + 
   geom_smooth(method = "lm", se = F) +
@@ -253,6 +249,50 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol
        y = "Fairness",
        title = "Fairness ratings by collective identification and condition") + 
   theme_bw()
+
+####################################################################
+####  Only High Identifiers ####
+####################################################################
+
+####  Mismatched partisans, political id vs. political orienation, and neg CI  ###
+high_ID <- data_subset %>% 
+  filter(!CI_difference < 2)
+
+high_ID %>% group_by(condition) %>% 
+  summarise(mean = mean(fairness))
+
+## Set Up contrasts ## 
+levels(high_ID$condition.f)
+#H1: self vs. all others. 
+contrast1 = c(3, -1, -1, -1)
+#H2: ingroup vs. outgroup
+contrast2 = c(0,0,1,-1)
+#H3: self & ingroup vs. other & outgroup
+contrast3 = c(1, -1, 1, -1)
+
+contrasts(high_ID$condition.f) = cbind(contrast1, contrast2, contrast3)
+contrasts(high_ID$condition.f)
+
+## CONTRAST RESULTS ## 
+fairness.contrast <- aov(fairness ~ condition.f, data = high_ID)
+table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+table
+## Make table for Supplement
+out_stepwise <- xtable(table, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Politically mismatched participants excluded.",
+                       label = "high_ID") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("Model",
+                            "Contrast 1 - Self vs. Other", 
+                            "Contrast 2 - Ingroup vs. Outgroup", 
+                            "Contrast 3 - Self/Ingroup vs. Other/Outgroup", 
+                            "Risiduals" )
+
+## Print and copy/pase output into latex
+print(out_stepwise)
+
+
 
 ###########################################################
 ### Only People who passed the manipulation check  ####
@@ -307,30 +347,6 @@ rownames(out_stepwise) <- c("Model",
 
 ## Print and copy/pase output into latex
 print(out_stepwise)
-
-
-###########################################################
-### Study 1 v. Study 2 Collective Identification  ####
-###########################################################
-
-study1 <- read.csv("data/study1_analysisDF.csv", stringsAsFactors = T)
-
-## subset Study 1 data
-study1 <- study1 %>% 
-  filter(is.na(cond1_selection)|cond1_selection==1) %>% ## eliminate those who used randomizer
-  filter(is.na(redgreen_selection)|redgreen_selection==1) %>% ## eliminate those who chose the red task
-  filter(attn_check==3) %>% ## Eliminate attention check failures.
-  mutate(study = as.factor("Study 1"))
-
-study2 <- data_subset %>% 
-  select(-pol_id) %>% 
-  mutate(study = as.factor("Study 2"))
-
-#Filtering 
-full_data <- rbind(study1, study2)
-
-t.test(study1$CI_difference, study2$CI_difference)
-
 
 #############################################################
 #### Dems and Reps ####
