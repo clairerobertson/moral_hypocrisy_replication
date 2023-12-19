@@ -234,24 +234,34 @@ CI_data <- data_partisans %>% filter(condition == 3 | condition == 4) %>%
 model1 <- lm(fairness ~ dummy_code*CI_difference, data = CI_data)
 summary(model1)
 
-## Facet graph of above model
-ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
-  geom_point() +
-  facet_grid(. ~ dummy_code) + 
-  geom_smooth(method = "lm", se = F) +
+cond_labs <- c("In-group", "Out-group")
+names(cond_labs) <- c("ingroup", "outgroup")
+
+ggplot(CI_data, aes(x = CI_difference, y = fairness)) +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  scale_x_continuous(breaks = c(0,2,4,6)) + 
+  geom_smooth(method = "lm", se = T) +
   labs(x = "Collective Identification",
-       y = "Fairness",
-       title = "Fairness ratings by collective identification and condition") + 
-  theme_bw()
+       y = "Fairness Judgement",
+       title = "Study 2",
+       subtitle = "Collective Identification " ) + 
+  theme_bw() 
+
+ggsave("Plots/Study2_CI_cong.png", width = 2000, height = 1200, units = "px", scale = 1)
+
 
 ## Facet graph of above model with political party included 
 ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol_id)) +
-  geom_point() +
-  facet_grid(. ~ dummy_code) + 
-  geom_smooth(method = "lm", se = F) +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  geom_smooth(method = "lm", se = T) +
   labs(x = "Collective Identification",
-       y = "Fairness",
-       title = "Fairness ratings by collective identification and condition") + 
+       y = "Fairness Judgement",
+       title = "Study 1",
+       subtitle = "Collective Identification " ) + 
   theme_bw()
 
 ###########################################################
@@ -331,6 +341,75 @@ full_data <- rbind(study1, study2)
 
 t.test(study1$CI_difference, study2$CI_difference)
 
+####################################################################
+#### OVERESTIMATOR AND UNDERESTIMATOR DIFFERENCES  ####
+####################################################################
+
+## role and political id
+data %>% count(role, pol_id)
+
+# Mean of fairness based on role and condition
+data %>% 
+  group_by(role, condition.f) %>%
+  summarise(mean = mean(fairness), n = n())
+
+## 4 (cond) x 2 (role) anova 
+summary.aov(aov(fairness ~ condition.f*role, data = data))
+
+equ_ftest(Fstat = 0.75, df1 = 1, df2 = 577, eqbound = 0.2)
+
+## Pairwise Tests
+
+## Self
+data %>% filter(condition.f=="self") %>% 
+  t.test(fairness ~ role, data = .)
+
+self <- data %>% filter(condition.f=="self") 
+
+tsum_TOST(m1 = mean(subset(self,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          m2 = mean(subset(self,role == "UNDERESTIMATOR")$fairness, na.rm = T), 
+          sd1 = sd(subset(self,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          sd2 = sd(subset(self,role == "UNDERESTIMATOR")$fairness, na.rm = T),
+          n1 = 78, n2 = 71, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+## Other
+data %>% filter(condition.f=="other") %>% 
+  t.test(fairness ~ role, data = .)
+
+other <- data %>% filter(condition.f=="other") 
+
+tsum_TOST(m1 = mean(subset(other,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          m2 = mean(subset(other,role == "UNDERESTIMATOR")$fairness, na.rm = T), 
+          sd1 = sd(subset(other,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          sd2 = sd(subset(other,role == "UNDERESTIMATOR")$fairness, na.rm = T),
+          n1 = 57, n2 = 84, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+data %>% filter(condition.f=="ingroup") %>% 
+  t.test(fairness ~ role, data = .)
+
+## Ingroup
+data %>% filter(condition.f=="ingroup") %>% 
+  t.test(fairness ~ role, data = .)
+
+ingroup <- data %>% filter(condition.f=="ingroup")
+
+tsum_TOST(m1 = mean(subset(ingroup,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          m2 = mean(subset(ingroup,role == "UNDERESTIMATOR")$fairness, na.rm = T), 
+          sd1 = sd(subset(ingroup,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          sd2 = sd(subset(ingroup,role == "UNDERESTIMATOR")$fairness, na.rm = T),
+          n1 = 76, n2 = 73, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+## Outgroup
+data %>% filter(condition.f=="outgroup") %>% 
+  t.test(fairness ~ role, data = .)
+
+outgroup <- data %>% filter(condition.f=="outgroup")
+
+tsum_TOST(m1 = mean(subset(outgroup,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          m2 = mean(subset(outgroup,role == "UNDERESTIMATOR")$fairness, na.rm = T), 
+          sd1 = sd(subset(outgroup,role == "OVERESTIMATOR")$fairness, na.rm = T), 
+          sd2 = sd(subset(outgroup,role == "UNDERESTIMATOR")$fairness, na.rm = T),
+          n1 = 81, n2 = 65, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
 #############################################################
 #### Dems and Reps ####
@@ -408,5 +487,39 @@ rownames(out_stepwise) <- c("Model",
 
 ## Print and copy/pase output into latex
 print(out_stepwise)
+
+
+
+#############################################################
+#### Political ideology and Extremism ####
+#############################################################
+
+ideo_data <- data %>% filter(condition == 3 | condition == 4) %>%
+  mutate(dummy_code = as.factor(ifelse(condition==3, "ingroup", "outgroup"))) %>% 
+  mutate(pol_or2 = pol_or^2)
+
+## Ingroup and outgroup models including linear and quadratic terms for political ideology
+ingroup_model <- ideo_data %>% filter(dummy_code == "ingroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,)
+summary(ingroup_model)
+
+outgroup_model <- ideo_data %>% filter(dummy_code == "outgroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,)
+summary(outgroup_model)
+
+## Graph of fairness by ideology
+ggplot(ideo_data, aes(x = pol_or, y = fairness)) +
+  facet_grid(. ~ dummy_code) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = .5, color = "red", alpha = 0.8) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "red", alpha = 0.8) +
+  scale_x_continuous(breaks = c(1,2,3,4,5,6,7)) + 
+  geom_jitter(position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) + 
+  labs(x = "Ideology",
+       y = "Fairness",
+       title = "Fairness ratings by ideology") + 
+  theme_bw()
+
+
+
 
 

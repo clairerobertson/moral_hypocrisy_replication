@@ -27,7 +27,13 @@ data <- data %>%
 
 #Combining the self fairness and other fairness into one column
 data <- data %>% 
-  mutate(fairness = ifelse(is.na(fairness), Q142, fairness))
+  mutate(fairness = ifelse(is.na(fairness), Q142, fairness)) %>% 
+  mutate(guestimate = ifelse(is.na(guesstimate.new._1), Q143_1, guesstimate.new._1)) %>% 
+  mutate(procedure = ifelse(is.na(fairness.new.), Q141, fairness.new.)) %>% 
+  mutate(party = Q91 - 13)
+
+
+
 
 
 ## Lableing ## 
@@ -89,6 +95,7 @@ data_dup <- data_dup %>%
 data <- data %>% arrange(StartDate) %>% 
   distinct(prolific_id, .keep_all = TRUE)
 
+## failed manipulation check? 
 xtabs(~data$group_check)
 xtabs(~data$Q186)
 
@@ -108,10 +115,54 @@ xtabs(~x$pol_or)
 (149+144) / 577
 (140+144) / 577
 
+# Ethnicity 
+data %>% 
+  count(ethnicity)
+
+
 ## Select variables for analysis
 analysis_df <- data %>% 
-  select(participantRole, condition, condition.f, fairness, cond1_selection = Q20, redgreen_selection = Q84, attn_check, manip_check1 = Q95, manip_check2 = Q96, groupcheck_over = groupcheck, groupcheck_under = Q186, pol_or, CI_difference)
-
+  select(participantRole, condition, condition.f, fairness, cond1_selection = Q20, redgreen_selection = Q84, attn_check, manip_check1 = Q95, manip_check2 = Q96, groupcheck_over = group_check, groupcheck_under = Q186, guestimate, procedure, party, pol_or, CI_difference)
 
 ## Write CSV for analysis
 write.csv(analysis_df, "data/study1_analysisDF.csv")
+
+
+
+
+############ EXTRA ##################
+
+
+raw_data %>% 
+  mutate(StartDate = as.POSIXct(StartDate, format = "%Y-%m-%d %H:%M:%S")) %>%
+  filter(
+    (format(StartDate, "%Y-%m-%d") %in% c("2023-11-29", "2023-12-06", "2023-12-15")) &
+      (format(StartDate, "%H:%M:%S") >= "15:50:00" & format(StartDate, "%H:%M:%S") <= "17:00:00")) %>%
+  filter(!is.na(Q28))
+
+## SURVEY SIGN UP DATA   
+signup <- read_survey("data/Study1_Signup.csv")
+
+signup %>% 
+  mutate(StartDate = as.POSIXct(StartDate, format = "%Y-%m-%d %H:%M:%S")) %>%
+  filter(StartDate <= as.POSIXct("2023-12-16")) %>% 
+  count(participation)
+
+#### CACE Subsetting 
+
+altruists <- data %>% 
+  filter(Q20==2 | Q20==2) %>% 
+  mutate(complier = "alt")
+
+cond1 <- data_subset %>% 
+  filter(condition==1)
+
+cace_data <- data_subset %>% 
+  mutate(complier = "comp") %>% 
+  rbind(altruists)
+
+
+
+
+
+

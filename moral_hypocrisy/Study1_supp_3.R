@@ -15,7 +15,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr", "texreg", "xtable")
+packages <- c("tidyverse", "readr",  "lme4", "qualtRics", "car", "emmeans", "effectsize", "moments", "pequod", "reghelper", "TOSTER", "ggpubr", "texreg", "xtable", "AER", "ivreg")
 ipak(packages)
 
 ## Load in Raw Data
@@ -35,7 +35,8 @@ data_subset <- data %>%
 ####  Altruists vs. Transgressors ###########################
 #############################################################
 altruists <- data %>% 
-  filter(cond1_selection==2 | redgreen_selection==2) 
+  filter(cond1_selection==2 | redgreen_selection==2) %>% 
+  mutate(complier = 0)
 
 cond1 <- data_subset %>% 
   filter(condition==1)
@@ -45,6 +46,78 @@ mean(altruists$fairness)
 ## T test comparing fairness ratings of altruists and 
 x <- t.test(altruists$fairness, cond1$fairness)
 x
+
+
+#############################################################
+####  CACE DATA ###########################
+#############################################################
+
+cace_data <- data_subset %>% 
+  mutate(complier = 1) %>% 
+  rbind(altruists) %>% 
+  mutate(self_other = case_match(condition.f, c("other", "ingroup", "outgroup") ~ 0,
+                                 "self" ~ 1))
+cond1_full <- cace_data %>% 
+  filter(condition.f=="self")
+
+
+
+## https://cran.r-project.org/web/packages/ivreg/vignettes/ivreg.html
+## Ideal instrument would be correlated with group & fairness, but not correlated with fairness when group is eliminated.
+
+## I really don't think we have an appropriate instrumental variable here to use. 
+## This is wrong, like really wrong. I have no idea how to interpret these results, and I think we should just admit that we don't know what we're doing. 
+
+## We had hoped that we could use this guesstimate variable as an instrument, to estimate others compliance, but it was only weakly correlated with compliance. 
+
+cace_model <- ivreg(fairness ~ condition.f | complier | guestimate, data = cace_data)
+summary(cace_model)
+
+
+## Doesn't work. 
+cace_model <- ivreg(fairness ~ complier | condition.f | guestimate, data = cace_data)
+summary(cace_model)
+
+
+hist(cond1_full$party)
+
+cor.test(cond1_full$complier, cond1_full$guestimate) ## not sig but correlated at .1 
+cor.test(cond1_full$complier, cond1_full$procedure) ## correlated at .
+cor.test(cond1_full$complier, cond1_full$party)
+
+cor.test(cond1_full$fairness, cond1_full$guestimate)
+cor.test(cace_data$fairness, cace_data$guestimate) ## sinificant -- people who reported that they acted fairly 
+
+summary(lm(fairness ~ guestimate*complier, data = cond1_full))
+
+## worlds worst insturment. 
+scatterplot(cace_data$fairness, cace_data$guestimate)
+scatterplot(altruists$fairness, altruists$guestimate)
+
+
+scatterplot(cond1_full$complier, cond1_full$guestimate)
+
+
+cond1_full %>% count(complier, procedure)
+
+cond1_full %>% count(complier)
+
+summary(lm(guestimate ~ complier, data = cond1_full))
+
+cor(cond1_full)
+
+
+### I THINK THIS IS JUST THE AVERAGE DIFFERENCE BETWEEN THE COMPLIERS AND THE NON-COMPLIERS. 
+## MAY HAVE TO RELEVEL. 
+## I HAVE NO IDEA IF THIS IS CORRECT OR NOT. 
+## DOES THIS SHOW THAT THE EFFECT OF COMPLYING MAKES YOUR FAIRNESS RATINGS GO DOWN? 
+
+
+
+
+
+
+
 
 #############################################################
 #### Intent to Treat (everyone included).  H1, H2 & H 3  ####
@@ -119,6 +192,94 @@ p + labs(title = "Average Fairness Ratings",
          color = "Condition",
          fill = "Condition") + 
   theme(legend.position = "none") 
+
+####################################################################
+#### OVERESTIMATOR AND UNDERESTIMATOR DIFFERENCES  ####
+####################################################################
+
+data <- data %>% 
+  mutate(over_under = ifelse(participantRole == "Player2-Underestimator" | participantRole =="Player4-Underestimator", "Under", "Over"))
+
+data %>% count(over_under)
+
+data %>% 
+  group_by(over_under, condition.f) %>%
+  summarise(mean = mean(fairness), n = n())
+
+## 4 (cond) x 2 (over_under) anova 
+summary.aov(aov(fairness ~ condition.f*over_under, data = data))
+
+equ_ftest(Fstat = 0.66, df1 = 1, df2 = 588, eqbound = 0.2)
+
+
+## Pairwise Tests
+
+## Self
+data %>% filter(condition.f=="self") %>% 
+  t.test(fairness ~ over_under, data = .)
+
+self <- data %>% filter(condition.f=="self") 
+
+tsum_TOST(m1 = mean(subset(self,over_under == "Over")$fairness, na.rm = T), 
+          m2 = mean(subset(self,over_under == "Under")$fairness, na.rm = T), 
+          sd1 = sd(subset(self,over_under == "Over")$fairness, na.rm = T), 
+          sd2 = sd(subset(self,over_under == "Under")$fairness, na.rm = T),
+          n1 = 74, n2 = 78, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+## Other
+data %>% filter(condition.f=="other") %>% 
+  t.test(fairness ~ over_under, data = .)
+
+other <- data %>% filter(condition.f=="other") 
+
+  tsum_TOST(m1 = mean(subset(other,over_under == "Over")$fairness, na.rm = T), 
+            m2 = mean(subset(other,over_under == "Under")$fairness, na.rm = T), 
+            sd1 = sd(subset(other,over_under == "Over")$fairness, na.rm = T), 
+            sd2 = sd(subset(other,over_under == "Under")$fairness, na.rm = T),
+            n1 = 63, n2 = 83, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+data %>% filter(condition.f=="ingroup") %>% 
+  t.test(fairness ~ over_under, data = .)
+
+## Ingroup
+data %>% filter(condition.f=="ingroup") %>% 
+  t.test(fairness ~ over_under, data = .)
+
+ingroup <- data %>% filter(condition.f=="ingroup")
+
+  tsum_TOST(m1 = mean(subset(ingroup,over_under == "Over")$fairness, na.rm = T), 
+            m2 = mean(subset(ingroup,over_under == "Under")$fairness, na.rm = T), 
+            sd1 = sd(subset(ingroup,over_under == "Over")$fairness, na.rm = T), 
+            sd2 = sd(subset(ingroup,over_under == "Under")$fairness, na.rm = T),
+            n1 = 82, n2 = 67, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+## Outgroup
+data %>% filter(condition.f=="outgroup") %>% 
+  t.test(fairness ~ over_under, data = .)
+
+outgroup <- data %>% filter(condition.f=="outgroup")
+
+  tsum_TOST(m1 = mean(subset(outgroup,over_under == "Over")$fairness, na.rm = T), 
+            m2 = mean(subset(outgroup,over_under == "Under")$fairness, na.rm = T), 
+            sd1 = sd(subset(outgroup,over_under == "Over")$fairness, na.rm = T), 
+            sd2 = sd(subset(outgroup,over_under == "Under")$fairness, na.rm = T),
+            n1 = 77, n2 = 72, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+
+t.test(subset(data,over_under == "Over")$CI_difference, 
+       subset(data,over_under == "Under")$CI_difference)
+
+
+
+
+
+tsum_TOST(m1 = mean(subset(data,over_under == "Over")$CI_difference, na.rm = T), 
+           m2 = mean(subset(data,over_under == "Under")$CI_difference, na.rm = T), 
+           sd1 = sd(subset(data,over_under == "Over")$CI_difference, na.rm = T), 
+           sd2 = sd(subset(data,over_under == "Under")$CI_difference, na.rm = T),
+           n1 = 296, n2 = 300, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+mean(subset(data,over_under == "Over")$CI_difference)
 
 ####################################################################
 #### Repeat Survey Takers groups Excluded ####
@@ -225,10 +386,34 @@ print(out_stepwise)
 ## Check whether greater collective identification predicts fairness.
 CI_data <- mismatch %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, "ingroup", "outgroup"))) %>% ## Dummy code ingroup as 0, outgroup as 1
-  filter(CI_difference > 0) ## Filter out people who identified more with their other group. 
+  filter(CI_difference > 0) %>% ## Filter out people who identified more with their other group.
+  mutate(pol_id = ifelse(pol_or > 4, "Rep", 
+                         ifelse(pol_or < 4, "Dem", "Mod")))
+
 
 model1 <- lm(fairness ~ dummy_code*CI_difference, data = CI_data)
 summary(model1)
+
+cond_labs <- c("Ingroup", "Outgroup")
+names(cond_labs) <- c("ingroup", "outgroup")
+
+## Facet graph of above model
+ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol_id)) + ## , fill = pol_id, colour = pol_id))
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  scale_x_continuous(breaks = c(0,1,2,3,4,5,6)) +
+  geom_smooth(method = "lm", se = T) +
+  labs(x = "Collective Identification",
+       y = "Fairness Judgement",
+       title = "Study 1",
+       subtitle = "Collective Identification " ) + 
+  theme_bw()
+
+ggsave("Plots/Study1_CI_cong.png", width = 2000, height = 1200, units = "px", scale = 1)
+
+
+
 
 ## Facet graph of above model
 ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
@@ -424,5 +609,39 @@ rownames(out_stepwise) <- c("Model",
 
 ## Print and copy/pase output into latex
 print(out_stepwise)
+
+#############################################################
+#### Political ideology and Extremism ####
+#############################################################
+
+ideo_data <- data %>% filter(condition == 3 | condition == 4) %>%
+  mutate(dummy_code = as.factor(ifelse(condition==3, "ingroup", "outgroup"))) %>% 
+  mutate(pol_or2 = pol_or^2)
+
+ideo_data %>% 
+  group_by(pol_or, dummy_code) %>% 
+  count()
+
+## Ingroup and outgroup models including linear and quadratic terms for political ideology
+ingroup_model <- ideo_data %>% filter(dummy_code == "ingroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,)
+summary(ingroup_model)
+
+outgroup_model <- ideo_data %>% filter(dummy_code == "outgroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,)
+summary(outgroup_model)
+
+## Graph of fairness by ideology
+ggplot(ideo_data, aes(x = pol_or, y = fairness)) +
+  facet_grid(. ~ dummy_code) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = .5, color = "red", alpha = 0.8) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "red", alpha = 0.8) +
+  scale_x_continuous(breaks = c(1,2,3,4,5,6,7)) + 
+  geom_jitter(position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) + 
+  labs(x = "Ideology",
+       y = "Fairness",
+       title = "Fairness ratings by ideology") + 
+  theme_bw()
+
 
 

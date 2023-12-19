@@ -152,7 +152,7 @@ fairness.contrast <- aov(full_fairness ~ condition.f, data = data_subset)
 summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(14.929, 0.098, 4.760), df = c(1,1,1), df_error = c(83, 83, 83), ci = .90, alternative = "greater")
+F_to_eta2(f = c(1.27, 3.22, 0.15), df = c(1,1,1), df_error = c(536, 536, 536), ci = .90, alternative = "greater")
 
 ## Equivelence Test ## Mu = 4 (middle of scale) -- will fail currently, no data. 
 tsum_TOST(m=0, mu=0, sd=0, n=0,low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)

@@ -65,7 +65,8 @@ data_subset <- data %>%
 
 ## Means
 data_subset %>% group_by(condition) %>% 
-  summarise(mean = mean(fairness))
+  summarise(mean = mean(fairness), 
+            n = n())
 
 ## Set Up contrasts ## 
 levels(data_subset$condition.f)
@@ -82,6 +83,7 @@ contrasts(data_subset$condition.f)
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(fairness ~ condition.f, data = data_subset)
 table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
+table
 
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
@@ -89,14 +91,34 @@ out_stepwise <- xtable(table,
 
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(1.441, 9.043, 1.864), df = c(1,1,1), df_error = c(528, 528, 528), ci = .90, alternative = "greater")
+F_to_eta2(f = c(1.27, 3.22, 0.15), df = c(1,1,1), df_error = c(536, 536, 536), ci = .90, alternative = "greater")
 
-## Equivelence Test ## Mu = 4 (middle of scale) -- will fail currently, no data. 
-tsum_TOST(m=0, mu=0, sd=0, n=0,low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
+## MAYBE RIGHT? I THINK THIS ONE IS RIGHT. 
+x <- equ_ftest(Fstat = 0.15, df1 = 1, df2 = 536, eqbound = 0.2)
+summary(x)
+
+## WRONG
+equ_anova(fairness.contrast,
+          eqbound = 0.2)
+
+
+## ALSO MAYBE RIGHT?? 
+tsum_TOST( m1 = mean(subset(data_subset,condition.f=="self" | condition.f=="ingroup")$fairness), 
+           m2 = mean(subset(data_subset,condition.f=="other" | condition.f=="outgroup")$fairness), 
+           sd1 = sd(subset(data_subset,condition.f=="self" | condition.f=="ingroup")$fairness), 
+           sd2 = sd(subset(data_subset,condition.f=="other" | condition.f=="outgroup")$fairness),
+           n1 = 249, n2 = 291, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
 ## H6: Collective Identification ## 
 ## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
 
+hist(data$CI_difference)
+
+## Above chance identification? 
+t.test(data$CI_difference, mu = 0, alternative = "two.sided")
+
+## Subset just ingroup and outgroup judgements
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4)
 
 ## Means across groups
@@ -107,15 +129,42 @@ CI_data %>% group_by(condition.f) %>%
 model1 <- lm(fairness ~ condition.f*CI_difference, data = CI_data)
 summary(model1)
 
+
+cond_labs <- c("In-group", "Out-group")
+names(cond_labs) <- c("ingroup", "outgroup")
+
 ## Facet graph of above model
 ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
-  geom_point() +
-  facet_grid(. ~ condition.f) + 
-  geom_smooth(method = "lm", se = F) +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  scale_x_continuous(breaks = c(-2,0,2,4,6)) +
+  geom_smooth(method = "lm", se = T) +
   labs(x = "Collective Identification",
        y = "Fairness",
        title = "Fairness ratings by collective identification and condition") + 
   theme_bw()
+
+## Saving Graphs
+ggsave("Plots/Study1_CI_all.png", width = 3000, height = 1500, units = "px", scale = 1)
+
+
+
+
+## Facet graph of above model
+ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  scale_x_continuous(breaks = c(-2,0,2,4,6)) +
+  geom_smooth(method = "lm", se = T) +
+  labs(x = "Collective Identification",
+       y = "Fairness",
+       title = "Fairness ratings by collective identification and condition") + 
+  theme_bw()
+
+ggsave("Plots/Study1_CI_all.png", width = 3000, height = 1500, units = "px", scale = 1)
+
        
 ## If Interaction is significant. 0 = ingroup, 1 = outgroup. 
 simple_slopes(model1, levels = list(condition.f = c("ingroup", "outgroup")))
@@ -189,3 +238,10 @@ plot <- annotate_figure(plot, top = text_grob("Fairness Ratings in Study 1, Mini
 plot
 
 ggsave("Plots/Study1_fairness.png", width = 3000, height = 1500, units = "px", scale = 1)
+
+
+
+
+
+
+TOSTtwo(fairness.contrast, contrast3, low_eqbound_d = -0.2, high_eqbound_d = 0.2, alpha = 0.05)

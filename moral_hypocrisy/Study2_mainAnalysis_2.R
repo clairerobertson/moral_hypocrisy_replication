@@ -80,8 +80,15 @@ F_to_eta2(f = c(1.441, 9.043, 1.864), df = c(1,1,1), df_error = c(528, 528, 528)
 ## Equivelence Test ## Mu = 4 (middle of scale) -- will fail currently, no data. 
 tsum_TOST(m=0, mu=0, sd=0, n=0,low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
+equ_ftest(Fstat = 1.864, df1 = 1, df2 = 528, eqbound = 0.2)
+
 ## H6: Collective Identification ## 
 ## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
+
+t.test(data$CI_difference, mu = 0, alternative = "two.sided")
+t.test(subset(data,pol_id=="Dem")$CI_difference, 
+       subset(data,pol_id=="Rep")$CI_difference)
+
 
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4)
 
@@ -92,6 +99,25 @@ CI_data %>% group_by(condition.f) %>%
 ## Check whether greater collective identification predicts fairness.
 model1 <- lm(fairness ~ condition.f*CI_difference, data = CI_data)
 summary(model1)
+
+## Create labels
+cond_labs <- c("In-group", "Out-group")
+names(cond_labs) <- c("ingroup", "outgroup")
+
+ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  geom_smooth(method = "lm", se = T) +
+  labs(x = "Collective Identification",
+       y = "Fairness Judgement",
+       title = "Study 1",
+       subtitle = "Collective Identification " ) + 
+  theme_bw()
+
+ggsave("Plots/Study2_CI_all.png", width = 2000, height = 1200, units = "px", scale = 1)
+
+
 
 ## Facet graph of above model
 ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
@@ -217,7 +243,6 @@ p2 <- p2 + labs(title = "Altruists Included (in Red)",
   theme(legend.position = "none") # Can remove if you want the legend back
 p2
 
-
 ## Graph Labeling
 p2 <- p2 + labs(title = "Altruists Included (in Red)",
                 x = "Condition",
@@ -227,6 +252,7 @@ p2 <- p2 + labs(title = "Altruists Included (in Red)",
   theme(legend.position = "none") # Can remove if you want the legend back
 p2
 
+## Combine into a facet 
 plot <- ggarrange(p, p2, 
                   labels = c("A.", "B.")) 
 

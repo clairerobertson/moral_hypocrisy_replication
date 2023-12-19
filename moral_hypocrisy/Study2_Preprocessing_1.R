@@ -6,7 +6,7 @@ require(qualtRics)
 require(readr)
 
 ## Load in Raw Data
-raw_data <- read_survey("data/S2_Confirm_11172023.csv")
+raw_data <- read_survey("data/S2_Confirm_12192023.csv")
 
 options(digits = 6)
 
@@ -18,7 +18,7 @@ options(digits = 6)
 data <- raw_data %>% 
   filter(!is.na(Q28)) %>% ## Over - Underestimator task. Means participant was successfully matched.
   filter(Progress == 100) %>% ## Finished the Survey
-  filter(!prolific_id == "madison_test4") ## Removing test runs
+  filter(!prolific_id == "madison_test4")
 
 #naming
 names(data) <- make.names(names(data), unique = T)
@@ -109,7 +109,7 @@ xtabs(~x$pol_or)
 
 ## Select variables for analysis
 analysis_df <- data %>% 
-  select(participantRole, condition, condition.f, fairness, cond1_selection, redgreen_selection = Q84, attn_check, manip_check1 = Q95, manip_check2 = Q96, pol_id, pol_or, CI_difference)
+  select(participantRole, condition, condition.f, fairness, cond1_selection, redgreen_selection = Q84, attn_check, manip_check1 = Q95, manip_check2 = Q96, pol_id, pol_or, CI_difference, role = FL_138_DO)
 
 
 ## Write CSV for analysis
