@@ -93,22 +93,9 @@ out_stepwise <- xtable(table,
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(1.27, 3.22, 0.15), df = c(1,1,1), df_error = c(536, 536, 536), ci = .90, alternative = "greater")
 
-
-## MAYBE RIGHT? I THINK THIS ONE IS RIGHT. 
+## Equiv. Test
 x <- equ_ftest(Fstat = 0.15, df1 = 1, df2 = 536, eqbound = 0.2)
 summary(x)
-
-## WRONG
-equ_anova(fairness.contrast,
-          eqbound = 0.2)
-
-
-## ALSO MAYBE RIGHT?? 
-tsum_TOST( m1 = mean(subset(data_subset,condition.f=="self" | condition.f=="ingroup")$fairness), 
-           m2 = mean(subset(data_subset,condition.f=="other" | condition.f=="outgroup")$fairness), 
-           sd1 = sd(subset(data_subset,condition.f=="self" | condition.f=="ingroup")$fairness), 
-           sd2 = sd(subset(data_subset,condition.f=="other" | condition.f=="outgroup")$fairness),
-           n1 = 249, n2 = 291, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
 ## H6: Collective Identification ## 
 ## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
@@ -129,7 +116,6 @@ CI_data %>% group_by(condition.f) %>%
 model1 <- lm(fairness ~ condition.f*CI_difference, data = CI_data)
 summary(model1)
 
-
 cond_labs <- c("In-group", "Out-group")
 names(cond_labs) <- c("ingroup", "outgroup")
 
@@ -141,8 +127,9 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colo
   scale_x_continuous(breaks = c(-2,0,2,4,6)) +
   geom_smooth(method = "lm", se = T) +
   labs(x = "Collective Identification",
-       y = "Fairness",
-       title = "Fairness ratings by collective identification and condition") + 
+       y = "Fairness Judgement",
+       title = "Study 1 - Minimal Groups",
+       subtitle = "Collective Identification " ) + 
   theme_bw()
 
 ## Saving Graphs
@@ -150,20 +137,6 @@ ggsave("Plots/Study1_CI_all.png", width = 3000, height = 1500, units = "px", sca
 
 
 
-
-## Facet graph of above model
-ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
-  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
-  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
-  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
-  scale_x_continuous(breaks = c(-2,0,2,4,6)) +
-  geom_smooth(method = "lm", se = T) +
-  labs(x = "Collective Identification",
-       y = "Fairness",
-       title = "Fairness ratings by collective identification and condition") + 
-  theme_bw()
-
-ggsave("Plots/Study1_CI_all.png", width = 3000, height = 1500, units = "px", scale = 1)
 
        
 ## If Interaction is significant. 0 = ingroup, 1 = outgroup. 

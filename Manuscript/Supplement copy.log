@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  20 DEC 2023 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  20 DEC 2023 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,51 +1034,71 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `"Supplement copy.toc"'.
 
- [2] [3] [4] [5
+ [2] [3] [4] [5] [6] [7] [8
 
-] [6] [7] [8
+] [9] [10] [11] [12
 
-] [9
+] [13
 
-] [10
+] [14
 
-] [11
+]
 
-] [12
+LaTeX Warning: Reference `CID_allS1' on page 1 undefined on input line 484.
 
-] [13] [14]
+<Plots/Study1_CI_all.png, id=237, 722.7pt x 361.35pt>
+File: Plots/Study1_CI_all.png Graphic file (type png)
+<use Plots/Study1_CI_all.png>
+Package pdftex.def Info: Plots/Study1_CI_all.png  used on input line 489.
+(pdftex.def)             Requested size: 469.76045pt x 234.88023pt.
 [15
 
-] [16] [17
+ <./Plots/Study1_CI_all.png>] [16] [17] [18] [19
 
-] [18] [19] [20] [21
+] [20] [21
 
-] [22
+] [22]
+
+LaTeX Warning: Reference `CID_allS2' on page 1 undefined on input line 660.
+
+<Plots/Study2_CI_all.png, id=278, 481.8pt x 289.08pt>
+File: Plots/Study2_CI_all.png Graphic file (type png)
+<use Plots/Study2_CI_all.png>
+Package pdftex.def Info: Plots/Study2_CI_all.png  used on input line 666.
+(pdftex.def)             Requested size: 469.77148pt x 281.86288pt.
+[23
+
+ <./Plots/Study2_CI_all.png>] [24] [25] [26
+
+] [27
 
 ] (./Supplement copy.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Supplement copy".out' has not changed.
-(rerunfilecheck)             Checksum: 72C234706437E5E000620F68F77814E5;5349.
+(rerunfilecheck)             Checksum: 6EEDBE21287B297827A86F08AA680713;5674.
  ) 
 Here is how much of TeX's memory you used:
- 27837 strings out of 478994
- 536438 string characters out of 5858184
- 812385 words of memory out of 5000000
- 44765 multiletter control sequences out of 15000+600000
+ 27884 strings out of 478994
+ 537185 string characters out of 5858184
+ 815804 words of memory out of 5000000
+ 44796 multiletter control sequences out of 15000+600000
  431965 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,9n,131p,2307b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,9n,131p,1873b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Supplement copy.pdf" (22 pages, 79723 bytes).
+Output written on "Supplement copy.pdf" (27 pages, 546774 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 

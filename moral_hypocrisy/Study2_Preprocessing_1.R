@@ -103,6 +103,9 @@ sd(x$age, na.rm = T)
 mean(x$gender == 2, na.rm = T) * 100
 xtabs(~x$gender)
 
+data %>% 
+  count(ethnicity)
+
 ## Political assignment and political identification
 xtabs(~x$participantRole)
 xtabs(~x$pol_or)

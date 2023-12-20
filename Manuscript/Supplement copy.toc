@@ -1,25 +1,27 @@
 \contentsline {section}{\numberline {A}Pilot Studies}{3}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Pilot Samples}{3}{subsection.A.1}%
-\contentsline {subsubsection}{\numberline {A.1.1}Pilot Experiment 1}{3}{subsubsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {A.1.2}Pilot Experiment 1 Results}{4}{subsubsection.A.1.2}%
-\contentsline {section}{\numberline {B}Complier Average Causal Effects}{5}{appendix.B}%
-\contentsline {section}{\numberline {C}Recruitment and Demographic Information}{7}{appendix.C}%
-\contentsline {subsection}{\numberline {C.1}Study 1 Recruitment and Demographic Information}{7}{subsection.C.1}%
-\contentsline {subsection}{\numberline {C.2}Study 2 Recruitment and Demographic Information}{9}{subsection.C.2}%
-\contentsline {section}{\numberline {D}Study 1 Robustness Checks}{10}{appendix.D}%
-\contentsline {subsection}{\numberline {D.1}Differences in Overestimators and Underestimators}{10}{subsection.D.1}%
-\contentsline {subsection}{\numberline {D.2}Collective Identification and Fairness Ratings}{11}{subsection.D.2}%
-\contentsline {subsection}{\numberline {D.3}Intent to Treat Model}{12}{subsection.D.3}%
-\contentsline {subsection}{\numberline {D.4}Manipulation Check}{13}{subsection.D.4}%
-\contentsline {section}{\numberline {E}Study 1 Exploratory Analyses}{14}{appendix.E}%
-\contentsline {subsection}{\numberline {E.1}Political Ideology and Extremity}{14}{subsection.E.1}%
-\contentsline {subsection}{\numberline {E.2}High Identifiers Only}{15}{subsection.E.2}%
-\contentsline {section}{\numberline {F}Study 2 Robustness Checks}{16}{appendix.F}%
-\contentsline {subsection}{\numberline {F.1}Intent to Treat Model}{16}{subsection.F.1}%
-\contentsline {subsection}{\numberline {F.2}Differences in Overestimators and Underestimators}{17}{subsection.F.2}%
-\contentsline {subsection}{\numberline {F.3}Politically Mismatched Participants Excluded}{18}{subsection.F.3}%
-\contentsline {subsection}{\numberline {F.4}Repeat Participants and Groups Excluded}{19}{subsection.F.4}%
-\contentsline {subsection}{\numberline {F.5}Manipulation Check}{20}{subsection.F.5}%
-\contentsline {section}{\numberline {G}Study 2 Exploratory Analyses}{21}{appendix.G}%
-\contentsline {subsection}{\numberline {G.1}Political Ideology and Extremity}{21}{subsection.G.1}%
-\contentsline {subsection}{\numberline {G.2}Partisan Differences}{22}{subsection.G.2}%
+\contentsline {subsection}{\numberline {A.1}Pilot Experiment 1}{3}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Pilot Experiment 2}{4}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Pilot Experiment 3 - Prolific}{5}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Pilot Experiment 4 - Prolific}{6}{subsection.A.4}%
+\contentsline {section}{\numberline {B}Complier Average Causal Effects}{8}{appendix.B}%
+\contentsline {section}{\numberline {C}Demographic Information}{10}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Study 1 Demographic Information}{10}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Study 2 Demographic Information}{12}{subsection.C.2}%
+\contentsline {section}{\numberline {D}Study 1 Robustness Checks}{13}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}Intent to Treat Model}{13}{subsection.D.1}%
+\contentsline {subsection}{\numberline {D.2}Differences in Overestimators and Underestimators}{13}{subsection.D.2}%
+\contentsline {subsection}{\numberline {D.3}Collective Identification with Out-group identifiers}{14}{subsection.D.3}%
+\contentsline {subsection}{\numberline {D.4}Repeat Participants and Groups Excluded}{16}{subsection.D.4}%
+\contentsline {subsection}{\numberline {D.5}Manipulation Check}{17}{subsection.D.5}%
+\contentsline {section}{\numberline {E}Study 1 Exploratory Analyses}{18}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Political Ideology and Extremity}{18}{subsection.E.1}%
+\contentsline {subsection}{\numberline {E.2}High Identifiers Only}{19}{subsection.E.2}%
+\contentsline {section}{\numberline {F}Study 2 Robustness Checks}{20}{appendix.F}%
+\contentsline {subsection}{\numberline {F.1}Intent to Treat Model}{20}{subsection.F.1}%
+\contentsline {subsection}{\numberline {F.2}Differences in Overestimators and Underestimators}{21}{subsection.F.2}%
+\contentsline {subsection}{\numberline {F.3}Collective Identification with Out-group identifiers}{22}{subsection.F.3}%
+\contentsline {subsection}{\numberline {F.4}Repeat Participants and Groups Excluded}{24}{subsection.F.4}%
+\contentsline {subsection}{\numberline {F.5}Manipulation Check}{25}{subsection.F.5}%
+\contentsline {section}{\numberline {G}Study 2 Exploratory Analyses}{26}{appendix.G}%
+\contentsline {subsection}{\numberline {G.1}Political Ideology and Extremity}{26}{subsection.G.1}%
+\contentsline {subsection}{\numberline {G.2}Partisan Differences}{27}{subsection.G.2}%

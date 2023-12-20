@@ -6,6 +6,7 @@
 ######################################
 
 options(digits = 6)
+sc
 
 #Load in Packages
 ipak <- function(pkg){
@@ -48,80 +49,6 @@ x <- t.test(altruists$fairness, cond1$fairness)
 x
 
 
-#############################################################
-####  CACE DATA ###########################
-#############################################################
-
-cace_data <- data_subset %>% 
-  mutate(complier = 1) %>% 
-  rbind(altruists) %>% 
-  mutate(self_other = case_match(condition.f, c("other", "ingroup", "outgroup") ~ 0,
-                                 "self" ~ 1))
-cond1_full <- cace_data %>% 
-  filter(condition.f=="self")
-
-
-
-## https://cran.r-project.org/web/packages/ivreg/vignettes/ivreg.html
-## Ideal instrument would be correlated with group & fairness, but not correlated with fairness when group is eliminated.
-
-## I really don't think we have an appropriate instrumental variable here to use. 
-## This is wrong, like really wrong. I have no idea how to interpret these results, and I think we should just admit that we don't know what we're doing. 
-
-## We had hoped that we could use this guesstimate variable as an instrument, to estimate others compliance, but it was only weakly correlated with compliance, and was also weakly correlated with fairness. 
-
-cace_model <- ivreg(fairness ~ condition.f | complier | guestimate, data = cace_data)
-summary(cace_model)
-
-cace_model <- ivreg(fairness ~ condition.f | guestimate, data = cace_data)
-summary(cace_model)
-
-
-
-## Doesn't work. 
-cace_model <- ivreg(fairness ~ complier | condition.f | guestimate, data = cace_data)
-summary(cace_model)
-
-
-hist(cond1_full$party)
-
-cor.test(cond1_full$complier, cond1_full$guestimate) ## not sig but correlated at .1 
-cor.test(cond1_full$complier, cond1_full$procedure) ## correlated at .
-cor.test(cond1_full$complier, cond1_full$party)
-
-cor.test(cond1_full$fairness, cond1_full$guestimate)
-cor.test(cace_data$fairness, cace_data$guestimate) ## sinificant -- people who reported that they acted fairly 
-
-summary(lm(fairness ~ guestimate*complier, data = cond1_full))
-
-## worlds worst insturment. 
-scatterplot(cace_data$fairness, cace_data$guestimate)
-scatterplot(altruists$fairness, altruists$guestimate)
-
-
-scatterplot(cond1_full$complier, cond1_full$guestimate)
-
-
-cond1_full %>% count(complier, procedure)
-
-cond1_full %>% count(complier)
-
-summary(lm(guestimate ~ complier, data = cond1_full))
-
-cor(cond1_full)
-
-
-### I THINK THIS IS JUST THE AVERAGE DIFFERENCE BETWEEN THE COMPLIERS AND THE NON-COMPLIERS. 
-## MAY HAVE TO RELEVEL. 
-## I HAVE NO IDEA IF THIS IS CORRECT OR NOT. 
-## DOES THIS SHOW THAT THE EFFECT OF COMPLYING MAKES YOUR FAIRNESS RATINGS GO DOWN? 
-
-
-
-
-
-
-
 
 #############################################################
 #### Intent to Treat (everyone included).  H1, H2 & H 3  ####
@@ -149,11 +76,10 @@ table
 ## EFFECT SIZE FOR CONTRASTS ### 
 F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
 
-
 ## Make table for Supplement
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
-                       booktabs = T,  no.margin = T,  caption = "ITT", label = "ITT") 
+                       booktabs = T,  no.margin = T,  caption = "Study 1 Itent to Treat analysis, n = 596", label = "ITT_s1") 
 #Relabel Row Names                     
 rownames(out_stepwise) <- c("Model",
                             "Contrast 1 - Self vs. Other", 
@@ -211,10 +137,21 @@ data %>%
   summarise(mean = mean(fairness), n = n())
 
 ## 4 (cond) x 2 (over_under) anova 
-summary.aov(aov(fairness ~ condition.f*over_under, data = data))
+table <- summary.aov(aov(fairness ~ condition.f*over_under, data = data))
+
+out_stepwise <- xtable(table, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Differences between Overestimators and Underestimators in Study 1", label = "over_underS1") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("Condition",
+                            "Group (Overestimator or Underestimator)", 
+                            "Condition X Group", 
+                            "Risiduals" )
+
+## Print and copy/pase output into latex
+print(out_stepwise)
 
 equ_ftest(Fstat = 0.66, df1 = 1, df2 = 588, eqbound = 0.2)
-
 
 ## Pairwise Tests
 
@@ -241,9 +178,6 @@ other <- data %>% filter(condition.f=="other")
             sd1 = sd(subset(other,over_under == "Over")$fairness, na.rm = T), 
             sd2 = sd(subset(other,over_under == "Under")$fairness, na.rm = T),
             n1 = 63, n2 = 83, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
-
-data %>% filter(condition.f=="ingroup") %>% 
-  t.test(fairness ~ over_under, data = .)
 
 ## Ingroup
 data %>% filter(condition.f=="ingroup") %>% 
@@ -329,7 +263,7 @@ F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581
 ## Make table for Supplement
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
-                       booktabs = T,  no.margin = T,  caption = "Results with repeats excluded", label = "repeats") 
+                       booktabs = T,  no.margin = T,  caption = "Participants who were in chatgroups with repeat participants excluded, n = 503", label = "repeats_s1") 
 #Relabel Row Names                     
 rownames(out_stepwise) <- c("Model",
                             "Contrast 1 - Self vs. Other", 
@@ -348,6 +282,9 @@ print(out_stepwise)
 ####  Mismatched partisans, political id vs. political orienation, and neg CI  ###
 mismatch <- data_subset %>% 
   filter(!CI_difference < 0)
+
+data_subset %>% 
+  filter(CI_difference < 0)
 
 mismatch %>% group_by(condition) %>% 
   summarise(mean = mean(fairness))
@@ -398,19 +335,27 @@ CI_data <- mismatch %>% filter(condition == 3 | condition == 4) %>%
 model1 <- lm(fairness ~ dummy_code*CI_difference, data = CI_data)
 summary(model1)
 
-cond_labs <- c("Ingroup", "Outgroup")
+cond_labs <- c("In-group", "Out-group")
 names(cond_labs) <- c("ingroup", "outgroup")
 
+anno <- data.frame(x1 = c(0.8, .8), x2 = c(5.5, 5.5), y1 = c(7.3, 7.3), y2 = c(7.3, 7.3), 
+                   xlab = c(3,3), ylab = c(7.6,7.6), lab = c("*", "n.s."), 
+                   condition.f = c("ingroup", "outgroup"))
+
+
 ## Facet graph of above model
-ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol_id)) + ## , fill = pol_id, colour = pol_id))
+
+ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id))
   geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
   facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
   scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
   scale_x_continuous(breaks = c(0,1,2,3,4,5,6)) +
   geom_smooth(method = "lm", se = T) +
+  geom_segment(data = anno, aes(x = x1, xend = x2, y = y1, yend = y2)) + 
+  geom_text(data = anno, aes(x = xlab, y = ylab, label = lab)) +
   labs(x = "Collective Identification",
        y = "Fairness Judgement",
-       title = "Study 1",
+       title = "Study 1 - Minimal Groups",
        subtitle = "Collective Identification " ) + 
   theme_bw()
 
@@ -430,13 +375,16 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colo
   theme_bw()
 
 ## Facet graph of above model with political party included 
-ggplot(CI_data, aes(x = CI_difference, y = fairness)) +
-  geom_point() +
-  facet_grid(. ~ dummy_code) + 
-  geom_smooth(method = "lm", se = F) +
+ggplot(CI_data, aes(x = CI_difference, y = fairness, fill = pol_id, colour = pol_id)) + ## , fill = pol_id, colour = pol_id))
+  geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
+  facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
+  scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
+  scale_x_continuous(breaks = c(0,1,2,3,4,5,6)) +
+  geom_smooth(method = "lm", se = T) +
   labs(x = "Collective Identification",
-       y = "Fairness",
-       title = "Fairness ratings by collective identification and condition") + 
+       y = "Fairness Judgement",
+       title = "Study 1",
+       subtitle = "Collective Identification " ) + 
   theme_bw()
 
 ####################################################################
@@ -490,19 +438,11 @@ print(out_stepwise)
 # talking to a real person? 
 xtabs(~data$manip_check1) 
 
-432 / (432 + 152) * 100
-# prop.test(x = 35, n = 44, p = 0.5, 
-# correct = FALSE)
+449 / (449 + 147) * 100
 
-# Others were actually  Assigning tasks? 1 is yes, 2 is no.
-data %>% filter(!condition == 1) %>% 
-  count(manip_check1) ## Filter out those in condition 1
-
-324 / (324+111) * 100
-
-
+## Filter out those who failed 
 data_manip <- data_subset %>% 
-  filter(manip_check1 == 1 & manip_check2 == 1)
+  filter(manip_check1 == 1)
 
 data_manip %>% group_by(condition) %>% 
   summarise(mean = mean(fairness))
@@ -526,7 +466,7 @@ table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs
 ## Make table for Supplement
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
-                       booktabs = T,  no.margin = T,  caption = "Only those who passed the manipulation check", label = "manip") 
+                       booktabs = T,  no.margin = T,  caption = "Only those who passed the manipulation check, n = 334.", label = "manip") 
 #Relabel Row Names                     
 rownames(out_stepwise) <- c("Model",
                             "Contrast 1 - Self vs. Other", 
@@ -647,5 +587,76 @@ ggplot(ideo_data, aes(x = pol_or, y = fairness)) +
        title = "Fairness ratings by ideology") + 
   theme_bw()
 
+#############################################################
+####  CACE DATA ###########################
+#############################################################
+
+cace_data <- data_subset %>% 
+  mutate(complier = 1) %>% 
+  rbind(altruists) %>% 
+  mutate(self_other = case_match(condition.f, c("other", "ingroup", "outgroup") ~ 0,
+                                 "self" ~ 1))
+cond1_full <- cace_data %>% 
+  filter(condition.f=="self")
+
+
+
+## https://cran.r-project.org/web/packages/ivreg/vignettes/ivreg.html
+## Ideal instrument would be correlated with group & fairness, but not correlated with fairness when group is eliminated.
+
+## I really don't think we have an appropriate instrumental variable here to use. 
+## This is wrong, like really wrong. I have no idea how to interpret these results, and I think we should just admit that we don't know what we're doing. 
+
+## We had hoped that we could use this guesstimate variable as an instrument, to estimate others compliance, but it was only weakly correlated with compliance, and was also weakly correlated with fairness. 
+
+## As is this model, this would be estimating what the altruists are doing. However, the estimates it gives are above what someone could reasonably have even rated the fairness of an altruistic decision. 
+
+## Second, our instrumental variable (guestimate) was a shitty estimate of whether or not people complied. 
+
+cace_model <- ivreg(fairness ~ condition.f | complier | guestimate, data = cace_data)
+summary(cace_model)
+
+cace_model <- ivreg(fairness ~ condition.f | guestimate, data = cace_data)
+summary(cace_model)
+
+
+
+## Doesn't work. 
+cace_model <- ivreg(fairness ~ complier | condition.f | guestimate, data = cace_data)
+summary(cace_model)
+
+
+hist(cond1_full$party)
+
+cor.test(cond1_full$complier, cond1_full$guestimate) ## not sig but correlated at .1 
+cor.test(cond1_full$complier, cond1_full$procedure) ## correlated at .
+cor.test(cond1_full$complier, cond1_full$party)
+
+cor.test(cond1_full$fairness, cond1_full$guestimate)
+cor.test(cace_data$fairness, cace_data$guestimate) ## sinificant -- people who reported that they acted fairly 
+
+summary(lm(fairness ~ guestimate*complier, data = cond1_full))
+
+## worlds worst insturment. 
+scatterplot(cace_data$fairness, cace_data$guestimate)
+scatterplot(altruists$fairness, altruists$guestimate)
+
+
+scatterplot(cond1_full$complier, cond1_full$guestimate)
+
+
+cond1_full %>% count(complier, procedure)
+
+cond1_full %>% count(complier)
+
+summary(lm(guestimate ~ complier, data = cond1_full))
+
+cor(cond1_full)
+
+
+### I THINK THIS IS JUST THE AVERAGE DIFFERENCE BETWEEN THE COMPLIERS AND THE NON-COMPLIERS. 
+## MAY HAVE TO RELEVEL. 
+## I HAVE NO IDEA IF THIS IS CORRECT OR NOT. 
+## DOES THIS SHOW THAT THE EFFECT OF COMPLYING MAKES YOUR FAIRNESS RATINGS GO DOWN? 
 
 
