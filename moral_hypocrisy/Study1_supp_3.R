@@ -68,10 +68,14 @@ cond1_full <- cace_data %>%
 ## I really don't think we have an appropriate instrumental variable here to use. 
 ## This is wrong, like really wrong. I have no idea how to interpret these results, and I think we should just admit that we don't know what we're doing. 
 
-## We had hoped that we could use this guesstimate variable as an instrument, to estimate others compliance, but it was only weakly correlated with compliance. 
+## We had hoped that we could use this guesstimate variable as an instrument, to estimate others compliance, but it was only weakly correlated with compliance, and was also weakly correlated with fairness. 
 
 cace_model <- ivreg(fairness ~ condition.f | complier | guestimate, data = cace_data)
 summary(cace_model)
+
+cace_model <- ivreg(fairness ~ condition.f | guestimate, data = cace_data)
+summary(cace_model)
+
 
 
 ## Doesn't work. 

@@ -1,0 +1,679 @@
+%
+% Simple template for generating drafts of papers and articles
+%
+\documentclass[12pt,]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage[authoryear]{natbib}
+%\bibliographystyle{naturemagnourl}
+%\setcitestyle{authoryear,open={((},close={))}}
+
+\usepackage{IEEEtrantools,stackengine}
+\stackMath
+
+\usepackage{authblk}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+	\usepackage{siunitx}
+\sisetup{
+	input-symbols         = (),
+	table-format          = 4.4,
+	%table-space-text-post = ***,
+	table-align-text-post = false,
+	input-ignore = {^},
+	group-digits          = true,
+	group-separator={,}
+	%detect-all,
+	%table-alignment=center,
+	%    round-integer-to-decimal = true,
+	%    group-digits             = true,
+	%    group-minimum-digits     = 1,
+	%    group-separator          = {\,},
+	%    input-ignore = {^},
+	%    table-align-text-pre     = false,
+	%    table-align-text-post    = false,
+	%    input-signs              = + -,
+	%    input-symbols            = {*} {**} {***},
+	%    input-open-uncertainty   = ,
+	%    input-close-uncertainty  = ,
+	%    retain-explicit-plus
+	%table-space-text-post = {***}
+	% table-space-text-pre = "    "
+}
+\usepackage{csquotes}
+
+\usepackage{xspace}
+\newcommand\ie{i.\,e.\xspace}
+\newcommand\eg{e.\,g.\xspace}
+\newcommand\Eg{E.\,g.\xspace}
+\newcommand\NB{N.\,B.\xspace}
+\newcommand\BSc{B.\,Sc.\xspace}
+\newcommand\MSc{M.\,Sc.\xspace}
+\newcommand\PhD{Ph.\,D.\xspace}
+\newcommand\etc{etc.\xspace}
+\newcommand\resp{resp.\xspace}
+\newcommand\cf{cf.\xspace}
+\newcommand\Cf{Cf.\xspace}
+\newcommand\cp{cp.\xspace}
+\newcommand\etal{et\,al.\xspace}
+\newcommand\page[1]{p.\,#1}
+\newcommand\pages[1]{pp.\,#1}
+\newcommand\pa{p.\,a.\xspace}
+\newcommand\ham{a.\,m.\xspace}
+\newcommand\hpm{p.\,m.\xspace}
+\newcommand\UK{U.\,K.\xspace}
+\newcommand\US{U.\,S.\xspace}
+\newcommand\wlogenerality{w.\,l.\,o.\,g.\xspace}
+
+%\newcommand{\logit}{\mathop{logit}}
+\DeclareMathOperator{\logit}{logit}
+
+\newcommand{\emovariable}[1]{$\mathit{#1}$}
+\newcommand{\emosingle}[1]{\emph{#1}}
+\newcommand{\emopair}[1]{\emph{#1}}
+
+\newcommand\abs[1]{| #1 |}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+%\usepackage[version=3]{mhchem}\sqrt{•}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{longtable}
+\usepackage{multirow}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+
+
+% Adding line numbers
+%\usepackage[left]{lineno}
+%\renewcommand\linenumberfont{\normalfont\small}
+
+
+% Define TODO function
+\usepackage[
+    colorinlistoftodos,
+%    disable,
+    textsize=footnotesize,
+        ]{todonotes}
+\newcommand{\TODO}[1]{{\color{red}#1}}
+\newcommand{\MOVE}[1]{{\color{orange}#1}}
+\newcommand{\INSERT}[1]{{\color{blue}#1}}
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\newcommand{\FIX}[1]{{\color{darkgreen}#1}}
+
+\usepackage{setspace}
+\doublespacing
+
+\usepackage[unicode=true]{hyperref}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            colorlinks=false,
+            pdfborder={0 0 0}}
+\urlstyle{same} % don't use a different (monospace) font for urls
+
+\usepackage[%
+  %capitalize,
+  sort&compress
+]{cleveref}
+
+\usepackage{times}
+
+\usepackage{float}
+
+\setcounter{secnumdepth}{5}
+
+% Figure and Tables related;
+\usepackage{graphicx}
+
+% Plots path
+\graphicspath{{./Plots/}}
+%\graphicspath{{../NaturePlots/}}
+
+\usepackage{subcaption}
+%\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{dcolumn}
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+\usepackage{array}
+
+% from: http://tex.stackexchange.com/questions/2441/how-to-add-a-forced-line-break-inside-a-table-cell
+\newcommand{\mcell}[2][c]{%
+  \begin{tabular}[c]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\mcellt}[2][c]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\lcellt}[2][l]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+
+\newcommand{\stackedcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+	
+	\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+% run: bibtex.exe "S"
+%\usepackage[resetlabels,labeled]{multibib}
+%\usepackage[resetlabels,labeled]{multibib}
+%\newcites{S}{References}
+%\crefname{Ssec}{References}{References}
+
+% Custom bars for click-through rate in RCT table
+%\def\click-through ratebar#1{%%
+%  #1\% & {\color{Gray}\rule{#1cm/4}{9pt}}}
+  
+\def\click-through ratebar#1{%%
+  {\color{Gray}\rule[-1.5pt]{#1cm/3}{10pt}} #1\%}
+%  
+%\def\click-through ratebar#1{%%
+%  #1\% & {\color{Gray}\fbox{\color{Blue}\rule{#1cm/4}{8pt}}}}
+  
+%\def\click-through ratebar#1{%%
+%  #1\% & {\setlength\fboxsep{0pt}{\colorbox{gray!20}{\framebox(3,3){World}}}}
+
+\makeatletter
+\renewcommand{\fps@figure}{H}         % default {tbp}
+\renewcommand{\fps@table}{H}         % default {tbp}
+\makeatother 
+
+\renewcommand{\arraystretch}{1.2}
+
+% Redefine \includegraphics so that, unless explicit options are
+% given, the image width will not exceed the width or the height of the page.
+% Images get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\ScaleWidthIfNeeded{%
+ \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>0.9\textheight
+    0.9\textheight
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
+
+\allowdisplaybreaks
+%\hyphenation{CascadeLSTM LSTM}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+
+\title{Preregistered Replication of: Moral Hypocrisy and the Flexibility of Virtue}
+
+
+% Blinded author names
+\author{}
+
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%\maketitle
+
+\sloppy
+\raggedbottom
+
+%\pagestyle{empty} 
+%\setcounter{page}{43} % start supplement at page; = (number of pages in main) + 1
+
+%\renewcommand{\thefigure}{S\arabic{figure}}
+%\setcounter{table}{3} % number of tables in paper. starts at n+1 in the supplements
+%\setcounter{figure}{2} % number of figures in paper. starts at n+1 in the supplements
+%\linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+%\renewcommand\thesection{\Alph{section}}
+%\setcounter{section}{0}
+\begin{center}
+\LARGE\bfseries Supplementary Materials
+\end{center}
+
+\tableofcontents
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% PILOT  STUDIES PILOT STUDIES PILOT STUDIES %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Pilot Studies}
+\label{appendix:pilot}
+
+\subsection{Pilot Samples}
+\label{appendix:pilot_samples}
+Due to the sample size requirements that our power analysis revealed, we chose to replicate the original study in an online context. However, we wanted to ensure that our online procedure was true to the original study. Namely, we wanted to ensure that the two critical pieces of the manipulation were effective in an online context. In our two initial pilot experiments (Pilot Experiment 1 and Pilot Experiment 2) using NYU student samples, we administered false feedback via a fake screen recording to show participants the moral transgression of other participants. To make this compelling, first, we needed participants to believe that they were interacting with other, real participants. Secondly, we needed participants to believe that they watched another real participant make a moral transgression.  We ran two pilot experiments to test our procedure. The research complies with all relevant ethical regulations. Ethics approval (IRB-FY2022-5934) was obtained from the institutional review board at New York University. Participants in the pilot experiments were recruited from the subject pool of the Department of Psychology at New York University in exchange for 0.5 hrs of research credit for varying psychology courses. In order to ensure that our procedure was viable on our population of interest, we ran two more pilot experiments (Pilot Experiment 3 and Pilot Experiment 4) on the survey platform Prolific. Participants were paid for 20 minutes of their time at \$10 an hour (above federal minimum wage), such that each participant earned \$3.33. Participants signed up for a timeslot to participate, and were compensated upon completion of the experiment. We recruited a standard U.S. sample in Pilot Experiment 3, and a politically balanced U.S. sample (i.e. 50\% Democrats, 50\% Republicans) in Pilot Experiment 4.
+
+
+ \subsubsection{Pilot Experiment 1}
+\label{appendix:px1}
+
+In Pilot Experiment 1, we collected data from 61 participants via SONA (Department of NYU Psychology Research Participant System). Participants signed up for a prespecified time slot, and were reminded the day of and the day before of their upcoming timeslot. Four participants had to enter the experiment at the same time for the experiment to function.
+
+ \subsubsection{Pilot Experiment 1 Results}
+\label{appendix:px1_results}
+
+In Pilot 1, we were most concerned with validating our experimental procedure. First, we examined whether participants believed they were speaking to real people during the chat portion of the experiment. We found that 58/61 (95\%) participants believed they were actually speaking to other participants during the experiment. We then wanted to see whether participants believed they were watching a real person’s screen recording. We found that 33/61 (54\%) participants believed they were watching a real person’s screen recording. This ratio was lower than we wanted, so we looked at the narrative reports from participants as to why they did not believe the screen recording. The first recurring feedback we got was that the screen recording was “ready” for their viewing too quickly for it to have come from another participant, and that participants. Other participants reported that they were suspicious that the screen recording was fake because they were never asked to consent to screen recording themselves. Using their feedback, we tweaked our protocol and ran another pilot. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% RECRUITMENT RECRUITMENT RECRUITMENT %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Recruitment and Demographic Information}
+\label{appendix:recruit}
+
+\subsection{Study 1 Recruitment and Demographic Information}
+\label{appendix:recruit_1}
+
+In order to closely replicate the induction from Valdesolo and DeSteno (2007), we included a live chat in our study to induce participants to feel that they were participating in a study with real people. In order to ensure that sufficient participants were online at a given time to create a group of four as required by the study design, we recruited participants on Prolific in two parts. In Part 1, participants signed up to participate in our study at a given time later that day. They were then sent a message thanking them for tier interest, and letting them know that they would be receiving the link to Part 2 of the study (the real study) via Prolific's chat function at the time listed in the sign up study. They were then all sent a link to Part 2 at the designated time, asking them to begin the study within 10 minutes. Participants could thus sign up at any point in the day, but would all participate at the same time. 
+
+This ensured that the greatest number of participants would be matched successfully into groups to complete the study, but it also resulted in (a) significant attrition from Part 1 to Part 2 of the study, and (b) participant quotas that were not filled by the time the study was scheduled to be launched. In Study 1,  we attempted to recruit 1100 nationally representative participants in 3 batches (n = 300, n = 400, n = 400). 937 participants signed up in Part 1, but only 584 participants joined Part 2 on time and were able to be matched with three other participants to complete the study.  
+
+We preregistered a sample size of 600. Because Prolific only allows nationally representative samples to be collected in batches of 300-500 participants, we decided to recruit an additional 80 participants as a standard sample to achieve a sample size of at least 600. Because this is a slight deviation from our preregistered plan, we conducted a robustness check excluding the non-representative sample, and found that they do not change our results SEE SUPPLEMENT XXXX.  
+
+Demographic information for Study 1 can be found in \Cref{demo1}.  
+
+\clearpage
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{l l}
+        \toprule
+        \emph{Variable} & \emph{n} \\
+        \midrule
+        \emph{Ethnicity} &  \\
+        \hspace{1em} American Indian or Alaskan Native & 3 \\
+        \hspace{1em} Asian & 28 \\
+        \hspace{1em} Black or African American & 77 \\
+        \hspace{1em} Hispanic, Latino or Spanish Origin & 20 \\
+        \hspace{1em} Middle Eastern or North African& 2 \\
+        \hspace{1em} Native Hawaiian or Other Pacific Islander & 1 \\ 
+        \hspace{1em} White & 421 \\ 
+        \hspace{1em} Some other race, ethnicity or origin & 2 \\ 
+        \hspace{1em} Prefer not to say & 4 \\ 
+      \emph{Gender} & \\ 
+         \hspace{1em} Man & 295 \\
+         \hspace{1em} Woman & 275 \\
+         \hspace{1em} Nonbinary & 9 \\
+         \hspace{1em} Something not listed here & 5 \\
+         \hspace{1em} Prefer not to say & 4 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Study 1 Demographic Information}
+    \label{demo1}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\subsection{Study 2 Recruitment and Demographic Information}
+\label{appendix:recruit_2}
+
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{l l}
+        \toprule
+        \emph{Variable} & \emph{n} \\
+        \midrule
+        \emph{Ethnicity} &  \\
+        \hspace{1em} American Indian or Alaskan Native & 0 \\
+        \hspace{1em} Asian & 0 \\
+        \hspace{1em} Black or African American & 0 \\
+        \hspace{1em} Hispanic, Latino or Spanish Origin & 0 \\
+        \hspace{1em} Middle Eastern or North African& 0\\
+        \hspace{1em} Native Hawaiian or Other Pacific Islander & 1 \\ 
+        \hspace{1em} White & 421 \\ 
+        \hspace{1em} Some other race, ethnicity or origin & 2 \\ 
+        \hspace{1em} Prefer not to say & 4 \\ 
+      \emph{Gender} & \\ 
+         \hspace{1em} Man & 295 \\
+         \hspace{1em} Woman & 275 \\
+         \hspace{1em} Nonbinary & 9 \\
+         \hspace{1em} Something not listed here & 5 \\
+         \hspace{1em} Prefer not to say & 4 \\
+        \bottomrule
+    \end{tabular}
+     \caption{Study 2 Demographic Information NOT COMPLETE}
+     \label{demo2}
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% STUDY 1 STUDY 1 STUDY 1 %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\section{Study 1 Robustness Checks}
+\label{appendix:study1_robust}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Differences in Overestimators and Underestimators}
+\label{appendix:over_under1}
+
+No differences for over / under condition, and no differences in any of the pairwise tests 
+
+ADD HERE: ANOVA, PAIRWISE TESTS AND EQUIVALENCE TESTING RESULTS 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{Collective Identification and Fairness Ratings}
+\label{appendix:CID1}
+
+ADD HERE: GRAPH WITH OUTGROUP IDENTIFIERS INCLUDED.  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\clearpage
+\subsection{Intent to Treat Model}
+\label{appendix:itt1}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 111.57 & 37.19 & 16.55 & 0.0000 \\ 
+  Contrast 1 - Self vs. Other & 1 & 91.25 & 91.25 & 40.61 & 0.0000 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 16.77 & 16.77 & 7.46 & 0.0065 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.56 & 3.56 & 1.58 & 0.2086 \\ 
+  Risiduals & 581 & 1305.57 & 2.25 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{{\color{red}{INCOMPLETE: Intent-to-treat model}} \emph{n} = XXX. } 
+\label{ITT1}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Manipulation Check}
+\label{appendix:manip1}
+
+Because our study involved deception, it was critical that participants believe that they were (a) talking to real people during the chat phase and (b) that they were seeing a real person's choice behavior. We pretested our paradigm in several pilot studies, and in our final sample for Study 1, we found that  XXXX\% of participants believed they were talking to a real person during the chat phase of the experiment, and XXX \% of participants in Conditions 2, 3, and 4 believed that another participant really was assigning tasks. As a robustness check, we found that our results were robust even when excluding those who failed both manipulation checks. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\ 
+  Contrast 1 - Self vs. Other & 1 & 0.23 & 0.23 & 0.11 & 0.7419 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 12.54 & 12.54 & 6.03 & 0.0146 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.06 & 3.06 & 1.47 & 0.2263 \\ 
+  Risiduals & 305 & 634.06 & 2.08 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{{\color{red}{INCOMPLETE}}Only those who passed the manipulation check, \emph{n} = XXX} 
+\label{manip1}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Study 1 Exploratory Analyses}
+\label{appendix:study1_robust}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Political Ideology and Extremity}
+\label{appendix:ideo_extrem2}
+
+ADD HERE - IDEOLOGY AND EXTREMITY FINDINGS. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\subsection{High Identifiers Only}
+\label{appendix:high_id1}
+
+\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 37.83 & 12.61 & 4.55 & 0.0045 \\   Contrast 1 - Self vs. Other & 1 & 9.66 & 9.66 & 3.49 & 0.0639 \\   Contrast 2 - Ingroup vs. Outgroup & 1 & 28.15 & 28.15 & 10.16 & 0.0018 \\   Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 0.03 & 0.03 & 0.01 & 0.9241 \\   Risiduals & 138 & 382.26 & 2.77 &  &  \\    \hline\end{tabular}\caption{Only partiicpants who scored greater than 2 on Collective Identification, \emph{n} = 142} \label{high_ID}\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% STUDY 2 STUDY 2 STUDY 2 %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Study 2 Robustness Checks}
+\label{appendix:robust2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Intent to Treat Model}
+\label{appendix:itt2}
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 111.57 & 37.19 & 16.55 & 0.0000 \\ 
+  Contrast 1 - Self vs. Other & 1 & 91.25 & 91.25 & 40.61 & 0.0000 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 16.77 & 16.77 & 7.46 & 0.0065 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.56 & 3.56 & 1.58 & 0.2086 \\ 
+  Risiduals & 581 & 1305.57 & 2.25 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Study 2: Intent-to-treat model, \emph{n} = 585. } 
+\label{ITT2}
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{Differences in Overestimators and Underestimators}
+\label{appendix:over_under2}
+
+
+ADD HERE: ANOVA RESULTS, PAIRWISE T TESTS AND EQUIVALENCE TESTS. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\subsection{Politically Mismatched Participants Excluded}
+\label{appendix:mismatch}
+
+Participants were assigned roles (either Democrats or Republicans) based on the ideology they reported on Prolific. We also asked participants to report their political orientation on a 7-point Likert scale (1 = Very Liberal, 7 = Very Conservative). We found that there were 5 participants who had reported that the were a Democrat on Prolific but responded that they were conservative in the survey, and 9 participants who reported that they were a Republican on Prolific, but responded that they were liberal in the survey. 
+
+We also asked participants how much they identified with their political ingroups or outgroups in the survey, and found that there were 11 Democrats who reported identifying more with Republicans than Democrats, and 25 Republicans who reported identifying more with Democrats than Republicans. Results do not significantly change when these participants (\emph{n} = 46) are excluded.  Results from the contrast models are listed in \Cref{mismatch}, and results from the linear model examining the interaction effect between condition (Ingroup vs. Outgroup) and Collective Identification was not significant $\beta$ = 0.086, \emph{t}(244) = 0.74, \emph{p} = 0.46. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 29.16 & 9.72 & 4.75 & 0.0028 \\ 
+  Contrast 1 - Self vs. Other & 1 & 2.38 & 2.38 & 1.16 & 0.2816 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 21.39 & 21.39 & 10.46 & 0.0013 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 5.39 & 5.39 & 2.64 & 0.1052 \\ 
+  Risiduals & 482 & 985.87 & 2.05 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Politically mismatched participants excluded, \emph{n} = 486.} 
+\label{mismatch}
+\end{table}
+
+\vspace{0.3cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Repeat Participants and Groups Excluded}
+\label{appendix:exclude}
+
+Due to an error on Prolific, there were \emph{n} = 13 participants who participated in our study more than once. We exclude their repeated participations from analyses, but because this study involves both deception and participant interaction, it was possible that the repeat subjects could have revealed the purpose of the study to other participants during the chat phase. After examining the chat logs, we found repeat participants did not reveal the purpose of the study during the chats. Nonetheless, we ran a robustness check excluding all participants who chatted with a repeat participant \emph{n} = 45. Overall, we found that our results were robust even when excluding these participants.  
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 23.66 & 7.89 & 3.82 & 0.0101 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.09 & 3.09 & 1.50 & 0.2219 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 18.32 & 18.32 & 8.87 & 0.0030 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 2.25 & 2.25 & 1.09 & 0.2973 \\ 
+  Risiduals & 499 & 1031.32 & 2.07 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Results excluding those who had chatted with a repeat participant, \emph{n} = 503} 
+\label{repeats}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Manipulation Check}
+\label{appendix:manip2}
+
+Because our study involved deception, it was critical that participants believe that they were (a) talking to real people during the chat phase and (b) that they were seeing a real person's choice behavior. We pretested our paradigm in several pilot studies, and in our final sample for Study 2, we found that  73.97\% of participants believed they were talking to a real person during the chat phase of the experiment, and 74.48 \% of participants in Conditions 2, 3, and 4 believed that another participant really was assigning tasks. As a robustness check, we found that our results were robust even when excluding those who failed both manipulation checks. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\ 
+  Contrast 1 - Self vs. Other & 1 & 0.23 & 0.23 & 0.11 & 0.7419 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 12.54 & 12.54 & 6.03 & 0.0146 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 3.06 & 3.06 & 1.47 & 0.2263 \\ 
+  Risiduals & 305 & 634.06 & 2.08 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Only those who passed the manipulation check, \emph{n} = 309.} 
+\label{manip2}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\clearpage
+\section{Study 2 Exploratory Analyses}
+\label{appendix:explore2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Political Ideology and Extremity}
+\label{appendix:ideo_extrem2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\subsection{Partisan Differences}
+\label{appendix:p_dif2}
+
+We did not preregister any partisan differences, but we also wanted to include an exploratory analysis comparing Democrats and Republicans.  We find evidence of outgroup derogation, but not moral hypocrisy in Democrats, whereas we find evidence of both outgroup derogation and moral hypocrisy in Republicans. 
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 11.08 & 3.69 & 1.96 & 0.1198 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.14 & 3.14 & 1.67 & 0.1976 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 7.88 & 7.88 & 4.19 & 0.0417 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 0.07 & 0.07 & 0.04 & 0.8505 \\ 
+  Risiduals & 264 & 496.63 & 1.88 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Democrats only, \emph{n} = 268.} 
+\label{dems2}
+\end{table}
+
+\vspace{0.6cm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 39.75 & 13.25 & 6.12 & 0.0005 \\ 
+  Contrast 1 - Self vs. Other & 1 & 20.35 & 20.35 & 9.41 & 0.0024 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 10.76 & 10.76 & 4.97 & 0.0266 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 8.64 & 8.64 & 3.99 & 0.0467 \\ 
+  Risiduals & 260 & 562.40 & 2.16 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Republicans only, \emph{n} = 264. } 
+\label{reps2}
+\end{table}
+
+\newpage
+\section{Complier Average Causal Effects}
+\label{appendix:CACE}
+
+In our preregistration, we preregisted a compliance average causal effect (CACE) analysis. We did this in order to adjust for a confound in the original study design whereby participants in the "Self" condition were given a choice as to whether they wanted to make an altruistic decision or selfish decision, whereas participants in all other conditions observed a selfish decision from another person. In the original paper, the authors excluded the participants who behaved altruistically. However, scholars caution against subsetting or excluding participants based on task choices (Lachin, 2000). However, we failed to meet several of the specific assumptions of the CACE analysis, and thus the results were not meaningful nor statistically interpretable. 
+
+CACE analyses rely on instrumental variables, and must meet five assumptions, as laid out in Connell (2010). In our experiment, we do not meet all five assumptions. 
+
+The first assumption states that outcomes for each participant are independent of one another, or the Stable Unit Treatment Value Assumption (SUTVA) (Connell, 2010). We do meet this criteria. Second, we must there is a monotonic relationship between treatment assignment and treatment receipt, meaning that no participants who were assigned to treatment had reduced likelihood of receiving treatment. We do not meet this assumption due to the lack of an interpretable CACE control condition. As quoted in Connell (2010) "The core insight behind CACE analysis is that we can arrive at an unbiased estimate of the difference in outcomes for compliers in the intervention group with those who would have engaged with treatment in the control group." We, however, had an inverse situation due to the structure of our study. The "outcome" of interest in our study was judgements of fairness after engaging in or witnessing a moral transgression.  Our "controls" were those who had witnessed a moral transgression and our "treatment: group contained both compliers (those who had behaved immorally) and  noncom pliers (those who had behaved altruistically). Thus, we already know the outcome for compliers in our control group, because the structure of the study required that they "comply" with the treatment. This instead means that the \emph{only} participants who have the choice not to comply are those in our treatment condition. Third, CACE assumes that the compliance rate is not zero in the treatment condition, which we meet. Fourth, we assume that participants are randomly assigned to treatment, which we meet, However, we do not meet the second part of this fourth assumption, stating that the proportion of compliers across conditions should be the same. Again, this is because our "control condition" contains \emph{only} compliers, not a random mix of potential compliers and non-takers. Fifth, we assume that random assignment to the treatment group does not affect the outcomes of individuals who do not comply with treatment, which we do not meet. It is indeed the non-compliers (altruists) that are different from the rest of our sample due to the fact that they behaved altruistically, which they were only able to do because of their random assignment. 
+
+We also lack an interpretable instrumental variable. EXPAND IF NEEDED. 
+
+Thus, our paradigm is an inappropriate fit for the CACE analysis, and we fail to meet three out of five for the CACE analysis.  Attempts to estimate the CACE result instead estimations of outcomes (fairness ratings) for people in the control conditions (other, ingroup, outgroup) for if they would have made an altruistic decision, which is impossible given our paradigm. 
+
+We have included those estimations below, again for transparency with our preregistration, but we want to emphasize that they are are \emph{both statistically and theoretically uninterpretable}. 
+
+INCLUDE TABLE HERE. 
+
+
+n a CACE analysis, the effect of a treatment is estimated based on those in the treatment group who complied, those in the treatment group who did not, and those who were never offered treatment. In our case, we were interested in how people who behaved altruistically in the self condition would have behaved in the other conditions. 
+
+
+
+
+\end{document}
