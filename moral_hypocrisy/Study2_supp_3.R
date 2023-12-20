@@ -241,11 +241,13 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) +
   geom_jitter(position = position_jitter(width = 0.1, height = 0.1), alpha = 0.4) +
   facet_grid(. ~ condition.f, labeller = labeller(condition.f = cond_labs)) + 
   scale_y_continuous(breaks = c(1,2,3,4,5,6,7)) +
-  scale_x_continuous(breaks = c(0,2,4,6)) + 
+  scale_x_continuous(breaks = c(0,1,2,3,4,5,6)) +  
   geom_smooth(method = "lm", se = T) +
+  geom_segment(x = .8, xend = 5.5, y = 7.3, yend = 7.3) + 
+  annotate("text", x = 3.25, y = 7.6, label = "n.s.") +
   labs(x = "Collective Identification",
        y = "Fairness Judgement",
-       title = "Study 2",
+       title = "Study 2 - Political Groups",
        subtitle = "Collective Identification " ) + 
   theme_bw() 
 

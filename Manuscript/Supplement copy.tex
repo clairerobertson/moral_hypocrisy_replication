@@ -273,6 +273,46 @@ In Pilot Experiment 1, we collected data from 61 participants via SONA (Departme
 
 In Pilot 1, we were most concerned with validating our experimental procedure. First, we examined whether participants believed they were speaking to real people during the chat portion of the experiment. We found that 58/61 (95\%) participants believed they were actually speaking to other participants during the experiment. We then wanted to see whether participants believed they were watching a real person’s screen recording. We found that 33/61 (54\%) participants believed they were watching a real person’s screen recording. This ratio was lower than we wanted, so we looked at the narrative reports from participants as to why they did not believe the screen recording. The first recurring feedback we got was that the screen recording was “ready” for their viewing too quickly for it to have come from another participant, and that participants. Other participants reported that they were suspicious that the screen recording was fake because they were never asked to consent to screen recording themselves. Using their feedback, we tweaked our protocol and ran another pilot. 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% COMPLIER AVERAGE CAUSAL EFFECTS  %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\clearpage
+\section{Complier Average Causal Effects}
+\label{appendix:CACE}
+
+In our preregistration, we preregisted a compliance average causal effect (CACE) analysis in which we would treat altruists as non-compliers. We did this in in an attempt to adjust for a confound in the original study design whereby participants in the "Self" condition were given a choice as to whether they wanted to make an altruistic decision or selfish decision, whereas participants in all other conditions observed a selfish decision from another person. However, we misunderstood the requirements of the CACE analysis and realized post-hoc that our study design prohibited this analysis. 
+
+As quoted in Connell (2010) "The core insight behind CACE analysis is that we can arrive at an unbiased estimate of the difference in outcomes for compliers in the intervention group with those who would have engaged with treatment in the control group." In a typical RCT, for perhaps a smoking cessation study, there would be a "treatment" group which received an intervention, and a "control" group that did not receive an intervention. The "treatment" group would contain \emph{compliers} (those who participated in the offered treatment) and \emph{noncompliers} (those who did not participate in the treatment, even though they were offered it). The "control" group would contain (or is assumed to contain) only people who \emph{did not} receive the intervention, but who \emph{may or may not} have complied with the intervention, had they been offered it. Thus, across these four groups (Treatment/complier, Treatment/noncomplier, control/would-be-complier, control/would-be-noncomplier) only one group (treatment/complier)  receives the treatment in a traditional RCT. 
+
+We, however, had an inverse situation due to the structure of our study. The "outcome" of interest in our study was judgements of fairness after engaging in or witnessing a moral transgression. Our "treatment" group contained both \emph{compliers} (those who had behaved immorally, and thus judged an immoral decision) and \emph{noncompliers} (those who had behaved altruistically, and thus judged a fair condition). However, our "control" conditions (the "Other", "In-group" and "Out-group" conditions) thusly contained only \emph{compliers} (those witnessed a moral transgression and judged an immoral decision) because the structure of the study \emph{required} that they complied with the treatment (judging immoral decisions). Because our "control condition" contains \emph{only} compliers, not a random mix of potential compliers and potential noncompliers, we do not have appropriate control condition for a CACE analysis, making it it is impossible to treat altruists as \emph{noncompliers}. 
+
+Thus, we do not meet the five assumptions necessary for a CACE analysis, as laid out in Connell (2010) for a CACE analysis. We ennumerate these below. 
+
+The first assumption states that outcomes for each participant are independent of one another, or the Stable Unit Treatment Value Assumption (SUTVA) (Connell, 2010). We do meet this criteria. Second, we must there is a monotonic relationship between treatment assignment and treatment receipt, meaning that no participants who were assigned to treatment had reduced likelihood of receiving treatment. We do not meet this assumption due to the lack of an interpretable CACE control condition. Third, CACE assumes that the compliance rate is not zero in the treatment condition, which we meet. Fourth, we assume that participants are randomly assigned to treatment, which we meet, However, we do not meet the second part of this fourth assumption, stating that the proportion of compliers across conditions should be the same. Again, this is because our "control condition" contains \emph{only} compliers, not a random mix of potential compliers and non-takers. Fifth, we assume that random assignment to the treatment group does not affect the outcomes of individuals who do not comply with treatment, which we do not meet. It is indeed the non-compliers (altruists) that are different from the rest of our sample due to the fact that they behaved altruistically, which they were only able to do because of their random assignment. 
+
+
+
+we already know the outcome for \emph{compliers} in our control group,This instead means that the \emph{only} participants who have the choice not to comply are those in our treatment condition.
+
+In the original paper, the authors excluded the participants who behaved altruistically. However, scholars caution against subsetting or excluding participants based on task choices (Lachin, 2000). However, we failed to meet several of the specific assumptions of the CACE analysis, and thus the results were not meaningful nor statistically interpretable. 
+
+We also lack an interpretable instrumental variable. EXPAND IF NEEDED. 
+
+Thus, our paradigm is an inappropriate fit for the CACE analysis, and we fail to meet three out of five for the CACE analysis.  Attempts to estimate the CACE result instead estimations of outcomes (fairness ratings) for people in the control conditions (other, ingroup, outgroup) for if they would have made an altruistic decision, which is impossible given our paradigm. 
+
+We have included those estimations below, again for transparency with our preregistration, but we want to emphasize that they are are \emph{both statistically and theoretically uninterpretable}. 
+
+INCLUDE TABLE HERE. 
+
+
+n a CACE analysis, the effect of a treatment is estimated based on those in the treatment group who complied, those in the treatment group who did not, and those who were never offered treatment. In our case, we were interested in how people who behaved altruistically in the self condition would have behaved in the other conditions. 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% RECRUITMENT RECRUITMENT RECRUITMENT %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -440,6 +480,15 @@ Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\
 \label{manip1}
 \end{table}
 
+
+\newpage
+\subsection{Excluding non-representitive sample}
+\label{appendix:manip1}
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
@@ -460,7 +509,22 @@ ADD HERE - IDEOLOGY AND EXTREMITY FINDINGS.
 \subsection{High Identifiers Only}
 \label{appendix:high_id1}
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 37.83 & 12.61 & 4.55 & 0.0045 \\   Contrast 1 - Self vs. Other & 1 & 9.66 & 9.66 & 3.49 & 0.0639 \\   Contrast 2 - Ingroup vs. Outgroup & 1 & 28.15 & 28.15 & 10.16 & 0.0018 \\   Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 0.03 & 0.03 & 0.01 & 0.9241 \\   Risiduals & 138 & 382.26 & 2.77 &  &  \\    \hline\end{tabular}\caption{Only partiicpants who scored greater than 2 on Collective Identification, \emph{n} = 142} \label{high_ID}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 37.83 & 12.61 & 4.55 & 0.0045 \\ 
+  Contrast 1 - Self vs. Other & 1 & 9.66 & 9.66 & 3.49 & 0.0639 \\ 
+  Contrast 2 - Ingroup vs. Outgroup & 1 & 28.15 & 28.15 & 10.16 & 0.0018 \\ 
+  Contrast 3 - Self/Ingroup vs. Other/Outgroup & 1 & 0.03 & 0.03 & 0.01 & 0.9241 \\ 
+  Risiduals & 138 & 382.26 & 2.77 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Only partiicpants who scored greater than 2 on Collective Identification, \emph{n} = 142} 
+\label{high_ID}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% STUDY 2 STUDY 2 STUDY 2 %%%%%%%%%%%%%%%%%
@@ -651,28 +715,6 @@ Model & 3 & 39.75 & 13.25 & 6.12 & 0.0005 \\
 \caption{Republicans only, \emph{n} = 264. } 
 \label{reps2}
 \end{table}
-
-\newpage
-\section{Complier Average Causal Effects}
-\label{appendix:CACE}
-
-In our preregistration, we preregisted a compliance average causal effect (CACE) analysis. We did this in order to adjust for a confound in the original study design whereby participants in the "Self" condition were given a choice as to whether they wanted to make an altruistic decision or selfish decision, whereas participants in all other conditions observed a selfish decision from another person. In the original paper, the authors excluded the participants who behaved altruistically. However, scholars caution against subsetting or excluding participants based on task choices (Lachin, 2000). However, we failed to meet several of the specific assumptions of the CACE analysis, and thus the results were not meaningful nor statistically interpretable. 
-
-CACE analyses rely on instrumental variables, and must meet five assumptions, as laid out in Connell (2010). In our experiment, we do not meet all five assumptions. 
-
-The first assumption states that outcomes for each participant are independent of one another, or the Stable Unit Treatment Value Assumption (SUTVA) (Connell, 2010). We do meet this criteria. Second, we must there is a monotonic relationship between treatment assignment and treatment receipt, meaning that no participants who were assigned to treatment had reduced likelihood of receiving treatment. We do not meet this assumption due to the lack of an interpretable CACE control condition. As quoted in Connell (2010) "The core insight behind CACE analysis is that we can arrive at an unbiased estimate of the difference in outcomes for compliers in the intervention group with those who would have engaged with treatment in the control group." We, however, had an inverse situation due to the structure of our study. The "outcome" of interest in our study was judgements of fairness after engaging in or witnessing a moral transgression.  Our "controls" were those who had witnessed a moral transgression and our "treatment: group contained both compliers (those who had behaved immorally) and  noncom pliers (those who had behaved altruistically). Thus, we already know the outcome for compliers in our control group, because the structure of the study required that they "comply" with the treatment. This instead means that the \emph{only} participants who have the choice not to comply are those in our treatment condition. Third, CACE assumes that the compliance rate is not zero in the treatment condition, which we meet. Fourth, we assume that participants are randomly assigned to treatment, which we meet, However, we do not meet the second part of this fourth assumption, stating that the proportion of compliers across conditions should be the same. Again, this is because our "control condition" contains \emph{only} compliers, not a random mix of potential compliers and non-takers. Fifth, we assume that random assignment to the treatment group does not affect the outcomes of individuals who do not comply with treatment, which we do not meet. It is indeed the non-compliers (altruists) that are different from the rest of our sample due to the fact that they behaved altruistically, which they were only able to do because of their random assignment. 
-
-We also lack an interpretable instrumental variable. EXPAND IF NEEDED. 
-
-Thus, our paradigm is an inappropriate fit for the CACE analysis, and we fail to meet three out of five for the CACE analysis.  Attempts to estimate the CACE result instead estimations of outcomes (fairness ratings) for people in the control conditions (other, ingroup, outgroup) for if they would have made an altruistic decision, which is impossible given our paradigm. 
-
-We have included those estimations below, again for transparency with our preregistration, but we want to emphasize that they are are \emph{both statistically and theoretically uninterpretable}. 
-
-INCLUDE TABLE HERE. 
-
-
-n a CACE analysis, the effect of a treatment is estimated based on those in the treatment group who complied, those in the treatment group who did not, and those who were never offered treatment. In our case, we were interested in how people who behaved altruistically in the self condition would have behaved in the other conditions. 
-
 
 
 
