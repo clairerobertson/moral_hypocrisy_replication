@@ -86,6 +86,14 @@ equ_ftest(Fstat = 1.864, df1 = 1, df2 = 528, eqbound = 0.2)
 t.test(data$CI_difference, mu = 0, alternative = "two.sided")
 t.test(subset(data,pol_id=="Dem")$CI_difference, 
        subset(data,pol_id=="Rep")$CI_difference)
+data %>% count(pol_id)
+
+tsum_TOST(m1 = mean(subset(data,pol_id=="Dem")$CI_difference, na.rm = T), 
+          m2 = mean(subset(data,pol_id=="Rep")$CI_difference, na.rm = T), 
+          sd1 = sd(subset(data,pol_id=="Dem")$CI_difference, na.rm = T), 
+          sd2 = sd(subset(data,pol_id=="Rep")$CI_difference, na.rm = T),
+          n1 = 297, n2 = 298, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+
 
 
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4)

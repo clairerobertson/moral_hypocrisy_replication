@@ -9,19 +9,19 @@
 \contentsline {subsection}{\numberline {C.2}Study 2 Demographic Information}{12}{subsection.C.2}%
 \contentsline {section}{\numberline {D}Study 1 Robustness Checks}{13}{appendix.D}%
 \contentsline {subsection}{\numberline {D.1}Intent to Treat Model}{13}{subsection.D.1}%
-\contentsline {subsection}{\numberline {D.2}Differences in Overestimators and Underestimators}{13}{subsection.D.2}%
-\contentsline {subsection}{\numberline {D.3}Collective Identification with Out-group identifiers}{14}{subsection.D.3}%
-\contentsline {subsection}{\numberline {D.4}Repeat Participants and Groups Excluded}{16}{subsection.D.4}%
-\contentsline {subsection}{\numberline {D.5}Manipulation Check}{17}{subsection.D.5}%
-\contentsline {section}{\numberline {E}Study 1 Exploratory Analyses}{18}{appendix.E}%
-\contentsline {subsection}{\numberline {E.1}Political Ideology and Extremity}{18}{subsection.E.1}%
-\contentsline {subsection}{\numberline {E.2}High Identifiers Only}{19}{subsection.E.2}%
-\contentsline {section}{\numberline {F}Study 2 Robustness Checks}{20}{appendix.F}%
-\contentsline {subsection}{\numberline {F.1}Intent to Treat Model}{20}{subsection.F.1}%
-\contentsline {subsection}{\numberline {F.2}Differences in Overestimators and Underestimators}{21}{subsection.F.2}%
-\contentsline {subsection}{\numberline {F.3}Collective Identification with Out-group identifiers}{22}{subsection.F.3}%
-\contentsline {subsection}{\numberline {F.4}Repeat Participants and Groups Excluded}{24}{subsection.F.4}%
-\contentsline {subsection}{\numberline {F.5}Manipulation Check}{25}{subsection.F.5}%
-\contentsline {section}{\numberline {G}Study 2 Exploratory Analyses}{26}{appendix.G}%
-\contentsline {subsection}{\numberline {G.1}Political Ideology and Extremity}{26}{subsection.G.1}%
-\contentsline {subsection}{\numberline {G.2}Partisan Differences}{27}{subsection.G.2}%
+\contentsline {subsection}{\numberline {D.2}Differences in Overestimators and Underestimators}{14}{subsection.D.2}%
+\contentsline {subsection}{\numberline {D.3}Collective Identification with Out-group identifiers}{15}{subsection.D.3}%
+\contentsline {subsection}{\numberline {D.4}Repeat Participants and Groups Excluded}{17}{subsection.D.4}%
+\contentsline {subsection}{\numberline {D.5}Manipulation Check}{18}{subsection.D.5}%
+\contentsline {section}{\numberline {E}Study 1 Exploratory Analyses}{19}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Political Ideology and Extremity}{19}{subsection.E.1}%
+\contentsline {subsection}{\numberline {E.2}High Identifiers Only}{21}{subsection.E.2}%
+\contentsline {section}{\numberline {F}Study 2 Robustness Checks}{22}{appendix.F}%
+\contentsline {subsection}{\numberline {F.1}Intent to Treat Model}{22}{subsection.F.1}%
+\contentsline {subsection}{\numberline {F.2}Differences in Overestimators and Underestimators}{23}{subsection.F.2}%
+\contentsline {subsection}{\numberline {F.3}Collective Identification with Out-group identifiers}{24}{subsection.F.3}%
+\contentsline {subsection}{\numberline {F.4}Repeat Participants and Groups Excluded}{26}{subsection.F.4}%
+\contentsline {subsection}{\numberline {F.5}Manipulation Check}{27}{subsection.F.5}%
+\contentsline {section}{\numberline {G}Study 2 Exploratory Analyses}{28}{appendix.G}%
+\contentsline {subsection}{\numberline {G.1}Political Ideology and Extremity}{28}{subsection.G.1}%
+\contentsline {subsection}{\numberline {G.2}Partisan Differences}{30}{subsection.G.2}%

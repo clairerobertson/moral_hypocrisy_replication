@@ -342,7 +342,6 @@ anno <- data.frame(x1 = c(0.8, .8), x2 = c(5.5, 5.5), y1 = c(7.3, 7.3), y2 = c(7
                    xlab = c(3,3), ylab = c(7.6,7.6), lab = c("*", "n.s."), 
                    condition.f = c("ingroup", "outgroup"))
 
-
 ## Facet graph of above model
 
 ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id))
@@ -360,9 +359,6 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colo
   theme_bw()
 
 ggsave("Plots/Study1_CI_cong.png", width = 2000, height = 1200, units = "px", scale = 1)
-
-
-
 
 ## Facet graph of above model
 ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colour = pol_id)) +
@@ -567,25 +563,51 @@ ideo_data %>%
   count()
 
 ## Ingroup and outgroup models including linear and quadratic terms for political ideology
-ingroup_model <- ideo_data %>% filter(dummy_code == "ingroup") %>% 
-  lm(fairness ~ pol_or + pol_or2, data = .,)
-summary(ingroup_model)
+ingroup_model <- summary(ideo_data %>% filter(dummy_code == "ingroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,))
 
-outgroup_model <- ideo_data %>% filter(dummy_code == "outgroup") %>% 
-  lm(fairness ~ pol_or + pol_or2, data = .,)
-summary(outgroup_model)
+out_stepwise <- xtable(ingroup_model, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Effects of poltiical ideology and extremity on on In-group Judgements ",
+                       label = "ideo_ingroup1") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("(Intercept)",
+                            "Political Orientation", 
+                            "Political Orientation (Quadratic Term)") 
+print(out_stepwise)                          
+
+### Outgroups ###
+outgroup_model <- summary(ideo_data %>% filter(dummy_code == "outgroup") %>% 
+  lm(fairness ~ pol_or + pol_or2, data = .,))
+
+out_stepwise <- xtable(outgroup_model, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Effects of poltiical ideology and extremity on on Out-group Judgements ",
+                       label = "indeo_outgroup1") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("(Intercept)",
+                            "Political Orientation", 
+                            "Political Orientation (Quadratic Term)") 
+print(out_stepwise)  
+
+
+cond_labs <- c("In-group", "Out-group")
+names(cond_labs) <- c("ingroup", "outgroup")
 
 ## Graph of fairness by ideology
 ggplot(ideo_data, aes(x = pol_or, y = fairness)) +
-  facet_grid(. ~ dummy_code) + 
+  facet_grid(. ~ dummy_code, labeller = labeller(dummy_code = cond_labs)) + 
   stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = .5, color = "red", alpha = 0.8) +
   stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "red", alpha = 0.8) +
   scale_x_continuous(breaks = c(1,2,3,4,5,6,7)) + 
   geom_jitter(position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) + 
   labs(x = "Ideology",
        y = "Fairness",
-       title = "Fairness ratings by ideology") + 
+       title = "Fairness Ratings by Political Ideology and Extremity") + 
   theme_bw()
+
+ggsave("Plots/Study1_ideology_extremity.png", width = 2000, height = 1200, units = "px", scale = 1)
+
 
 #############################################################
 ####  CACE DATA ###########################

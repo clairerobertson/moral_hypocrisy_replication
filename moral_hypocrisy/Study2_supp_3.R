@@ -388,7 +388,19 @@ data %>%
   summarise(mean = mean(fairness), n = n())
 
 ## 4 (cond) x 2 (role) anova 
-summary.aov(aov(fairness ~ condition.f*role, data = data))
+table <- summary.aov(aov(fairness ~ condition.f*role, data = data))
+
+out_stepwise <- xtable(table, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Differences between Overestimators and Underestimators in Study 2", label = "over_underS2") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("Condition",
+                            "Group (Overestimator or Underestimator)", 
+                            "Condition X Group", 
+                            "Risiduals" )
+
+## Print and copy/pase output into latex
+print(out_stepwise)
 
 equ_ftest(Fstat = 0.75, df1 = 1, df2 = 577, eqbound = 0.2)
 
@@ -418,8 +430,6 @@ tsum_TOST(m1 = mean(subset(other,role == "OVERESTIMATOR")$fairness, na.rm = T),
           sd2 = sd(subset(other,role == "UNDERESTIMATOR")$fairness, na.rm = T),
           n1 = 57, n2 = 84, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
-data %>% filter(condition.f=="ingroup") %>% 
-  t.test(fairness ~ role, data = .)
 
 ## Ingroup
 data %>% filter(condition.f=="ingroup") %>% 
@@ -532,28 +542,54 @@ ideo_data <- data %>% filter(condition == 3 | condition == 4) %>%
   mutate(dummy_code = as.factor(ifelse(condition==3, "ingroup", "outgroup"))) %>% 
   mutate(pol_or2 = pol_or^2)
 
-## Ingroup and outgroup models including linear and quadratic terms for political ideology
-ingroup_model <- ideo_data %>% filter(dummy_code == "ingroup") %>% 
-  lm(fairness ~ pol_or + pol_or2, data = .,)
-summary(ingroup_model)
+ideo_data %>% 
+  group_by(pol_or, dummy_code) %>% 
+  count()
 
-outgroup_model <- ideo_data %>% filter(dummy_code == "outgroup") %>% 
-  lm(fairness ~ pol_or + pol_or2, data = .,)
-summary(outgroup_model)
+## Ingroup and outgroup models including linear and quadratic terms for political ideology
+ingroup_model <- summary(ideo_data %>% filter(dummy_code == "ingroup") %>% 
+                           lm(fairness ~ pol_or + pol_or2, data = .,))
+
+out_stepwise <- xtable(ingroup_model, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Effects of poltiical ideology and extremity on on In-group Judgements ",
+                       label = "ideo_ingroup2") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("(Intercept)",
+                            "Political Orientation", 
+                            "Political Orientation (Quadratic Term)") 
+print(out_stepwise) 
+
+### Outgroups ###
+
+outgroup_model <- summary(ideo_data %>% filter(dummy_code == "outgroup") %>% 
+                            lm(fairness ~ pol_or + pol_or2, data = .,))
+
+out_stepwise <- xtable(outgroup_model, 
+                       dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
+                       booktabs = T,  no.margin = T,  caption = "Effects of poltiical ideology and extremity on on Out-group Judgements ",
+                       label = "indeo_outgroup2") 
+#Relabel Row Names                     
+rownames(out_stepwise) <- c("(Intercept)",
+                            "Political Orientation", 
+                            "Political Orientation (Quadratic Term)") 
+print(out_stepwise)
+
+### Graphing 
+cond_labs <- c("In-group", "Out-group")
+names(cond_labs) <- c("ingroup", "outgroup")
 
 ## Graph of fairness by ideology
 ggplot(ideo_data, aes(x = pol_or, y = fairness)) +
-  facet_grid(. ~ dummy_code) + 
+  facet_grid(. ~ dummy_code, labeller = labeller(dummy_code = cond_labs)) + 
   stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", size = .5, color = "red", alpha = 0.8) +
   stat_summary(fun.data = "mean_cl_boot", geom = "point", size = 2, color = "red", alpha = 0.8) +
   scale_x_continuous(breaks = c(1,2,3,4,5,6,7)) + 
   geom_jitter(position = position_jitter(width = 0.25, height = 0.25), alpha = 0.4) + 
   labs(x = "Ideology",
        y = "Fairness",
-       title = "Fairness ratings by ideology") + 
+       title = "Fairness Ratings by Political Ideology and Extremity") + 
   theme_bw()
 
-
-
-
+ggsave("Plots/Study2_ideology_extremity.png", width = 2000, height = 1200, units = "px", scale = 1)
 
