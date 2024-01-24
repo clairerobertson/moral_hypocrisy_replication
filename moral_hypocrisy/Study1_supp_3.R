@@ -6,7 +6,6 @@
 ######################################
 
 options(digits = 6)
-sc
 
 #Load in Packages
 ipak <- function(pkg){
@@ -43,6 +42,10 @@ cond1 <- data_subset %>%
   filter(condition==1)
 
 mean(altruists$fairness)
+sd(altruists$fairness)
+
+mean(cond1$fairness)
+sd(cond1$fairness)
 
 ## T test comparing fairness ratings of altruists and 
 x <- t.test(altruists$fairness, cond1$fairness)
@@ -74,7 +77,8 @@ table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs
 table
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
+x <- F_to_eta2(f = c(40.165, 2.88, 0.20), df = c(1,1,1), df_error = c(592, 592, 592), ci = .90, alternative = "greater")
+x
 
 ## Make table for Supplement
 out_stepwise <- xtable(table, 
@@ -138,19 +142,23 @@ data %>%
 
 ## 4 (cond) x 2 (over_under) anova 
 table <- summary.aov(aov(fairness ~ condition.f*over_under, data = data))
+table 
 
+x <- F_to_eta2(f = c(0.66, 0.13), df = c(1,3), df_error = c(588, 588), ci = .90, alternative = "greater")
+x
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
                        booktabs = T,  no.margin = T,  caption = "Differences between Overestimators and Underestimators in Study 1", label = "over_underS1") 
+
 #Relabel Row Names                     
 rownames(out_stepwise) <- c("Condition",
                             "Group (Overestimator or Underestimator)", 
                             "Condition X Group", 
                             "Risiduals" )
 
-## Print and copy/pase output into latex
+## Print and copy/paste output into latex
 print(out_stepwise)
-
+## Equivilence test 
 equ_ftest(Fstat = 0.66, df1 = 1, df2 = 588, eqbound = 0.2)
 
 ## Pairwise Tests
@@ -204,12 +212,15 @@ outgroup <- data %>% filter(condition.f=="outgroup")
             n1 = 77, n2 = 72, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
 
 
+#### Collective Identification Differences 
 t.test(subset(data,over_under == "Over")$CI_difference, 
-       subset(data,over_under == "Under")$CI_difference)
+         subset(data,over_under == "Under")$CI_difference)  
 
-
-
-
+sd(subset(data,over_under == "Over")$CI_difference, na.rm = T)
+sd(subset(data,over_under == "Under")$CI_difference, na.rm = T)
+  
+cohens_d(data$CI_difference ~ data$over_under)
+cohens
 
 tsum_TOST(m1 = mean(subset(data,over_under == "Over")$CI_difference, na.rm = T), 
            m2 = mean(subset(data,over_under == "Under")$CI_difference, na.rm = T), 

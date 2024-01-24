@@ -305,11 +305,11 @@ Regarding whether people make the immoral decision when given the choice, result
 \section{Complier Average Causal Effects}
 \label{appendix:CACE}
 
-In our preregistration, we preregisted a compliance average causal effect (CACE) analysis in which we would treat altruists as non-compliers. We did this in in an attempt to adjust for a confound in the original study design whereby participants in the "Self" condition were given a choice as to whether they wanted to make an altruistic decision or selfish decision, whereas participants in all other conditions observed a selfish decision from another person. However, we misunderstood the requirements of the CACE analysis and realized post-hoc that our study design prohibited this analysis. 
+In our preregistration, we preregistered a compliance average causal effect (CACE) analysis in which we would treat altruists as non-compliers at the request of reviewers. We did this in in an attempt to adjust for a confound in the original study design whereby participants in the "Self" condition were given a choice as to whether they wanted to make an altruistic decision or selfish decision, whereas participants in all other conditions observed a selfish decision from another person. However, we misunderstood the requirements of the CACE analysis during our Stage 1 registration. After collecting data and attempting to conduct a CACE, we realized post-hoc that our study design prohibited this analysis. 
 
-As quoted in Connell (2010) "The core insight behind CACE analysis is that we can arrive at an unbiased estimate of the difference in outcomes for compliers in the intervention group with those who would have engaged with treatment in the control group." In a typical RCT, for perhaps a smoking cessation study, there would be a "treatment" group which received an intervention, and a "control" group that did not receive an intervention. The "treatment" group would contain \emph{compliers} (those who participated in the offered treatment) and \emph{noncompliers} (those who did not participate in the treatment, even though they were offered it). The "control" group would contain (or is assumed to contain) only people who \emph{did not} receive the intervention, but who \emph{may or may not} have complied with the intervention, had they been offered it. Thus, across these four groups (Treatment/complier, Treatment/noncomplier, control/would-be-complier, control/would-be-noncomplier) only one group (treatment/complier)  receives the treatment in a traditional RCT. 
+CACE is commonly used in RCTs, and relies on having both “treatment” and “control” conditions – a treatment group that receives an intervention, and a control group that does not. In a traditional study, there is a treatment group which contains compilers (who were treated) and non-compliers (who were untreated), and a control group which contains potential compilers and non-compliers, all of whom were untreated. We, however, have the inverse situation due to the structure of our study. We have a “treatment” group that contains compliers (transgressors) and noncompliers (altruists) and a “control” group (the other three conditions), all of whom were treated – they received the treatment (moral transgressions) in the control groups 100\% of the time. 
 
-We, however, had an inverse situation due to the structure of our study. The "outcome" of interest in our study was judgements of fairness after engaging in or witnessing a moral transgression. Our "treatment" group contained both \emph{compliers} (those who had behaved immorally, and thus judged an immoral decision) and \emph{noncompliers} (those who had behaved altruistically, and thus judged a fair condition). However, our "control" conditions (the "Other", "In-group" and "Out-group" conditions) thusly contained only \emph{compliers} (those witnessed a moral transgression and judged an immoral decision) because the structure of the study \emph{required} that they complied with the treatment (judging immoral decisions). Because our "control condition" contains \emph{only} compliers, not a random mix of potential compliers and potential noncompliers, we do not have appropriate control condition for a CACE analysis, making it it is impossible to treat altruists as \emph{noncompliers}. 
+As quoted in Collins (2010), “The core insight behind CACE analysis is that we can arrive at an unbiased estimate of the difference in outcomes for compliers in the intervention group with those who would have engaged with treatment in the control group.” However, we do not have “would-be '' compilers in our control group – the study design guarantees that we only have compilers in the control group. This confound makes the CACE analysis impossible to conduct on our data. 
 
 Thus, we do not meet the five assumptions necessary for a CACE analysis, as laid out in Connell (2010). We enumerate these below. 
 
@@ -411,7 +411,22 @@ We preregistered a sample size of 600. Because Prolific only allows nationally r
 \label{appendix:itt1}
 
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 111.16 & 37.05 & 14.42 & 0.0000 \\   Contrast 1 - Self vs. Other & 1 & 103.24 & 103.24 & 40.17 & 0.0000 \\   Contrast 2 - In-group vs. Out-group & 1 & 7.41 & 7.41 & 2.88 & 0.0900 \\   Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.51 & 0.51 & 0.20 & 0.6562 \\   Risiduals & 592 & 1521.62 & 2.57 &  &  \\    \hline\end{tabular}\caption{Study 1 Intent to Treat analysis, \emph{n} = 596} \label{ITT_s1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 111.16 & 37.05 & 14.42 & 0.0000 \\ 
+  Contrast 1 - Self vs. Other & 1 & 103.24 & 103.24 & 40.17 & 0.0000 \\ 
+  Contrast 2 - In-group vs. Out-group & 1 & 7.41 & 7.41 & 2.88 & 0.0900 \\ 
+  Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.51 & 0.51 & 0.20 & 0.6562 \\ 
+  Risiduals & 592 & 1521.62 & 2.57 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Study 1 Intent to Treat analysis, \emph{n} = 596} 
+\label{ITT_s1}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -419,7 +434,21 @@ We preregistered a sample size of 600. Because Prolific only allows nationally r
 \subsection{Differences in Overestimators and Underestimators}
 \label{appendix:over_under1}
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineCondition & 3 & 111.16 & 37.05 & 14.34 & 0.0000 \\   Group (Overestimator or Underestimator) & 1 & 1.70 & 1.70 & 0.66 & 0.4182 \\   Condition X Group & 3 & 0.98 & 0.33 & 0.13 & 0.9447 \\   Risiduals & 588 & 1518.95 & 2.58 &  &  \\    \hline\end{tabular}\caption{Differences between Overestimators and Underestimators in Study 1} \label{over_underS1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Condition & 3 & 111.16 & 37.05 & 14.34 & 0.0000 \\ 
+  Group (Overestimator or Underestimator) & 1 & 1.70 & 1.70 & 0.66 & 0.4182 \\ 
+  Condition X Group & 3 & 0.98 & 0.33 & 0.13 & 0.9447 \\ 
+  Risiduals & 588 & 1518.95 & 2.58 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Differences between Overestimators and Underestimators in Study 1} 
+\label{over_underS1}
+\end{table}
 
 Subsequent pairwise analyses demonstrated that fairness judgements of overestimators did not differ from underestimators in any condition -- the Self condition, \emph{t}(149.7) = 0.3354, \emph{p} = 0.738; the Other condition, \emph{t}(135.4) = 0.14, \emph{p} = 0.889; the In-group condition, \emph{t}(144.9) = 0.972, \emph{p} = 0.334; or the Out-group condition, \emph{t}(146.9) = 0.1979, \emph{p} = 0.843. Equivalence testing was unable to conclude that these differences were not statistically different from zero -- Self condition,  \emph{t}(149.72) = -0.897, \emph{p} = 0.186; the Other condition, \emph{t}(135.43) = -1.059, \emph{p} = 0.146; the In-group condition, \emph{t}(144.91) = -0.249, \emph{p} = 0.402; or the Out-group condition, \emph{t}(146.94) = -1.023, \emph{p} = 0.154
 
@@ -433,7 +462,22 @@ Subsequent pairwise analyses demonstrated that fairness judgements of overestima
 
 We also asked participants how much they identified with their political in-groups or out-groups in the survey, and found that there were \emph{n} = 55 particiapnts who reported greater identification with their out-group compared to their in-group. We ran a robustness check with these participants excluded, and find that the results do not significantly change, although the comparison between In-group and Out-group judgements is just above \emph{p} = 0.05. Results from the contrast models are listed in \Cref{mismatch1}. 
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 12.37 & 4.12 & 1.72 & 0.1623 \\   Contrast 1 - Self vs. Other & 1 & 3.10 & 3.10 & 1.29 & 0.2558 \\   Contrast 2 - In-group vs. Out-group & 1 & 9.24 & 9.24 & 3.85 & 0.0503 \\   Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.02 & 0.02 & 0.01 & 0.9274 \\   Risiduals & 479 & 1149.10 & 2.40 &  &  \\    \hline\end{tabular}\caption{Out-group identifiers eliminated, \emph{n} = 483. } \label{mismatch1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 12.37 & 4.12 & 1.72 & 0.1623 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.10 & 3.10 & 1.29 & 0.2558 \\ 
+  Contrast 2 - In-group vs. Out-group & 1 & 9.24 & 9.24 & 3.85 & 0.0503 \\ 
+  Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.02 & 0.02 & 0.01 & 0.9274 \\ 
+  Risiduals & 479 & 1149.10 & 2.40 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Out-group identifiers eliminated, \emph{n} = 483. } 
+\label{mismatch1}
+\end{table}
 
 \clearpage
 
@@ -456,7 +500,22 @@ Results from the linear model examining the effect of Collective Identification 
 
 Due to an error on Prolific, there were \emph{n} = 9 participants who participated in our study more than once. We exclude their repeated participations from analyses, but because this study involves both deception and participant interaction, it was possible that the repeat subjects could have revealed the purpose of the study to other participants during the chat phase. After examining the chat logs, we found repeat participants did not reveal the purpose of the study during the chats. Nonetheless, we ran a robustness check excluding all participants who chatted with a repeat participant \emph{n} = 33. Overall, we found that our results were robust even when excluding these participants.  
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 23.66 & 7.89 & 3.82 & 0.0101 \\   Contrast 1 - Self vs. Other & 1 & 3.09 & 3.09 & 1.50 & 0.2219 \\   Contrast 2 - In-group vs. Out-group & 1 & 18.32 & 18.32 & 8.87 & 0.0030 \\   Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 2.25 & 2.25 & 1.09 & 0.2973 \\   Risiduals & 499 & 1031.32 & 2.07 &  &  \\    \hline\end{tabular}\caption{Results excluding those who had chatted with a repeat participant, \emph{n} = 503, altruists excluded. } \label{repeats_s1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 23.66 & 7.89 & 3.82 & 0.0101 \\ 
+  Contrast 1 - Self vs. Other & 1 & 3.09 & 3.09 & 1.50 & 0.2219 \\ 
+  Contrast 2 - In-group vs. Out-group & 1 & 18.32 & 18.32 & 8.87 & 0.0030 \\ 
+  Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 2.25 & 2.25 & 1.09 & 0.2973 \\ 
+  Risiduals & 499 & 1031.32 & 2.07 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Results excluding those who had chatted with a repeat participant, \emph{n} = 503, altruists excluded. } 
+\label{repeats_s1}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -468,7 +527,22 @@ Because our study involved deception, it was critical that participants believe 
 
 \vspace{0.6cm}
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineModel & 3 & 16.73 & 5.58 & 2.19 & 0.0884 \\   Contrast 1 - Self vs. Other & 1 & 7.67 & 7.67 & 3.02 & 0.0832 \\   Contrast 2 - In-group vs. Out-group & 1 & 9.05 & 9.05 & 3.56 & 0.0599 \\   Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.00 & 0.00 & 0.00 & 0.9788 \\   Risiduals & 402 & 1022.48 & 2.54 &  &  \\    \hline\end{tabular}\caption{Only those who passed the manipulation check, \emph{n} = 334.} \label{manip}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Model & 3 & 16.73 & 5.58 & 2.19 & 0.0884 \\ 
+  Contrast 1 - Self vs. Other & 1 & 7.67 & 7.67 & 3.02 & 0.0832 \\ 
+  Contrast 2 - In-group vs. Out-group & 1 & 9.05 & 9.05 & 3.56 & 0.0599 \\ 
+  Contrast 3 - Self/In-group vs. Other/Out-group & 1 & 0.00 & 0.00 & 0.00 & 0.9788 \\ 
+  Risiduals & 402 & 1022.48 & 2.54 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Only those who passed the manipulation check, \emph{n} = 334.} 
+\label{manip}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -490,13 +564,39 @@ Because our study involved deception, it was critical that participants believe 
 \end{figure}
 
 
-\begin{table}[ht]\centering\begin{tabular}{rrrrr}  \hline & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\   \hline(Intercept) & 4.3594 & 0.4710 & 9.26 & 0.0000 \\   Political Orientation & -0.2759 & 0.2953 & -0.93 & 0.3517 \\   Political Orientation (Quadratic Term) & 0.0521 & 0.0405 & 1.29 & 0.2004 \\    \hline\end{tabular}\caption{Effects of political ideology and extremity on on In-group Judgements } \label{ideo_ingroup1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 4.3594 & 0.4710 & 9.26 & 0.0000 \\ 
+  Political Orientation & -0.2759 & 0.2953 & -0.93 & 0.3517 \\ 
+  Political Orientation (Quadratic Term) & 0.0521 & 0.0405 & 1.29 & 0.2004 \\ 
+   \hline
+\end{tabular}
+\caption{Effects of political ideology and extremity on on In-group Judgements } 
+\label{ideo_ingroup1}
+\end{table}
 
 
 \clearpage
 
 
-\begin{table}[ht]\centering\begin{tabular}{rrrrr}  \hline & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\   \hline(Intercept) & 4.8436 & 0.5053 & 9.58 & 0.0000 \\   Political Orientation & -0.8285 & 0.2979 & -2.78 & 0.0061 \\   Political Orientation (Quadratic Term) & 0.1251 & 0.0385 & 3.25 & 0.0015 \\    \hline\end{tabular}\caption{Effects of political ideology and extremity on on Out-group Judgements } \label{indeo_outgroup1}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 4.8436 & 0.5053 & 9.58 & 0.0000 \\ 
+  Political Orientation & -0.8285 & 0.2979 & -2.78 & 0.0061 \\ 
+  Political Orientation (Quadratic Term) & 0.1251 & 0.0385 & 3.25 & 0.0015 \\ 
+   \hline
+\end{tabular}
+\caption{Effects of political ideology and extremity on on Out-group Judgements } 
+\label{indeo_outgroup1}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -560,7 +660,21 @@ Model & 3 & 111.57 & 37.19 & 16.55 & 0.0000 \\
 \subsection{Differences in Overestimators and Underestimators}
 \label{appendix:over_under2}
 
-\begin{table}[ht]\centering\begin{tabular}{lrrrrr}  \hline & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\   \hlineCondition & 3 & 111.57 & 37.19 & 16.49 & 0.0000 \\   Group (Overestimator or Underestimator) & 1 & 1.70 & 1.70 & 0.75 & 0.3854 \\   Condition X Group & 3 & 2.17 & 0.72 & 0.32 & 0.8101 \\   Risiduals & 577 & 1301.69 & 2.26 &  &  \\    \hline\end{tabular}\caption{Differences between Overestimators and Underestimators in Study 2} \label{over_underS2}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+ & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+  \hline
+Condition & 3 & 111.57 & 37.19 & 16.49 & 0.0000 \\ 
+  Group (Overestimator or Underestimator) & 1 & 1.70 & 1.70 & 0.75 & 0.3854 \\ 
+  Condition X Group & 3 & 2.17 & 0.72 & 0.32 & 0.8101 \\ 
+  Risiduals & 577 & 1301.69 & 2.26 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Differences between Overestimators and Underestimators in Study 2} 
+\label{over_underS2}
+\end{table}
 
 
 Subsequent pairwise analyses demonstrated that fairness judgements of overestimators did not differ from underestimators in any condition -- the Self condition, \emph{t}(144.5) = 0.4257, \emph{p} = 0.671; the Other condition, \emph{t}(133.4) = -0.1535, \emph{p} = 0.878; the In-group condition, \emph{t}(144.8) = 1.306, \emph{p} = 0.194; or the Out-group condition, \emph{t}(132.8) = 0.1539, \emph{p} = 0.878. Equivalence testing was unable to conclude that these differences were not statistically different from zero -- Self condition,  \emph{t}(144.53) = -0.793, \emph{p} = 0.215; the Other condition, \emph{t}(131.4) = 1.029, \emph{p} = 0.153; the In-group condition, \emph{t}(144.8) = 0.0864, \emph{p} = 0.534; or the Out-group condition, \emph{t}(132.8) = -1.043, \emph{p} = 0.150
@@ -691,11 +805,37 @@ Model & 3 & 15.83 & 5.28 & 2.54 & 0.0568 \\
 \end{figure}
 
 
-\begin{table}[ht]\centering\begin{tabular}{rrrrr}  \hline & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\   \hline(Intercept) & 4.3397 & 0.4423 & 9.81 & 0.0000 \\   Political Orientation & -0.2314 & 0.2791 & -0.83 & 0.4085 \\   Political Orientation (Quadratic Term) & 0.0318 & 0.0350 & 0.91 & 0.3648 \\    \hline\end{tabular}\caption{Effects of political ideology and extremity on on In-group Judgements. } \label{ideo_ingroup2}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 4.3397 & 0.4423 & 9.81 & 0.0000 \\ 
+  Political Orientation & -0.2314 & 0.2791 & -0.83 & 0.4085 \\ 
+  Political Orientation (Quadratic Term) & 0.0318 & 0.0350 & 0.91 & 0.3648 \\ 
+   \hline
+\end{tabular}
+\caption{Effects of political ideology and extremity on on In-group Judgements. } 
+\label{ideo_ingroup2}
+\end{table}
 
 \clearpage
 
-\begin{table}[ht]\centering\begin{tabular}{rrrrr}  \hline & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\   \hline(Intercept) & 3.7458 & 0.4837 & 7.74 & 0.0000 \\   Political Orientation & -0.0614 & 0.3065 & -0.20 & 0.8414 \\   Political Orientation (Quadratic Term) & 0.0038 & 0.0386 & 0.10 & 0.9209 \\    \hline\end{tabular}\caption{Effects of political ideology and extremity on on Out-group Judgements .} \label{ideo_outgroup2}\end{table}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 3.7458 & 0.4837 & 7.74 & 0.0000 \\ 
+  Political Orientation & -0.0614 & 0.3065 & -0.20 & 0.8414 \\ 
+  Political Orientation (Quadratic Term) & 0.0038 & 0.0386 & 0.10 & 0.9209 \\ 
+   \hline
+\end{tabular}
+\caption{Effects of political ideology and extremity on on Out-group Judgements .} 
+\label{ideo_outgroup2}
+\end{table}
 
 
 

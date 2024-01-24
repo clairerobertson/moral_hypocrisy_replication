@@ -91,8 +91,8 @@ out_stepwise <- xtable(table,
 
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(1.27, 3.22, 0.15), df = c(1,1,1), df_error = c(536, 536, 536), ci = .90, alternative = "greater")
-
+x <- F_to_eta2(f = c(1.27, 3.22, 0.15), df = c(1,1,1), df_error = c(536, 536, 536), ci = .90, alternative = "greater")
+x
 ## Equiv. Test
 x <- equ_ftest(Fstat = 0.15, df1 = 1, df2 = 536, eqbound = 0.2)
 summary(x)
@@ -103,7 +103,10 @@ summary(x)
 hist(data$CI_difference)
 
 ## Above chance identification? 
-t.test(data$CI_difference, mu = 0, alternative = "two.sided")
+x <- t.test(data$CI_difference, mu = 0, alternative = "two.sided")
+sd(data$CI_difference, na.rm = T)
+
+cohens_d(data$CI_difference ~ 1, mu = 0)
 
 ## Subset just ingroup and outgroup judgements
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4)
@@ -135,10 +138,6 @@ ggplot(CI_data, aes(x = CI_difference, y = fairness)) + ## , fill = pol_id, colo
 ## Saving Graphs
 ggsave("Plots/Study1_CI_all.png", width = 3000, height = 1500, units = "px", scale = 1)
 
-
-
-
-       
 ## If Interaction is significant. 0 = ingroup, 1 = outgroup. 
 simple_slopes(model1, levels = list(condition.f = c("ingroup", "outgroup")))
 

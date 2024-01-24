@@ -5,6 +5,8 @@
 #### STEP 1: Load Packages & Data ####
 ######################################
 
+options(digits = 8)
+
 #Load in Packages
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
@@ -75,7 +77,8 @@ fairness.contrast <- aov(fairness ~ condition.f, data = data_subset)
 summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(1.441, 9.043, 1.864), df = c(1,1,1), df_error = c(528, 528, 528), ci = .90, alternative = "greater")
+x <- F_to_eta2(f = c(1.441, 9.043, 1.864), df = c(1,1,1), df_error = c(528, 528, 528), ci = .90, alternative = "greater")
+x
 
 ## Equivelence Test  
 equ_ftest(Fstat = 1.864, df1 = 1, df2 = 528, eqbound = 0.2)
@@ -83,19 +86,34 @@ equ_ftest(Fstat = 1.864, df1 = 1, df2 = 528, eqbound = 0.2)
 ## H6: Collective Identification ## 
 ## does effect of ingroup or outgroup status on fairness depends on collective identification?## 
 
+## T TEST FOR CI DIFFERENCE FROM CHANCE AND EFFECT SIZE
 t.test(data$CI_difference, mu = 0, alternative = "two.sided")
+sd(data$CI_difference, na.rm = T)
+
+x <- cohens_d(data$CI_difference, mu = 0)
+x
+
+## T TEST FOR DEM AND REP CI DIFFERENCE AND EFFECT SIZE
 t.test(subset(data,pol_id=="Dem")$CI_difference, 
        subset(data,pol_id=="Rep")$CI_difference)
+sd(subset(data,pol_id=="Dem")$CI_difference, na.rm = T)
+sd(subset(data,pol_id=="Rep")$CI_difference, na.rm = T)
+
+
+x <- cohens_d(data$CI_difference ~ data$pol_id)
+x
+
+## Equivilence Testing
 data %>% count(pol_id)
 
-tsum_TOST(m1 = mean(subset(data,pol_id=="Dem")$CI_difference, na.rm = T), 
+x <- tsum_TOST(m1 = mean(subset(data,pol_id=="Dem")$CI_difference, na.rm = T), 
           m2 = mean(subset(data,pol_id=="Rep")$CI_difference, na.rm = T), 
           sd1 = sd(subset(data,pol_id=="Dem")$CI_difference, na.rm = T), 
           sd2 = sd(subset(data,pol_id=="Rep")$CI_difference, na.rm = T),
-          n1 = 297, n2 = 298, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+          n1 = 297, n2 = 288, low_eqbound=-0.2, high_eqbound=0.2, eqbound_type = "SMD", alpha=0.05)
+x
 
-
-
+## Make new dataframe 
 CI_data <- data_subset %>% filter(condition == 3 | condition == 4)
 
 ## Means across groups
@@ -126,7 +144,6 @@ ggsave("Plots/Study2_CI_all.png", width = 2000, height = 1200, units = "px", sca
 ## If Interaction is significant. 0 = ingroup, 1 = outgroup. 
 simple_slopes(model1, levels = list(condition.f = c("ingroup", "outgroup")))
 
-
 #### H5: Natural Groups are stronger than Minimal Groups ####
 
 study1 <- read.csv("data/study1_analysisDF.csv", stringsAsFactors = T)
@@ -142,6 +159,11 @@ study1 <- study1 %>%
 study2 <- data_subset %>% 
   select(-pol_id, -role) %>% 
   mutate(study = as.factor("Study 2"))
+
+## EXPLORATORY ANALYSIS -- COLLECTIVE ID IN MINIMAL VS. NAT. GROUPS 
+t.test(study1$CI_difference, study2$CI_difference)
+x <- cohens_d(study1$CI_difference, study2$CI_difference)
+x
 
 #Filtering 
 full_data <- rbind(study1, study2)
@@ -163,6 +185,9 @@ model4_data %>%
 model4 <- aov(fairness~condition.f*study, data = model4_data)
 summary(model4)
 
+x <- F_to_eta2(f = c(11.693, 1.843, 0.590), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
+x
+
 ## Post Hoc Tests ## 
 model4_data %>% filter(study=="Study 1") %>% 
   t.test(fairness ~ condition, data = .)
@@ -175,7 +200,6 @@ model4_data %>% filter(condition==3) %>%
 
 model4_data %>% filter(condition==4) %>% 
   t.test(fairness ~ study, data = .)
-
 
 ##########################
 #### STEP 6: Plotting ####

@@ -36,15 +36,19 @@ data_subset <- data %>%
 #############################################################
 altruists <- data %>% 
   filter(cond1_selection==2 | redgreen_selection==2) 
+mean(altruists$fairness)
+sd(altruists$fairness)
+
 
 cond1 <- data_subset %>% 
   filter(condition==1)
-
-mean(altruists$fairness)
+sd(cond1$fairness)
 
 ## T test comparing fairness ratings of altruists and 
 x <- t.test(altruists$fairness, cond1$fairness)
+x 
 
+cohens_d(altruists$fairness, cond1$fairness)
 
 #############################################################
 #### Intent to Treat (everyone included).  H1, H2 & H 3  ####
@@ -67,11 +71,11 @@ contrasts(data$condition.f)
 ## CONTRAST RESULTS ## 
 fairness.contrast <- aov(fairness ~ condition.f, data = data)
 table <- summary.aov(fairness.contrast, split = list(condition.f = list("Self vs. Others" = 1, "Ingroup vs. Outgroup" = 2, "Self/Ingroup vs. Other/Outgroup" = 3)))
-
+table 
 
 ## EFFECT SIZE FOR CONTRASTS ### 
-F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
-
+x <- F_to_eta2(f = c(40.606, 7.461, 1.585), df = c(1,1,1), df_error = c(581, 581, 581), ci = .90, alternative = "greater")
+x
 
 ## Make table for Supplement
 out_stepwise <- xtable(table, 
@@ -389,6 +393,10 @@ data %>%
 
 ## 4 (cond) x 2 (role) anova 
 table <- summary.aov(aov(fairness ~ condition.f*role, data = data))
+table
+
+x <- F_to_eta2(f = c(16.485, 0.754, 0.321), df = c(1,1,1), df_error = c(577, 577, 577), ci = .90, alternative = "greater")
+x
 
 out_stepwise <- xtable(table, 
                        dcolumn = T,  stars = c(0.05, 0.01, 0.001), 
