@@ -1,0 +1,123 @@
+%
+% Simple template for generating drafts of papers and articles
+%
+\documentclass[12pt,]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{IEEEtrantools,stackengine}
+\stackMath
+
+\usepackage{authblk}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+	\usepackage{siunitx}
+\usepackage{csquotes}
+
+\usepackage{xspace}
+\newcommand\abs[1]{| #1 |}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{longtable}
+\usepackage{multirow}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{setspace}
+\doublespacing
+
+\usepackage[unicode=true]{hyperref}
+\usepackage{times}
+\usepackage{float}
+
+% Figure and Tables related;
+\usepackage{graphicx}
+
+% Plots path
+\graphicspath{{./Plots/}}
+
+
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{dcolumn}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{array}
+
+% from: http://tex.stackexchange.com/questions/2441/how-to-add-a-forced-line-break-inside-a-table-cell
+\newcommand{\mcell}[2][c]{%
+  \begin{tabular}[c]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\mcellt}[2][c]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+\newcommand{\lcellt}[2][l]{%
+  \begin{tabular}[t]{@{}#1@{}}#2\end{tabular}}
+
+\newcommand{\stackedcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+	
+	\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+  
+\def\click-through ratebar#1{%%
+  {\color{Gray}\rule[-1.5pt]{#1cm/3}{10pt}} #1\%}
+
+
+\makeatletter
+\renewcommand{\fps@figure}{H}         % default {tbp}
+\renewcommand{\fps@table}{H}         % default {tbp}
+\makeatother 
+
+\renewcommand{\arraystretch}{1.2}
+\allowdisplaybreaks
+\usepackage[margin=1.8cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+%\maketitle
+
+\sloppy
+\raggedbottom
+
+\newpage
+\begin{landscape}
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{C{.12\linewidth} | m{.5\linewidth} C{.17\linewidth}  C{.17\linewidth}}
+        \toprule
+        & & \emph{Supported in Experiment 1? (Minimal Groups)}  & \emph{Supported in Experiment 2? (Political Groups) }  \\ %%  \multicolumn{1}{c}{\multirow{2}{*}{\emph{Hypothesis}}} for centering hypothesis 
+        \midrule
+        \emph{Hypothesis 1} &  People will rate themselves and their in-group members (\emph{"Self"} \& \emph{"In-group"} Conditions) as behaving more fairly than unaffiliated others and out-group members (\emph{"Other" } \& \emph{"Out-group"} Conditions).  & No & No \\
+        &&& \\
+        \emph{Hypothesis 2} &  People will rate themselves (\emph{"Self"} Condition) as behaving more fairly than all others (\emph{"Other", "In-group"}, \& \emph{"Out-group"} Conditions). & No & No \\
+        &&& \\
+        \emph{Hypothesis 3} &  People will rate in-group members (\emph{"In-group"} Condition) as behaving more fairly than out-group members (\emph{"Out-group"} Condition). & No & \textbf{Yes} \\
+        \multirow{6}{*}{\emph{Hypothesis 6}} &&& \\ 
+       &   \emph{(a)} People who are highly identified with their in-group will rate in-group members  (\emph{"In-group"} Condition) as behaving more fairly. & \textbf{Yes} & No \\
+       &  \emph{(b)}  People who are highly identified with their in-group will rate out-group members  (\emph{"Out-group} Condition) as behaving less fairly. & No & No \\
+       &&& \\
+       \midrule
+        && \multicolumn{2}{c}{\emph{Supported?}} \\
+      \midrule
+                \emph{Hypothesis 4} &  \emph{H1}, \emph{H2}, and \emph{H3} will be confirmed in both minimal groups (\emph{Experiment 1}) and political groups (\emph{Experiment 2}) & \multicolumn{2}{c}{No} \\
+      &&& \\
+        \emph{Hypothesis 5} &  The effects of moral hypocrisy will be stronger for political groups (\emph{Experiment 2}) than for minimal groups (\emph{Experiment 1}) & \multicolumn{2}{c}{No} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Hypothesis table. }
+    \label{hypothesis table}
+\end{table}
+
+\end{landscape}
+
+%%   \multicolumn{n}{cols}{text}
+
+\end{document}
+
+
